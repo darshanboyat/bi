@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url('../public/fonts/Gilroy-Bold.ttf')
+}
+
+@font-face {
+  font-family: Gilroy-SemiBold;
+  src: url('../public/fonts/Gilroy-SemiBold.ttf')
+}
+
+@font-face {
+  font-family: Gilroy-Light;
+  src: url('../public/fonts/Gilroy-Light.ttf')
+}
+
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url('../public/fonts/Gilroy-Medium.ttf')
+}
+
+
+:root {
+  --base-blue-1: #17008D;
+  --base-blue-2: #6302DD38;
+  --base-back-1: #000000;
+  --base-white-1: #ffffff;
+  --base-orange-1: #FF9100;
+}
+
+html, body {
+  background-color: var(--base-back-1);
+  color: var(--base-white-1);
+  font-family: Gilroy-Medium;
+  cursor: default;
+}
+
+.text-base-blue-1 {
+  color: var(--base-blue-1);
+}
+
+.bg-base-blue-1 {
+  background-color: var(--base-blue-1);
+}
+
+.bg-base-blue-2 {
+  background-color: var(--base-blue-2);
+}
+
+.bg-base-orange-1 {
+  background-color: var(--base-orange-1);
+}
+
+.text-base-orange-1 {
+  color: var(--base-orange-1)
+}
+
+.border-blue {
+  border-color: rgb(99,2,221);
+}
+
+.bg-gradient-1 {
+  background: rgb(99,2,221);
+  background: transparent linear-gradient(325deg, #000000 0%, #17008D 100%) 0% 0% no-repeat padding-box;
+}
+
+.bg-gradient-2 {
+  background: transparent linear-gradient(135deg, #000000 0%, 85%, #17008D 100%) 0% 0% no-repeat padding-box;
+}
+
+.bg-gradient-3 {
+  background: transparent linear-gradient(45deg, #000000 0%, 85%, #17008D 100%) 0% 0% no-repeat padding-box;
+}
+
+.bg-gradient-4 {
+  background: transparent radial-gradient(circle at top right, #17008D 10%, #000000 100%) 0% 0% no-repeat padding-box;
+}
+
+.bg-gradient-5 {
+  background: transparent linear-gradient(180deg, #6302DD 0%, #32016F00 100%) 0% 0% no-repeat padding-box;
+}
+
+.bg-gradient-6 {
+  background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
+}
+
+.Gilroy-Bold {
+  font-family: Gilroy-Bold;
+}
+
+.Gilroy-SemiBold {
+  font-family: Gilroy-SemiBold;
+}
+
+.Gilroy-Light {
+  font-family: Gilroy-Light;
+}
+
+.stroke-text {
+  -webkit-transition: color .5s ease-out;
+  transition: color .5s ease;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 1px;
+  color: transparent;
+}
+
+.stroke-text:hover {
+  -webkit-transition: color .5s ease-out;
+  transition: color .5s ease-out;
+  color: white;
+}
+
+.stroke-text-2 {
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 1px;
+  color: transparent;
+}
+
+.stroke-text-2:hover {
+  color: white;
+}
+
+.hero-bg-1 {
+  background-image: url('../public/images/heroSide1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rolling-animation {
+  animation-name: rolling;
+  animation-duration: 12s;
+  animation-timing-function: cubic-bezier(0, 0.15, 0.30, 0.45, 0.94);
+}
+
+@keyframes rolling {
+  0% {
+    transform: translate3d(-0%, 0, 0);
+  }
+
+  50% {
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(0%, 0, 0)
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
