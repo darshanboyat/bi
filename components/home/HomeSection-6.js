@@ -25,7 +25,9 @@ const HomeSectionSix = () => {
                         <span>+918109561401</span>
                     </div>
                 </Marquee>
-                <div className="py-10 border-y"></div>
+                <div className="py-10 border-y">
+                    <video src="/videos/Final.mp4" muted loop controls={false} autoPlay={true} />
+                </div>
                 <Marquee duration={15000} background="#fafafa00" height="250px">
                     <div className="flex space-x-10 mr-10 text-5xl items-center">
                         <span>We partner on big and small projects with all kinds of clients - from boutique brands to market leaders.</span>

@@ -25,7 +25,7 @@ const HomeSectionThree = () => {
 
 const Box = ({title, summary, color, textColor}) => (
     <div className={'bg-base-'+color+'-1'+' p-8 overflow-x-hidden relative group' + ' text-'+ textColor}>
-        <p className="text-8xl Gilroy-Bold stroke-text-2 translate-x-28 group-hover:-translate-x-full transition-transform duration-[4000ms]">{title}</p>
+        <p className="text-8xl Gilroy-Bold stroke-text-2 translate-x-28 group-hover:-translate-x-full transition-transform ease-linear duration-[4000ms]">{title}</p>
         <div className= "absolute bottom-5 pr-8">
             <p className="uppercase text-3xl mb-4 Gilroy-SemiBold">{title}</p>
             <p className="text-lg Gilroy-Light">{summary}</p>
