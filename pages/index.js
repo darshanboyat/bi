@@ -16,6 +16,10 @@ import HomeSectionEleven from '../components/home/HomeSection-11';
 import HomeSectionTwelwe from '../components/home/HomeSection-12';
 import BlogsArticles from '../components/common/BlogsArticles';
 import BigHeadingScroll from '../components/common/BigHeadingScroll';
+import KeepInTouch from '../components/common/keepInTouch';
+import LocateUs from '../components/common/locateUs';
+import LetsKick from '../components/common/LetsKick';
+import Footer from '../components/common/Footer';
 
 export default function Home() {
 
@@ -40,7 +44,11 @@ export default function Home() {
           <HomeSectionEleven></HomeSectionEleven>
           <HomeSectionTwelwe></HomeSectionTwelwe>
           <BlogsArticles></BlogsArticles>
-          <BigHeadingScroll />
+          <BigHeadingScroll text={'Perfectly balanced as all things should be.'}/>
+          <KeepInTouch />
+          <LocateUs />
+          <LetsKick />
+          <Footer />
         </div>
   )
 }
