@@ -27,7 +27,7 @@ const HomeSectionTwo = () => {
                 </div>
             </div>
             <div className="absolute bottom-0 h-[200vh] z-20 w-full flex">
-                <div className="absolute bottom-[25vh] h-[131vh] z-20 w-[54%]">
+                <div className="absolute bottom-[23vh] h-[135vh] z-20 w-[54%]">
                     <div className="sticky top-[25%]">
                         <div className="flex">
                             <img src='/images/frame.png' className="ml-[9vw]"></img>

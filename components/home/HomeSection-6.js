@@ -4,7 +4,7 @@ const HomeSectionSix = () => {
     return (
         <div className="h-screen flex flex-col justify-center">
                 <Marquee duration={15000} background="#fafafa00" reverse={true} height="250px">
-                    <div className="flex space-x-5 mr-10 text-5xl items-center">
+                    <div className="flex space-x-5 mr-10 2xl:text-4xl text-3xl items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 mb-1 text-white" viewBox="0 0 20 20" fill="currentColor">
                             <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                             <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
@@ -29,7 +29,7 @@ const HomeSectionSix = () => {
                     <video src="/videos/Final.mp4" muted loop controls={false} autoPlay={true} />
                 </div>
                 <Marquee duration={15000} background="#fafafa00" height="250px">
-                    <div className="flex space-x-10 mr-10 text-5xl items-center">
+                    <div className="flex space-x-10 mr-10 2xl:text-4xl text-3xl items-center">
                         <span>We partner on big and small projects with all kinds of clients - from boutique brands to market leaders.</span>
                     </div>
                 </Marquee>
