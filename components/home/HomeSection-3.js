@@ -25,7 +25,7 @@ const HomeSectionThree = () => {
 
 const Box = ({title, summary, color, textColor}) => (
     <div className={'bg-base-'+color+'-1'+' 2xl:p-8 xl:p-6 p-4 overflow-x-hidden relative group' + ' text-'+ textColor}>
-        <p className="2xl:text-7xl text-6xl Gilroy-Bold stroke-text-2 translate-x-28 group-hover:-translate-x-full transition-transform ease-linear duration-[4000ms]">{title}</p>
+        <p className="2xl:text-7xl xl:text-7xl text-6xl Gilroy-Bold stroke-text-2 translate-x-28 group-hover:-translate-x-full transition-transform ease-linear duration-[4000ms]">{title}</p>
         <div className= "absolute xl:bottom-5 bottom-3 pr-8">
             <p className="uppercase 2xl:text-3xl xl:text-2xl text-xl 2xl:mb-4 mb-2 Gilroy-SemiBold">{title}</p>
             <p className="xl:text-lg text-base Gilroy-Light">{summary}</p>
