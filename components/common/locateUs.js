@@ -31,7 +31,7 @@ export default function LocateUs() {
                 <div className="grid xl:grid-cols-4 grid-cols-2 2xl:gap-8 gap-4">
                     {
                         locations.map((el) => {
-                            return (<Card info={el} />)
+                            return (<Card key={el.placeName} info={el} />)
                         })
                     }
                 </div>

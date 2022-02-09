@@ -7,9 +7,11 @@
     "start": "next start -p $PORT",
     "lint": "next lint"
   },
-  "cacheDirectories": [".next/cache"],
+  "cacheDirectories": [
+    ".next/cache"
+  ],
   "dependencies": {
-    "next": "12.0.10",
+    "next": "^12.0.9",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-easy-marquee": "^1.2.2",

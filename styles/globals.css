@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .text-heading-1 {
+    @apply 3xl:text-7xl 2xl:text-5xl xl:text-4xl text-3xl;
+  }
+
+  .text-heading-2 {
+    @apply 2xl:text-6xl xl:text-5xl text-4xl;
+  }
+
+  .text-heading-3 {
+    @apply 2xl:text-5xl lg:text-4xl text-2xl;
+  }
+
+  .text-heading-4 {
+    @apply 2xl:text-2xl lg:text-lg text-lg;
+  }
+}
+
 @font-face {
     font-family: Gilroy-Bold;
     src: url('../public/fonts/Gilroy-Bold.ttf')

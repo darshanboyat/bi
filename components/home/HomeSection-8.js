@@ -5,7 +5,7 @@ const info = [
     {
         title: 'discovery workshop',
         details: 'We give the utmost importance to understand and document client’s inputs, design, and branding preferences. And clarify all the open-ended points to establish a precise and clear idea about both clients’ and project’s goals. We work in a collaborative approach involving key stakeholders to bring alignment in the business process.',
-        image: 'discovery.png'
+        image: 'design.png'
     },
     {
         title: 'planning',

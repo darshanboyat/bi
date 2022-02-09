@@ -181,15 +181,15 @@ export default function Footer() {
                     </div>
                 </div>
                 {
-                    FooterSections.map((section) => {
+                    FooterSections.map((section, index) => {
                         return (
-                            <div className="col-span-1">
+                            <div key={index} className="col-span-1">
                                 <h3 className="text-xl Gilroy-Bold mb-4">{section.title}</h3>
                                 <ul className="space-y-2">
                                     {
-                                        section.links.map((link) => {
+                                        section.links.map((link, index) => {
                                             return (
-                                                <li>{link.name}</li>
+                                                <li key={index}>{link.name}</li>
                                             )
                                         })
                                     }
