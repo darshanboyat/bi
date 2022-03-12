@@ -35,16 +35,16 @@ const blogs = [
 
 export default function BlogsArticles() {
     return (
-        <div className="p-10 space-y-8">
-            <h1 className="text-5xl Gilroy-Bold">blogs & articles</h1>
+        <div className="2xl:p-10 p-8 2xl:space-y-8 space-y-6">
+            <h1 className="text-heading-1 Gilroy-Bold">blogs & articles</h1>
             <div className="snap-x snap-mandatory overflow-x-auto flex no-scrollbar space-x-8 scroll-p-10">
                 {
                     blogs.map((el) => (
                         <div key={el.id} className="snap-start flex flex-col space-y-4">
-                            <div className="w-[450px] relative h-[250px]">
+                            <div className="2xl:w-[450px] xl:w-[400px] w-[375px]  relative 2xl:h-[250px] xl:h-[225px] h-[200px]">
                                 <Image src={'/images/' + el.image}  layout="fill" objectFit="cover" />
                             </div>
-                            <p className="text-xl Gilroy-Light">{el.summary}</p>
+                            <p className="2xl:text-xl xl:text-lg text-base Gilroy-Light">{el.summary}</p>
                         </div>
                     ))
                 }

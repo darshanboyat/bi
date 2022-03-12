@@ -160,7 +160,7 @@ const FooterSections = [
 export default function Footer() {
     return (
         <div className="py-10 mx-10 border-t">
-            <div className="grid grid-cols-7">
+            <div className="grid xl:grid-cols-7 lg:grid-cols-5 grid-cols-2 gap-8">
                 <div className="col-span-2 space-y-4">
                     <div className="relative h-28">
                         <Image src={'/images/logo.svg'} width={300} height={150}></Image>

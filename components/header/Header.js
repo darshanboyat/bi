@@ -25,15 +25,15 @@ const Header = () => {
                 {
                     navOpen
                     ? (
-                        <span onClick={() => {setNavOpen(false)}} className="p-4 bg-white text-black z-[100]">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <span onClick={() => {setNavOpen(false)}} className="2xl:p-4 p-3 bg-white text-black z-[100]">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="2xl:h-8 xl:h-6 h-4 2xl:w-8 xl:w-6 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </span>
                     ) 
                     : (
-                        <span onClick={() => {setNavOpen(true)}} className="bg-base-blue-1 text-white p-4 z-[100]">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <span onClick={() => {setNavOpen(true)}} className="bg-base-blue-1 text-white 2xl:p-4 p-3 z-[100]">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="2xl:h-8 xl:h-6 h-4 2xl:w-8 xl:w-6 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h8m-8 6h16" />
                             </svg>
                         </span>

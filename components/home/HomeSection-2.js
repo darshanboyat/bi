@@ -14,9 +14,9 @@ const HomeSectionTwo = () => {
                     <img src='/images/frameElements.png' className="w-[100vw]"></img>
                 </div>
             </div>
-            <div className="min-h-screen relative flex items-center bg-gradient-3">
+            <div className="min-h-screen relative flex  items-center bg-gradient-3">
                 <div className="w-2/3 flex items-center">
-                    <img src='/images/HomeSectionTwoTwo.png' className="h-[44vh] ml-[10vw] z-40"></img>
+                    <img src='/images/HomeSectionTwoTwo.png' className="h-[38vh] ml-[10vw] z-40 w-[50vw]"></img>
                 </div>
                 <div className="w-1/3 p-8 flex flex-col items-center">
                     <div className="flex flex-col space-y-8">
@@ -27,10 +27,10 @@ const HomeSectionTwo = () => {
                 </div>
             </div>
             <div className="absolute bottom-0 h-[200vh] z-20 w-full flex">
-                <div className="absolute bottom-[23vh] h-[135vh] z-20 w-[54%]">
+                <div className="absolute bottom-[23vh] h-[135vh] z-20">
                     <div className="sticky top-[25%]">
                         <div className="flex">
-                            <img src='/images/frame.png' className="ml-[9vw]"></img>
+                            <img src='/images/frame.png' className="ml-[9vw] w-[60vw] h-[40vh]"></img>
                         </div>
                     </div>
                 </div>

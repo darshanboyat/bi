@@ -1,5 +1,6 @@
 import Image from "next/image"
 
+
 const testimonials = [
     {
         type: 'image',
@@ -79,9 +80,9 @@ const HomeSectionTwelwe = () => {
         })
     }
     return (
-        <div className="space-y-6 p-10">
-            <h1 className="2xl:text-5xl lg:text-4xl text-3xl pt-20 Gilroy-Bold">we crafted it for you</h1>
-            <h3 className="2xl:text-2xl text-xl Gilroy-Light">We believe in going the extra mile and thus we tend to not only over-deliver, but exceed expectations!</h3>
+        <div className="2xl:space-y-6 space-y-4 2xl:p-10 p-8">
+            <h1 className="text-heading-1 pt-20 Gilroy-Bold">we crafted it for you</h1>
+            <h3 className="2xl:text-2xl xl:text-xl text-lg Gilroy-Light">We believe in going the extra mile and thus we tend to not only over-deliver, but exceed expectations!</h3>
             <div id='sections' className="snap-x snap-mandatory overflow-x-auto flex no-scrollbar">
                 {
                     videoFeedbacks.map((el) => (
@@ -97,11 +98,11 @@ const HomeSectionTwelwe = () => {
             <div className="flex items-center w-full justify-center space-x-4">
                 {
                     videoFeedbacks.map((el) => (
-                        <span key={el.id} onClick={() => intoView(el.id)} className="bg-white p-2 rounded-full"></span>
+                        <span key={el.id} onClick={() => intoView(el.id)} className="bg-white p-1 rounded-full"></span>
                     ))
                 }
             </div>
-            <div className="grid grid-cols-4 gap-10">
+            <div className="grid lg:grid-cols-4 grid-cols-2 2xl:gap-10 gap-8">
                 {
                     testimonials.map((el, index) => {
                         return el.type === 'image' ? (<ImageBox key={index} info={el} />) : (<FeedbackBox  key={index} info={el} />)
@@ -114,10 +115,13 @@ const HomeSectionTwelwe = () => {
 
 const FeedbackBox = ({info}) => {
     return (
-        <div className="flex flex-col p-5 border border-blue bg-base-blue-2 space-y-4 min-h-[350px]">
-            <p className="text-center text-xl">{info.feedback}</p>
-            <h3 className="text-center text-2xl Gilroy-Bold">{info.name}</h3>
-            <h4 className="text-center text-xl Gilroy-Light">{info.designation}</h4>
+        <div className="flex flex-col 2xl:p-5 p-4 justify-center items-center border border-blue bg-base-blue-2 2xl:space-y-4 space-y-2 h-[35vh] overflow-y-auto no-scrollbar">
+            <div className="relative xl:h-12 w-full">
+                <Image  src={'/images/comma.svg'} layout="fill"/>
+            </div>
+            <p className="text-center text-base pt-4">{info.feedback}</p>
+            <h3 className="text-center text-lg Gilroy-Bold">{info.name}</h3>
+            <h4 className="text-center text-base Gilroy-Light">{info.designation}</h4>
         </div>
     )
 }

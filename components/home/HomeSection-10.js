@@ -1,9 +1,9 @@
 const HomeSectionTen = () => {
     return (
-        <div className="flex justify-center pt-40">
-            <div className="flex w-4/5 lg:flex-row flex-col gap-10 p-10">
+        <div className="flex justify-center 2xl:pt-40 xl:pt-32 pt-28">
+            <div className="flex w-4/5 lg:flex-row flex-col 2xl:gap-10 gap-8 2xl:p-10 p-8">
                 <div className="lg:space-y-12 space-y-8 flex-1">
-                    <p className="lg:text-6xl text-4xl Gilroy-Bold">our portfolio</p>
+                    <p className="text-heading-1 Gilroy-Bold">our portfolio</p>
                     <div className="flex lg:space-x-10 space-x-8">
                         <CounterBox counterInfo={{count: '100', message: 'Projects Delivered'}}></CounterBox>
                         <CounterBox counterInfo={{count: '50', message: 'Happy Clients'}}></CounterBox>
@@ -36,19 +36,19 @@ const HomeSectionTen = () => {
 const CounterBox = ({counterInfo}) => {
     return (
         <div>
-            <div className="Gilroy-Bold text-base-orange-1 lg:text-7xl text-5xl mb-4">{counterInfo.count}+</div>
-            <span className="lg:text-4xl text-2xl">{counterInfo.message}</span>
+            <div className="Gilroy-Bold text-base-orange-1 2xl:text-7xl xl:text-6xl text-5xl mb-4">{counterInfo.count}+</div>
+            <span className="xl:text-4xl lg:text-3xl text-2xl whitespace-nowrap">{counterInfo.message}</span>
         </div>
     )
 }
 
 const ProjectBox = ({info}) => {
     return (
-        <div className="lg:space-y-12 space-y-8">
+        <div className="xl:space-y-12 lg:space-y-10 space-y-8">
             <div className="min-h-[350px] h-[30vw] lg:w-full w-[30vw] min-w-[350px] border"></div>
             <div>
-                <h2 className="Gilroy-Bold lg:text-5xl text-3xl">{info.name}</h2>
-                <p className="lg:text-2xl text-xl">{info.summary}</p>
+                <h2 className="Gilroy-Bold 2xl:text-5xl xl:text-4xl text-3xl">{info.name}</h2>
+                <p className="2xl:text-2xl lg:text-xl text-xl">{info.summary}</p>
             </div>
         </div>
     )

@@ -36,7 +36,7 @@ const info = [
 
 const HomeSectionEight = () => {
     return (
-        <div className="p-10 pb-40">
+        <div className="2xl:p-10 p-8 2xl:pb-40 pb-32">
             <div className="divide-y">
                 {
                     info.map((el) => <Section key={el.title} info={el}></Section>)
@@ -49,12 +49,12 @@ const HomeSectionEight = () => {
 
 const Section = ({info}) => {
     return (
-        <div className="grid grid-cols-5 gap-10 py-10">
-            <span className="col-span-5 stroke-text Gilroy-Bold text-6xl">{info.title}</span>
-            <div className="col-span-2 relative">
-                <Image src={'/images/' + info.image} width={609} height={351} />
+        <div className="grid xl:grid-cols-5 md:grid-cols-2 grid-cols-1  2xl:gap-10 gap-8 2xl:py-10 py-8">
+            <span className="xl:col-span-5 md:col-span-2 col-span-1 stroke-text Gilroy-Bold text-heading-1">{info.title}</span>
+            <div className="xl:col-span-2 md:col-span-1 col-span-1 relative h-[350px]">
+                <Image src={'/images/' + info.image} layout="fill" objectFit="cover" />
             </div>
-            <p className="text-3xl Gilroy-Light leading-loose col-span-3">{info.details}</p>
+            <p className="2xl:text-3xl xl:text-2xl text-xl Gilroy-Light leading-loose xl:col-span-3 md:col-span-1 col-span-1">{info.details}</p>
         </div>
     )
 }

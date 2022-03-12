@@ -17,15 +17,16 @@ const HomeSectionNine = () => {
             <div id='parent' className="relative">
                 <div id='parent-ab' className="absolute top-0 w-full">
                     <div className="sticky top-0 z-20">
-                        <div className="absolute w-full top-0 p-10 space-y-8 h-[75vh] bg-gradient-5">
-                            <p className="Gilroy-Bold text-6xl">lets discuss your project</p>
-                            <p className="text-2xl Gilroy-SemiBold">Get free consultation and let us know your project idea to turn it into an amazing digital product.</p>
+                        <div className="absolute w-full top-0 p-10 2xl:space-y-8 xl:space-y-6 space-y-4 h-[75vh] bg-gradient-5">
+                            <p className="Gilroy-Bold text-heading-1">lets discuss your project</p>
+                            <p className="text-heading-4 Gilroy-SemiBold">Get free consultation and let us know your project idea to turn it into an amazing digital product.</p>
                             <HomeButton>talk to our experts</HomeButton>
                         </div>
                     </div>
-                    <div id='child' className="overflow-x-hidden">
+                    <div id='child' className="overflow-x-hidden relative">
                         <div className="h-[25vh]"></div>
                         <Image width={1833} height={1425} src='/images/groupImage.png' />
+                        <div className="absolute bottom-0 2xl:h-40 h-28 w-full bg-gradient-6"></div>
                     </div>
                 </div>
             </div>

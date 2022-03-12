@@ -2,10 +2,10 @@ import HomeButton from "../buttons/HomeButton";
 
 export default function LetsKick() {
     return (
-        <div className="p-10 py-20">
+        <div className="2xl:p-10 p-8 2xl:py-20 py-14">
             <div className="flex justify-between">
-                <div className="space-y-6">
-                    <h2 className="text-6xl Gilroy-Bold">let&apos;s kick some ass together</h2>
+                <div className="2xl:space-y-6 space-y-4">
+                    <h2 className="text-heading-1 Gilroy-Bold">let&apos;s kick some ass together</h2>
                     <HomeButton>hop in!</HomeButton>
                 </div>
                 <div className="flex flex-col space-y-4">
@@ -24,7 +24,7 @@ export default function LetsKick() {
                     </div>
                 </div>
             </div>
-            <div className="py-20">
+            <div className="2xl:py-20 py-14">
                 <div className="flex justify-center">
                     <h1 className="xl:text-8xl 2xl:text-9xl lg:text-7xl md:text-6xl text-5xl Gilroy-Bold hover:underline underline-offset-[10px] decoration-4">
                         <span className="stroke-text mr-2">if it&apos;s digital,</span>
