@@ -10,5 +10,4 @@ const HomeButton = ({children}) => {
         </button>
     )
 }
-
 export default HomeButton;

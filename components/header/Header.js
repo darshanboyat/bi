@@ -40,7 +40,7 @@ const Header = () => {
                     )
                 }
             </div>
-            <div id='sidenav' className="fixed inset-0 bg-gradient-4 z-40 transition-transform duration-300 flex gap-10">
+            <div id='sidenav' className="fixed inset-0 overflow-hidden bg-gradient-4 z-40 transition-transform duration-300 flex gap-10">
                 <div className="grid grid-cols-5 gap-10 px-44 py-36 w-full">
                     <div className="space-y-12 col-span-1">
                         <h1 className="stroke-text text-5xl Gilroy-Bold">Company</h1>

@@ -129,6 +129,21 @@ html, body {
   -webkit-text-stroke-width: 1px;
   color: transparent;
 }
+.stroke-text-3 {
+  -webkit-transition: color .5s ease-out;
+  transition: color .5s ease;
+  -webkit-text-stroke-color: #707070;
+  -webkit-text-stroke-width: 1px;
+  color: transparent;
+}
+
+.stroke-text {
+  -webkit-transition: color .5s ease-out;
+  transition: color .5s ease;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 1px;
+  color: transparent;
+}
 
 .stroke-text:hover {
   -webkit-transition: color .5s ease-out;
@@ -180,4 +195,24 @@ html, body {
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+
+.line {
+  height: 3rem;
+  width: 1px;
+  background: #707070;
+  position: absolute;
+  margin-top: 1.2rem;
+}
+
+.bg-meet
+{
+  background-color: #EEF0F4;
+}
+
+.bg-meeting
+{
+  background-color: #EBEBF3;
+  border: 2px solid #C7ADED;
 }
