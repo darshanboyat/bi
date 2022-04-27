@@ -10,7 +10,7 @@ class opening extends Component {
           <h4 className="openings-title">Openings</h4>
         </div>
         <div>
-          <div tabindex="0" className="collapse bg-opening mb-6">
+          <div className="collapse bg-opening mb-6">
             <input type="checkbox" />
             <div className="collapse-title text-xl font-medium">
               <div className="flex justify-between items-center">
@@ -64,7 +64,7 @@ class opening extends Component {
               </ul>
             </div>
           </div>
-          <div tabindex="0" className="collapse bg-opening mb-6">
+          <div className="collapse bg-opening mb-6">
             <input type="checkbox" />
             <div className="collapse-title text-xl font-medium">
               <div className="flex justify-between items-center">
@@ -118,7 +118,7 @@ class opening extends Component {
               </ul>
             </div>
           </div>
-          <div tabindex="0" className="collapse bg-opening mb-6">
+          <div className="collapse bg-opening mb-6">
             <input type="checkbox" />
             <div className="collapse-title text-xl font-medium">
               <div className="flex justify-between items-center">
@@ -172,7 +172,7 @@ class opening extends Component {
               </ul>
             </div>
           </div>
-          <div tabindex="0" className="collapse bg-opening mb-6">
+          <div className="collapse bg-opening mb-6">
             <input type="checkbox" />
             <div className="collapse-title text-xl font-medium">
               <div className="flex justify-between items-center">
