@@ -10,9 +10,9 @@ class opening extends Component {
           <h4 className="openings-title">Openings</h4>
         </div>
         <div>
-          <div tabindex="0" class="collapse bg-opening mb-6">
+          <div tabindex="0" className="collapse bg-opening mb-6">
             <input type="checkbox" />
-            <div class="collapse-title text-xl font-medium">
+            <div className="collapse-title text-xl font-medium">
               <div className="flex justify-between items-center">
                 <div>
                   <h2 className="text-2xl text-white Gilroy-Bold">
@@ -35,7 +35,7 @@ class opening extends Component {
                 </div>
               </div>
             </div>
-            <div class="collapse-content">
+            <div className="collapse-content">
               <ul className="list-job">
                 <li>Strong organizational and project management skills.</li>
                 <li>
@@ -64,9 +64,9 @@ class opening extends Component {
               </ul>
             </div>
           </div>
-          <div tabindex="0" class="collapse bg-opening mb-6">
+          <div tabindex="0" className="collapse bg-opening mb-6">
             <input type="checkbox" />
-            <div class="collapse-title text-xl font-medium">
+            <div className="collapse-title text-xl font-medium">
               <div className="flex justify-between items-center">
                 <div>
                   <h2 className="text-2xl text-white Gilroy-Bold">
@@ -89,7 +89,7 @@ class opening extends Component {
                 </div>
               </div>
             </div>
-            <div class="collapse-content">
+            <div className="collapse-content">
               <ul className="list-job">
                 <li>Strong organizational and project management skills.</li>
                 <li>
@@ -118,9 +118,9 @@ class opening extends Component {
               </ul>
             </div>
           </div>
-          <div tabindex="0" class="collapse bg-opening mb-6">
+          <div tabindex="0" className="collapse bg-opening mb-6">
             <input type="checkbox" />
-            <div class="collapse-title text-xl font-medium">
+            <div className="collapse-title text-xl font-medium">
               <div className="flex justify-between items-center">
                 <div>
                   <h2 className="text-2xl text-white Gilroy-Bold">
@@ -143,7 +143,7 @@ class opening extends Component {
                 </div>
               </div>
             </div>
-            <div class="collapse-content">
+            <div className="collapse-content">
               <ul className="list-job">
                 <li>Strong organizational and project management skills.</li>
                 <li>
@@ -172,9 +172,9 @@ class opening extends Component {
               </ul>
             </div>
           </div>
-          <div tabindex="0" class="collapse bg-opening mb-6">
+          <div tabindex="0" className="collapse bg-opening mb-6">
             <input type="checkbox" />
-            <div class="collapse-title text-xl font-medium">
+            <div className="collapse-title text-xl font-medium">
               <div className="flex justify-between items-center">
                 <div>
                   <h2 className="text-2xl text-white Gilroy-Bold">
@@ -197,7 +197,7 @@ class opening extends Component {
                 </div>
               </div>
             </div>
-            <div class="collapse-content">
+            <div className="collapse-content">
               <ul className="list-job">
                 <li>Strong organizational and project management skills.</li>
                 <li>

@@ -34,7 +34,7 @@ function ethos(props) {
             <div className='grid grid-cols-4 gap-4 mb-4'>
             {
                 ethosValue.map((el) =>(
-                    <div>
+                    <div key={el}>
                     <div className='line'></div>
                     <div className='w-40 pl-4'>
                         <p className='Gilroy-Bold'>{el.description}</p>

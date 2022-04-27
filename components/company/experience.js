@@ -58,7 +58,7 @@ function experience(props) {
              <div className='grid grid-cols-3 gap-4'>
              {
                 experienceValue.map((el) =>(
-                    <div className='mb-8'>
+                    <div key={el} className='mb-8'>
                        <div className='relative w-60 h-60  center block m-auto'>
                          <Image src={'/images/' + el.image}  layout="fill"/>
                         </div>
