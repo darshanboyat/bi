@@ -49,7 +49,7 @@ function meetCrew(props) {
 
                     </div>
                 </div>
-                <div class="col-span-2 bg-meeting p-8">
+                <div className="col-span-2 bg-meeting p-8">
                     <div className='lg:grid lg:grid-cols-3 gap-4'>
                     {
                             meeting.map((el) =>(
