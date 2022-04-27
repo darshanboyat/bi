@@ -13,7 +13,8 @@ import Ethos from '../components/company/ethos';
 import Experience from '../components/company/experience';
 import Choose from '../components/company/choose';
 import MeetCrew from '../components/company/meetCrew';
-
+import Process from '../components/company/process';
+import UnderHood from '../components/company/underHood';
 function company(props) {
     return (
         <div>
@@ -22,9 +23,12 @@ function company(props) {
           <Summary></Summary>
           <Mission></Mission>
           <Ethos></Ethos>
+          <Process></Process>
+        
           <Experience></Experience>
           <MeetCrew></MeetCrew>
-          {/* <Choose></Choose> */}
+          <UnderHood></UnderHood>
+          <Choose></Choose>
           <BlogsArticles></BlogsArticles>
           <BigHeadingScroll text={'Perfectly balanced as all things should be.'}/>
           <KeepInTouch />

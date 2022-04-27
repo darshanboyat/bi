@@ -92,7 +92,7 @@ const HomeSectionFour = () => {
 const Section = ({info}) => {
     return (
         <div className="h-[75vh] relative">
-            <div className="absolute w-full 2xl:bottom-20 xl:bottom-16 lg:bottom-14 bottom-12 2xl:p-10 p-8  flex items-center justify-between">
+            <div className="absolute w-full 2xl:bottom-20 xl:bottom-16 lg:bottom-14 bottom-12 2xl:p-10 p-8  lg:flex items-center justify-between">
                 <div className="flex-col flex 2xl:space-y-16 xl:space-y-8 space-y-8">
                     <p className="2xl:text-5xl xl:text-4xl text-3xl Gilroy-Bold 2xl:mb-8 xl:mb-6 mb-4"><span className="text-base-orange-1">{info.title.orange}</span> {info.title.white}</p>
                     <ul className="2xl:text-2xl xl:text-xl text-lg 2xl:space-y-4 space-y-2">
@@ -104,7 +104,7 @@ const Section = ({info}) => {
                     </ul>
                     <HomeButton>learn more</HomeButton>
                 </div>
-                <div className="w-1/2">
+                <div className="w-full lg:w-1/2">
                     <div className="h-[350px] w-full border border-blue bg-base-blue-2 p-8"></div>
                 </div>
             </div>

@@ -32,7 +32,7 @@ export default function Home() {
           </Head>
           <Header></Header>
           <HomeSectionOne></HomeSectionOne>
-          <HomeSectionTwo></HomeSectionTwo>
+           {/* <HomeSectionTwo></HomeSectionTwo> */}
           <HomeSectionThree></HomeSectionThree>
           <HomeSectionFour></HomeSectionFour>
           <HomeSectionFive></HomeSectionFive>
@@ -40,11 +40,11 @@ export default function Home() {
           <HomeSectionSeven></HomeSectionSeven>
           <HomeSectionEight></HomeSectionEight>
           <HomeSectionNine></HomeSectionNine>
-          <HomeSectionTen></HomeSectionTen>
+          {/* <HomeSectionTen></HomeSectionTen> */}
           <HomeSectionEleven></HomeSectionEleven>
-          <HomeSectionTwelwe></HomeSectionTwelwe>
+          {/* <HomeSectionTwelwe></HomeSectionTwelwe> */}
           <BlogsArticles></BlogsArticles>
-          <BigHeadingScroll text={'Perfectly balanced as all things should be.'}/>
+          {/* <BigHeadingScroll text={'Perfectly balanced as all things should be.'}/>  */}
           <KeepInTouch />
           <LocateUs />
           <LetsKick />

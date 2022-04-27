@@ -34,7 +34,7 @@ const HomeSectionOne = () => {
             </div>
             <HomeButton>request a quote</HomeButton>
           </div>
-          <div onMouseEnter={() => setMouseExpanded(true)} onMouseLeave={() => setMouseExpanded(false)} className='absolute bottom-0 3xl:py-10 py-8 2xl:px-14 xl:px-12 px-10 bg-base-blue-1 flex justify-between w-full text-heading-3 Gilroy-Bold'>
+          <div onMouseEnter={() => setMouseExpanded(true)} onMouseLeave={() => setMouseExpanded(false)} className='absolute bottom-0 3xl:py-10 py-8 2xl:px-14 xl:px-12 px-2 lg:px-10 bg-base-blue-1 flex justify-between w-full text-heading-3 Gilroy-Bold'>
               <span className='stroke-text'>websites</span>
               <span className='stroke-text'>applications</span>
               <span className='stroke-text'>branding</span>

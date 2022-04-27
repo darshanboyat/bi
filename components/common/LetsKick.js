@@ -3,7 +3,7 @@ import HomeButton from "../buttons/HomeButton";
 export default function LetsKick() {
     return (
         <div className="2xl:p-10 p-8 2xl:py-20 py-14">
-            <div className="flex justify-between">
+            <div className="lg:flex justify-between">
                 <div className="2xl:space-y-6 space-y-4">
                     <h2 className="text-heading-1 Gilroy-Bold">let&apos;s kick some ass together</h2>
                     <HomeButton>hop in!</HomeButton>

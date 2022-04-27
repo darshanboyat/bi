@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react"
+import Image from "next/image";
 
 const Header = () => {
     const config = {
@@ -19,9 +20,15 @@ const Header = () => {
 
     return (
         <nav>
-            <div className="fixed top-0 flex justify-between items-center w-full py-10 px-14 z-50">
+            <div className="fixed top-0 flex justify-between items-center w-full py-3 px-3  lg:py-10 lg:px-8 z-50">
                 
-                <span className="text-4xl Gilroy-Bold z-30">{ !navOpen && "brain inventory" }</span>
+                <span className="text-4xl Gilroy-Bold z-30">
+                 { !navOpen &&
+                 <div className="relative w-52 h-16">
+                    <Image src={'/images/' + 'Logobg.png' }  layout="fill"/>
+                 </div>
+                 }
+                </span>
                 {
                     navOpen
                     ? (
@@ -41,7 +48,7 @@ const Header = () => {
                 }
             </div>
             <div id='sidenav' className="fixed inset-0 overflow-hidden bg-gradient-4 z-40 transition-transform duration-300 flex gap-10">
-                <div className="grid grid-cols-5 gap-10 px-44 py-36 w-full">
+                <div className="grid grid-cols-5 gap-10 px-8 py-16 lg:px-28 lg:py-24 w-full">
                     <div className="space-y-12 col-span-1">
                         <h1 className="stroke-text text-5xl Gilroy-Bold">Company</h1>
                         <h1 onClick={() => {setBlockName('servicesChildren')}} className="stroke-text text-5xl Gilroy-Bold">Services</h1>
@@ -52,7 +59,6 @@ const Header = () => {
                     </div>
                     <Block></Block>
                 </div>
-
             </div>
         </nav>
     )

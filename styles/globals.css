@@ -23,6 +23,7 @@
   .text-heading-4 {
     @apply 2xl:text-2xl lg:text-lg text-lg;
   }
+  
 }
 
 @font-face {
@@ -168,6 +169,13 @@ html, body {
   background-size: cover;
 }
 
+.hero-bg-2
+{
+  background-image: url('../public/images/contact.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .rolling-animation {
   animation-name: rolling;
   animation-duration: 12s;
@@ -215,4 +223,170 @@ html, body {
 {
   background-color: #EBEBF3;
   border: 2px solid #C7ADED;
+}
+
+.blue-section
+{
+  background: #6302DD38 0% 0% no-repeat padding-box;
+border: 1px solid #6302DD;
+padding: 2rem;
+}
+
+button.btn-career {
+  background: #6302DD 0% 0% no-repeat padding-box;
+  height: 55px;
+  padding: 0px 3rem;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.9rem;
+}
+
+button.btn-contact {
+  background: #6302DD38 0% 0% no-repeat padding-box;
+  border: 1px solid #6302DD;height: 55px;
+  padding: 0px 4rem;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.9rem;
+}
+
+.bg-gradient-career
+{
+
+  background-image: linear-gradient(180deg, #6302DD 0%, #5A04C6 0%, #16161600);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+p.view-opening {text-decoration: underline;
+
+  letter-spacing: 0px;
+  color: #FF9100;font-size: 1.4rem;padding-top: 1rem;}
+
+  h4.openings-title {
+    font-size: 6rem;
+    font-family: 'Gilroy-Bold';
+    -webkit-text-stroke: 1px #d6b9b9;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: -10px;
+}
+
+.bg-development-simply
+{
+background: #6302DD38 0% 0% no-repeat padding-box;
+border: 1px solid #6302DD;
+padding: 2rem 1rem;
+}
+
+.bg-development-simply h2 {
+  line-height: 30px;
+  font-family: 'Gilroy-Bold';
+  font-size: 1.6rem;
+  width: 200px;
+  margin-bottom: 0.4rem;
+}
+.bg-development-simply p {
+  letter-spacing: 0px;
+   color: #FFFFFF;
+   opacity: 1;
+  font-size: 14px;
+  padding-right: 6rem;
+}
+
+.bg-opening {
+  background: #6302DD38 0% 0% no-repeat padding-box;
+   border: 1px solid #6302DD;
+}
+button.btn-apply {
+  background: #6302DD 0% 0% no-repeat padding-box;
+  height: 55px;
+  padding: 0px 2rem;
+  font-size: 16px;
+  margin-left: 1rem;
+  border: 1px solid #6302DD;
+}
+button.btn-details {
+  height: 55px;
+   padding: 0px 2rem;
+   font-size: 16px;
+   margin-left: 1rem;
+  border: 1px solid #6302DD;
+}
+
+label.experiene-label {
+  letter-spacing: 0px;
+  color: #e1cfcf;
+  opacity: 1;
+  font-size: 14px;
+}
+
+ul.list-job li {list-style: disc;line-height: 35px;}ul.list-job {}
+
+ul.list-job {margin-left: 1rem;}
+
+
+.newsletter-project
+{
+  background: transparent linear-gradient(76deg, #6302DD 0%, #B384EE 100%) 0% 0% no-repeat padding-box;
+  padding: 2.6rem 2rem;
+  margin: 0.5rem;
+}
+
+
+.email-newsletter
+{
+  background: #FFFFFF38 0% 0% no-repeat padding-box;
+border: 1px solid #FFFFFF;
+height: 50px;
+border: none;
+padding: 0rem 1rem;
+min-width: 300px;
+}
+
+.email-newsletter:focus
+{
+  outline: none;
+}
+
+.btn-send-us
+{
+background-color: #fff;
+height: 50px;
+border: none;
+padding: 0rem 2rem;
+color: #6302DD;
+font-family: Gilroy-Bold;
+}
+
+@media(max-width: 767px)
+{
+  .email-newsletter
+  {
+     min-width: auto;
+     margin: 0 auto;
+     margin-bottom: 0.5rem;
+     text-align: center;
+     display: block;
+  }
+  .btn-send-us
+  {
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    display: block;
+  }
+  .newsletter-project
+  {
+    padding: 1.6rem 1rem;
+    text-align: center;
+  }
+  h4.openings-title
+  {
+    font-size: 4rem;
+  }
+  .mobile-padding
+  {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }

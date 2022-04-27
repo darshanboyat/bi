@@ -25,10 +25,10 @@ const locations = [
 
 export default function LocateUs() {
     return (
-        <div className="2xl:py-32 xl:py-28 py-24 2xl:px-10 px-8">
-            <div className="2xl:py-20 py-12 2xl:px-28 px-16 border border-blue bg-base-blue-2 2xl:space-y-8 xl:space-y-6 space-y-4">
-                <h2 className="text-heading-1 Gilroy-Bold">locate us</h2>
-                <div className="grid xl:grid-cols-4 grid-cols-2 2xl:gap-8 gap-4">
+        <div className="2xl:py-32 xl:py-28 py-24 2xl:px-10 lg:px-8 mobile-padding">
+            <div className="2xl:py-20 py-12 2xl:px-28 lg:px-16 border border-blue bg-base-blue-2 2xl:space-y-8 xl:space-y-6 space-y-4">
+                <h2 className="text-heading-1 Gilroy-Bold mobile-padding">locate us</h2>
+                <div className="lg:grid xl:grid-cols-4 grid-cols-2 2xl:gap-8 gap-4">
                     {
                         locations.map((el) => {
                             return (<Card key={el.placeName} info={el} />)
@@ -42,7 +42,7 @@ export default function LocateUs() {
 
 const Card = ({info}) => {
     return (
-        <div className="grid grid-cols-2 gap-2">
+        <div className="grid grid-cols-2 gap-2 mb-6 items-center">
             <div className="relative place-self-center">
                 <Image src={'/images/' + info.image} width={138} height={167} ></Image>
             </div>
