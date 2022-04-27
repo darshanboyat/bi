@@ -88,7 +88,7 @@ html, body {
 
 .bg-gradient-1 {
   background: rgb(99,2,221);
-  background: transparent linear-gradient(325deg, #000000 0%, #17008D 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(290deg, #000000 0%, #17008D 100%) 0% 0% no-repeat padding-box;
 }
 
 .bg-gradient-2 {
@@ -149,7 +149,7 @@ html, body {
 .stroke-text:hover {
   -webkit-transition: color .5s ease-out;
   transition: color .5s ease-out;
-  color: white;
+  color: #4601a1;
 }
 
 .stroke-text-2 {
@@ -389,4 +389,11 @@ font-family: Gilroy-Bold;
     padding-left: 1rem;
     padding-right: 1rem;
   }
+}
+
+.container
+{
+  max-width: 1440px;
+  margin: 0 auto;
+  display: block;
 }

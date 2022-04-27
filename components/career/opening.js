@@ -5,6 +5,7 @@ class opening extends Component {
   render() {
     return (
       <div className="2xl:p-10 p-8 2xl:space-y-8 space-y-6">
+        <div className="container">
         <div>
           <h2 className="text-6xl Gilroy-Bold ">Current</h2>
           <h4 className="openings-title">Openings</h4>
@@ -227,6 +228,7 @@ class opening extends Component {
             </div>
           </div>
           
+        </div>
         </div>
       </div>
     );

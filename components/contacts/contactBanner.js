@@ -11,12 +11,12 @@ function contactBanner(props) {
            <div className='h-screen flex items-center relative'>
         <div className='lg:w-1/2 w-full bg-gradient-1 h-full  relative'>
           <div className='3xl:py-10 2xl:py-6 xl:py-6 2xl:px-14 xl:px-12 px-10 flex flex-col justify-center 2xl:space-y-5 xl:space-y-4 space-y-3 h-full'>
-            <div className='2xl:text-6xl xl:text-5xl text-4xl stroke-text-3 Gilroy-Bold'>talk to us!</div>
+            <div className='2xl:text-7xl xl:text-7xl mt-20 text-6xl stroke-text-3 Gilroy-Bold'>talk to us!</div>
             <div className='text-heading-1 Gilroy-Bold'>lets do some great <br/> things together!</div>
             <div className='flex flex-col'>
               <div className='Gilroy-Light text-xl text-gray-50'>While we are good at sign language, there are various other simpler ways to connect with us. Talk to us in person.</div>
             </div>
-            <HomeButton>call us now!</HomeButton>
+            <HomeButton><span className='text-base'>call us now!</span></HomeButton>
           </div>
          
         </div>

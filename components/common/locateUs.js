@@ -26,6 +26,8 @@ const locations = [
 export default function LocateUs() {
     return (
         <div className="2xl:py-32 xl:py-28 py-24 2xl:px-10 lg:px-8 mobile-padding">
+            <div className="container">
+
             <div className="2xl:py-20 py-12 2xl:px-28 lg:px-16 border border-blue bg-base-blue-2 2xl:space-y-8 xl:space-y-6 space-y-4">
                 <h2 className="text-heading-1 Gilroy-Bold mobile-padding">locate us</h2>
                 <div className="lg:grid xl:grid-cols-4 grid-cols-2 2xl:gap-8 gap-4">
@@ -37,6 +39,7 @@ export default function LocateUs() {
                 </div>
             </div>
         </div>
+         </div>
     )
 }
 

@@ -26,7 +26,7 @@ export default function LetsKick() {
             </div>
             <div className="2xl:py-20 py-14">
                 <div className="flex justify-center">
-                    <h1 className="xl:text-8xl 2xl:text-9xl lg:text-7xl md:text-6xl text-5xl Gilroy-Bold hover:underline underline-offset-[10px] decoration-4">
+                    <h1 className="xl:text-8xl 2xl:text-9xl lg:text-7xl md:text-6xl text-5xl Gilroy-Bold underline-offset-[10px] decoration-4">
                         <span className="stroke-text mr-2">if it&apos;s digital,</span>
                         <span className="">we&apos;ll make it.</span>
                     </h1>

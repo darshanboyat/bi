@@ -3,7 +3,10 @@ import HomeButton from "../buttons/HomeButton";
 
 export default function KeepInTouch() {
     return (
-        <div className="lg:p-10 mobile-padding grid lg:grid-cols-2 grid-cols-1">
+                <div className="2xl:p-10 p-8 2xl:space-y-8 space-y-6">
+            <div className="container">
+                    
+        <div className="mobile-padding grid lg:grid-cols-2 grid-cols-1">
             <div className="flex flex-col space-y-8">
                 <div className="relative h-[100px] w-full lg:w-1/2">
                     <Image src={'/images/keepInTouch.svg'} layout="fill" objectFit="contain"></Image>
@@ -23,6 +26,8 @@ export default function KeepInTouch() {
                     <HomeButton><span className="text-xl">Submit</span></HomeButton>
                 </div>
             </div>
+            </div>
         </div>
+                </div>
     )
 }

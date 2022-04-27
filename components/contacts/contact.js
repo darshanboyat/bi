@@ -20,7 +20,7 @@ function contact(props) {
                     </div>
                     <input className="bg-transparent p-4 focus:outline-none border border-[#ffffff67] w-full placeholder-[#ffffffd7]" placeholder="What’s your company name?"></input>
                     <input className="bg-transparent p-4 focus:outline-none border border-[#ffffff67] w-full placeholder-[#ffffffd7]" placeholder="Tell us, Everything!"></input>
-                    <HomeButton><span className="text-xl">Submit</span></HomeButton>
+                    <HomeButton><span className="text-base">Submit</span></HomeButton>
                 </div>
                       </form>
                     </div>

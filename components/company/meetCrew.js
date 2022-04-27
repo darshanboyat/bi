@@ -40,6 +40,7 @@ const meeting = [
 function meetCrew(props) {
     return (
         <div className='bg-meet'>
+            <div className='container'>
             <div className='lg:grid lg:grid-cols-3 gap-4'>
                 <div className="flex self-center pr-6 pl-8">
                     <div className='my-12 lg:my-0'>
@@ -65,6 +66,7 @@ function meetCrew(props) {
                     
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     );

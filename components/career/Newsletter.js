@@ -5,7 +5,8 @@ class Newsletter extends Component {
     
     render() {
         return (
-            <div className='className="2xl:p-10 p-8 2xl:space-y-8 space-y-6"'>
+            <div className='2xl:p-10 p-8 2xl:space-y-8 space-y-6'>
+                <div className='container'>
                  <div className='newsletter-project'>
                      <div className='pb-20'>
                         <h3 className='Gilroy-Bold text-3xl text-white'>lets discuss your project</h3>
@@ -21,6 +22,7 @@ class Newsletter extends Component {
                          </div>
                      </div>
                  </div> 
+                </div>
             </div>
         );
     }

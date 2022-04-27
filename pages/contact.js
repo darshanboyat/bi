@@ -13,7 +13,6 @@ function contact(props) {
           <Header></Header>
           <ContactBanner></ContactBanner>
           <Contact></Contact>
-          <KeepInTouch />
           <LocateUs />
           <LetsKick />
           <Footer />
