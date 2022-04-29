@@ -24,7 +24,7 @@ const Header = () => {
                 
                 <span className="text-4xl Gilroy-Bold z-30">
                  { !navOpen &&
-                 <div className="relative w-52 h-16">
+                 <div className="relative w-36 h-12">
                     <Image src={'/images/' + 'Logobg.png' }  layout="fill"/>
                  </div>
                  }
@@ -87,6 +87,7 @@ const CompanyChildren = () => {
             </div>
         </div>
     )
+
 }
 
 const ServicesChildren = () => {
@@ -110,7 +111,7 @@ const ServicesChildren = () => {
                     <li>How we work</li>
                 </ul>
             </div>
-        </div>
+        </div> 
     )
 }
 

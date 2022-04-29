@@ -9,11 +9,17 @@ import Opening from '../components/career/opening';
 import Culture from '../components/career/culture';
 import Newsletter from '../components/career/Newsletter';
 import MeetCrew from '../components/company/meetCrew';
+import WhyWork from '../components/contacts/whyWork';
+import "animate.css/animate.min.css";
+import Stepper from '../components/career/stepper';
+
 function carrer(props) {
     return (
         <div>
           <Header></Header>
           <Banner></Banner>
+          <WhyWork></WhyWork>
+          <Stepper></Stepper>
           <MeetCrew></MeetCrew>
           <Culture></Culture>
           <Newsletter></Newsletter>

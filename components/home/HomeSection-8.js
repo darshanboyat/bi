@@ -1,5 +1,7 @@
 import Image from "next/image"
 import HomeButton from "../buttons/HomeButton"
+import { AnimationOnScroll } from "react-animation-on-scroll";
+
 
 const info = [
     {
@@ -37,18 +39,22 @@ const info = [
 const HomeSectionEight = () => {
     return (
         <div className="2xl:p-10 p-8 2xl:pb-40 pb-32">
+            <div className="container">
             <div className="divide-y">
                 {
                     info.map((el) => <Section key={el.title} info={el}></Section>)
                 }
             </div>
             <HomeButton>Explore more</HomeButton>
+            </div>
         </div>
     )
 }
 
 const Section = ({info}) => {
     return (
+        <>
+        <AnimationOnScroll animateIn="animate__fadeInUp">
         <div className="grid xl:grid-cols-5 md:grid-cols-2 grid-cols-1  2xl:gap-10 gap-8 2xl:py-10 py-8">
             <span className="xl:col-span-5 md:col-span-2 col-span-1 stroke-text Gilroy-Bold text-heading-1">{info.title}</span>
             <div className="xl:col-span-2 md:col-span-1 col-span-1 relative h-[350px]">
@@ -56,6 +62,8 @@ const Section = ({info}) => {
             </div>
             <p className="2xl:text-3xl xl:text-2xl text-xl Gilroy-Light leading-loose xl:col-span-3 md:col-span-1 col-span-1">{info.details}</p>
         </div>
+        </AnimationOnScroll>
+        </>
     )
 }
 

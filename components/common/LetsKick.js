@@ -3,6 +3,7 @@ import HomeButton from "../buttons/HomeButton";
 export default function LetsKick() {
     return (
         <div className="2xl:p-10 p-8 2xl:py-20 py-14">
+            <div className="container">
             <div className="lg:flex justify-between">
                 <div className="2xl:space-y-6 space-y-4">
                     <h2 className="text-heading-1 Gilroy-Bold">let&apos;s kick some ass together</h2>
@@ -26,11 +27,12 @@ export default function LetsKick() {
             </div>
             <div className="2xl:py-20 py-14">
                 <div className="flex justify-center">
-                    <h1 className="xl:text-8xl 2xl:text-9xl lg:text-7xl md:text-6xl text-5xl Gilroy-Bold underline-offset-[10px] decoration-4">
+                    <h1 className="xl:text-8xl 2xl:text-8xl lg:text-7xl md:text-6xl text-5xl Gilroy-Bold underline-offset-[10px] decoration-4">
                         <span className="stroke-text mr-2">if it&apos;s digital,</span>
                         <span className="">we&apos;ll make it.</span>
                     </h1>
                 </div>
+            </div>
             </div>
         </div>
     )

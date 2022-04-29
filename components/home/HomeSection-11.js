@@ -7,6 +7,7 @@ const logos = [
 const HomeSectionEleven = () => {
     return (
         <div className="2xl:p-10 p-8 2xl:space-y-10 xl:space-y-8 space-y-6 flex flex-col justify-center">
+            <div className="container">        
             <h1 className="text-heading-1 2xl:pt-20 xl:pt-16 pt-14 2xl:pb-10 pb-8 Gilroy-Bold">we&apos;d love to add your logo here.</h1>
             <div className="grid xl:grid-cols-4 md:grid-cols-3 grid-cols-2 2xl:gap-20 xl:gap-12 gap-12">
                 {
@@ -20,6 +21,7 @@ const HomeSectionEleven = () => {
                 }
             </div>
             <HomeButton>we have more!</HomeButton>
+            </div>
         </div>
     );
 }

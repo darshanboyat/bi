@@ -1,4 +1,7 @@
 import Image from "next/image"
+import { AnimationOnScroll } from "react-animation-on-scroll";
+
+
 
 const locations = [
     {
@@ -29,7 +32,9 @@ export default function LocateUs() {
             <div className="container">
 
             <div className="2xl:py-20 py-12 2xl:px-28 lg:px-16 border border-blue bg-base-blue-2 2xl:space-y-8 xl:space-y-6 space-y-4">
+            <AnimationOnScroll delay={100} animateIn="animate__fadeInUp">
                 <h2 className="text-heading-1 Gilroy-Bold mobile-padding">locate us</h2>
+                    </AnimationOnScroll>
                 <div className="lg:grid xl:grid-cols-4 grid-cols-2 2xl:gap-8 gap-4">
                     {
                         locations.map((el) => {
@@ -45,14 +50,18 @@ export default function LocateUs() {
 
 const Card = ({info}) => {
     return (
-        <div className="grid grid-cols-2 gap-2 mb-6 items-center">
-            <div className="relative place-self-center">
-                <Image src={'/images/' + info.image} width={138} height={167} ></Image>
+        <>
+         <AnimationOnScroll delay={100} animateIn="animate__fadeInUp">
+            <div className="grid grid-cols-2 gap-2 mb-6 items-center">
+                <div className="relative place-self-center">
+                    <Image src={'/images/' + info.image} width={138} height={167} ></Image>
+                </div>
+                <div className="flex flex-col">
+                    <h3 className="2xl:text-xl text-lg Gilroy-Bold">{info.placeName}</h3>
+                    <p className="2xl:text-base text-sm">{info.address}</p>
+                </div>
             </div>
-            <div className="flex flex-col">
-                <h3 className="2xl:text-xl text-lg Gilroy-Bold">{info.placeName}</h3>
-                <p className="2xl:text-base text-sm">{info.address}</p>
-            </div>
-        </div>
+          </AnimationOnScroll>
+        </>
     )
 }

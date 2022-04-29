@@ -171,7 +171,7 @@ html, body {
 
 .hero-bg-2
 {
-  background-image: url('../public/images/contact.png');
+  background-image: url('../public/images/arrow-png.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -397,3 +397,8 @@ font-family: Gilroy-Bold;
   margin: 0 auto;
   display: block;
 }
+
+
+/*  */
+
+

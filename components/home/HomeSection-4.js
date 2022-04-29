@@ -68,6 +68,7 @@ const info = [
 
 const HomeSectionFour = () => {
     return (
+        <div className="container">
         <div className="relative h-[250vh]">
             <div className="absolute h-[150vh] w-full snap-y snap-mandatory">
                 <div className="sticky top-0 z-40">
@@ -85,6 +86,7 @@ const HomeSectionFour = () => {
                     })
                 }
             </div>
+        </div>
         </div>
     )
 }

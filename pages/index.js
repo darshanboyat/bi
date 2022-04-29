@@ -20,6 +20,8 @@ import KeepInTouch from '../components/common/keepInTouch';
 import LocateUs from '../components/common/locateUs';
 import LetsKick from '../components/common/LetsKick';
 import Footer from '../components/common/Footer';
+import "animate.css/animate.min.css";
+
 
 export default function Home() {
 
@@ -43,7 +45,7 @@ export default function Home() {
           {/* <HomeSectionTen></HomeSectionTen> */}
           <HomeSectionEleven></HomeSectionEleven>
           {/* <HomeSectionTwelwe></HomeSectionTwelwe> */}
-          <BlogsArticles></BlogsArticles>
+          {/* <BlogsArticles></BlogsArticles> */}
           {/* <BigHeadingScroll text={'Perfectly balanced as all things should be.'}/>  */}
           <KeepInTouch />
           <LocateUs />
