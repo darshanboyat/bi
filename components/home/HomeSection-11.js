@@ -16,7 +16,7 @@ const HomeSectionEleven = () => {
             <div className="grid xl:grid-cols-4 md:grid-cols-3 grid-cols-2 2xl:gap-20 xl:gap-12 gap-12">
                 {
                     logos.map((el) => (
-                        <AnimationOnScroll duration={el.duration} animateIn="animate__fadeInUp">     
+                        <AnimationOnScroll key={el.key} duration={el.duration} animateIn="animate__fadeInUp">     
                         <div key={el} className="border border-blue 2xl:h-60 xl:h-52 lg:h-48 h-36 2xl:p-12 lg:p-10 p-4">
                             <div className="relative h-full">
                                 <Image src={'/images/' + el+'.svg'} layout='fill'></Image>

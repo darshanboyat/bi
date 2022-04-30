@@ -28,9 +28,9 @@ const HomeSectionSeven = () => {
             data-scroll-offset="20%"
             data-scroll-position="top"
             data-scroll-class="manifestoLine"
-            class="line1 manifestoLine"
+            className="line1 manifestoLine"
             >
-            <span class="content">
+            <span className="content">
                 <span>There is no singular</span>
                 <span className="mask" style={{transform: 'translate3d(91%, 0px, 0px)'}} />
             </span>
@@ -40,10 +40,10 @@ const HomeSectionSeven = () => {
             data-scroll-offset="20%"
             data-scroll-position="top"
             data-scroll-class="manifestoLine"
-            class="line1 manifestoLine"
+            className="line1 manifestoLine"
             >
-            <span class="content">
-                <span> process that fits</span> <span class="mask"></span>
+            <span className="content">
+                <span> process that fits</span> <span className="mask"></span>
             </span>
             </span>
             <span
@@ -51,10 +51,10 @@ const HomeSectionSeven = () => {
             data-scroll-offset="20%"
             data-scroll-position="top"
             data-scroll-class="manifestoLine"
-            class="line1 manifestoLine"
+            className="line1 manifestoLine"
             >
-            <span class="content">
-                <span> every challenge —</span> <span class="mask"></span>
+            <span className="content">
+                <span> every challenge —</span> <span className="mask"></span>
             </span>
             </span>
             <span
@@ -62,10 +62,10 @@ const HomeSectionSeven = () => {
             data-scroll-offset="20%"
             data-scroll-position="top"
             data-scroll-class="manifestoLine"
-            class="line1 manifestoLine"
+            className="line1 manifestoLine"
             >
-            <span class="content">
-                <span>there are no silver bullets.</span> <span class="mask"></span>
+            <span className="content">
+                <span>there are no silver bullets.</span> <span className="mask"></span>
             </span>
             </span>
             <span
@@ -73,10 +73,10 @@ const HomeSectionSeven = () => {
             data-scroll-offset="20%"
             data-scroll-position="top"
             data-scroll-class="manifestoLine"
-            class="line1 manifestoLine"
+            className="line1 manifestoLine"
             >
-            <span class="content">
-                <span> Organizations are different. </span> <span class="mask"></span>
+            <span className="content">
+                <span> Organizations are different. </span> <span className="mask"></span>
             </span>
             </span>
             <span
@@ -84,10 +84,10 @@ const HomeSectionSeven = () => {
             data-scroll-offset="20%"
             data-scroll-position="top"
             data-scroll-class="manifestoLine"
-            class="line1 manifestoLine"
+            className="line1 manifestoLine"
             >
-            <span class="content">
-                <span>  People are </span> <span class="mask"></span>
+            <span className="content">
+                <span>  People are </span> <span className="mask"></span>
             </span>
             </span>
             <span
@@ -95,10 +95,10 @@ const HomeSectionSeven = () => {
             data-scroll-offset="20%"
             data-scroll-position="top"
             data-scroll-class="manifestoLine"
-            class="line1 manifestoLine"
+            className="line1 manifestoLine"
             >
-            <span class="content">
-                <span> different. Business </span> <span class="mask"></span>
+            <span className="content">
+                <span> different. Business </span> <span className="mask"></span>
             </span>
             </span>
             <span
@@ -106,10 +106,10 @@ const HomeSectionSeven = () => {
             data-scroll-offset="20%"
             data-scroll-position="top"
             data-scroll-class="manifestoLine"
-            class="line1 manifestoLine"
+            className="line1 manifestoLine"
             >
-            <span class="content">
-                <span> challenges are different. </span> <span class="mask"></span>
+            <span className="content">
+                <span> challenges are different. </span> <span className="mask"></span>
             </span>
             </span>
             <span
@@ -117,10 +117,10 @@ const HomeSectionSeven = () => {
             data-scroll-offset="20%"
             data-scroll-position="top"
             data-scroll-class="manifestoLine"
-            class="line1 manifestoLine"
+            className="line1 manifestoLine"
             >
-            <span class="content">
-                <span>  And that shapes </span> <span class="mask"></span>
+            <span className="content">
+                <span>  And that shapes </span> <span className="mask"></span>
             </span>
             </span>
             <span
@@ -128,10 +128,10 @@ const HomeSectionSeven = () => {
             data-scroll-offset="20%"
             data-scroll-position="top"
             data-scroll-class="manifestoLine"
-            class="line1 manifestoLine"
+            className="line1 manifestoLine"
             >
-            <span class="content">
-                <span> how we work.</span> <span class="mask"></span>
+            <span className="content">
+                <span> how we work.</span> <span className="mask"></span>
             </span>
             </span>
         </div>
