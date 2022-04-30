@@ -25,8 +25,11 @@ function contactBanner(props) {
             </div>
           </AnimationOnScroll>
           <AnimationOnScroll delay={400} animateIn="animate__fadeInUp">
-           
+           <div className='flex'>
             <HomeButton><span className='text-base'>call us now!</span></HomeButton>
+            <a  className='btn-contact ml-8' href='mailto:askus@braininventory.com?subject=Me&body=Hello!'>drop a email</a>
+           </div>
+
           </AnimationOnScroll>
           </div>
          

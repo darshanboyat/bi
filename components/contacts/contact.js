@@ -71,13 +71,13 @@ function contact(props) {
                    <p className='pt-4 pb-4 text-xl'>If you have got powerful skills, we will pay your bills. Contact our HR at:</p>
                     </AnimationOnScroll>
                    
-                  <div>
                   <AnimationOnScroll delay={400} animateIn="animate__fadeInUp">
-                      <button className='btn-career'>career@braininventory.com</button>
-                      <button className='btn-contact'>+91-810-956-1401</button>
-                    </AnimationOnScroll>
+                  <div className='flex'>
+                  <a  className='btn-career' href='mailto:career@braininventory.com?subject=Me&body=Hello!'>career@braininventory.com</a>
+                  <a className='btn-contact' href="tel:+91-810-956-1401">+91-810-956-1401</a>
 
                   </div>
+                    </AnimationOnScroll>
                   <AnimationOnScroll delay={400} animateIn="animate__fadeInUp">
                   <p className='view-opening'>View openings</p>
                       

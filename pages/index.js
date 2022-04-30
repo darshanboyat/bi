@@ -41,8 +41,8 @@ export default function Home() {
           <HomeSectionSix></HomeSectionSix>
           <HomeSectionSeven></HomeSectionSeven>
           <HomeSectionEight></HomeSectionEight>
-          <HomeSectionNine></HomeSectionNine>
-          {/* <HomeSectionTen></HomeSectionTen> */}
+          {/* <HomeSectionNine></HomeSectionNine> */}
+          <HomeSectionTen></HomeSectionTen>
           <HomeSectionEleven></HomeSectionEleven>
           {/* <HomeSectionTwelwe></HomeSectionTwelwe> */}
           {/* <BlogsArticles></BlogsArticles> */}

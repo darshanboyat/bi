@@ -1,14 +1,24 @@
+import { AnimationOnScroll } from "react-animation-on-scroll";
+
 const HomeSectionTen = () => {
     return (
-        <div className="flex justify-center 2xl:pt-40 xl:pt-32 pt-28">
-            <div className="flex w-4/5 lg:flex-row flex-col 2xl:gap-10 gap-8 2xl:p-10 p-8">
+        <div className="flex justify-center">
+            <div className="container">
+            <div className="flex w-full lg:flex-row flex-col 2xl:gap-10 gap-8 2xl:py-10 2xl:px-0  px-8">
                 <div className="lg:space-y-12 space-y-8 flex-1">
+                <AnimationOnScroll animateIn="animate__fadeInUp">
                     <p className="text-heading-1 Gilroy-Bold">our portfolio</p>
-                    <div className="flex lg:space-x-10 space-x-8">
+                </AnimationOnScroll>
+                <AnimationOnScroll delay={300} animateIn="animate__fadeInUp">
+                    <div className="lg:flex lg:space-x-10 lg:space-y-0 space-y-10">
                         <CounterBox counterInfo={{count: '100', message: 'Projects Delivered'}}></CounterBox>
                         <CounterBox counterInfo={{count: '50', message: 'Happy Clients'}}></CounterBox>
                     </div>
+                </AnimationOnScroll>
+                <AnimationOnScroll delay={400} animateIn="animate__fadeInUp">
                     <ProjectBox info={{name: 'Numetric Software', summary: 'UI/UX Design. Mobile & Web App Development.'}}></ProjectBox>
+                </AnimationOnScroll>
+                <AnimationOnScroll delay={600} animateIn="animate__fadeInUp">
                     <div className="w-[30vw] h-[30vw] lg:mx-auto rounded-full border border-[#ffffff86] flex items-center">
                         <span className="w-[28vw] h-[28vw] mx-auto rounded-full border border-[#ffffffc2] flex items-center">
                             <span className="w-[26vw] h-[26vw] mx-auto rounded-full border"></span>
@@ -20,14 +30,22 @@ const HomeSectionTen = () => {
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                         </svg>
                     </div>
+                </AnimationOnScroll>
                 </div>
                 <div className="lg:space-y-8 space-y-6 flex-1">
                     <div className="lg:h-40 h-10"></div>
+                    <AnimationOnScroll delay={600} animateIn="animate__fadeInUp">
                     <div className="stroke-text Gilroy-Bold 2xl:text-9xl lg:text-8xl text-7xl">dribble</div>
                     <div className="stroke-text Gilroy-Bold 2xl:text-9xl lg:text-8xl text-7xl">behance</div>
+                </AnimationOnScroll>
+                <AnimationOnScroll delay={600} animateIn="animate__fadeInUp">
                     <ProjectBox info={{name: 'Skedy Software', summary: 'UI/UX Design. Mobile & Web App Development.'}}></ProjectBox>
+                </AnimationOnScroll>
+                <AnimationOnScroll delay={800} animateIn="animate__fadeInUp">
                     <ProjectBox info={{name: 'Revolution Travel CRM', summary: 'UI/UX Design. Mobile & Web App Development.'}}></ProjectBox>
+                </AnimationOnScroll>
                 </div>
+            </div>
             </div>
         </div>
     )

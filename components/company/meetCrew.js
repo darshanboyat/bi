@@ -37,6 +37,66 @@ const meeting = [
         title: 'Krishna Agrawal',
         designation: 'UI/UX Designer'
     },
+    {
+        image: 'person1.png',
+        title: 'Krishna Agrawal',
+        designation: 'UI/UX Designer'
+    },
+    {
+        image: 'person2.png',
+        title: 'Krishna Agrawal',
+        designation: 'UI/UX Designer'
+    },
+    {
+        image: 'person3.png',
+        title: 'Krishna Agrawal',
+        designation: 'UI/UX Designer'
+    },
+    {
+        image: 'person1.png',
+        title: 'Krishna Agrawal',
+        designation: 'UI/UX Designer'
+    },
+    {
+        image: 'person2.png',
+        title: 'Krishna Agrawal',
+        designation: 'UI/UX Designer'
+    },
+    {
+        image: 'person3.png',
+        title: 'Krishna Agrawal',
+        designation: 'UI/UX Designer'
+    },
+    {
+        image: 'person1.png',
+        title: 'Krishna Agrawal',
+        designation: 'UI/UX Designer'
+    },
+    {
+        image: 'person2.png',
+        title: 'Krishna Agrawal',
+        designation: 'UI/UX Designer'
+    },
+    {
+        image: 'person3.png',
+        title: 'Krishna Agrawal',
+        designation: 'UI/UX Designer'
+    },
+    {
+        image: 'person1.png',
+        title: 'Krishna Agrawal',
+        designation: 'UI/UX Designer'
+    },
+    {
+        image: 'person2.png',
+        title: 'Krishna Agrawal',
+        designation: 'UI/UX Designer'
+    },
+    {
+        image: 'person3.png',
+        title: 'Krishna Agrawal',
+        designation: 'UI/UX Designer'
+    },
 ]
 
 function meetCrew(props) {
@@ -58,13 +118,13 @@ function meetCrew(props) {
 
                     </div>
                 </div>
-                <div className="col-span-2 bg-meeting p-8">
-                    <div className='lg:grid lg:grid-cols-3 gap-4'>
+                <div className="col-span-2 bg-meeting p-8 overflow-div-height">
+                    <div className='lg:grid lg:grid-cols-3 gap-4 '>
                     {
                             meeting.map((el) =>(
                                 <div key={el}>
-                                    <div className='w-[260px] h-[280px] mr-2 relative'>
-                                <Image src={'/images/' + el.image}  layout="fill"/>
+                                    <div className='w-[260px] h-[280px] mr-2 relative border-2 border-cutom'>
+                                {/* <Image src={'/images/' + el.image}  layout="fill"/> */}
                                 </div>
                                 <h2 className='text-black Gilroy-Bold pt-2'>{el.title}</h2>
                                 <p className='text-black'>{el.designation}</p>

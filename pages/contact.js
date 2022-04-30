@@ -12,7 +12,6 @@ function contact(props) {
         <div>
           <Header></Header>
           <ContactBanner></ContactBanner>
-         
           <Contact></Contact>
           <LocateUs />
           <LetsKick />

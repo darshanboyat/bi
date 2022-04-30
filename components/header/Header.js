@@ -16,9 +16,11 @@ const Header = () => {
         navOpen
         ? document.getElementById('sidenav').classList.remove('-translate-y-full')
         : document.getElementById('sidenav').classList.add('-translate-y-full')
-    }, [navOpen])
+    }, [navOpen]);
+
 
     return (
+        <>
         <nav>
             <div className="fixed top-0 flex justify-between items-center w-full py-3 px-3  lg:py-10 lg:px-8 z-50">
                 
@@ -61,6 +63,7 @@ const Header = () => {
                 </div>
             </div>
         </nav>
+        </>
     )
 }
 

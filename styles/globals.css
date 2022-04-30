@@ -232,22 +232,30 @@ border: 1px solid #6302DD;
 padding: 2rem;
 }
 
-button.btn-career {
+.btn-career {
   background: #6302DD 0% 0% no-repeat padding-box;
   height: 55px;
   padding: 0px 3rem;
   margin-right: 1rem;
   margin-top: 0.5rem;
+  line-height: 55px;
   margin-bottom: 0.9rem;
+  display: block;
+  max-width: 300px;
+  text-align: center;
 }
 
-button.btn-contact {
+.btn-contact {
   background: #6302DD38 0% 0% no-repeat padding-box;
   border: 1px solid #6302DD;height: 55px;
   padding: 0px 4rem;
   margin-right: 1rem;
+  line-height: 55px;
   margin-top: 0.5rem;
   margin-bottom: 0.9rem;
+  display: block;
+  text-align: center;
+  max-width: 300px;
 }
 
 .bg-gradient-career
@@ -401,4 +409,52 @@ font-family: Gilroy-Bold;
 
 /*  */
 
+.border-cutom
+{
+  border-color: #4601a1;
+}
 
+
+
+.overflow-div-height
+{
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.overflow-div-height::-webkit-scrollbar {
+  display: none;
+}
+
+.intro {
+  margin-top: 7.66vw;
+  font-size: 5.56vw;
+  line-height: 5vw;
+}
+.intro .line1 {
+  display: block;
+}
+
+.intro .line1 .content {
+  height: 7.6vw;
+}
+
+.intro .line1 .content {
+  display: inline-flex;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.intro .line1 .content .mask {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 115%;
+  transform-origin: 100% 50%;
+  transform: translateZ(0);
+  opacity: .65;
+  background: #000;
+}
