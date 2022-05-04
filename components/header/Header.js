@@ -18,10 +18,38 @@ const Header = () => {
         : document.getElementById('sidenav').classList.add('-translate-y-full')
     }, [navOpen]);
 
+    // const header = document.getElementById('header'),
+    //   showAnim = gsap.from(header, { 
+    //     yPercent: -100,
+    //     paused: true,
+    //     duration: 0.3,
+    //     onComplete: function() {
+    //       header.classList.add('show')
+    //       header.classList.remove('hide')
+    //     },
+    //     onReverseComplete: function() {
+    //       header.classList.add('hide')
+    //       header.classList.remove('show')
+    //     },
+    //   }).progress(1);
+
+    // ScrollTrigger.create({
+    // trigger: 'html',
+    // start: "top top",
+    // end: 'bottom bottom',
+    // onUpdate: (self) => {
+    //     self.direction === -1 ? showAnim.play() : showAnim.reverse()
+    //     self.progress === 0 ? header.classList.add('blend') : header.classList.remove('blend')
+    // },
+    // onRefreshInit: (self) => {
+    //     self.progress === 0 ? header.classList.add('blend') : header.classList.remove('blend')
+    // },
+    // });
+
 
     return (
         <>
-        <nav>
+        <nav >
             <div className="fixed top-0 flex justify-between items-center w-full py-3 px-3  lg:py-10 lg:px-8 z-50">
                 
                 <span className="text-4xl Gilroy-Bold z-30">

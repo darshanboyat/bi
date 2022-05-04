@@ -13,12 +13,12 @@ const HomeSectionThree = () => {
                         <HomeButton>see our concepts</HomeButton>
                         </div>
                         <div className="space-y-0" style={{marginTop: "0"}}>
-                    <img src='/images/HomeSectionThree.png' className="w-[500px]"></img>
+                    <img src='/images/HomeSectionThree.png' className="ml-10 w-[1200px]"></img>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="w-full lg:grid grid-cols-2 2xl:gap-16 xl:gap-10 gap-10 2xl:p-16 xl:p-14 p-6 lg:p-12 pb-16 2xl:h-[85%] h-[90%]">
+            <div className="w-[80%] lg:grid grid-cols-2 2xl:gap-16 xl:gap-10 gap-10 2xl:p-16 xl:p-14 p-6 lg:p-12 pb-16 2xl:h-[85%] h-[90%]">
                 <Box title='focus' textColor='black' color='orange' summary='We always have our eye on the prize'></Box>
                 <Box title='passion' color='blue' summary='We love to develop amazing stuff.'></Box>
                 <Box title='creativity' color='blue' summary='We all are about the creative vision.'></Box>
@@ -30,7 +30,7 @@ const HomeSectionThree = () => {
 }
 
 const Box = ({title, summary, color, textColor}) => (
-    <div className={'bg-base-'+color+'-1'+' 2xl:p-8 xl:p-6 p-4 h-48 mb-4 lg:h-72 overflow-x-hidden relative group' + ' text-'+ textColor}>
+    <div className={'bg-base-'+color+'-1'+' 2xl:p-8 xl:p-6 p-4 h-48 mb-4 lg:h-[16.8rem] overflow-x-hidden relative group' + ' text-'+ textColor}>
         <p className="2xl:text-7xl xl:text-7xl text-6xl Gilroy-Bold stroke-text-2 translate-x-28 group-hover:-translate-x-full transition-transform ease-linear duration-[4000ms]">{title}</p>
         <div className= "absolute xl:bottom-5 bottom-3 pr-8">
             <p className="uppercase 2xl:text-3xl xl:text-2xl text-xl 2xl:mb-4 mb-2 Gilroy-SemiBold">{title}</p>

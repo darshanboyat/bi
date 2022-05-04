@@ -458,3 +458,49 @@ font-family: Gilroy-Bold;
   opacity: .65;
   background: #000;
 }
+
+.main-tool-bar {
+  height: auto;
+  /* background: red; */
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  transition: ease 0.4s;
+  z-index: -999999;
+}
+.main-tool-bar--scrolled {
+  height: 40px;
+}
+
+.scrollable-area {
+  height: 200vh;
+}
+
+.blend.show {
+  background: transparent;
+  color: black;
+}
+
+.bg-image-name::after
+{
+  content: '';
+  background-image: url('../public/images/BulletIcon.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-size: contain;
+  position: absolute;
+  margin-top: -1.3rem;
+}
+
+.bg-image-name span{
+  padding-left: 1.4rem;
+}

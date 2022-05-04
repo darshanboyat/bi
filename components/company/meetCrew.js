@@ -130,7 +130,7 @@ function meetCrew(props) {
                                 <p className='text-black'>{el.designation}</p>
                                 </div>
                             ))
-                        }
+                    }
                     
                     </div>
                 </div>

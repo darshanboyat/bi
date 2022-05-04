@@ -160,6 +160,7 @@ const FooterSections = [
 export default function Footer() {
     return (
         <div className="py-10 mx-10 border-t">
+            <div className="container">
             <div className="grid xl:grid-cols-7 lg:grid-cols-5 grid-cols-2 gap-8">
                 <div className="col-span-2 space-y-4">
                     <div className="relative h-28">
@@ -201,6 +202,7 @@ export default function Footer() {
             </div>
             <div className="text-center mt-5 text-lg Gilroy-Bold py-4">
             © 2022 Brain Inventory - All rights reserved.
+            </div>
             </div>
         </div>
     )
