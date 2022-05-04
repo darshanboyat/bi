@@ -1,10 +1,16 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 
 
-class opening extends Component {
-  render() {
+function Opening() {
+
+  const sumbitContact = (data) => {
+    console.log(data);
+    fetch('/api/career', {
+      method: 'POST',
+      body: JSON.stringify(data)
+    });
+  }
     return (
       <div className="2xl:p-10 p-8 2xl:space-y-8 space-y-6">
         <div className="container">
@@ -302,8 +308,5 @@ class opening extends Component {
       </div>
     );
   }
-}
 
-opening.propTypes = {};
-
-export default opening;
+export default Opening;
