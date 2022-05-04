@@ -15,6 +15,10 @@ export function sendMail(mailData) {
             subject: mailData.subject,
             html: mailData.html,
         }
+
+        if (mailData.attachments) {
+            config.attachments = mailData.attachments
+        }
     
         transporter.sendMail(config).then((resp) => {
             console.log(resp);
