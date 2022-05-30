@@ -57,31 +57,29 @@ const Header = () => {
               </div>
             )}
           </span>
-          <div class="dropdown dropdown-hover">
-            <label tabindex="0" class="btn bg-transparent outline-none border-0 hover:bg-transparent  m-1">
+          <div className="dropdown dropdown-hover">
+            <label class="btn bg-transparent outline-none border-0 hover:bg-transparent  m-1">
               <span
                 onClick={() => {}}
                 className="bg-base-blue-1 rounded-full text-white 2xl:p-4 p-3 z-[100]"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6"
+                  className="h-6 w-6"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
-                  stroke-width="2"
+                 
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                
                     d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"
                   />
                 </svg>
               </span>
             </label>
             <ul
-              tabindex="0"
-              class="dropdown-content mt-2  p-2 shadow bg-base-100 w-28"
+              className="dropdown-content mt-2  p-2 shadow bg-base-100 w-28"
             >
             <div className="arrow"></div>
               <li className="">

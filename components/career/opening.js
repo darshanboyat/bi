@@ -86,7 +86,7 @@ function Opening() {
           {OpeningJob.map((el) => {
             return (
               <>
-                <div className="collapse bg-opening mb-6">
+                <div key={el.key} className="collapse bg-opening mb-6">
                   {/* <input type="checkbox" /> */}
                   <div className="collapse-title text-xl font-medium">
                     <div className="flex justify-between items-center">
@@ -99,8 +99,7 @@ function Opening() {
                         <button  onClick={() => collapsed()}  className="btn-details">view details</button>
                         <label
                           onClick={() => roleShowing(el.JobTitle)}
-                          for="my-modal"
-                          class="btn-apply inline-block leading-[55px] cursor-pointer modal-button"
+                          className="btn-apply inline-block leading-[55px] cursor-pointer modal-button"
                         >
                           apply now
                         </label>
@@ -123,17 +122,17 @@ function Opening() {
             );
           })}
         </div>
-        <input type="checkbox" id="my-modal" class="modal-toggle" />
-        <div class="modal">
+        <input type="checkbox" id="my-modal" className="modal-toggle" />
+        <div className="modal">
           <form onSubmit={handleSubmit(sumbitContact)}>
-            <div class="modal-box w-full max-w-5xl">
+            <div className="modal-box w-full max-w-5xl">
               <div className="flex justify-end w-full">
                 <label
                   for="my-modal"
                   className="bg-black rounded-full w-10 h-10 block text-center leading-[40px] text-xl mt-[-15px] mb-2 text-white"
                 >
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 relative top-2 left-2 " fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 relative top-2 left-2 " fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path d="M6 18L18 6M6 6l12 12" />
 </svg>
                 </label>
               </div>
@@ -226,8 +225,8 @@ function Opening() {
                   Submit
                 </button>
               </div>
-              {/* <div class="modal-action">
-      <label for="my-modal" class="btn">Yay!</label>
+              {/* <div className="modal-action">
+      <label for="my-modal" className="btn">Yay!</label>
     </div> */}
             </div>
           </form>
