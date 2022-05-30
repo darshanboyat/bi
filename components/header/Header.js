@@ -58,7 +58,7 @@ const Header = () => {
             )}
           </span>
           <div className="dropdown dropdown-hover">
-            <label class="btn bg-transparent outline-none border-0 hover:bg-transparent  m-1">
+            <label className="btn bg-transparent outline-none border-0 hover:bg-transparent  m-1">
               <span
                 onClick={() => {}}
                 className="bg-base-blue-1 rounded-full text-white 2xl:p-4 p-3 z-[100]"
