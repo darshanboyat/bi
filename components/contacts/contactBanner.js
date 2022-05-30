@@ -13,24 +13,21 @@ function contactBanner(props) {
            <div className='h-screen bg-gradient-1 flex items-center relative'>
         <div className='lg:w-1/2 w-full  h-full  relative'>
           <div className='3xl:py-10 2xl:py-6 xl:py-6 2xl:px-14 xl:px-12 px-10 flex flex-col justify-center 2xl:space-y-5 xl:space-y-4 space-y-3 h-full'>
-          <AnimationOnScroll delay={100} animateIn="animate__fadeInUp">
+          
             <div className='2xl:text-7xl xl:text-7xl mt-20 text-6xl stroke-text-3 Gilroy-Bold'>talk to us!</div>
-          </AnimationOnScroll>
-          <AnimationOnScroll delay={200} animateIn="animate__fadeInUp">
+         
             <div className='text-heading-1 Gilroy-Bold'>lets do some great <br/> things together!</div>
-          </AnimationOnScroll>
-          <AnimationOnScroll delay={300} animateIn="animate__fadeInUp">
+        
             <div className='flex flex-col'>
               <div className='Gilroy-Light text-xl text-gray-50'>While we are good at sign language, there are various other simpler ways to connect with us. Talk to us in person.</div>
             </div>
-          </AnimationOnScroll>
-          <AnimationOnScroll delay={400} animateIn="animate__fadeInUp">
+        
+       
            <div className='flex'>
             <HomeButton><span className='text-base'>call us now!</span></HomeButton>
             <a  className='btn-contact ml-8' href='mailto:askus@braininventory.com?subject=Me&body=Hello!'>drop a email</a>
            </div>
 
-          </AnimationOnScroll>
           </div>
          
         </div>

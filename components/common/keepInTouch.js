@@ -1,28 +1,25 @@
 import Image from "next/image";
 import HomeButton from "../buttons/HomeButton";
-import { AnimationOnScroll } from "react-animation-on-scroll";
 
 
 export default function KeepInTouch() {
     return (
                 <div className="2xl:p-10 p-8 2xl:space-y-8 space-y-6">
-            <div className="container">
+            <div className="container padding-left-all-section">
                     
         <div className="mobile-padding grid lg:grid-cols-2 grid-cols-1">
             <div className="flex flex-col space-y-8">
-                <AnimationOnScroll delay={100} animateIn="animate__fadeInUp">
                 <div className="relative h-[100px] w-full lg:w-1/2">
                     <Image src={'/images/keepInTouch.svg'} layout="fill" objectFit="contain"></Image>
                 </div>
-                    </AnimationOnScroll>
-                    <AnimationOnScroll delay={300} animateIn="animate__fadeInUp">
+                  
                 <h2 className="text-heading-1 Gilroy-Bold leading-normal w-4/5">Have an idea? <br /> Get in touch, we’d be <br/> happy to hear from you</h2>
-                    </AnimationOnScroll>
-                    <AnimationOnScroll delay={500} animateIn="animate__fadeInUp">
+                  
+                    
                 <p className="2xl:text-2xl xl:text-xl text-lg Gilroy-Light leading-normal w-4/5">We are always looking out for new collaborations, whether you are a client who is passionate about a project or a talent who is interested in joining our team, our doors are always open.</p>
-                    </AnimationOnScroll>
+                   
             </div>
-            <AnimationOnScroll delay={500} animateIn="animate__fadeInUp">
+           
             <div className="flex lg:justify-end justify-start ">
                 
                 <div className="flex flex-col xl:space-y-8 space-y-6 pt-20 w-full lg:w-4/5">
@@ -36,7 +33,7 @@ export default function KeepInTouch() {
                     <HomeButton><span className="text-xl">Submit</span></HomeButton>
                 </div>
             </div>
-                    </AnimationOnScroll>
+               
             </div>
         </div>
                 </div>

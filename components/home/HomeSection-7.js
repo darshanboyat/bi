@@ -1,6 +1,160 @@
+import { useEffect } from "react";
+// import { Controller, Scene } from "scrollmagic";
 import BigHeadingScroll from "../common/BigHeadingScroll";
+import { gsap } from "gsap";
 
 const HomeSectionSeven = () => {
+  useEffect(() => {
+    var controller = new ScrollMagic.Controller();
+    var tween = gsap.to("#animate2", 1, { x: 800 });
+
+    // build scene
+    var scene = new ScrollMagic.Scene({
+      triggerElement: "#trigger2",
+      duration: 100,
+      offset: 30,
+    })
+      .setTween(tween)
+      // .addIndicators({name: "tween css class"}) // add indicators (requires plugin)
+      .addTo(controller);
+
+    //
+
+    var controller = new ScrollMagic.Controller();
+    var tween = gsap.to("#animate3", 1, { x: 680 });
+
+    // build scene
+    var scene = new ScrollMagic.Scene({
+      triggerElement: "#trigger3",
+      duration: 100,
+      offset: 50,
+    })
+      .setTween(tween)
+      // .addIndicators({name: "tween css class"}) // add indicators (requires plugin)
+      .addTo(controller);
+
+    //
+
+    var controller = new ScrollMagic.Controller();
+    var tween = gsap.to("#animate4", 1, { x: 680 });
+
+    // build scene
+    var scene = new ScrollMagic.Scene({
+      triggerElement: "#trigger4",
+      duration: 150,
+      offset: 70,
+    })
+      .setTween(tween)
+      // .addIndicators({name: "tween css class"}) // add indicators (requires plugin)
+      .addTo(controller);
+
+    //
+
+    var controller = new ScrollMagic.Controller();
+    var tween = gsap.to("#animate5", 1, { x: 1100 });
+
+    // build scene
+    var scene = new ScrollMagic.Scene({
+      triggerElement: "#trigger5",
+      duration: 200,
+      offset: 90,
+    })
+      .setTween(tween)
+      // .addIndicators({name: "tween css class"}) // add indicators (requires plugin)
+      .addTo(controller);
+
+    //
+
+    var controller = new ScrollMagic.Controller();
+    var tween = gsap.to("#animate6", 1, { x: 1100 });
+
+    // build scene
+    var scene = new ScrollMagic.Scene({
+      triggerElement: "#trigger6",
+      duration: 120,
+      offset: 150,
+    })
+      .setTween(tween)
+      // .addIndicators({name: "tween css class"}) // add indicators (requires plugin)
+      .addTo(controller);
+
+    //
+
+    var controller = new ScrollMagic.Controller();
+    var tween = gsap.to("#animate7", 1, { x: 1100 });
+
+    // build scene
+    var scene = new ScrollMagic.Scene({
+      triggerElement: "#trigger7",
+      duration: 150,
+      offset: 180,
+    })
+      .setTween(tween)
+      // .addIndicators({name: "tween css class"}) // add indicators (requires plugin)
+      .addTo(controller);
+
+    //
+
+    var controller = new ScrollMagic.Controller();
+    var tween = gsap.to("#animate8", 1, { x: 1100 });
+
+    // build scene
+    var scene = new ScrollMagic.Scene({
+      triggerElement: "#trigger8",
+      duration: 180,
+      offset: 180,
+    })
+      .setTween(tween)
+      // .addIndicators({name: "tween css class"}) // add indicators (requires plugin)
+      .addTo(controller);
+
+    //
+
+    var controller = new ScrollMagic.Controller();
+    var tween = gsap.to("#animate9", 1, { x: 1100 });
+
+    // build scene
+    var scene = new ScrollMagic.Scene({
+      triggerElement: "#trigger9",
+      duration: 210,
+      offset: 180,
+    })
+      .setTween(tween)
+      // .addIndicators({name: "tween css class"}) // add indicators (requires plugin)
+      .addTo(controller);
+    //
+
+     //
+
+     var controller = new ScrollMagic.Controller();
+     var tween = gsap.to("#animate10", 1, { x: 1100 });
+ 
+     // build scene
+     var scene = new ScrollMagic.Scene({
+       triggerElement: "#trigger10",
+       duration: 250,
+       offset: 180,
+     })
+       .setTween(tween)
+       // .addIndicators({name: "tween css class"}) // add indicators (requires plugin)
+       .addTo(controller);
+     //
+      //
+
+      var controller = new ScrollMagic.Controller();
+      var tween = gsap.to("#animate11", 1, { x: 1100 });
+  
+      // build scene
+      var scene = new ScrollMagic.Scene({
+        triggerElement: "#trigger11",
+        duration: 280,
+        offset: 180,
+      })
+        .setTween(tween)
+        // .addIndicators({name: "tween css class"}) // add indicators (requires plugin)
+        .addTo(controller);
+      //
+  }, []);
   return (
     <div className="">
       <BigHeadingScroll
@@ -21,121 +175,124 @@ const HomeSectionSeven = () => {
         Business <br /> challenges are different. <br /> And that shapes <br />{" "}
         how we work.
       </p> */}
-    <div className="container">
+      <div className="container ">
         <div className="intro 2xl:mt-28 mt-0 lg:mt-20 lg:px-10 2xl:px-0 2xl:py-10 py-8">
-            <span
+          <span className="line1 manifestoLine">
+            <span className="content">
+              <span id="trigger2">There is no singular</span>
+              <span id="animate2" className="mask" />
+            </span>
+          </span>
+          <span
             data-scroll=""
             data-scroll-offset="20%"
             data-scroll-position="top"
             data-scroll-class="manifestoLine"
             className="line1 manifestoLine"
-            >
+          >
             <span className="content">
-                <span>There is no singular</span>
-                <span className="mask" style={{transform: 'translate3d(91%, 0px, 0px)'}} />
+              <span id="trigger3"> process that fits</span>{" "}
+              <span id="animate3" className="mask"></span>
             </span>
-            </span>
-            <span
+          </span>
+          <span
             data-scroll=""
             data-scroll-offset="20%"
             data-scroll-position="top"
             data-scroll-class="manifestoLine"
             className="line1 manifestoLine"
-            >
+          >
             <span className="content">
-                <span> process that fits</span> <span className="mask"></span>
+              <span id="trigger4"> every challenge —</span>{" "}
+              <span id="animate4" className="mask"></span>
             </span>
-            </span>
-            <span
+          </span>
+          <span
             data-scroll=""
             data-scroll-offset="20%"
             data-scroll-position="top"
             data-scroll-class="manifestoLine"
             className="line1 manifestoLine"
-            >
+          >
             <span className="content">
-                <span> every challenge —</span> <span className="mask"></span>
+              <span id="trigger5">there are no silver bullets.</span>{" "}
+              <span id="animate5" className="mask"></span>
             </span>
-            </span>
-            <span
+          </span>
+          <span
             data-scroll=""
             data-scroll-offset="20%"
             data-scroll-position="top"
             data-scroll-class="manifestoLine"
             className="line1 manifestoLine"
-            >
+          >
             <span className="content">
-                <span>there are no silver bullets.</span> <span className="mask"></span>
+              <span id="trigger6"> Organizations are different. </span>{" "}
+              <span id="animate6" className="mask"></span>
             </span>
-            </span>
-            <span
+          </span>
+          <span
             data-scroll=""
             data-scroll-offset="20%"
             data-scroll-position="top"
             data-scroll-class="manifestoLine"
             className="line1 manifestoLine"
-            >
+          >
             <span className="content">
-                <span> Organizations are different. </span> <span className="mask"></span>
+              <span id="trigger7"> People are </span>{" "}
+              <span id="animate7" className="mask"></span>
             </span>
-            </span>
-            <span
+          </span>
+          <span
             data-scroll=""
             data-scroll-offset="20%"
             data-scroll-position="top"
             data-scroll-class="manifestoLine"
             className="line1 manifestoLine"
-            >
+          >
             <span className="content">
-                <span>  People are </span> <span className="mask"></span>
+              <span id="trigger8"> different. Business </span>{" "}
+              <span id="animate8" className="mask"></span>
             </span>
-            </span>
-            <span
+          </span>
+          <span
             data-scroll=""
             data-scroll-offset="20%"
             data-scroll-position="top"
             data-scroll-class="manifestoLine"
             className="line1 manifestoLine"
-            >
+          >
             <span className="content">
-                <span> different. Business </span> <span className="mask"></span>
+              <span id="trigger9"> challenges are different. </span>{" "}
+              <span id="animate9" className="mask"></span>
             </span>
-            </span>
-            <span
+          </span>
+          <span
             data-scroll=""
             data-scroll-offset="20%"
             data-scroll-position="top"
             data-scroll-class="manifestoLine"
             className="line1 manifestoLine"
-            >
+          >
             <span className="content">
-                <span> challenges are different. </span> <span className="mask"></span>
+              <span id="trigger10"> And that shapes </span>{" "}
+              <span id="animate10" className="mask"></span>
             </span>
-            </span>
-            <span
+          </span>
+          <span
             data-scroll=""
             data-scroll-offset="20%"
             data-scroll-position="top"
             data-scroll-class="manifestoLine"
             className="line1 manifestoLine"
-            >
+          >
             <span className="content">
-                <span>  And that shapes </span> <span className="mask"></span>
+              <span id="trigger11"> how we work.</span>{" "}
+              <span id="animate11" className="mask"></span>
             </span>
-            </span>
-            <span
-            data-scroll=""
-            data-scroll-offset="20%"
-            data-scroll-position="top"
-            data-scroll-class="manifestoLine"
-            className="line1 manifestoLine"
-            >
-            <span className="content">
-                <span> how we work.</span> <span className="mask"></span>
-            </span>
-            </span>
+          </span>
         </div>
-    </div>
+      </div>
     </div>
   );
 };

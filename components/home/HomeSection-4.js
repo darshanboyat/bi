@@ -7,6 +7,7 @@ const info = [
             orange: 'Web',
             white: 'Development'
         },
+        video: '/images/WebDevelopment.mp4',
         techList: [
             {
                 name: 'php',
@@ -28,6 +29,7 @@ const info = [
             orange: 'Mobile',
             white: 'Development'
         },
+        video: '/images/AppDevelopment.mp4',
         techList: [
             {
                 name: 'android native',
@@ -49,6 +51,7 @@ const info = [
             orange: 'UI/UX',
             white: 'Design'
         },
+        video: '/images/UIUX.mp4',
         techList: [
             {
                 name: 'product design',
@@ -68,7 +71,7 @@ const info = [
 
 const HomeSectionFour = () => {
     return (
-        <div className="container">
+        <div className="container padding-left-all-section">
         <div className="relative">
             <div className=" w-full snap-y snap-mandatory">
                 <div className="">
@@ -81,7 +84,7 @@ const HomeSectionFour = () => {
                 {
                     info.map((el) => {
                         return (
-                            <Section className='snap-start' key={el.id} info={el}></Section>
+                            <Section className='snap-start' key={el.id} info={el} video={el.video}></Section>
                         )
                     })
                 }
@@ -91,7 +94,7 @@ const HomeSectionFour = () => {
     )
 }
 
-const Section = ({info}) => {
+const Section = ({info,video}) => {
     return (
         <div className="h-[75vh] relative">
             <div className="absolute w-full 2xl:bottom-20 xl:bottom-16 lg:bottom-14 bottom-12 2xl:p-10 p-8  lg:flex items-center justify-between">
@@ -107,7 +110,11 @@ const Section = ({info}) => {
                     <HomeButton>learn more</HomeButton>
                 </div>
                 <div className="w-full lg:w-1/2">
-                    <div className="h-[350px] w-full border border-blue bg-base-blue-2 p-8"></div>
+                    <div className="h-[350px] w-full p-8">
+                                                <video src={video} muted loop controls={false} autoPlay={true} />
+
+                   
+                    </div>
                 </div>
             </div>
         </div>

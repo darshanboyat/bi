@@ -2,10 +2,10 @@ import HomeButton from "../buttons/HomeButton";
 
 const HomeSectionThree = () => {
     return (
-            <div className="container">
+            <div className="container padding-left-all-section">
         <div className=" lg:flex items-start pt-12">
             <div className="w-full p-6 lg:p-10 pr-0 2xl:pb-16 xl:pb-12 pb-10 2xl:space-y-20 xl:space-y-16 space-y-12">
-                <p className="text-heading-2 Gilroy-Bold">work that make you say woww!</p>
+                <p className="text-heading-2 Gilroy-Bold lg:whitespace-nowrap">work that make you say woww!</p>
                 <div className="lg:flex justify-between 2xl:space-y-15 xl:space-y-12 space-y-10">
                     <div className="lg:flex 2xl:space-y-20 xl:space-y-16 space-y-12">
                         <div>
@@ -13,7 +13,9 @@ const HomeSectionThree = () => {
                         <HomeButton>see our concepts</HomeButton>
                         </div>
                         <div className="space-y-0" style={{marginTop: "0"}}>
-                    <img src='/images/HomeSectionThree.png' className="ml-10 w-[1200px]"></img>
+                        <video src="/videos/top-video.mp4" className="w-full" muted loop controls={false} autoPlay={true} />
+
+                    {/* <img src='/images/HomeSectionThree.png' className="ml-10 w-[1200px]"></img> */}
                         </div>
                     </div>
                 </div>

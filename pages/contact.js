@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../components/header/Header';
-import "animate.css/animate.min.css";
+// import "animate.css/animate.min.css";
 import KeepInTouch from '../components/common/keepInTouch';
 import LocateUs from '../components/common/locateUs';
 import LetsKick from '../components/common/LetsKick';

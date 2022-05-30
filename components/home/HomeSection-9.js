@@ -3,19 +3,19 @@ import HomeButton from "../buttons/HomeButton";
 import Image from "next/image";
 
 const HomeSectionNine = () => {
-    useEffect(() => {
-        const parent = document.getElementById('parent')
-        const child = document.getElementById('child')
-        const parentAb = document.getElementById('parent-ab');
-        const childHeight = getComputedStyle(child).height
-        parent.style.height = childHeight;
-        const innerHeight = window.innerHeight;
-        parentAb.style.height = (Number(childHeight.split('px')[0]) - innerHeight) + 'px';
-    }, [])
+    // useEffect(() => {
+    //     const parent = document.getElementById('parent')
+    //     const child = document.getElementById('child')
+    //     const parentAb = document.getElementById('parent-ab');
+    //     const childHeight = getComputedStyle(child).height
+    //     parent.style.height = childHeight;
+    //     const innerHeight = window.innerHeight;
+    //     parentAb.style.height = (Number(childHeight.split('px')[0]) - innerHeight) + 'px';
+    // }, [])
     return (
         <div>
-            <div id='parent' className="relative">
-                <div id='parent-ab' className="absolute top-0 w-full">
+            <div  className="relative">
+                <div className="w-full">
                     <div className="">
                     <div className="sticky top-0 z-20">
                         <div className="absolute w-full top-0 p-10 2xl:space-y-8 xl:space-y-6 space-y-4 h-[75vh] bg-gradient-5">
@@ -24,7 +24,7 @@ const HomeSectionNine = () => {
                             <HomeButton>talk to our experts</HomeButton>
                         </div>
                     </div>
-                    <div id='child' className="overflow-x-hidden relative">
+                    <div className="overflow-x-hidden relative">
                         <div className="h-[25vh]"></div>
                         <Image width={1833} height={1425} src='/images/groupImage.png' />
                         <div className="absolute bottom-0 2xl:h-40 h-28 w-full bg-gradient-6"></div>

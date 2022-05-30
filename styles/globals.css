@@ -149,7 +149,7 @@ html, body {
 .stroke-text:hover {
   -webkit-transition: color .5s ease-out;
   transition: color .5s ease-out;
-  color: #4601a1;
+  color: #FF9100;
 }
 
 .stroke-text-2 {
@@ -305,7 +305,7 @@ padding: 2rem 1rem;
   background: #6302DD38 0% 0% no-repeat padding-box;
    border: 1px solid #6302DD;
 }
-button.btn-apply {
+.btn-apply {
   background: #6302DD 0% 0% no-repeat padding-box;
   height: 55px;
   padding: 0px 2rem;
@@ -436,7 +436,7 @@ font-family: Gilroy-Bold;
 }
 
 .intro .line1 .content {
-  height: 7.6vw;
+  height: 6.5vw;
 }
 
 .intro .line1 .content {
@@ -455,6 +455,7 @@ font-family: Gilroy-Bold;
   height: 115%;
   transform-origin: 100% 50%;
   transform: translateZ(0);
+  transition: all 500ms ease-in;
   opacity: .65;
   background: #000;
 }
@@ -503,4 +504,147 @@ font-family: Gilroy-Bold;
 
 .bg-image-name span{
   padding-left: 1.4rem;
+}
+/* 
+.modal-box
+{
+  max-width: 50rem;
+} */
+
+.hover-animation
+{
+  transition: all 200ms ease-in-out 0s;
+}
+
+.hover-animation:hover{
+  transform: scale(1.2);
+  transition: all 500ms ease-in 0s;
+  -webkit-text-stroke-color: #ff9100;
+}
+/*  */
+html {
+  cursor: url("data:image/svg+xml,%3Csvg height='6' width='6' viewBox='0 0 8 8' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='4' cy='4' fill='%23eee' r='4'/%3E%3C/svg%3E") 3 3, auto;
+}
+.cursor {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: var(--width);
+  height: var(--height);
+  transform: translate(calc(var(--x) - var(--width) / 2), calc(var(--y) - var(--height) / 2));
+  /* transition-duration: 125ms;
+  transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition-property: width, height, transform; */
+  transition: 150ms width cubic-bezier(0.39, 0.575, 0.565, 1),
+              150ms height cubic-bezier(0.39, 0.575, 0.565, 1),
+              150ms transform cubic-bezier(0.39, 0.575, 0.565, 1);
+  z-index: 1;
+  pointer-events: none;
+  will-change: transform;
+}
+@media (pointer: fine) {
+  .cursor {
+    display: block;
+  }
+}
+.cursor::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--radius);
+  border: 2px solid #b55400;
+  opacity: var(--scale);
+  -webkit-transform: scale(var(--scale));
+          transform: scale(var(--scale));
+  transition: 300ms opacity cubic-bezier(0.39, 0.575, 0.565, 1),
+              300ms transform cubic-bezier(0.39, 0.575, 0.565, 1),
+              150ms border-radius cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+
+.bg-purple-theme
+{
+  background-color: #6302DD;
+}
+
+.modal-box::-webkit-scrollbar
+{
+  display: none;
+}
+
+.after-overlay:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 80px;
+  background-image: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0));
+
+}
+
+
+@media(min-width: 1200px)
+{
+  .padding-left-all-section
+  {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+
+.masking {
+  transform: translate3d(100%, 0px, 0px);
+}
+
+.fish{
+  transition: all 200ms ease-in 0s;
+  /* transform: 'translate3d(9%, 0px, 0px)'; */
+}
+
+#animate3
+{
+  transition: all 200ms ease-in 0s;
+
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 2.3rem;
+  top: -8px;
+}
+
+.scroll-logo
+{
+  position: absolute;
+  bottom: 10px;
+  right: 40px;
+}
+.scroll-logo img
+{
+  height: 80px;
+  width: 80px;
+}
+.rotating {
+  animation: rotating 10s linear infinite;
+}
+
+@keyframes rotating { 
+  0%{
+
+    transform:rotate(0deg); 
+  }
+  100% { 
+      transform: rotate(1turn);
+  } 
 }

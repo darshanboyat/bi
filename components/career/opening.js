@@ -1,312 +1,240 @@
 import React, { Component } from "react";
-import { AnimationOnScroll } from "react-animation-on-scroll";
+import { useForm } from "react-hook-form";
+import axios from "axios";
+import { useState } from "react/cjs/react.production.min";
 
 
+
+const OpeningJob = [
+  {
+    JobTitle: "Full Stack Developer",
+    Position: "2",
+    Experience: "1 to 2 Years",
+    // phone: '+918109561401',
+  },
+
+  {
+    JobTitle: "React Developer",
+    Position: "3",
+    Experience: "1 to 4 Years",
+    // phone: '+918109561401',
+  },
+  {
+    JobTitle: "UI Developer",
+    Position: "2",
+    Experience: "1 to 5 Years",
+    // phone: '+918109561401',
+  },
+  {
+    JobTitle: "Mean Stack Developer",
+    Position: "2",
+    Experience: "1 to 5 Years",
+    // phone: '+918109561401',
+  },
+  {
+    JobTitle: "Mern Stack Developer",
+    Position: "2",
+    Experience: "1 to 5 Years",
+    // phone: '+918109561401',
+  },
+  {
+    JobTitle: "Digital Marketing",
+    Position: "2",
+    Experience: "1 to 5 Years",
+    // phone: '+918109561401',
+  },
+];
 function Opening() {
+  const { register, handleSubmit, reset } = useForm();
+  // const [role, setrole] = useState(null);
 
   const sumbitContact = (data) => {
     console.log(data);
-    fetch('/api/career', {
-      method: 'POST',
-      body: JSON.stringify(data)
-    });
-  }
-    return (
-      <div className="2xl:p-10 p-8 2xl:space-y-8 space-y-6">
-        <div className="container">
+    const formData = new FormData();
+    formData.append("firstName", data.firstName);
+    formData.append("lastName", data.lastName);
+    formData.append("doc", data.file[0]);
+    formData.append("email", data.email);
+    formData.append("number", data.number);
+    formData.append("exp", data.exp);
+    formData.append("role", data.role);
+    axios
+      .post("/api/career", formData)
+      .then((resp) => {
+        console.log(resp);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+
+  const roleShowing = (role) => {
+    reset({ role: role });
+  };
+   const collapsed =() =>{
+
+   }
+
+  return (
+    <div className="2xl:p-10 p-8 2xl:space-y-8 space-y-6">
+      <div className="container">
         <div>
-        <AnimationOnScroll delay={100} animateIn="animate__fadeInUp">
           <h2 className="text-6xl Gilroy-Bold ">Current</h2>
-          </AnimationOnScroll>
-          <AnimationOnScroll delay={300} animateIn="animate__fadeInUp">
           <h4 className="openings-title">Openings</h4>
-          </AnimationOnScroll>
         </div>
         <div>
-        <AnimationOnScroll delay={100} animateIn="animate__fadeInUp">
-          <div className="collapse bg-opening mb-6">
-            <input type="checkbox" />
-            <div className="collapse-title text-xl font-medium">
-              <div className="flex justify-between items-center">
-                <div>
-                  <h2 className="text-2xl text-white Gilroy-Bold">
-                    Full Stack Developer
-                  </h2>
+          {OpeningJob.map((el) => {
+            return (
+              <>
+                <div className="collapse bg-opening mb-6">
+                  {/* <input type="checkbox" /> */}
+                  <div className="collapse-title text-xl font-medium">
+                    <div className="flex justify-between items-center">
+                      <div>
+                        <h2 className="text-2xl text-white Gilroy-Bold">
+                          {el.JobTitle}
+                        </h2>
+                      </div>
+                      <div>
+                        <button  onClick={() => collapsed()}  className="btn-details">view details</button>
+                        <label
+                          onClick={() => roleShowing(el.JobTitle)}
+                          for="my-modal"
+                          class="btn-apply inline-block leading-[55px] cursor-pointer modal-button"
+                        >
+                          apply now
+                        </label>
+                        {/* <button className="btn-apply">apply now</button> */}
+                      </div>
+                    </div>
+                    <div className="flex">
+                      <div>
+                        <label className="experiene-label">Experience</label>
+                        <h4>{el.Experience}</h4>
+                      </div>
+                      <div className="ml-5">
+                        <label className="experiene-label">Positions</label>
+                        <h4>{el.Position}</h4>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <button className="btn-details">view details</button>
-                  <button className="btn-apply">apply now</button>
-                </div>
-              </div>
-              <div className="flex">
-                <div>
-                  <label className="experiene-label">Experience</label>
-                  <h4>1 to 4 Years</h4>
-                </div>
-                <div className="ml-5">
-                  <label className="experiene-label">Positions</label>
-                  <h4>5</h4>
-                </div>
-              </div>
-            </div>
-            <div className="collapse-content">
-              <ul className="list-job">
-                <li>Strong organizational and project management skills.</li>
-                <li>
-                  Proficiency with fundamental front end languages such as HTML,
-                  CSS and JavaScript.
-                </li>
-                <li>
-                  Familiarity with JavaScript frameworks such as Angular JS,
-                  React and VueJs.
-                </li>
-                <li>
-                  Proficiency with server side languages such as NodeJs, PHP and
-                  Python.
-                </li>
-                <li>
-                  Familiarity with database technology such as MySQL, Postgres
-                  and MongoDB.
-                </li>
-                <li>Familiarity with web severs such as Apache and NGINX.</li>
-                <li>Excellent verbal communication skills.</li>
-                <li>Good problem solving skills.</li>
-                <li>Ability to project manage.</li>
-                <li>
-                  Ability to communicate in English fluently and idiomatically.
-                </li>
-              </ul>
-            </div>
-          </div>
-          </AnimationOnScroll>
-          <AnimationOnScroll delay={300} animateIn="animate__fadeInUp">
-          <div className="collapse bg-opening mb-6">
-            <input type="checkbox" />
-            <div className="collapse-title text-xl font-medium">
-              <div className="flex justify-between items-center">
-                <div>
-                  <h2 className="text-2xl text-white Gilroy-Bold">
-                    Full Stack Developer
-                  </h2>
-                </div>
-                <div>
-                  <button className="btn-details">view details</button>
-                  <button className="btn-apply">apply now</button>
-                </div>
-              </div>
-              <div className="flex">
-                <div>
-                  <label className="experiene-label">Experience</label>
-                  <h4>1 to 4 Years</h4>
-                </div>
-                <div className="ml-5">
-                  <label className="experiene-label">Positions</label>
-                  <h4>5</h4>
-                </div>
-              </div>
-            </div>
-            <div className="collapse-content">
-              <ul className="list-job">
-                <li>Strong organizational and project management skills.</li>
-                <li>
-                  Proficiency with fundamental front end languages such as HTML,
-                  CSS and JavaScript.
-                </li>
-                <li>
-                  Familiarity with JavaScript frameworks such as Angular JS,
-                  React and VueJs.
-                </li>
-                <li>
-                  Proficiency with server side languages such as NodeJs, PHP and
-                  Python.
-                </li>
-                <li>
-                  Familiarity with database technology such as MySQL, Postgres
-                  and MongoDB.
-                </li>
-                <li>Familiarity with web severs such as Apache and NGINX.</li>
-                <li>Excellent verbal communication skills.</li>
-                <li>Good problem solving skills.</li>
-                <li>Ability to project manage.</li>
-                <li>
-                  Ability to communicate in English fluently and idiomatically.
-                </li>
-              </ul>
-            </div>
-          </div>
-          </AnimationOnScroll>
-          <AnimationOnScroll delay={500} animateIn="animate__fadeInUp">
-          <div className="collapse bg-opening mb-6">
-            <input type="checkbox" />
-            <div className="collapse-title text-xl font-medium">
-              <div className="flex justify-between items-center">
-                <div>
-                  <h2 className="text-2xl text-white Gilroy-Bold">
-                    Full Stack Developer
-                  </h2>
-                </div>
-                <div>
-                  <button className="btn-details">view details</button>
-                  <button className="btn-apply">apply now</button>
-                </div>
-              </div>
-              <div className="flex">
-                <div>
-                  <label className="experiene-label">Experience</label>
-                  <h4>1 to 4 Years</h4>
-                </div>
-                <div className="ml-5">
-                  <label className="experiene-label">Positions</label>
-                  <h4>5</h4>
-                </div>
-              </div>
-            </div>
-            <div className="collapse-content">
-              <ul className="list-job">
-                <li>Strong organizational and project management skills.</li>
-                <li>
-                  Proficiency with fundamental front end languages such as HTML,
-                  CSS and JavaScript.
-                </li>
-                <li>
-                  Familiarity with JavaScript frameworks such as Angular JS,
-                  React and VueJs.
-                </li>
-                <li>
-                  Proficiency with server side languages such as NodeJs, PHP and
-                  Python.
-                </li>
-                <li>
-                  Familiarity with database technology such as MySQL, Postgres
-                  and MongoDB.
-                </li>
-                <li>Familiarity with web severs such as Apache and NGINX.</li>
-                <li>Excellent verbal communication skills.</li>
-                <li>Good problem solving skills.</li>
-                <li>Ability to project manage.</li>
-                <li>
-                  Ability to communicate in English fluently and idiomatically.
-                </li>
-              </ul>
-            </div>
-          </div>
-          </AnimationOnScroll>
-          <AnimationOnScroll delay={700} animateIn="animate__fadeInUp">
-          <div className="collapse bg-opening mb-6">
-            <input type="checkbox" />
-            <div className="collapse-title text-xl font-medium">
-              <div className="flex justify-between items-center">
-                <div>
-                  <h2 className="text-2xl text-white Gilroy-Bold">
-                    Full Stack Developer
-                  </h2>
-                </div>
-                <div>
-                  <button className="btn-details">view details</button>
-                  <button className="btn-apply">apply now</button>
-                </div>
-              </div>
-              <div className="flex">
-                <div>
-                  <label className="experiene-label">Experience</label>
-                  <h4>1 to 4 Years</h4>
-                </div>
-                <div className="ml-5">
-                  <label className="experiene-label">Positions</label>
-                  <h4>5</h4>
-                </div>
-              </div>
-            </div>
-            <div className="collapse-content">
-              <ul className="list-job">
-                <li>Strong organizational and project management skills.</li>
-                <li>
-                  Proficiency with fundamental front end languages such as HTML,
-                  CSS and JavaScript.
-                </li>
-                <li>
-                  Familiarity with JavaScript frameworks such as Angular JS,
-                  React and VueJs.
-                </li>
-                <li>
-                  Proficiency with server side languages such as NodeJs, PHP and
-                  Python.
-                </li>
-                <li>
-                  Familiarity with database technology such as MySQL, Postgres
-                  and MongoDB.
-                </li>
-                <li>Familiarity with web severs such as Apache and NGINX.</li>
-                <li>Excellent verbal communication skills.</li>
-                <li>Good problem solving skills.</li>
-                <li>Ability to project manage.</li>
-                <li>
-                  Ability to communicate in English fluently and idiomatically.
-                </li>
-              </ul>
-            </div>
-          </div>
-          </AnimationOnScroll>
-          <AnimationOnScroll delay={900} animateIn="animate__fadeInUp">
-          <div className="collapse bg-opening mb-6">
-            <input type="checkbox" />
-            <div className="collapse-title text-xl font-medium">
-              <div className="flex justify-between items-center">
-                <div>
-                  <h2 className="text-2xl text-white Gilroy-Bold">
-                    Full Stack Developer
-                  </h2>
-                </div>
-                <div>
-                  <button className="btn-details">view details</button>
-                  <button className="btn-apply">apply now</button>
-                </div>
-              </div>
-              <div className="flex">
-                <div>
-                  <label className="experiene-label">Experience</label>
-                  <h4>1 to 4 Years</h4>
-                </div>
-                <div className="ml-5">
-                  <label className="experiene-label">Positions</label>
-                  <h4>5</h4>
-                </div>
-              </div>
-            </div>
-            <div className="collapse-content">
-              <ul className="list-job">
-                <li>Strong organizational and project management skills.</li>
-                <li>
-                  Proficiency with fundamental front end languages such as HTML,
-                  CSS and JavaScript.
-                </li>
-                <li>
-                  Familiarity with JavaScript frameworks such as Angular JS,
-                  React and VueJs.
-                </li>
-                <li>
-                  Proficiency with server side languages such as NodeJs, PHP and
-                  Python.
-                </li>
-                <li>
-                  Familiarity with database technology such as MySQL, Postgres
-                  and MongoDB.
-                </li>
-                <li>Familiarity with web severs such as Apache and NGINX.</li>
-                <li>Excellent verbal communication skills.</li>
-                <li>Good problem solving skills.</li>
-                <li>Ability to project manage.</li>
-                <li>
-                  Ability to communicate in English fluently and idiomatically.
-                </li>
-              </ul>
-            </div>
-          </div>
-          </AnimationOnScroll>
+              </>
+            );
+          })}
         </div>
+        <input type="checkbox" id="my-modal" class="modal-toggle" />
+        <div class="modal">
+          <form onSubmit={handleSubmit(sumbitContact)}>
+            <div class="modal-box w-full max-w-5xl">
+              <div className="flex justify-end w-full">
+                <label
+                  for="my-modal"
+                  className="bg-black rounded-full w-10 h-10 block text-center leading-[40px] text-xl mt-[-15px] mb-2 text-white"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 relative top-2 left-2 " fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+</svg>
+                </label>
+              </div>
+              <div>
+                <label className="text-black mb-2">Job Title</label>
+
+                <select
+                  {...register("role")}
+                  className="w-full text-black h-12 border focus:outline-0 px-2 mb-4"
+                  required
+                >
+                  {OpeningJob.map((el) => {
+                    return <option value={el.JobTitle}>{el.JobTitle}</option>;
+                  })}
+                </select>
+              </div>
+              <div className="grid grid-cols-2 gap-6">
+                <div>
+                  <label className="text-black mb-2">Firstname</label>
+                  <input
+                    {...register("firstName")}
+                    type="text"
+                    required
+                    className="w-full text-black h-12 border focus:outline-0 px-2 mb-4"
+                    placeholder="Firstname"
+                  />
+                </div>
+                <div>
+                  <label className="text-black mb-2">Lastname</label>
+                  <input
+                    {...register("lastName")}
+                    type="text"
+                    required
+                    className="w-full text-black h-12 border focus:outline-0 px-2 mb-4"
+                    placeholder="Lastname"
+                  />
+                </div>
+              </div>
+              <div className="grid grid-cols-1 gap-6">
+                <div>
+                  <label className="text-black mb-2">Email</label>
+                  <input
+                    {...register("email")}
+                    type="email"
+                    required
+                    className="w-full text-black h-12 border focus:outline-0 px-2 mb-4"
+                    placeholder="Email"
+                  />
+                </div>
+              </div>
+              <div className="grid grid-cols-2 gap-6">
+                <div>
+                  <label className="text-black mb-2">Mobile Number</label>
+                  <input
+                    {...register("number")}
+                    type="number"
+                    required
+                    className="w-full text-black h-12 border focus:outline-0 px-2 mb-4"
+                    placeholder="Number"
+                  />
+                </div>
+              <div className="">
+                <div>
+                  <label className="text-black mb-2">No year of Experience</label>
+                  <input
+                    {...register("exp")}
+                    type="text"
+                    required
+                    className="w-full text-black h-12 border focus:outline-0 px-2 mb-4"
+                    placeholder="Experience"
+                  />
+                </div>
+              </div>
+              </div>
+              <div>
+                <label className="text-black mb-2">Attachment</label>
+                <input
+                  type="file"
+                  {...register("file")}
+                  className="w-full text-black h-12 border focus:outline-0 px-2 mb-4"
+                  required
+                  placeholder="Experience"
+                />
+              </div>
+              <div>
+                <button
+                  type="submit"
+                  className="m-auto text-center block bg-purple-theme h-12 w-40 rounded-lg mt-4"
+                >
+                  Submit
+                </button>
+              </div>
+              {/* <div class="modal-action">
+      <label for="my-modal" class="btn">Yay!</label>
+    </div> */}
+            </div>
+          </form>
         </div>
       </div>
-    );
-  }
+    </div>
+  );
+}
 
 export default Opening;

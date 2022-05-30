@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { AnimationOnScroll } from "react-animation-on-scroll";
+// import { AnimationOnScroll } from "react-animation-on-scroll";
 
 
 class whyWork extends Component {
@@ -12,15 +12,12 @@ class whyWork extends Component {
         <div className='container'>
               <div className="lg:pt-24 lg:pb-24 w-8/12">
                     <div className=''> 
-                    <AnimationOnScroll delay={200} animateIn="animate__fadeInUp">
                       <h2 className='Gilroy-Bold text-6xl text-white'>why work with <br/> brain inventory?</h2>
-          </AnimationOnScroll>
-          <AnimationOnScroll delay={500} animateIn="animate__fadeInUp">
+         
                   <p className='pt-8 text-gray-300 text-base'>
                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                   <p className='pt-8 text-gray-300 text-base'> It was popularised in the 1960s with the release of Letraset sheets containing. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                   </p>
-          </AnimationOnScroll>
                     </div>
                </div>
 

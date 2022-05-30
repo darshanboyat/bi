@@ -1,5 +1,4 @@
 import Image from "next/image"
-import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const locations = [
     {
@@ -24,7 +23,7 @@ const locations = [
         placeName: 'Jordan',
         address: '185 Wasfi Al-Tal Street, Ammon Oasis Complex P.O Box 4724 Amman 11953 Jordan ',
         phone: '+962790961000',
-        image: 'canada.svg'
+        image: 'Jordan.png'
     }
 ]
 
@@ -32,11 +31,9 @@ export default function LocateUs() {
     
     return (
         <div className="2xl:py-32 xl:py-28 py-24 2xl:px-10 lg:px-8 mobile-padding">
-            <div className="container">
+            <div className="container padding-left-all-section">
             <div className="2xl:py-20 py-12 2xl:px-28 lg:px-16 border border-blue bg-base-blue-2 2xl:space-y-8 xl:space-y-6 space-y-4">
-            <AnimationOnScroll delay={100} animateIn="animate__fadeInUp">
                 <h2 className="text-heading-1 Gilroy-Bold mobile-padding">locate us</h2>
-                    </AnimationOnScroll>
                 <div className="lg:grid xl:grid-cols-4 grid-cols-2 2xl:gap-8 gap-4">
                     {
                         locations.map((el) => {
@@ -53,7 +50,6 @@ export default function LocateUs() {
 const Card = ({info}) => {
     return (
         <>
-         <AnimationOnScroll delay={100} animateIn="animate__fadeInUp">
             <div className="grid grid-cols-2 gap-2 mb-6 items-start">
                 <div className="relative place-self-center">
                     <Image src={'/images/' + info.image} width={138} height={167} ></Image>
@@ -64,7 +60,6 @@ const Card = ({info}) => {
                     <p className="2xl:text-base text-sm mt-2">{info.phone}</p>
                 </div>
             </div>
-          </AnimationOnScroll>
         </>
     )
 }
