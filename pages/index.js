@@ -3,19 +3,14 @@ import { useEffect } from 'react';
 import { Scrollbar } from 'smooth-scrollbar-react';
 import Header from '../components/header/Header'
 import HomeSectionTen from '../components/home/HomeSection-10';
-import HomeSectionTwo from '../components/home/HomeSection-2';
 import HomeSectionThree from '../components/home/HomeSection-3';
 import HomeSectionFour from '../components/home/HomeSection-4';
 import HomeSectionFive from '../components/home/HomeSection-5';
 import HomeSectionSix from '../components/home/HomeSection-6';
 import HomeSectionSeven from '../components/home/HomeSection-7';
 import HomeSectionEight from '../components/home/HomeSection-8';
-import HomeSectionNine from '../components/home/HomeSection-9';
 import HomeSectionOne from '../components/home/HomeSection-1';
 import HomeSectionEleven from '../components/home/HomeSection-11';
-import HomeSectionTwelwe from '../components/home/HomeSection-12';
-import BlogsArticles from '../components/common/BlogsArticles';
-import BigHeadingScroll from '../components/common/BigHeadingScroll';
 import KeepInTouch from '../components/common/keepInTouch';
 import LocateUs from '../components/common/locateUs';
 import LetsKick from '../components/common/LetsKick';
@@ -87,7 +82,6 @@ export default function Home() {
             <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
           </Head>
-          <div class="cursor"></div>
 
           <Header></Header>
           <HomeSectionOne></HomeSectionOne>
