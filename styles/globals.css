@@ -635,6 +635,15 @@ html {
   height: 80px;
   width: 80px;
 }
+
+#navbar {
+  transition: all 0.5s;
+}
+
+.scrollUp {
+  transform: translateY(-100px);
+}
+
 .rotating {
   animation: rotating 10s linear infinite;
 }
