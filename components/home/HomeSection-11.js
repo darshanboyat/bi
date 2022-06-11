@@ -3,7 +3,7 @@ import Image from "next/image";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const logos = [
-    'logo1', 'logo2', 'logo3', 'logo4', 'logo5', 'logo6', 'logo7', 'logo8'
+    'logo8', 'logo7', 'logo3', 'logo5', 'logo4', 'logo1', 'logo6', 'logo2'
 ]
 
 const HomeSectionEleven = () => {
@@ -16,13 +16,11 @@ const HomeSectionEleven = () => {
             <div className="grid xl:grid-cols-4 md:grid-cols-3 grid-cols-2 2xl:gap-20 xl:gap-12 gap-12">
                 {
                     logos.map((el) => (
-                        <div key={el} className="border border-blue 2xl:h-60 xl:h-52 lg:h-48 h-36 2xl:p-12 lg:p-10 p-4">
+                        <div key={el} className="border border-blue 2xl:h-52 xl:h-52 lg:h-48 h-36 2xl:p-12 lg:p-10 p-4">
                             <div className="relative h-full">
                                 <Image src={'/images/' + el+'.svg'} layout='fill'></Image>
                             </div>
                         </div>
-            
-            
                     ))
                 }
             </div>

@@ -648,3 +648,17 @@ html {
       transform: rotate(1turn);
   } 
 }
+
+.text-stroke-forte
+{
+  transition: color .5s ease;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 0.5px;
+  color: transparent;
+  font-size: 2rem;
+}
+
+.text-stroke-forte:hover
+{
+  color: #FF9100;
+}

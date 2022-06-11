@@ -11,44 +11,44 @@ const HomeSectionFive = () => {
           
                 <div className="relative ">
                    <img src='/images/forte-1.png' className="w-full"></img>
-                   <div className="after-overlay">
-                      <h1 className="Gilroy-Bold absolute bottom-4 left-4 text-white text-lg">NFT</h1>
+                   <div className="mt-2">
+                      <h1 className="Gilroy-Bold text-white text-xl text-stroke-forte">NFT</h1>
                    </div>
                 </div>
          
         
                 <div className="relative ">
-                <img src='/images/forte-2.png' className="w-full"></img>
-                <div className="after-overlay">
-                <h1 className="Gilroy-Bold absolute bottom-4 left-4 text-white text-lg">Blockchain</h1>
-                   </div>
-                </div>
-         
-                <div className="relative">
-                <img src='/images/forte-3.png' className="w-full"></img>
-                <div className="after-overlay">
-                <h1 className="Gilroy-Bold absolute bottom-4 left-4 text-white text-lg">Metaverse</h1>
-                   </div>
-                </div>
-         
-                <div className="relative">
-                <img src='/images/forte-4.png' className="w-full"></img>
-                <div className="after-overlay">
-                <h1 className="Gilroy-Bold absolute bottom-4 left-4 text-white text-lg">Sports Betting Solutions</h1>
+                <img src='/images/forte-6.png' className="w-full"></img>
+                <div className="mt-2">
+                <h1 className="Gilroy-Bold text-white text-xl text-stroke-forte">Blockchain</h1>
                    </div>
                 </div>
          
                 <div className="relative">
                 <img src='/images/forte-5.png' className="w-full"></img>
-                <div className="after-overlay">
-                <h1 className="Gilroy-Bold absolute bottom-4 left-4 text-white text-lg">Custom Social Networks</h1>
+                <div className="mt-2">
+                <h1 className="Gilroy-Bold text-white text-xl text-stroke-forte">Metaverse</h1>
                    </div>
                 </div>
          
                 <div className="relative">
-                <img src='/images/forte-6.png' className="w-full"></img>
-                <div className="after-overlay">
-                <h1 className="Gilroy-Bold absolute bottom-4 left-4 text-white text-lg">elearning & LMS</h1>
+                <img src='/images/forte-3.png' className="w-full"></img>
+                <div className="mt-2">
+                <h1 className="Gilroy-Bold text-white text-xl text-stroke-forte">Sports Betting Solutions</h1>
+                   </div>
+                </div>
+         
+                <div className="relative">
+                <img src='/images/forte-4.png' className="w-full"></img>
+                <div className="mt-2">
+                <h1 className="Gilroy-Bold text-white text-xl text-stroke-forte">Custom Social Networks</h1>
+                   </div>
+                </div>
+         
+                <div className="relative">
+                <img src='/images/forte-2.png' className="w-full"></img>
+                <div className="mt-2">
+                <h1 className="Gilroy-Bold text-white text-xl text-stroke-forte">elearning & LMS</h1>
                    </div>
                 </div>
          

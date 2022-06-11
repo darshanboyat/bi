@@ -13,14 +13,14 @@ const HomeSectionThree = () => {
                         <HomeButton>see our concepts</HomeButton>
                         </div>
                         <div className="space-y-0" style={{marginTop: "0"}}>
-                        <video src="/videos/top-video.mp4" className="w-full" muted loop controls={false} autoPlay={true} />
+                        <video src="/videos/squen.mp4" className="w-full" muted loop controls={false} autoPlay={true} />
 
                     {/* <img src='/images/HomeSectionThree.png' className="ml-10 w-[1200px]"></img> */}
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="w-[80%] lg:grid grid-cols-2 2xl:gap-16 xl:gap-10 gap-10 2xl:p-16 xl:p-14 p-6 lg:p-12 pb-16 2xl:h-[85%] h-[90%]">
+            <div className="w-[80%] lg:grid grid-cols-2 2xl:gap-4 xl:gap-4 gap-4 2xl:py-4 xl:py-14 py-6 lg:py-12 pb-16 2xl:h-[85%] h-[90%]">
                 <Box title='focus' textColor='black' color='orange' summary='We always have our eye on the prize'></Box>
                 <Box title='passion' color='blue' summary='We love to develop amazing stuff.'></Box>
                 <Box title='creativity' color='blue' summary='We all are about the creative vision.'></Box>
