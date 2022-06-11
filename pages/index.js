@@ -5,7 +5,7 @@ import HomeSectionThree from '../components/home/HomeSection-3';
 import HomeSectionFour from '../components/home/HomeSection-4';
 import HomeSectionFive from '../components/home/HomeSection-5';
 import HomeSectionSix from '../components/home/HomeSection-6';
-import HomeSectionSeven from '../components/home/HomeSection-7';
+// import HomeSectionSeven from '../components/home/HomeSection-7';
 import HomeSectionEight from '../components/home/HomeSection-8';
 import HomeSectionOne from '../components/home/HomeSection-1';
 import HomeSectionEleven from '../components/home/HomeSection-11';
@@ -34,7 +34,7 @@ export default function Home() {
           <HomeSectionFour></HomeSectionFour>
           <HomeSectionFive></HomeSectionFive>
           <HomeSectionSix></HomeSectionSix>
-          <HomeSectionSeven></HomeSectionSeven>
+          {/* <HomeSectionSeven></HomeSectionSeven> */}
           <HomeSectionEight></HomeSectionEight>
           {/* <HomeSectionNine></HomeSectionNine> */}
           <HomeSectionTen></HomeSectionTen>
