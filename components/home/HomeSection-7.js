@@ -160,7 +160,7 @@ const HomeSectionSeven = () => {
       <BigHeadingScroll
         text={"Design interaction betweens humans and brands."}
       />
-      <div className="container">
+      <div className="container md:px-0 px-7">
         <p className="2xl:text-4xl xl:text-3xl text-2xl Gilroy-Light 2xl:leading-relaxed 2xl:px-0 lg:px-10 2xl:py-10">
           at development, we go beyond boundaries in everything we do. by
           constantly pushing limits and exploring new territory, we help
@@ -175,7 +175,7 @@ const HomeSectionSeven = () => {
         Business <br /> challenges are different. <br /> And that shapes <br />{" "}
         how we work.
       </p> */}
-      <div className="container ">
+      <div className="container md:px-0 px-7 ">
         <div className="intro 2xl:mt-28 mt-0 lg:mt-20 lg:px-10 2xl:px-0 2xl:py-10 py-8">
           <span className="line1 manifestoLine">
             <span className="content">

@@ -12,15 +12,15 @@ const HomeSectionThree = () => {
                         <p className="text-heading-4 leading-loose mb-4">Namaste! here you can discover who we are, how we work and what we love. We approach all our projects with our 4 core values:</p>
                         <HomeButton>see our concepts</HomeButton>
                         </div>
-                        <div className="space-y-0" style={{marginTop: "0"}}>
-                        <video src="/videos/squen.mp4" className="w-full" muted loop controls={false} autoPlay={true} />
+                        <div className="md:space-y-0 mt-0" style={{marginTop: '0px'}}>
+                        <video src="/videos/squen.mp4" className="md:w-full w-[94%]" muted loop controls={false} autoPlay={true} />
 
                     {/* <img src='/images/HomeSectionThree.png' className="ml-10 w-[1200px]"></img> */}
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="w-[80%] lg:grid grid-cols-2 2xl:gap-4 xl:gap-4 gap-4 2xl:py-4 xl:py-14 py-6 lg:py-12 pb-16 2xl:h-[85%] h-[90%]">
+            <div className="md:w-[80%] w-full lg:grid grid-cols-2 2xl:gap-4 xl:gap-4 gap-4 2xl:py-4 xl:py-14 py-6 lg:py-12 pb-16 2xl:h-[85%] h-[90%]">
                 <Box title='focus' textColor='black' color='orange' summary='We always have our eye on the prize'></Box>
                 <Box title='passion' color='blue' summary='We love to develop amazing stuff.'></Box>
                 <Box title='creativity' color='blue' summary='We all are about the creative vision.'></Box>
@@ -32,8 +32,8 @@ const HomeSectionThree = () => {
 }
 
 const Box = ({title, summary, color, textColor}) => (
-    <div className={'bg-base-'+color+'-1'+' 2xl:p-8 xl:p-6 p-4 h-48 mb-4 lg:h-[16.8rem] overflow-x-hidden relative group' + ' text-'+ textColor}>
-        <p className="2xl:text-7xl xl:text-7xl text-6xl Gilroy-Bold stroke-text-2 translate-x-28 group-hover:-translate-x-full transition-transform ease-linear duration-[4000ms]">{title}</p>
+    <div className={'bg-base-'+color+'-1'+' 2xl:p-8 xl:p-6 p-4 h-48 mb-4 lg:h-[18rem] 3xl:h-[16rem] overflow-x-hidden relative group' + ' text-'+ textColor}>
+        <p className="2xl:text-7xl xl:text-7xl text-6xl Gilroy-Bold stroke-text-2 md:translate-x-28 translate-x-18 group-hover:-translate-x-full transition-transform ease-linear duration-[4000ms]">{title}</p>
         <div className= "absolute xl:bottom-5 bottom-3 pr-8">
             <p className="uppercase 2xl:text-3xl xl:text-2xl text-xl 2xl:mb-4 mb-2 Gilroy-SemiBold">{title}</p>
             <p className="xl:text-lg text-base Gilroy-Light">{summary}</p>
