@@ -443,6 +443,15 @@ font-family: Gilroy-Bold;
   height: 6.5vw;
 }
 
+@media screen and  (max-width:600px) {
+  .intro .line1 .content {
+    height: auto;
+    line-height:1.1;
+    font-size: 45px;
+
+  }
+}
+
 .intro .line1 .content {
   display: inline-flex;
   align-content: center;
