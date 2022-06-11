@@ -87,7 +87,7 @@ function Opening() {
           {OpeningJob.map((el) => {
             return (
               <>
-                <div id={el.JobTitle} className="collapse bg-opening mb-6">
+                <div key={item.id} id={el.JobTitle} className="collapse bg-opening mb-6">
                   <div className="collapse-title text-xl font-medium">
                     <div className="md:flex block justify-between items-center">
                       <div>
@@ -141,8 +141,8 @@ function Opening() {
             );
           })}
         </div>
-        <input type="checkbox" id="my-modal" class="modal-toggle" />
-        <div class="modal">
+        <input type="checkbox" id="my-modal" className="modal-toggle" />
+        <div className="modal">
           <form onSubmit={handleSubmit(sumbitContact)}>
             <div className="modal-box w-full max-w-5xl">
               <div className="flex justify-between w-full items-center mb-4">
