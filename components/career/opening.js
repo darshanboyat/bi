@@ -162,7 +162,7 @@ function Opening() {
                   required
                 >
                   {OpeningJob.map((el) => {
-                    return <option value={el.JobTitle}>{el.JobTitle}</option>;
+                    return <option key={el.JobTitle} value={el.JobTitle}>{el.JobTitle}</option>;
                   })}
                 </select>
               </div>
