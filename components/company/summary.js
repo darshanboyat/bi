@@ -12,5 +12,4 @@ function summary(props) {
         </div>
     );
 }
-
 export default summary;

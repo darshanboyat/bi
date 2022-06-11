@@ -680,3 +680,37 @@ html {
 {
   color: rgba(255,255,255,0.5);
 }
+.hover-image-animation 
+{
+  overflow: hidden;
+}
+.hover-image-animation img
+{
+  transition: all 500ms ease 0s;
+  overflow: hidden;
+}
+
+.hover-image-animation:hover .text-stroke-forte
+{
+  color: #FF9100;
+}
+
+.hover-image-animation:hover img
+{
+   transform: scale(1.1);
+}
+
+/* .bg-yellow-h
+{
+  background-color: #FF9100;
+
+} */
+.hover-bg-yellow-h
+{
+  transition: all 500ms ease 0s;
+}
+
+.hover-bg-yellow-h:hover .color-hover
+{
+  background-color: #FF9100;
+}

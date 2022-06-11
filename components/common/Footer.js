@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useState } from "react";
 
 const FooterSections = [
     {
@@ -160,6 +161,7 @@ const FooterSections = [
 
     {
         title: 'Portfolio',
+        className: 'col-span-2',
         links: [
             {
                 name: 'Numetric - Online Accounting Software similar to QuickBooks',
@@ -238,6 +240,10 @@ const FooterSections = [
     },
  
 ]
+// const [addClick, setaddClick] = useState('');
+const viewMore = () =>{
+    alert('test');
+}
 
 export default function Footer() {
     return (
@@ -248,7 +254,7 @@ export default function Footer() {
                 {
                     FooterSections.map((section, index) => {
                         return (
-                            <div key={index} className="col-span-1">
+                            <div key={index} className={section.className? section.className:'col-span-1'   }>
                                 <h3 className="text-xl Gilroy-Bold mb-4">{section.title}</h3>
                                 <ul className="space-y-2">
                                     {
@@ -260,16 +266,23 @@ export default function Footer() {
                                     }
                                 </ul>
                             </div>
+                          
+                            
                         )
                     })
                 }
             </div>
+                {/* <div>
+                     <button onClick={() => viewMore}>
+                         View More
+                     </button>
+                </div> */}
             <div className="flex flex-col md:flex-row md:items-center py-16 space-y-6 md:space-y-0">
                     {/* <div className="relative h-28">
                         <Image src={'/images/logo.svg'} width={300} height={150}></Image>
                     </div> */}
                     <div>
-                        <ul className="text-sm space-x-2">
+                        <ul className="text-sm space-x-6">
                             <li className="inline-flex items-center align-middle">
                                 <img src="/images/footer-firm1.png" />
                             </li>

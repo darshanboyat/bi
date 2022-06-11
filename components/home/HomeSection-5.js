@@ -9,44 +9,56 @@ const HomeSectionFive = () => {
          
             <div className="grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 2xl:gap-20 gap-8 flex-1">
           
-                <div className="relative ">
+                <div className="relative">
+                  <div className="hover-image-animation cursor-pointer">
                    <img src='/images/forte-1.png' className="w-full"></img>
+                  </div>
                    <div className="mt-2">
                       <h1 className="Gilroy-Bold text-white text-xl text-stroke-forte">NFT</h1>
                    </div>
                 </div>
          
         
-                <div className="relative ">
+                <div className="relative hover-image-animation">
+                <div className="hover-image-animation cursor-pointer">
                 <img src='/images/forte-6.png' className="w-full"></img>
+                  </div>
                 <div className="mt-2">
                 <h1 className="Gilroy-Bold text-white text-xl text-stroke-forte">Blockchain</h1>
                    </div>
                 </div>
          
-                <div className="relative">
+                <div className="relative hover-image-animation">
+                <div className="hover-image-animation cursor-pointer">
                 <img src='/images/forte-5.png' className="w-full"></img>
+                  </div>
                 <div className="mt-2">
                 <h1 className="Gilroy-Bold text-white text-xl text-stroke-forte">Metaverse</h1>
                    </div>
                 </div>
          
-                <div className="relative">
+                <div className="relative hover-image-animation">
+                <div className="hover-image-animation cursor-pointer">
                 <img src='/images/forte-3.png' className="w-full"></img>
+                  </div>
                 <div className="mt-2">
                 <h1 className="Gilroy-Bold text-white text-xl text-stroke-forte">Sports Betting Solutions</h1>
                    </div>
                 </div>
          
-                <div className="relative">
+                <div className="relative hover-image-animation">
+                <div className="hover-image-animation cursor-pointer">
                 <img src='/images/forte-4.png' className="w-full"></img>
+                  </div>
                 <div className="mt-2">
                 <h1 className="Gilroy-Bold text-white text-xl text-stroke-forte">Custom Social Networks</h1>
                    </div>
                 </div>
          
-                <div className="relative">
+                <div className="relative hover-image-animation">
+                <div className="hover-image-animation cursor-pointer">
                 <img src='/images/forte-2.png' className="w-full"></img>
+                  </div>
                 <div className="mt-2">
                 <h1 className="Gilroy-Bold text-white text-xl text-stroke-forte">elearning & LMS</h1>
                    </div>

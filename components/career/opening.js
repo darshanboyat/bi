@@ -71,8 +71,9 @@ function Opening() {
   const roleShowing = (role) => {
     reset({ role: role });
   };
-   const collapsed =() =>{
-
+   const collapsed =(id) =>{
+    const element = document.getElementById(id);
+    element.classList.toggle('collapse-open');
    }
 
   return (
@@ -86,8 +87,7 @@ function Opening() {
           {OpeningJob.map((el) => {
             return (
               <>
-                <div className="collapse bg-opening mb-6">
-                  {/* <input type="checkbox" /> */}
+                <div id={el.JobTitle} className="collapse bg-opening mb-6">
                   <div className="collapse-title text-xl font-medium">
                     <div className="flex justify-between items-center">
                       <div>
@@ -96,7 +96,7 @@ function Opening() {
                         </h2>
                       </div>
                       <div>
-                        <button  onClick={() => collapsed()}  className="btn-details">view details</button>
+                        <button  onClick={() => collapsed(el.JobTitle)}  className="btn-details">view details</button>
                         <label
                           htmlFor="my-modal"
                           onClick={() => roleShowing(el.JobTitle)}
@@ -107,14 +107,33 @@ function Opening() {
                       </div>
                     </div>
                     <div className="flex">
-                      <div>
-                        <label className="experiene-label">Experience</label>
-                        <h4>{el.Experience}</h4>
-                      </div>
-                      <div className="ml-5">
-                        <label className="experiene-label">Positions</label>
-                        <h4>{el.Position}</h4>
-                      </div>
+                    <div>
+                      <label className="experiene-label">Experience</label>
+                      <h4>{el.Experience}</h4>
+                    </div>
+                    <div className="ml-5">
+                      <label className="experiene-label">Positions</label>
+                      <h4>{el.Position}</h4>
+                    </div>
+                    </div>
+                  </div>
+                  <div className="collapse-content flex"> 
+                    <div>
+                          <p>Skills: React.js, Redux, Angular.js, Node.js, javascript, jquery, mongoDB, Express.js, 
+                          Loopback.js, GitLab, GitHub, Bitbucket, ESLint, JSLint, Karma, Istanbul, Jenkins, Strider, unit 
+                          tests (Jasmine/Mocha), integration tests, Flux, JSON, HTML, CSS, JSX, ES6, Babel, Webpack, 
+                          NPM</p>
+                          <h2 className="text-2xl my-4">Description</h2>
+                       <ul>
+                          <li>In-depth understanding of the entire web development process (design, development and deployment)</li>
+                          <li>Experience building complex web application.</li>
+                          <li>Hands on experience with programming stacks like MEAN, MERN, LAMP</li>
+                          <li>Should have good knowledge on build tools like Maven, NPM, and NODEJS.</li>
+                          <li>Working knowledge of Agile/SCRUM development methodologies and best practices. </li>
+                       </ul>
+                    </div> 
+                    <div>
+                     
                     </div>
                   </div>
                 </div>

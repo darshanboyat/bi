@@ -18,62 +18,112 @@ const Header = () => {
       : document.getElementById("sidenav").classList.add("-translate-y-full");
   }, [navOpen]);
 
-
   useEffect(() => {
     let prevScrollpos = window.pageYOffset;
     window.onscroll = () => {
       const currentScrollPos = window.pageYOffset;
       if (window.pageYOffset > 50) {
         if (prevScrollpos > currentScrollPos) {
-          document.getElementById('navbar').classList.remove('scrollUp');
+          document.getElementById("navbar").classList.remove("scrollUp");
         } else {
-          document.getElementById('navbar').classList.add('scrollUp');
+          document.getElementById("navbar").classList.add("scrollUp");
         }
         prevScrollpos = currentScrollPos;
       }
     };
-  }, [])
+  }, []);
 
   return (
     <>
-      <nav >
-        <div id='navbar' className="fixed top-0 flex justify-between items-center w-full py-3 px-3  lg:py-10 lg:px-8 z-50">
-          <span className="text-4xl Gilroy-Bold z-30">
-            {!navOpen && (
-              <div className="relative w-36 h-12">
-                <Image src={"/images/" + "Logobg.png"} layout="fill" />
-              </div>
-            )}
-          </span>
+      <nav>
+        <div
+          id="navbar"
+          className="fixed top-0 flex justify-between items-center w-full py-3 px-3  lg:py-10 lg:px-8 z-50"
+        >
+          <a href="/">
+            <span className="text-4xl Gilroy-Bold z-30">
+              {!navOpen && (
+                <div className="relative w-36 h-12">
+                  <Image src={"/images/" + "Logobg.png"} layout="fill" />
+                </div>
+              )}
+            </span>
+          </a>
           <div className="dropdown dropdown-hover">
-            <label className="btn bg-transparent outline-none border-0 hover:bg-transparent  m-1">
-              <div className="flex justify-between align-middle items-center bg-case-blue-request h-14 z-[100]">     
-              <p className="px-4 text-xs">Request A Quote</p>
-              <span
-                onClick={() => {}}
-                className="bg-base-blue-1 items-center  h-14 px-4 text-white"
-              >
-            
-                
-<svg xmlns="http://www.w3.org/2000/svg"   className="h-4 w-4 relative top-5" width="15.5" height="11.5" viewBox="0 0 15.5 11.5">
-  <g id="Group_3668" data-name="Group 3668" transform="translate(-1821.75 -41.75)">
-    <line id="Line_181" data-name="Line 181" x2="14" transform="translate(1822.5 42.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
-    <line id="Line_182" data-name="Line 182" x2="8.326" transform="translate(1822.5 47.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
-    <line id="Line_226" data-name="Line 226" x2="14" transform="translate(1822.5 52.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1.5"/>
-  </g>
-</svg>
-
-              </span>
+            <label className="btn bg-transparent outline-none border-0 hover:bg-transparent m-1">
+              <div className="flex justify-between align-middle items-center bg-case-blue-request h-11 z-[100]">
+                <p className="px-4 text-xs Gilroy-Light lowercase">
+                  <a href="/contact">
+                   request A Quote
+                  </a>
+                </p>
+                <span
+                 
+                  className="bg-base-blue-1 items-center h-11 px-4 text-white"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-4 w-4 relative top-3"
+                    width="15.5"
+                    height="11.5"
+                    viewBox="0 0 15.5 11.5"
+                  >
+                    <g
+                      id="Group_3668"
+                      data-name="Group 3668"
+                      transform="translate(-1821.75 -41.75)"
+                    >
+                      <line
+                        id="Line_181"
+                        data-name="Line 181"
+                        x2="14"
+                        transform="translate(1822.5 42.5)"
+                        fill="none"
+                        stroke="#fff"
+                        stroke-linecap="round"
+                        stroke-width="1.5"
+                      />
+                      <line
+                        id="Line_182"
+                        data-name="Line 182"
+                        x2="8.326"
+                        transform="translate(1822.5 47.5)"
+                        fill="none"
+                        stroke="#fff"
+                        stroke-linecap="round"
+                        stroke-width="1.5"
+                      />
+                      <line
+                        id="Line_226"
+                        data-name="Line 226"
+                        x2="14"
+                        transform="translate(1822.5 52.5)"
+                        fill="none"
+                        stroke="#fff"
+                        stroke-linecap="round"
+                        stroke-width="1.5"
+                      />
+                    </g>
+                  </svg>
+                </span>
               </div>
             </label>
-            <ul
-              className="dropdown-content mt-2 ml-5 bg-base-blue-1 p-2 shadow bg-base-100 w-[185px]"
-            >
+            <ul className="dropdown-content mt-0 ml-5 bg-base-blue-1 p-2 shadow bg-base-100 w-[168px]">
               <li className="py-1 hover:bg-case-blue-request">
-                <a className="text-white cursor-pointer hover:bg-case-blue-request">Contact</a>
+                <a
+                  href="/contact"
+                  className="text-white cursor-pointer hover:bg-case-blue-request"
+                >
+                  Contact
+                </a>
               </li>
-              <li className="pt-2 py-1 hover:bg-case-blue-request">
-                <a className="text-white cursor-pointer hover:bg-case-blue-request">Career</a>
+              <li className="pt-2 py-1 block hover:bg-case-blue-request">
+                <a
+                  href="/carrer"
+                  className="text-white block cursor-pointer hover:bg-case-blue-request"
+                >
+                  Career
+                </a>
               </li>
             </ul>
           </div>
