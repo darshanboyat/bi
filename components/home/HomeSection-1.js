@@ -22,7 +22,7 @@ const HomeSectionOne = () => {
         </div>
         <div className='md:w-[60%] w-full  md:h-full mt-14 md:mt-0'>
           <div className="3xl:py-10 2xl:py-6 xl:py-6 2xl:px-14 xl:px-12 px-10 ">
-          <video src="/videos/FinalVideo.mp4" className="relative md:top-18 top-0"  muted loop controls={false} autoPlay={true} />
+          <video src="/videos/FinalVideo.mp4" className="relative md:top-[3rem] top-0"  muted loop controls={false} autoPlay={true} />
           </div>
         </div>
 

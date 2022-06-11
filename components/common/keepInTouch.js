@@ -32,10 +32,10 @@ export default function KeepInTouch() {
            
             <div className="flex lg:justify-end justify-start ">
                 
-                <div className="flex flex-col xl:space-y-8 space-y-6 pt-20 w-full lg:w-4/5">
+                <div className="flex flex-col xl:space-y-8 space-y-6 w-full">
                     
             <form onSubmit={handleSubmit(sumbitContact)}>
-              <div className="flex flex-col xl:space-y-8 pt-8 space-y-6 lg:w-4/5">
+              <div className="flex flex-col xl:space-y-8 pt-8 space-y-6">
                 <input
                   {...register("name")}
                   type="text"
@@ -46,7 +46,7 @@ export default function KeepInTouch() {
                   <input
                     {...register("email")}
                     type="email"
-                    className="bg-transparent p-4 focus:outline-none border border-[#ffffff67] flex-1 placeholder-[#ffffffd7]"
+                   className="bg-transparent p-4 focus:outline-none border border-[#ffffff67] flex-1 placeholder-[#ffffffd7]"
                     placeholder="Obviously, an email"
                   ></input>
                   <input
