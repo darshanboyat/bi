@@ -14,8 +14,7 @@ const HomeSectionTen = () => {
                         <CounterBox counterInfo={{count: '50', message: 'Happy Clients'}}></CounterBox>
                     </div>
                
-                    <ProjectBox info={{name: 'Numetric Software', video: '', summary: 'UI/UX Design. Mobile & Web App Development.'}}></ProjectBox>
-               
+                    <ProjectBox info={{name: 'Numetric.Work', images: '/images/numetrics.png', summary: 'Numetric-Online Accounting Software similar to QuickBooks'}}></ProjectBox>
                     <div className="w-[30vw] h-[30vw] lg:mx-auto rounded-full border border-[#ffffff86] flex items-center">
                         <span className="w-[28vw] h-[28vw] mx-auto rounded-full border border-[#ffffffc2] flex items-center">
                             <span className="w-[26vw] h-[26vw] mx-auto rounded-full border"></span>
@@ -27,16 +26,15 @@ const HomeSectionTen = () => {
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                         </svg>
                     </div>
-               
                 </div>
                 <div className="lg:space-y-8 space-y-6 flex-1">
                     <div className="lg:h-40 h-10"></div>
                     <div className="stroke-text Gilroy-Bold 2xl:text-9xl lg:text-8xl text-7xl">dribble</div>
                     <div className="stroke-text Gilroy-Bold 2xl:text-9xl lg:text-8xl text-7xl">behance</div>
                
-                    <ProjectBox info={{name: 'Skedy Software', summary: 'UI/UX Design. Mobile & Web App Development.'}}></ProjectBox>
+                    <ProjectBox info={{name: 'Our Premium Down', images:'/images/nft-port.png', summary: 'Mint, Sell & Buy NFTs inspired by open Sea'}}></ProjectBox>
                
-                    <ProjectBox info={{name: 'Revolution Travel CRM', summary: 'UI/UX Design. Mobile & Web App Development.'}}></ProjectBox>
+                    <ProjectBox info={{name: 'Skedy', images: '/images/Skedy.png', summary: 'School/Institution Management Solution'}}></ProjectBox>
                
                 </div>
             </div>
@@ -56,10 +54,9 @@ const CounterBox = ({counterInfo}) => {
 
 const ProjectBox = ({info}) => {
     return (
-        <div className="xl:space-y-12 lg:space-y-10 space-y-8">
-            <div className="min-h-[350px] h-[30vw] lg:w-full w-[30vw] min-w-[350px] border">
-             {/* <img src='/images/HomeSectionThree.png' className="ml-10 w-[1200px]"></img> */}
-
+        <div className="xl:space-y-6 lg:space-y-6 space-y-8">
+            <div className="min-h-[350px] h-[4]25px lg:w-full w-[30vw] min-w-[350px]">
+             <img src={info.images} className="w-[1000px]"></img>
             </div>
             <div>
                 <h2 className="Gilroy-Bold 2xl:text-5xl xl:text-4xl text-3xl">{info.name}</h2>

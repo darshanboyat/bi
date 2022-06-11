@@ -70,6 +70,10 @@ html, body {
   background-color: var(--base-blue-1);
 }
 
+.bg-case-blue-request
+{
+  background-color: #6302dd;
+}
 .bg-base-blue-2 {
   background-color: var(--base-blue-2);
 }
@@ -628,7 +632,7 @@ html {
 {
   position: absolute;
   bottom: 10px;
-  right: 40px;
+  left: 40px;
 }
 .scroll-logo img
 {
@@ -670,4 +674,9 @@ html {
 .text-stroke-forte:hover
 {
   color: #FF9100;
+}
+
+.color-gray
+{
+  color: rgba(255,255,255,0.5);
 }

@@ -2,6 +2,73 @@ import Image from "next/image";
 
 const FooterSections = [
     {
+        title: 'About',
+        links: [
+          
+            {
+                name: 'Our Company',
+                path: '',
+            },
+            {
+                name: 'How we work',
+                path: '',
+            },
+            {
+                name: 'Careers',
+                path: '',
+            },
+            {
+                name: 'Blog',
+                path: ''
+            },
+            {
+                name: 'Contact Us',
+                path: ''
+            }
+        ]
+    },  
+    {
+        title: 'Solutions',
+        links: [
+            {
+                name: 'Custom Software Development',
+                path: ''
+            },
+            {
+                name: 'NFT Marketplace',
+                path: ''
+            },
+            {
+                name: 'Blockchain Solution',
+                path: ''
+            },
+            {
+                name: 'Metaverse Application',
+                path: ''
+            },
+            {
+                name: 'Accounting Application',
+                path: ''
+            },
+            {
+                name: 'Sports Betting Platform',
+                path: ''
+            },
+            {
+                name: 'Custom Fantasy Sports Solution',
+                path: ''
+            },
+            {
+                name: 'Social Media Applications',
+                path: ''
+            },
+            {
+                name: 'Online Learning Solutions',
+                path: ''
+            }
+        ]
+    }, 
+    {
         title: 'Web App Development',
         links: [
             {
@@ -34,43 +101,7 @@ const FooterSections = [
             }
         ]
     },
-    {
-        title: 'Staff Augmentation',
-        links: [
-            {
-                name: 'Hire Angular JS Developer',
-                path: ''
-            },
-            {
-                name: 'React JS Developer',
-                path: ''
-            },
-            {
-                name: 'Node JS Developer',
-                path: ''
-            },
-            {
-                name: 'Vue Js Developer',
-                path: ''
-            },
-            {
-                name: 'MEAN Developer',
-                path: ''
-            },
-            {
-                name: 'MERN Developer',
-                path: ''
-            },
-            {
-                name: 'LAMP Developer',
-                path: ''
-            },
-            {
-                name: 'Flutter app development',
-                path: ''
-            }
-        ]
-    },
+  
     {
         title: 'Mobile App Development',
         links: [
@@ -125,47 +156,8 @@ const FooterSections = [
             }
         ]
     },
-    {
-        title: 'Solutions',
-        links: [
-            {
-                name: 'Custom Software Development',
-                path: ''
-            },
-            {
-                name: 'NFT Marketplace',
-                path: ''
-            },
-            {
-                name: 'Blockchain Solution',
-                path: ''
-            },
-            {
-                name: 'Metaverse Application',
-                path: ''
-            },
-            {
-                name: 'Accounting Application',
-                path: ''
-            },
-            {
-                name: 'Sports Betting Platform',
-                path: ''
-            },
-            {
-                name: 'Custom Fantasy Sports Solution',
-                path: ''
-            },
-            {
-                name: 'Social Media Applications',
-                path: ''
-            },
-            {
-                name: 'Online Learning Solutions',
-                path: ''
-            }
-        ]
-    },
+   
+
     {
         title: 'Portfolio',
         links: [
@@ -208,41 +200,50 @@ const FooterSections = [
         ]
     },
     {
-        title: '',
+        title: 'Staff Augmentation',
         links: [
             {
-                name: 'About',
-                path: '',
-            },
-            {
-                name: 'Our Company',
-                path: '',
-            },
-            {
-                name: 'How we work',
-                path: '',
-            },
-            {
-                name: 'Careers',
-                path: '',
-            },
-            {
-                name: 'Blog',
+                name: 'Hire Angular JS Developer',
                 path: ''
             },
             {
-                name: 'Contact Us',
+                name: 'React JS Developer',
+                path: ''
+            },
+            {
+                name: 'Node JS Developer',
+                path: ''
+            },
+            {
+                name: 'Vue Js Developer',
+                path: ''
+            },
+            {
+                name: 'MEAN Developer',
+                path: ''
+            },
+            {
+                name: 'MERN Developer',
+                path: ''
+            },
+            {
+                name: 'LAMP Developer',
+                path: ''
+            },
+            {
+                name: 'Flutter app development',
                 path: ''
             }
         ]
-    }   
+    },
+ 
 ]
 
 export default function Footer() {
     return (
         <div className="py-10 mx-10 border-t">
             <div className="container">
-            <div className="grid lg:grid-cols-4 grid-cols-1 gap-8">
+            <div className="grid lg:grid-cols-5 grid-cols-1 gap-8">
                 
                 {
                     FooterSections.map((section, index) => {
@@ -253,7 +254,7 @@ export default function Footer() {
                                     {
                                         section.links.map((link, index) => {
                                             return (
-                                                <li key={index}>{link.name}</li>
+                                                <li className="color-gray" key={index}>{link.name}</li>
                                             )
                                         })
                                     }
@@ -267,7 +268,26 @@ export default function Footer() {
                     {/* <div className="relative h-28">
                         <Image src={'/images/logo.svg'} width={300} height={150}></Image>
                     </div> */}
+                    <div>
+                        <ul className="text-sm space-x-2">
+                            <li className="inline-flex items-center align-middle">
+                                <img src="/images/footer-firm1.png" />
+                            </li>
+                            <li className="inline-flex items-center align-middle">
+                                <img src="/images/footer-firm2.png" />
+                            </li>
+                            <li className="inline-flex items-center align-middle">
+                                <img src="/images/footer-firm3.png" />
+                            </li>
+                            <li className="inline-flex items-center align-middle">
+                                <img src="/images/footer-firm4.png" />
+                            </li>
+                            <li className="inline-flex items-center align-middle">
+                                <img src="/images/footer-firm5.png" />
+                            </li>
+                        </ul>
                     <div className="text-lg Gilroy-Bold"> © 2022 Brain Inventory - All rights reserved.</div>
+                    </div>
                     <div className="flex flex-col space-y-4 md:ml-auto">
                         <p>Follow us:</p>
                         <div className="flex space-x-3 items-center ">
