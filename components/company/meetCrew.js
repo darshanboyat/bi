@@ -7,94 +7,144 @@ import Image from "next/image";
 const meeting = [
 
     {
-        image: 'person1.png',
+        image: 'Sufiyan1.png',
+        title: 'Sufiyan Rao',
+        designation: 'Co-Founder'
+    },
+    {
+        image: 'Ibrahim.jpg',
+        title: 'Ibrahim Adil',
+        designation: 'Co-Founder'
+    },
+    {
+        image: 'Shivani.png',
+        title: 'Shivani Pathak',
+        designation: 'Human Resource Manager'
+    },
+    {
+        image: 'Aqsa.png',
+        title: 'Aqsa Shaikh',
+        designation: 'Talent Recruiter'
+    },
+    {
+        image: 'Tarun.png',
+        title: 'Tarun Upadhyay',
+        designation: 'Sr. Sales Strategist'
+    },
+    {
+        image: 'Alisha.png',
+        title: 'Alisha Khan',
+        designation: 'Sales Strategist'
+    },
+    {
+        image: 'Prakhar.png',
+        title: 'Prakhar Vyas',
+        designation: 'Sales Strategist'
+    },
+    {
+        image: 'Krishna.png',
         title: 'Krishna Agrawal',
         designation: 'UI/UX Designer'
     },
     {
-        image: 'person2.png',
-        title: 'Hussain Ali',
-        designation: 'Developer'
+        image: 'Hussain.png',
+        title: 'Hussain Pithawala',
+        designation: 'Sr. JavaScript Developer'
     },
     {
-        image: 'person3.png',
-        title: 'Sidra',
-        designation: 'Developer'
+        image: 'Sidra.png',
+        title: 'Sidra Shahid',
+        designation: 'Sr. PHP Developer'
     },
     {
-        image: 'person1.png',
-        title: 'Krishna Agrawal',
-        designation: 'UI/UX Designer'
+        image: 'Gunjan.png',
+        title: 'Gunjan Jain',
+        designation: 'Sr. Back End Developer'
     },
     {
-        image: 'person2.png',
-        title: 'Krishna Agrawal',
-        designation: 'UI/UX Designer'
+        image: 'Shimon.png',
+        title: 'Shimon Chouhan',
+        designation: 'JavaScript Developer'
     },
     {
-        image: 'person3.png',
-        title: 'Krishna Agrawal',
-        designation: 'UI/UX Designer'
+        image: 'Prad.png',
+        title: 'Pradyumna Garg',
+        designation: 'Full Stack Developer'
     },
     {
-        image: 'person1.png',
-        title: 'Krishna Agrawal',
-        designation: 'UI/UX Designer'
+        image: 'Puneet.png',
+        title: 'Puneet Rajwani',
+        designation: 'Full Stack Developer'
     },
     {
-        image: 'person2.png',
-        title: 'Krishna Agrawal',
-        designation: 'UI/UX Designer'
+        image: 'Deepak.png',
+        title: 'Deepak Dangi',
+        designation: 'Sr. PHP Developer'
     },
     {
-        image: 'person3.png',
-        title: 'Krishna Agrawal',
-        designation: 'UI/UX Designer'
+        image: 'Shivam.png',
+        title: 'Shivam Yadav',
+        designation: 'Full Stack Developer'
     },
     {
-        image: 'person1.png',
-        title: 'Krishna Agrawal',
-        designation: 'UI/UX Designer'
+        image: 'Jaydeep.png',
+        title: 'Jaydeep Deshmukh',
+        designation: 'JavaScript Developer'
     },
     {
-        image: 'person2.png',
-        title: 'Krishna Agrawal',
-        designation: 'UI/UX Designer'
+        image: 'Himanshu.png',
+        title: 'Himanshu Goel',
+        designation: 'JavaScript Developer'
     },
     {
-        image: 'person3.png',
-        title: 'Krishna Agrawal',
-        designation: 'UI/UX Designer'
+        image: 'Ali.png',
+        title: 'Ali Asgar Dhariwala',
+        designation: 'JavaScript Developer'
     },
     {
-        image: 'person1.png',
-        title: 'Krishna Agrawal',
-        designation: 'UI/UX Designer'
+        image: 'Subhash.png',
+        title: 'Subhash Ajmera',
+        designation: 'Back End Developer'
     },
     {
-        image: 'person2.png',
-        title: 'Krishna Agrawal',
-        designation: 'UI/UX Designer'
+        image: 'Patil.png',
+        title: 'Gautam Patil',
+        designation: 'Backend Developer'
     },
     {
-        image: 'person3.png',
-        title: 'Krishna Agrawal',
-        designation: 'UI/UX Designer'
+        image: 'Tanu.png',
+        title: 'Tanushree Charvey',
+        designation: 'Jr. JavaScript Developer'
+    },  
+    {
+        image: 'Vishal.png',
+        title: 'Vishal Patel',
+        designation: 'Software Trainee'
     },
     {
-        image: 'person1.png',
-        title: 'Krishna Agrawal',
-        designation: 'UI/UX Designer'
+        image: 'Surbhi.png',
+        title: 'Surbhi Kushwah',
+        designation: 'Jr. JavaScript Developer'
     },
     {
-        image: 'person2.png',
-        title: 'Krishna Agrawal',
-        designation: 'UI/UX Designer'
+        image: 'Priyanshu.png',
+        title: 'Priyanshu Sharma',
+        designation: 'Jr. JavaScript Developer'
     },
     {
-        image: 'person3.png',
-        title: 'Krishna Agrawal',
-        designation: 'UI/UX Designer'
+        image: 'Kashish.png',
+        title: 'Kashish Ahuja',
+        designation: 'Jr. JavaScript Developer'
+    },
+    {
+        image: 'Rahul.png',
+        title: 'Rahul Badwaya',
+        designation: 'JavaScript Developer'
+    },
+    {
+        image: 'Abhay.png',
+        title: 'Abhay Bhongadi',
+        designation: 'JavaScript Developer'
     },
 ]
 
@@ -120,7 +170,7 @@ function meetCrew(props) {
                             meeting.map((el) =>(
                                 <div key={el}>
                                     <div className='w-[260px] h-[280px] mr-2 relative border-2 border-cutom'>
-                                {/* <Image src={'/images/' + el.image}  layout="fill"/> */}
+                                <Image src={'/images/' + el.image}  layout="fill"/>
                                 </div>
                                 <h2 className='text-black Gilroy-Bold pt-2'>{el.title}</h2>
                                 <p className='text-black'>{el.designation}</p>
