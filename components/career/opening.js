@@ -98,10 +98,9 @@ function Opening() {
                       <div>
                         <button  onClick={() => collapsed()}  className="btn-details">view details</button>
                         <label
+                          htmlFor="my-modal"
                           onClick={() => roleShowing(el.JobTitle)}
-                          for="my-modal"
-                          class="btn-apply inline-block leading-[55px] cursor-pointer modal-button"
-                        >
+                          className="btn-apply inline-block leading-[55px] cursor-pointer modal-button">
                           apply now
                         </label>
                         {/* <button className="btn-apply">apply now</button> */}
@@ -126,15 +125,13 @@ function Opening() {
         <input type="checkbox" id="my-modal" class="modal-toggle" />
         <div class="modal">
           <form onSubmit={handleSubmit(sumbitContact)}>
-            <div class="modal-box w-full max-w-5xl">
-              <div className="flex justify-end w-full">
-                <label
-                  for="my-modal"
-                  className="bg-black rounded-full w-10 h-10 block text-center leading-[40px] text-xl mt-[-15px] mb-2 text-white"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 relative top-2 left-2 " fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-</svg>
+            <div className="modal-box w-full max-w-5xl">
+              <div className="flex justify-between w-full items-center mb-4">
+                <h2 className="text-2xl text-black Gilroy-Bold">Apply Now</h2>
+                <label htmlFor="my-modal" className="bg-black rounded-full w-10 h-10 text-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 relative top-2 left-2 " fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path d="M6 18L18 6M6 6l12 12" />
+                  </svg>
                 </label>
               </div>
               <div>
@@ -142,7 +139,7 @@ function Opening() {
 
                 <select
                   {...register("role")}
-                  className="w-full text-black h-12 border focus:outline-0 px-2 mb-4"
+                  className="w-full text-black border focus:outline-0 p-3 mb-4"
                   required
                 >
                   {OpeningJob.map((el) => {
@@ -157,7 +154,7 @@ function Opening() {
                     {...register("firstName")}
                     type="text"
                     required
-                    className="w-full text-black h-12 border focus:outline-0 px-2 mb-4"
+                    className="w-full text-black border focus:outline-0 p-3 mb-4"
                     placeholder="Firstname"
                   />
                 </div>
@@ -167,7 +164,7 @@ function Opening() {
                     {...register("lastName")}
                     type="text"
                     required
-                    className="w-full text-black h-12 border focus:outline-0 px-2 mb-4"
+                    className="w-full text-black border focus:outline-0 p-3 mb-4"
                     placeholder="Lastname"
                   />
                 </div>
@@ -179,7 +176,7 @@ function Opening() {
                     {...register("email")}
                     type="email"
                     required
-                    className="w-full text-black h-12 border focus:outline-0 px-2 mb-4"
+                    className="w-full text-black border focus:outline-0 p-3 mb-4"
                     placeholder="Email"
                   />
                 </div>
@@ -191,7 +188,7 @@ function Opening() {
                     {...register("number")}
                     type="number"
                     required
-                    className="w-full text-black h-12 border focus:outline-0 px-2 mb-4"
+                    className="w-full text-black border focus:outline-0 p-3 mb-4"
                     placeholder="Number"
                   />
                 </div>
@@ -202,7 +199,7 @@ function Opening() {
                     {...register("exp")}
                     type="text"
                     required
-                    className="w-full text-black h-12 border focus:outline-0 px-2 mb-4"
+                    className="w-full text-black border focus:outline-0 p-3 mb-4"
                     placeholder="Experience"
                   />
                 </div>
@@ -213,7 +210,7 @@ function Opening() {
                 <input
                   type="file"
                   {...register("file")}
-                  className="w-full text-black h-12 border focus:outline-0 px-2 mb-4"
+                  className="w-full text-black border focus:outline-0 p-2 mb-4"
                   required
                   placeholder="Experience"
                 />
@@ -221,7 +218,7 @@ function Opening() {
               <div>
                 <button
                   type="submit"
-                  className="m-auto text-center block bg-purple-theme h-12 w-40 rounded-lg mt-4"
+                  className="m-auto text-center block bg-purple-theme w-40 p-3 rounded-lg mt-4"
                 >
                   Submit
                 </button>

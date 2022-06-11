@@ -2,108 +2,166 @@ import Image from "next/image";
 
 const FooterSections = [
     {
-        title: 'About',
+        title: 'Web App Development',
         links: [
             {
-                name: 'Company',
+                name: 'Angular JS Development',
                 path: ''
             },
             {
-                name: 'How we work',
+                name: 'React JS Development',
                 path: ''
             },
             {
-                name: 'Agile Development',
+                name: 'Node JS Development',
                 path: ''
             },
             {
-                name: 'Full cycle product development',
+                name: 'Vue JS Development',
                 path: ''
             },
             {
-                name: 'Carrers',
+                name: 'MEAN Development',
                 path: ''
             },
             {
-                name: 'Contact Us',
+                name: 'MERN Development',
+                path: ''
+            },
+            {
+                name: 'LAMP Development',
                 path: ''
             }
         ]
     },
     {
-        title: 'Services',
+        title: 'Staff Augmentation',
         links: [
             {
-                name: 'Product discovery workshops',
+                name: 'Hire Angular JS Developer',
                 path: ''
             },
             {
-                name: 'User experience design',
+                name: 'React JS Developer',
                 path: ''
             },
             {
-                name: 'User interface design',
+                name: 'Node JS Developer',
                 path: ''
             },
             {
-                name: 'UX review',
+                name: 'Vue Js Developer',
                 path: ''
             },
             {
-                name: 'iOS app development',
+                name: 'MEAN Developer',
                 path: ''
             },
             {
-                name: 'Android app development',
+                name: 'MERN Developer',
                 path: ''
             },
             {
-                name: 'Blockchain development',
+                name: 'LAMP Developer',
                 path: ''
             },
             {
                 name: 'Flutter app development',
                 path: ''
-            },
+            }
+        ]
+    },
+    {
+        title: 'Mobile App Development',
+        links: [
             {
-                name: 'React native app development',
+                name: 'iOS App Development',
                 path: ''
             },
+            {
+                name: 'Android App Development',
+                path: ''
+            },
+            {
+                name: 'React Native App Development',
+                path: ''
+            },
+            {
+                name: 'Flutter App Development',
+                path: ''
+            },
+            {
+                name: 'Swift App Development',
+                path: ''
+            }
         ]
     },
     {
         title: 'Industries',
         links: [
             {
-                name: 'Healthcare apps',
+                name: 'Food',
                 path: ''
             },
             {
-                name: 'On demand apps',
+                name: 'Health Care',
                 path: ''
             },
             {
-                name: 'eScooter apps',
+                name: 'Ecommerce',
                 path: ''
             },
             {
-                name: 'Social networking apps',
+                name: 'Real Estate',
                 path: ''
             },
             {
-                name: 'Entertainment apps',
+                name: 'Education',
                 path: ''
             },
             {
-                name: 'Restaurant apps',
+                name: 'Finance',
+                path: ''
+            }
+        ]
+    },
+    {
+        title: 'Solutions',
+        links: [
+            {
+                name: 'Custom Software Development',
                 path: ''
             },
             {
-                name: 'Real estate apps',
+                name: 'NFT Marketplace',
                 path: ''
             },
             {
-                name: 'Event apps',
+                name: 'Blockchain Solution',
+                path: ''
+            },
+            {
+                name: 'Metaverse Application',
+                path: ''
+            },
+            {
+                name: 'Accounting Application',
+                path: ''
+            },
+            {
+                name: 'Sports Betting Platform',
+                path: ''
+            },
+            {
+                name: 'Custom Fantasy Sports Solution',
+                path: ''
+            },
+            {
+                name: 'Social Media Applications',
+                path: ''
+            },
+            {
+                name: 'Online Learning Solutions',
                 path: ''
             }
         ]
@@ -112,75 +170,80 @@ const FooterSections = [
         title: 'Portfolio',
         links: [
             {
-                name: 'Domino’s - Pizza Delivery',
+                name: 'Numetric - Online Accounting Software similar to QuickBooks',
                 path: ''
             },
             {
-                name: 'Vitality- Bio-acoustics analysis',
+                name: 'Skedy - School/Institute Management Solution',
                 path: ''
             },
             {
-                name: 'Gully Beat - Movie promotion',
+                name: 'Virifi - Blockchain Powered Document Certification & Signing Platform',
                 path: ''
             },
             {
-                name: 'Empire - Blockchain solution',
+                name: 'Revolution Travel CRM - Custom CRM Built for Travel Agents',
                 path: ''
             },
             {
-                name: 'Acti Drive - IoT based solution',
+                name: 'Fatoura - Online Invoicing Platform',
                 path: ''
             },
             {
-                name: 'IKEA - ERP app development',
+                name: 'Craftwills - Wealth Management & Will Creation Platform',
+                path: ''
+            },
+            {
+                name: 'UpScaler - Online Learning Platform similar to Udemy',
+                path: ''
+            },
+            {
+                name: 'Hub1 - VOIP powered Web Application',
+                path: ''
+            },
+            {
+                name: 'MVP Notes - Online Cornell Notes Taking Application',
                 path: ''
             }
         ]
     },
     {
-        title: 'Resources',
+        title: '',
         links: [
+            {
+                name: 'About',
+                path: '',
+            },
+            {
+                name: 'Our Company',
+                path: '',
+            },
+            {
+                name: 'How we work',
+                path: '',
+            },
+            {
+                name: 'Careers',
+                path: '',
+            },
             {
                 name: 'Blog',
                 path: ''
             },
             {
-                name: 'Press Releases',
-                path: ''
-            },
-            {
-                name: 'Guides',
+                name: 'Contact Us',
                 path: ''
             }
         ]
-    },
-    
+    }   
 ]
 
 export default function Footer() {
     return (
         <div className="py-10 mx-10 border-t">
             <div className="container">
-            <div className="grid xl:grid-cols-7 lg:grid-cols-5 grid-cols-2 gap-8">
-                <div className="col-span-2 space-y-4">
-                    <div className="relative h-28">
-                        <Image src={'/images/logo.svg'} width={300} height={150}></Image>
-                    </div>
-                    <div className="flex flex-col space-y-4">
-                        <p>Follow us:</p>
-                        <div className="flex space-x-2">
-                            <span>
-                                <Image src={'/images/meta.svg'} width={28} height={28}></Image>
-                            </span>
-                            <span>
-                                <Image src={'/images/twitter.svg'} width={28} height={28}></Image>
-                            </span>
-                            <span>
-                                <Image src={'/images/linkedIn.svg'} width={28} height={28}></Image>
-                            </span>
-                        </div>
-                    </div>
-                </div>
+            <div className="grid lg:grid-cols-4 grid-cols-1 gap-8">
+                
                 {
                     FooterSections.map((section, index) => {
                         return (
@@ -200,9 +263,36 @@ export default function Footer() {
                     })
                 }
             </div>
-            <div className="text-center mt-5 text-lg Gilroy-Bold py-4">
-            © 2022 Brain Inventory - All rights reserved.
-            </div>
+            <div className="flex flex-col md:flex-row md:items-center py-16 space-y-6 md:space-y-0">
+                    {/* <div className="relative h-28">
+                        <Image src={'/images/logo.svg'} width={300} height={150}></Image>
+                    </div> */}
+                    <div className="text-lg Gilroy-Bold"> © 2022 Brain Inventory - All rights reserved.</div>
+                    <div className="flex flex-col space-y-4 md:ml-auto">
+                        <p>Follow us:</p>
+                        <div className="flex space-x-3 items-center ">
+                            <a>
+                                <Image src={'/images/meta.svg'} width={28} height={28}></Image>
+                            </a>
+                            <a>
+                                <Image src={'/images/twitter.svg'} width={28} height={28}></Image>
+                            </a>
+                            <a>
+                                <Image src={'/images/linkedIn.svg'} width={28} height={28}></Image>
+                            </a>
+                            <a>
+                                <Image src={'/images/dribble.svg'} width={24} height={24}></Image>
+                            </a>
+                            <a>
+                                <Image src={'/images/instagram.svg'} width={24} height={24}></Image>
+                            </a>
+                            <a>
+                                <Image src={'/images/youtube.svg'} width={30} height={30}></Image>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            
             </div>
         </div>
     )
