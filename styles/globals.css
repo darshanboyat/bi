@@ -92,7 +92,7 @@ html, body {
 
 .bg-gradient-1 {
   background: rgb(99,2,221);
-  background: transparent linear-gradient(290deg, #000000 0%, #17008D 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(290deg, #17008D 0%, #000000 100%) 0% 0% no-repeat padding-box;
 }
 
 .bg-gradient-2 {
@@ -324,7 +324,19 @@ button.btn-details {
    margin-left: 1rem;
   border: 1px solid #6302DD;
 }
-
+@media screen and (max-width:600px) {
+  button.btn-details{
+    height: 55px;
+    padding: 0px 1rem;
+    font-size: 16px;
+    margin-left: 0;
+    border: 1px solid #6302DD;
+    white-space: nowrap;
+  }  
+  .btn-apply{
+    white-space: nowrap;
+  }
+}
 label.experiene-label {
   letter-spacing: 0px;
   color: #e1cfcf;

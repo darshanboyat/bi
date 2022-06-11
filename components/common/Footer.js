@@ -161,7 +161,7 @@ const FooterSections = [
 
     {
         title: 'Portfolio',
-        className: 'col-span-2',
+        className: 'md:col-span-2',
         links: [
             {
                 name: 'Numetric - Online Accounting Software similar to QuickBooks',
@@ -254,7 +254,7 @@ export default function Footer() {
                 {
                     FooterSections.map((section, index) => {
                         return (
-                            <div key={index} className={section.className? section.className:'col-span-1'   }>
+                            <div key={index} className={section.className? section.className:'md:col-span-1'   }>
                                 <h3 className="text-xl Gilroy-Bold mb-4">{section.title}</h3>
                                 <ul className="space-y-2">
                                     {
@@ -299,7 +299,7 @@ export default function Footer() {
                                 <img src="/images/footer-firm5.png" />
                             </li>
                         </ul>
-                    <div className="text-lg Gilroy-Bold"> © 2022 Brain Inventory - All rights reserved.</div>
+                    <div className="text-lg Gilroy-Bold my-6 md:my-0"> © 2022 Brain Inventory - All rights reserved.</div>
                     </div>
                     <div className="flex flex-col space-y-4 md:ml-auto">
                         <p>Follow us:</p>

@@ -10,7 +10,7 @@ class whyWork extends Component {
             <div>
   <div className='2xl:p-10 p-8 2xl:space-y-8 space-y-6 pb-24'> 
         <div className='container'>
-              <div className="lg:pt-24 lg:pb-24 w-8/12">
+              <div className="lg:pt-24 lg:pb-24 md:w-8/12 w-full">
                     <div className=''> 
                       <h2 className='Gilroy-Bold text-6xl text-white'>why work with <br/> brain inventory?</h2>
          

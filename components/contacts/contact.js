@@ -112,7 +112,7 @@ function Contact(props) {
             HR at:
           </p>
 
-          <div className="flex">
+          <div className="md:flex block">
             <a
               className="btn-career"
               href="mailto:career@braininventory.com?subject=Me&body=Hello!"

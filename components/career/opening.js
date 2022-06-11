@@ -89,13 +89,13 @@ function Opening() {
               <>
                 <div id={el.JobTitle} className="collapse bg-opening mb-6">
                   <div className="collapse-title text-xl font-medium">
-                    <div className="flex justify-between items-center">
+                    <div className="md:flex block justify-between items-center">
                       <div>
                         <h2 className="text-2xl text-white Gilroy-Bold">
                           {el.JobTitle}
                         </h2>
                       </div>
-                      <div>
+                      <div className="flex md:block my-4 md:my-0">
                         <button  onClick={() => collapsed(el.JobTitle)}  className="btn-details">view details</button>
                         <label
                           htmlFor="my-modal"

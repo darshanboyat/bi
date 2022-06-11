@@ -16,10 +16,8 @@ const HomeSectionTen = () => {
                
                     <ProjectBox info={{name: 'Numetric.Work', images: '/images/numetrics.png', summary: 'Numetric-Online Accounting Software similar to QuickBooks'}}></ProjectBox>
                     <div className="w-[30vw] h-[30vw] lg:mx-auto rounded-full border border-[#ffffff86] flex items-center">
-                        <span className="w-[28vw] h-[28vw] mx-auto rounded-full overflow-hidden border border-[#ffffffc2] flex items-center">
-                            <video src="/videos/work.mp4" className="h-[100vh] scale-[185%]"  muted loop controls={false} autoPlay={true} />
-                            {/* <span className="w-[26vw] h-[26vw] mx-auto rounded-full border"></span> */}
-
+                        <span className="w-[28vw] h-[28vw] mx-auto rounded-full border border-[#ffffffc2] flex items-center">
+                            <span className="w-[26vw] h-[26vw] mx-auto rounded-full border"></span>
                         </span>
                     </div>
                     <div className="flex lg:justify-center items-center space-x-8">
@@ -57,8 +55,8 @@ const CounterBox = ({counterInfo}) => {
 const ProjectBox = ({info}) => {
     return (
         <div className="xl:space-y-6 lg:space-y-6 space-y-8">
-            <div className="min-h-[350px] hover-image-animation cursor-pointer h-[4]25px lg:w-full w-[30vw] min-w-[350px] overflow-hidden">
-             <img src={info.images} className="md:w-[1000px] w-[80%]"></img>
+            <div className="min-h-[350px] h-[4]25px lg:w-full w-[30vw] min-w-[350px]">
+             <img src={info.images} className="md:w-[1000px] w-[90%]"></img>
             </div>
             <div>
                 <h2 className="Gilroy-Bold 2xl:text-5xl xl:text-4xl text-3xl">{info.name}</h2>
