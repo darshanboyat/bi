@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Image from "next/image";
-import carrer from "../../pages/carrer";
+import carrer from "../../pages/career";
 import HomeButton from '../buttons/HomeButton'
 
 

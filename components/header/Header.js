@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
+import Link from 'next/link';
+
 
 const Header = () => {
   const config = {
@@ -40,7 +42,7 @@ const Header = () => {
           id="navbar"
           className="fixed top-0 flex justify-between items-center w-full py-3 px-4 lg:px-8 z-50"
         >
-          <a href="/">
+          <Link href="/">
             <span className="text-4xl Gilroy-Bold z-30">
               {!navOpen && (
                 <div className="relative w-36 h-12">
@@ -48,14 +50,14 @@ const Header = () => {
                 </div>
               )}
             </span>
-          </a>
+          </Link>
           <div className="dropdown dropdown-hover">
             <label className="btn bg-transparent outline-none border-0 hover:bg-transparent m-1">
               <div className="flex justify-between align-middle items-center bg-case-blue-request h-11 z-[100]">
                 <p className="px-4 text-xs Gilroy-Light lowercase">
-                  <a href="/contact">
+                  <Link href="/contact">
                    request A Quote
-                  </a>
+                  </Link>
                 </p>
                 <span
                  
@@ -80,8 +82,8 @@ const Header = () => {
                         transform="translate(1822.5 42.5)"
                         fill="none"
                         stroke="#fff"
-                        stroke-linecap="round"
-                        stroke-width="1.5"
+                        strokeLinecap="round"
+                        strokeWidth="1.5"
                       />
                       <line
                         id="Line_182"
@@ -90,8 +92,8 @@ const Header = () => {
                         transform="translate(1822.5 47.5)"
                         fill="none"
                         stroke="#fff"
-                        stroke-linecap="round"
-                        stroke-width="1.5"
+                        strokeLinecap="round"
+                        strokeWidth="1.5"
                       />
                       <line
                         id="Line_226"
@@ -100,8 +102,8 @@ const Header = () => {
                         transform="translate(1822.5 52.5)"
                         fill="none"
                         stroke="#fff"
-                        stroke-linecap="round"
-                        stroke-width="1.5"
+                        strokeLinecap="round"
+                        strokeWidth="1.5"
                       />
                     </g>
                   </svg>
@@ -110,20 +112,20 @@ const Header = () => {
             </label>
             <ul className="dropdown-content mt-0 ml-5 bg-base-blue-1 p-2 shadow bg-base-100 w-[168px]">
               <li className="py-1 hover:bg-case-blue-request">
-                <a
+                <Link
                   href="/contact"
                   className="text-white cursor-pointer hover:bg-case-blue-request"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
               <li className="pt-2 py-1 block hover:bg-case-blue-request">
-                <a
-                  href="/carrer"
+                <Link
+                  href="/career"
                   className="text-white block cursor-pointer hover:bg-case-blue-request"
                 >
                   Career
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
