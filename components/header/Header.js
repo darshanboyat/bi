@@ -38,7 +38,7 @@ const Header = () => {
       <nav>
         <div
           id="navbar"
-          className="fixed top-0 flex justify-between items-center w-full py-3 px-3  lg:py-10 lg:px-8 z-50"
+          className="fixed top-0 flex justify-between items-center w-full py-3 px-4 lg:px-8 z-50"
         >
           <a href="/">
             <span className="text-4xl Gilroy-Bold z-30">
