@@ -15,9 +15,12 @@ const HomeSectionTen = () => {
                     </div>
                
                     <ProjectBox info={{name: 'Numetric.Work', images: '/images/numetrics.png', summary: 'Numetric-Online Accounting Software similar to QuickBooks'}}></ProjectBox>
-                    <div className="w-[30vw] h-[30vw] lg:mx-auto rounded-full border border-[#ffffff86] flex items-center">
-                        <span className="w-[28vw] h-[28vw] mx-auto rounded-full border border-[#ffffffc2] flex items-center">
-                            <span className="w-[26vw] h-[26vw] mx-auto rounded-full border"></span>
+                    <div className="w-[30vw] h-[30vw] relative lg:mx-auto rounded-full border border-[#ffffff86] flex items-center">
+                        <span className="w-[28vw] h-[28vw] mx-auto overflow-hidden rounded-full border border-[#ffffffc2] flex items-center">
+                            <span className="w-[26vw] h-[26vw] mx-auto overflow-hidden rounded-full border">
+                            <video src="/videos/work.mp4" className="relative top-20 scale-[2]" muted loop controls={false} autoPlay={true} />
+
+                            </span>
                         </span>
                     </div>
                     <div className="flex lg:justify-center items-center space-x-8">

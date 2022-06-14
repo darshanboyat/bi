@@ -22,7 +22,11 @@ class banner extends Component {
          <div className='Gilroy-Light text-xl text-gray-50'>While we are good at sign language, there are various other simpler ways to connect with us. Talk to us in person.</div>
        </div>
         
+        <a href="tel:+91-810-956-1401">
+
        <HomeButton><span className='text-base'>call us now!</span></HomeButton>
+        </a>
+     
      </div>
     
    </div>

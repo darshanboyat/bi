@@ -21,7 +21,7 @@ export default function Home() {
           <Head>
             <title>Brain Inventory</title>
             <meta name="description" content="We are a digital production company" />
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="/favicon.png" />
             <script async src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js" crossOrigin="anonymous"></script>
             <script async src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js" crossOrigin="anonymous"></script>
             <script async src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js" crossOrigin="anonymous"></script>

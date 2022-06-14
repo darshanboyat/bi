@@ -3,6 +3,8 @@ import Image from "next/image";
 import HomeButton from "../buttons/HomeButton";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import { useForm } from "react-hook-form";
+import Link from 'next/link';
+
 
 function Contact(props) {
   const { register, handleSubmit } = useForm();
@@ -123,8 +125,9 @@ function Contact(props) {
               +91-810-956-1401
             </a>
           </div>
-
-          <p className="view-opening">View openings</p>
+          <Link className="cursor-pointer" href="/career">
+          <p className="view-opening cursor-pointer">View openings</p>
+          </Link>
         </div>
       </div>
     </div>

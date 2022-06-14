@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useState } from "react";
+import Link from 'next/link';
 
 const FooterSections = [
     {
@@ -283,20 +284,26 @@ export default function Footer() {
                     </div> */}
                     <div>
                         <ul className="text-sm space-x-6">
-                            <li className="inline-flex items-center align-middle">
-                                <img src="/images/footer-firm1.png" />
+                            <li className="inline-flex items-center align-middle cursor-pointer">
+                                <Link href="https://www.goodfirms.co/company/brain-inventory">
+                                  <img src="/images/footer-firm1.png" />
+                                </Link>
                             </li>
-                            <li className="inline-flex items-center align-middle">
-                                <img src="/images/footer-firm2.png" />
-                            </li>
-                            <li className="inline-flex items-center align-middle">
+                     
+                            <li className="inline-flex items-center align-middle cursor-pointer">
+                            <Link href="https://clutch.co/profile/brain-inventory">
                                 <img src="/images/footer-firm3.png" />
+                                </Link>
                             </li>
-                            <li className="inline-flex items-center align-middle">
+                            <li className="inline-flex items-center align-middle cursor-pointer">
+                                <Link href="https://www.trustpilot.com/review/braininventory.com">
                                 <img src="/images/footer-firm4.png" />
+                                </Link>
                             </li>
-                            <li className="inline-flex items-center align-middle">
+                            <li className="inline-flex items-center align-middle cursor-pointer">
+                            <Link href="https://www.upwork.com/ag/braininventory/">
                                 <img src="/images/footer-firm5.png" />
+                                </Link>
                             </li>
                         </ul>
                     <div className="text-lg Gilroy-Bold my-6 md:my-0"> © 2022 Brain Inventory - All rights reserved.</div>
@@ -304,23 +311,33 @@ export default function Footer() {
                     <div className="flex flex-col space-y-4 md:ml-auto">
                         <p>Follow us:</p>
                         <div className="flex space-x-3 items-center ">
-                            <a>
+                            <a className="cursor-pointer">
+                                <Link href="https://www.facebook.com/BrainInventoryIndia/">                               
                                 <Image src={'/images/meta.svg'} width={28} height={28}></Image>
+                                </Link>
                             </a>
-                            <a>
+                            {/* <a className="cursor-pointer">
                                 <Image src={'/images/twitter.svg'} width={28} height={28}></Image>
-                            </a>
-                            <a>
+                            </a> */}
+                            <a className="cursor-pointer">
+                            <Link href="https://in.linkedin.com/company/braininventory">
                                 <Image src={'/images/linkedIn.svg'} width={28} height={28}></Image>
+                                </Link>
                             </a>
-                            <a>
+                            <a className="cursor-pointer">
+                            <Link href="https://dribbble.com/brain_inventory">
                                 <Image src={'/images/dribble.svg'} width={24} height={24}></Image>
+                                </Link>
                             </a>
-                            <a>
+                            <a className="cursor-pointer">
+                                <Link href="https://www.instagram.com/braininventory_com/">
                                 <Image src={'/images/instagram.svg'} width={24} height={24}></Image>
+                                </Link>
                             </a>
-                            <a>
+                            <a className="cursor-pointer">
+                            <Link href="https://www.youtube.com/channel/UCmBF3Fito6xxYWyomJ-ittw">
                                 <Image src={'/images/youtube.svg'} width={30} height={30}></Image>
+                                </Link>
                             </a>
                         </div>
                     </div>
