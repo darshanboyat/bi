@@ -8,6 +8,7 @@ import HomeSectionSix from '../components/home/HomeSection-6';
 import HomeSectionSeven from '../components/home/HomeSection-7';
 import HomeSectionEight from '../components/home/HomeSection-8';
 import HomeSectionOne from '../components/home/HomeSection-1';
+import HomeSectionNine from '../components/home/HomeSection-9';
 import HomeSectionEleven from '../components/home/HomeSection-11';
 import KeepInTouch from '../components/common/keepInTouch';
 import LocateUs from '../components/common/locateUs';
@@ -19,8 +20,8 @@ export default function Home() {
   return (
         <div className='relative'>
           <Head>
-            <title>Brain Inventory</title>
-            <meta name="description" content="We are a digital production company" />
+            <title>Brain Inventory | Custom Software Development Company in India & UK</title>
+            <meta name="description" content="Brain Inventory is a new-age Custom Software Development company with offices in India, Canada, Jordan & UK. We offer innovative digital solutions to Startups, Unicorns & Enterprise clients across Industries with our Top 4% of Industry Experts." />
             <link rel="icon" href="/favicon.png" />
             <script async src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js" crossOrigin="anonymous"></script>
             <script async src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js" crossOrigin="anonymous"></script>
@@ -36,7 +37,7 @@ export default function Home() {
           <HomeSectionSix></HomeSectionSix>
           <HomeSectionSeven></HomeSectionSeven>
           <HomeSectionEight></HomeSectionEight>
-          {/* <HomeSectionNine></HomeSectionNine> */}
+          <HomeSectionNine></HomeSectionNine>
           <HomeSectionTen></HomeSectionTen>
           <HomeSectionEleven></HomeSectionEleven>
           {/* <HomeSectionTwelwe></HomeSectionTwelwe> */}

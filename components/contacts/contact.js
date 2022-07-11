@@ -75,7 +75,7 @@ function Contact(props) {
             </h3>
 
             <p className="text-xl text-white Gilroy-light pt-2 pb-4">
-              Got a startup idea & need to get it validated?
+            Let us give you our honest opinion.
             </p>
 
             <div className="relative w-60 h-60">
@@ -88,13 +88,13 @@ function Contact(props) {
 
             <p className="Gilroy-Bold text-lg mt-3">Sufiyan Rao I Co founder</p>
 
-            <p className="Gilroy-light pt-3 pb-3 text-gray-50">
+            {/* <p className="Gilroy-light pt-3 pb-3 text-gray-50">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industrys standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book. Lorem Ipsum is
               simply dummy text of the printing and typesetting industry.
-            </p>
+            </p> */}
 
             <h3 className="Gilroy-Bold text-lg pb-1">
               Email: sufiyan@braininventory.com

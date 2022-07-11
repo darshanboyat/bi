@@ -157,7 +157,9 @@ function meetCrew(props) {
                     <div className='my-12 lg:my-0'>
                     <h2 className='text-black Gilroy-Bold text-5xl'>meet the crew</h2>
          
-                    <p className='Gilroy-light text-black text-lg mt-6 mb-4'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p className='Gilroy-light text-black text-lg mt-6 mb-4'>
+                    Meet our exceptional team of technology advisors, growth facilitators and subject matter experts with proven Industry experiences.
+                    </p>
         
                     <HomeButton><span className="text-sm text-black">See All Members</span></HomeButton>
    
@@ -169,7 +171,7 @@ function meetCrew(props) {
                     {
                             meeting.map((el) =>(
                                 <div key={el}>
-                                    <div className='w-[260px] h-[280px] mr-2 relative border-2 border-cutom'>
+                                    <div className='w-[260px] h-[280px] mr-2 relative border-2 border-cutom object-fit-custom'>
                                 <Image src={'/images/' + el.image}  layout="fill"/>
                                 </div>
                                 <h2 className='text-black Gilroy-Bold pt-2'>{el.title}</h2>

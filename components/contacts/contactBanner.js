@@ -24,7 +24,9 @@ function contactBanner(props) {
         
        
            <div className='md:flex block'>
+            <a href="tel:+91-810-956-1401">
             <HomeButton><span className='text-base'>call us now!</span></HomeButton>
+            </a>
             <a  className='btn-contact md:ml-8 ml-0' href='mailto:askus@braininventory.com?subject=Me&body=Hello!'>drop a email</a>
            </div>
 

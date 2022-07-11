@@ -46,7 +46,7 @@ const Header = () => {
             <span className="text-4xl Gilroy-Bold z-30">
               {!navOpen && (
                 <div className="relative w-36 h-12">
-                  <Image src={"/images/" + "Logobg.png"} layout="fill" />
+                  <Image src={"/images/" + "Logobg.png"} alt="it service company offers web and app design and development" layout="fill" />
                 </div>
               )}
             </span>
@@ -155,18 +155,18 @@ const Header = () => {
           <div className="grid grid-cols-5 gap-10 px-8 py-16 lg:px-28 lg:py-24 w-full">
             <div className="space-y-12 col-span-1">
               <h1 className="stroke-text text-5xl Gilroy-Bold">Company</h1>
-              <h1
+              <h3
                 onClick={() => {
                   setBlockName("servicesChildren");
                 }}
                 className="stroke-text text-5xl Gilroy-Bold"
               >
                 Services
-              </h1>
-              <h1 className="stroke-text text-5xl Gilroy-Bold">Forte</h1>
-              <h1 className="stroke-text text-5xl Gilroy-Bold">Portfolio</h1>
-              <h1 className="stroke-text text-5xl Gilroy-Bold">Blog</h1>
-              <h1 className="stroke-text text-5xl Gilroy-Bold">Contacts</h1>
+              </h3>
+              <h3 className="stroke-text text-5xl Gilroy-Bold">Forte</h3>
+              <h3 className="stroke-text text-5xl Gilroy-Bold">Portfolio</h3>
+              <h3 className="stroke-text text-5xl Gilroy-Bold">Blog</h3>
+              <h3 className="stroke-text text-5xl Gilroy-Bold">Contacts</h3>
             </div>
             <Block></Block>
           </div>
@@ -189,7 +189,7 @@ const CompanyChildren = () => {
         </ul>
       </div>
       <div className="space-y-4">
-        <h2 className="text-2xl Gilroy-Bold">About Us</h2>
+        <h3 className="text-2xl Gilroy-Bold">About Us</h3>
         <ul className="space-y-2 text-xl list-inside list-disc">
           <li>Company Overview</li>
           <li>Career</li>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import LetsKick from '../components/common/LetsKick';
 import Footer from '../components/common/Footer';
 import KeepInTouch from '../components/common/keepInTouch'
@@ -16,6 +17,9 @@ import Stepper from '../components/career/stepper';
 function carrer(props) {
     return (
         <div>
+          <Head>
+              <title>Current Openings at Brain Inventory</title>
+          </Head>
           <Header></Header>
           <Banner></Banner>
           <WhyWork></WhyWork>

@@ -735,3 +735,20 @@ html {
 {
   background-color: #FF9100;
 }
+
+
+.object-fit-custom img
+{
+  object-fit: cover;
+}
+
+.hover-image:hover img
+{
+  transform: scale(1.1);
+}
+
+.hover-image img
+{
+  overflow: hidden;
+  transition: all 500ms ease;
+}

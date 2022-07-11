@@ -14,7 +14,7 @@ const HomeSectionTen = () => {
                         <CounterBox counterInfo={{count: '50', message: 'Happy Clients'}}></CounterBox>
                     </div>
                
-                    <ProjectBox info={{name: 'Numetric.Work', images: '/images/numetrics.png', summary: 'Numetric-Online Accounting Software similar to QuickBooks'}}></ProjectBox>
+                    <ProjectBox info={{name: 'Numetric.Work', images: '/images/numetrics.png', alt: 'Numetric: Account software app development', summary: 'Numetric-Online Accounting Software similar to QuickBooks'}}></ProjectBox>
                     <div className="w-[30vw] h-[30vw] relative lg:mx-auto rounded-full border border-[#ffffff86] flex items-center">
                         <span className="w-[28vw] h-[28vw] mx-auto overflow-hidden rounded-full border border-[#ffffffc2] flex items-center">
                             <span className="w-[26vw] h-[26vw] mx-auto overflow-hidden rounded-full border">
@@ -35,9 +35,9 @@ const HomeSectionTen = () => {
                     <div className="stroke-text Gilroy-Bold 2xl:text-9xl lg:text-8xl text-7xl">dribble</div>
                     <div className="stroke-text Gilroy-Bold 2xl:text-9xl lg:text-8xl text-7xl">behance</div>
                
-                    <ProjectBox info={{name: 'Our Premium Down', images:'/images/nft-port.png', summary: 'Mint, Sell & Buy NFTs inspired by open Sea'}}></ProjectBox>
+                    <ProjectBox info={{name: 'One Premium Down', images:'/images/nft-port.png', alt: 'NFT Marketplace software development by Brain Inventory', summary: 'Mint, Sell & Buy NFTs inspired by open Sea'}}></ProjectBox>
                
-                    <ProjectBox info={{name: 'Skedy', images: '/images/Skedy.png', summary: 'School/Institution Management Solution'}}></ProjectBox>
+                    <ProjectBox info={{name: 'Skedy', images: '/images/Skedy.png', alt: 'Skedy, school management app  developed by Brain Inventory', summary: 'School/Institution Management Solution'}}></ProjectBox>
                
                 </div>
             </div>
@@ -57,12 +57,12 @@ const CounterBox = ({counterInfo}) => {
 
 const ProjectBox = ({info}) => {
     return (
-        <div className="xl:space-y-6 lg:space-y-6 space-y-8">
-            <div className="min-h-[350px] h-[4]25px lg:w-full w-[30vw] min-w-[350px]">
-             <img src={info.images} className="md:w-[1000px] w-[90%]"></img>
+        <div className="xl:space-y-6 lg:space-y-6 space-y-8 hover-image overflow-hidden">
+            <div className="min-h-[350px] h-[4]25px lg:w-full w-[30vw] min-w-[350px] overflow-hidden">
+             <img src={info.images} alt={info.alt} className="md:w-[1000px] w-[90%]"></img>
             </div>
             <div>
-                <h2 className="Gilroy-Bold 2xl:text-5xl xl:text-4xl text-3xl">{info.name}</h2>
+                <h3 className="Gilroy-Bold 2xl:text-5xl xl:text-4xl text-3xl">{info.name}</h3>
                 <p className="2xl:text-2xl lg:text-xl text-xl">{info.summary}</p>
             </div>
         </div>

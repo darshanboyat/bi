@@ -286,24 +286,26 @@ export default function Footer() {
                         <ul className="text-sm space-x-6">
                             <li className="inline-flex items-center align-middle cursor-pointer">
                                 <Link href="https://www.goodfirms.co/company/brain-inventory">
-                                  <img src="/images/footer-firm1.png" />
+                                    <a  target="_blank" rel="noopener noreferrer">
+
+                                  <img src="/images/footer-firm1.png" alt="brain inventory best rating and reviews on Good Firm" />
+                                    </a>
                                 </Link>
-                            </li>
-                     
+                            </li>        
                             <li className="inline-flex items-center align-middle cursor-pointer">
-                            <Link href="https://clutch.co/profile/brain-inventory">
-                                <img src="/images/footer-firm3.png" />
-                                </Link>
-                            </li>
-                            <li className="inline-flex items-center align-middle cursor-pointer">
-                                <Link href="https://www.trustpilot.com/review/braininventory.com">
-                                <img src="/images/footer-firm4.png" />
-                                </Link>
+                              <Link target="_blank" href="https://clutch.co/profile/brain-inventory">
+                                <img src="/images/footer-firm3.png" alt="brain inventory best rating and reviews on Clutch" />
+                              </Link>
                             </li>
                             <li className="inline-flex items-center align-middle cursor-pointer">
-                            <Link href="https://www.upwork.com/ag/braininventory/">
-                                <img src="/images/footer-firm5.png" />
+                                <Link target="_blank" href="https://www.trustpilot.com/review/braininventory.com">
+                                    <img src="/images/footer-firm4.png" alt="brain inventory best rating and reviews on Trust Pilot" />
                                 </Link>
+                            </li>
+                            <li className="inline-flex items-center align-middle cursor-pointer">                       
+                                <Link  href="https://www.upwork.com/ag/braininventory/">
+                                    <img src="/images/footer-firm5.png" alt="brain inventory best rating and reviews on Upwork" />
+                                </Link>       
                             </li>
                         </ul>
                     <div className="text-lg Gilroy-Bold my-6 md:my-0"> © 2022 Brain Inventory - All rights reserved.</div>
@@ -320,14 +322,14 @@ export default function Footer() {
                                 <Image src={'/images/twitter.svg'} width={28} height={28}></Image>
                             </a> */}
                             <a className="cursor-pointer">
-                            <Link href="https://in.linkedin.com/company/braininventory">
+                              <Link href="https://in.linkedin.com/company/braininventory">
                                 <Image src={'/images/linkedIn.svg'} width={28} height={28}></Image>
-                                </Link>
+                              </Link>
                             </a>
                             <a className="cursor-pointer">
                             <Link href="https://dribbble.com/brain_inventory">
                                 <Image src={'/images/dribble.svg'} width={24} height={24}></Image>
-                                </Link>
+                            </Link>
                             </a>
                             <a className="cursor-pointer">
                                 <Link href="https://www.instagram.com/braininventory_com/">
