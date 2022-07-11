@@ -290,19 +290,19 @@ export default function Footer() {
                                     </a>
                             </li>        
                             <li className="inline-flex items-center align-middle cursor-pointer">
-                              <Link target="_blank" href="https://clutch.co/profile/brain-inventory">
+                              <a target="_blank" href="https://clutch.co/profile/brain-inventory">
                                 <img src="/images/footer-firm3.png" alt="brain inventory best rating and reviews on Clutch" />
-                              </Link>
+                              </a>
                             </li>
                             <li className="inline-flex items-center align-middle cursor-pointer">
-                                <Link target="_blank" href="https://www.trustpilot.com/review/braininventory.com">
+                                <a target="_blank" href="https://www.trustpilot.com/review/braininventory.com">
                                     <img src="/images/footer-firm4.png" alt="brain inventory best rating and reviews on Trust Pilot" />
-                                </Link>
+                                </a>
                             </li>
                             <li className="inline-flex items-center align-middle cursor-pointer">                       
-                                <Link  href="https://www.upwork.com/ag/braininventory/">
+                                <a target="_blank" href="https://www.upwork.com/ag/braininventory/">
                                     <img src="/images/footer-firm5.png" alt="brain inventory best rating and reviews on Upwork" />
-                                </Link>       
+                                </a>       
                             </li>
                         </ul>
                     <div className="text-lg Gilroy-Bold my-6 md:my-0"> © 2022 Brain Inventory - All rights reserved.</div>
@@ -311,32 +311,32 @@ export default function Footer() {
                         <p>Follow us:</p>
                         <div className="flex space-x-3 items-center ">
                             <a className="cursor-pointer">
-                                <Link href="https://www.facebook.com/BrainInventoryIndia/">                               
+                                <a target="_blank" href="https://www.facebook.com/BrainInventoryIndia/">                               
                                 <Image src={'/images/meta.svg'} width={28} height={28}></Image>
-                                </Link>
+                                </a>
                             </a>
                             {/* <a className="cursor-pointer">
                                 <Image src={'/images/twitter.svg'} width={28} height={28}></Image>
                             </a> */}
                             <a className="cursor-pointer">
-                              <Link href="https://in.linkedin.com/company/braininventory">
+                              <a target="_blank" href="https://in.linkedin.com/company/braininventory">
                                 <Image src={'/images/linkedIn.svg'} width={28} height={28}></Image>
-                              </Link>
+                              </a>
                             </a>
                             <a className="cursor-pointer">
-                            <Link href="https://dribbble.com/brain_inventory">
+                            <a target="_blank" href="https://dribbble.com/brain_inventory">
                                 <Image src={'/images/dribble.svg'} width={24} height={24}></Image>
-                            </Link>
+                            </a>
                             </a>
                             <a className="cursor-pointer">
-                                <Link href="https://www.instagram.com/braininventory_com/">
+                                <a target="_blank" href="https://www.instagram.com/braininventory_com/">
                                 <Image src={'/images/instagram.svg'} width={24} height={24}></Image>
-                                </Link>
+                                </a>
                             </a>
                             <a className="cursor-pointer">
-                            <Link href="https://www.youtube.com/channel/UCmBF3Fito6xxYWyomJ-ittw">
+                            <a target="_blank" href="https://www.youtube.com/channel/UCmBF3Fito6xxYWyomJ-ittw">
                                 <Image src={'/images/youtube.svg'} width={30} height={30}></Image>
-                                </Link>
+                                </a>
                             </a>
                         </div>
                     </div>
