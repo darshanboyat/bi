@@ -290,17 +290,17 @@ export default function Footer() {
                                     </a>
                             </li>        
                             <li className="inline-flex items-center align-middle cursor-pointer">
-                              <a target="_blank" href="https://clutch.co/profile/brain-inventory">
+                              <a href="https://clutch.co/profile/brain-inventory" target="_blank" rel="noopener noreferrer">
                                 <img src="/images/footer-firm3.png" alt="brain inventory best rating and reviews on Clutch" />
                               </a>
                             </li>
-                            <li className="inline-flex items-center align-middle cursor-pointer">
-                                <a target="_blank" href="https://www.trustpilot.com/review/braininventory.com">
+                            <li className="inline-flex items-center align-middle cursor-pointer" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.trustpilot.com/review/braininventory.com">
                                     <img src="/images/footer-firm4.png" alt="brain inventory best rating and reviews on Trust Pilot" />
                                 </a>
                             </li>
-                            <li className="inline-flex items-center align-middle cursor-pointer">                       
-                                <a target="_blank" href="https://www.upwork.com/ag/braininventory/">
+                            <li className="inline-flex items-center align-middle cursor-pointer" target="_blank" rel="noopener noreferrer">                       
+                                <a href="https://www.upwork.com/ag/braininventory/">
                                     <img src="/images/footer-firm5.png" alt="brain inventory best rating and reviews on Upwork" />
                                 </a>       
                             </li>
@@ -311,7 +311,7 @@ export default function Footer() {
                         <p>Follow us:</p>
                         <div className="flex space-x-3 items-center ">
                             <a className="cursor-pointer">
-                                <a target="_blank" href="https://www.facebook.com/BrainInventoryIndia/">                               
+                                <a href="https://www.facebook.com/BrainInventoryIndia/" target="_blank" rel="noopener noreferrer">                               
                                 <Image src={'/images/meta.svg'} width={28} height={28}></Image>
                                 </a>
                             </a>
@@ -319,22 +319,22 @@ export default function Footer() {
                                 <Image src={'/images/twitter.svg'} width={28} height={28}></Image>
                             </a> */}
                             <a className="cursor-pointer">
-                              <a target="_blank" href="https://in.linkedin.com/company/braininventory">
+                              <a  href="https://in.linkedin.com/company/braininventory" target="_blank" rel="noopener noreferrer">
                                 <Image src={'/images/linkedIn.svg'} width={28} height={28}></Image>
                               </a>
                             </a>
                             <a className="cursor-pointer">
-                            <a target="_blank" href="https://dribbble.com/brain_inventory">
+                            <a  href="https://dribbble.com/brain_inventory" target="_blank" rel="noopener noreferrer">
                                 <Image src={'/images/dribble.svg'} width={24} height={24}></Image>
                             </a>
                             </a>
                             <a className="cursor-pointer">
-                                <a target="_blank" href="https://www.instagram.com/braininventory_com/">
+                                <a href="https://www.instagram.com/braininventory_com/" target="_blank" rel="noopener noreferrer">
                                 <Image src={'/images/instagram.svg'} width={24} height={24}></Image>
                                 </a>
                             </a>
                             <a className="cursor-pointer">
-                            <a target="_blank" href="https://www.youtube.com/channel/UCmBF3Fito6xxYWyomJ-ittw">
+                            <a href="https://www.youtube.com/channel/UCmBF3Fito6xxYWyomJ-ittw" target="_blank" rel="noopener noreferrer">
                                 <Image src={'/images/youtube.svg'} width={30} height={30}></Image>
                                 </a>
                             </a>
