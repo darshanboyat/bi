@@ -285,12 +285,9 @@ export default function Footer() {
                     <div>
                         <ul className="text-sm space-x-6">
                             <li className="inline-flex items-center align-middle cursor-pointer">
-                                <Link href="https://www.goodfirms.co/company/brain-inventory">
-                                    <a  target="_blank" rel="noopener noreferrer">
-
+                                    <a href="https://www.goodfirms.co/company/brain-inventory" target="_blank" rel="noopener noreferrer">
                                   <img src="/images/footer-firm1.png" alt="brain inventory best rating and reviews on Good Firm" />
                                     </a>
-                                </Link>
                             </li>        
                             <li className="inline-flex items-center align-middle cursor-pointer">
                               <Link target="_blank" href="https://clutch.co/profile/brain-inventory">

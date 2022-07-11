@@ -13,43 +13,43 @@ class culture extends Component {
                 <div className='lg:grid lg:grid-cols-4 gap-6'>
                     <div className='bg-development-simply mb-4 lg-mb-0'>
                         <h2>Learning & Development</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> */}
                     </div>
 
                    
                     <div className='bg-development-simply mb-4 lg-mb-0'>
                         <h2>Mindful Personal Guidance</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> */}
                     </div>
         
                     <div className='bg-development-simply mb-4 lg-mb-0'>
                         <h2>Constructive Feedback</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> */}
                     </div>
      
                     <div className='bg-development-simply mb-4 lg-mb-0'>
                         <h2>Constructive Feedback</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> */}
                     </div>
 
                     <div className='bg-development-simply mb-4 lg-mb-0'>
                         <h2>Innovation & Quality First</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> */}
                     </div>
 
                     <div className='bg-development-simply mb-4 lg-mb-0'>
                         <h2>Proactive Implementation</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> */}
                     </div>
 
                     <div className='bg-development-simply mb-4 lg-mb-0'>
                         <h2>Best & Global Opportunities</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> */}
                     </div>
  
                     <div className='bg-development-simply mb-4 lg-mb-0'>
                         <h2>Work with Latest Technology</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> */}
                     </div>
        
                 </div>
