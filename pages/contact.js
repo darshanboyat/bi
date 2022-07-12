@@ -6,11 +6,11 @@ import KeepInTouch from '../components/common/keepInTouch';
 import LocateUs from '../components/common/locateUs';
 import LetsKick from '../components/common/LetsKick';
 import Footer from '../components/common/Footer';
-import Contact from '../components/contacts/contact';
+import Contact1 from '../components/contacts/contact';
 import ContactBanner from '../components/contacts/contactBanner';
 import Loader from '../components/common/loader';
 
-function contact(props) {
+function Contact(props) {
     const [loading, setLoading] = useState(true);
     React.useEffect(() => {
       setTimeout(() => setLoading(false), 2000);
@@ -27,7 +27,7 @@ function contact(props) {
         <div>
           <Header></Header>
           <ContactBanner></ContactBanner>
-          <Contact></Contact>
+          <Contact1></Contact1>
           <LocateUs />
           <LetsKick />
           <Footer />
@@ -38,4 +38,4 @@ function contact(props) {
     );
 }
 
-export default contact;
+export default Contact;

@@ -15,7 +15,7 @@ import WhyWork from '../components/contacts/whyWork';
 import Loader from '../components/common/loader'
 import Stepper from '../components/career/stepper';
 
-function carrer(props) {
+function Carrer(props) {
   
 const [loading, setLoading] = useState(true);
 
@@ -51,4 +51,4 @@ React.useEffect(() => {
     );
 }
 
-export default carrer;
+export default Carrer;
