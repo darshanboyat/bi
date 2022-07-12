@@ -273,15 +273,7 @@ export default function Footer() {
                     })
                 }
             </div>
-                {/* <div>
-                     <button onClick={() => viewMore}>
-                         View More
-                     </button>
-                </div> */}
             <div className="flex flex-col md:flex-row md:items-center py-16 space-y-6 md:space-y-0">
-                    {/* <div className="relative h-28">
-                        <Image src={'/images/logo.svg'} width={300} height={150}></Image>
-                    </div> */}
                     <div>
                         <ul className="text-sm space-x-6">
                             <li className="inline-flex items-center align-middle cursor-pointer">
@@ -340,8 +332,7 @@ export default function Footer() {
                             </a>
                         </div>
                     </div>
-                </div>
-            
+            </div>
             </div>
         </div>
     )

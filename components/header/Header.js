@@ -42,11 +42,11 @@ const Header = () => {
           id="navbar"
           className="fixed top-0 flex justify-between items-center w-full py-3 px-4 lg:px-8 z-50"
         >
-          <Link href="/">
+          <Link href="/" className="cursor-pointer">
             <span className="text-4xl Gilroy-Bold z-30">
               {!navOpen && (
-                <div className="relative w-36 h-12">
-                  <Image src={"/images/" + "Logobg.png"} alt="it service company offers web and app design and development" layout="fill" />
+                <div className="relative w-36 h-12 cursor-pointer">
+                  <Image src={"/images/" + "Logobg.png"} className="cursor-pointer" alt="it service company offers web and app design and development" layout="fill" />
                 </div>
               )}
             </span>

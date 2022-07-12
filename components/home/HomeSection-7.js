@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import BigHeadingScroll from "../common/BigHeadingScroll";
 import { gsap } from "gsap";
 
+
 const HomeSectionSeven = () => {
   useEffect(() => {
     var controller = new ScrollMagic.Controller();
@@ -22,22 +23,20 @@ const HomeSectionSeven = () => {
 
     var controller = new ScrollMagic.Controller();
     var tween = gsap.to("#animate3", 1, { x: 680 });
-
     // build scene
     var scene = new ScrollMagic.Scene({
       triggerElement: "#trigger3",
       duration: 100,
       offset: 50,
     })
-      .setTween(tween)
-      // .addIndicators({name: "tween css class"}) // add indicators (requires plugin)
-      .addTo(controller);
+    .setTween(tween)
+    // .addIndicators({name: "tween css class"}) // add indicators (requires plugin)
+    .addTo(controller);
 
     //
 
     var controller = new ScrollMagic.Controller();
     var tween = gsap.to("#animate4", 1, { x: 680 });
-
     // build scene
     var scene = new ScrollMagic.Scene({
       triggerElement: "#trigger4",

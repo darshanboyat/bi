@@ -134,6 +134,20 @@ html, body {
   -webkit-text-stroke-width: 1px;
   color: transparent;
 }
+.stroke-text-mobile
+{
+  -webkit-transition: color .5s ease-out;
+  transition: color .5s ease;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 0.5px;
+  color: transparent;
+  opacity: 1;
+}
+.stroke-text-mobile:hover{
+  -webkit-transition: color .5s ease-out;
+  transition: color .5s ease-out;
+  color: #FF9100;
+}
 .stroke-text-3 {
   -webkit-transition: color .5s ease-out;
   transition: color .5s ease;
@@ -289,6 +303,20 @@ background: #6302DD38 0% 0% no-repeat padding-box;
 border: 1px solid #6302DD;
 padding: 2rem 1rem;
 }
+.bg-development-simply-culture
+{
+  border-left: 2px solid #6302DD;
+  padding: 3rem 1rem;
+  padding-top: 4rem;
+  margin-top: 2rem;
+  transition: all 500ms ease 0s;
+
+}
+
+.bg-development-simply-culture:hover
+{
+  background: #7100FF 0% 0% no-repeat padding-box;
+}
 
 .bg-development-simply h2 {
   line-height: 30px;
@@ -296,6 +324,24 @@ padding: 2rem 1rem;
   font-size: 1.6rem;
   width: 200px;
   margin-bottom: 0.4rem;
+}
+.bg-development-simply-culture h2
+{
+  line-height: 30px;
+  font-family: 'Gilroy-Bold';
+  font-size: 2rem;
+  line-height: 40px;
+  width: 200px;
+  height: 130px;
+  margin-bottom: 0.4rem;
+}
+.bg-development-simply-culture p
+{
+  letter-spacing: 0px;
+  color:  rgba(255, 255, 255, 0.8);
+  opacity: 1;
+ font-size: 14px;
+ padding-right: 2rem;
 }
 .bg-development-simply p {
   letter-spacing: 0px;
@@ -751,4 +797,138 @@ html {
 {
   overflow: hidden;
   transition: all 500ms ease;
+}
+
+.position-loader
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+}
+
+.position-loader img
+{
+  width: 30%;
+  margin: 10rem auto;
+  display: block;
+}
+
+.bg-stack
+{
+  background: #6302DD38 0% 0% no-repeat padding-box;
+  /* padding: 1rem; */
+  border: 1px solid #6302DD;
+}
+
+.bg-stack h2
+{
+  text-align: center;
+  border-bottom: 1px solid #6302DD;
+  padding: 1rem 0px;
+  font-family: Gilroy-Bold;
+}
+
+.bg-stack ul
+{
+  margin: 2rem 0px;
+}
+
+.bg-stack ul li
+{
+  line-height: 50px;
+}
+
+.border-active
+{
+  border: 1px solid #7100FF;
+  padding: 2.3rem 1.5rem;
+}
+
+.border-active h3
+{
+  color: #000000;
+  font-family: Gilroy-Bold;
+  font-size: 1.3rem;
+  /* height: 50px; */
+}
+
+.border-active p
+{
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+  padding-top: 0.4rem;
+  font-family: Gilroy-Bold;
+}
+
+.tab-content_i
+{
+    display: none;
+}
+.tab-content_i.current
+{
+    display: block;
+}
+
+ul.industries_list {
+  margin-top: 4rem;
+  padding: 0;
+}
+
+ul.industries_list li {
+  font-size: 2.4rem;
+  font-family:  Gilroy-Bold;
+  list-style: none;
+  white-space: nowrap;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #fff;
+  line-height: 90px;
+  cursor: pointer;
+  letter-spacing: -1.2px;
+  transition: all .5s ease 0s;
+}
+
+img.img_industry_1 {
+  height: 700px;
+  width: auto;
+  margin-top: 30px;
+  position: absolute;
+}
+
+li.hover-link.current, ul.industries_list li:hover {
+  -webkit-text-fill-color: #fff;
+}
+
+.flex-custom
+{
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+  width: 100%;
+}
+
+.color-light
+{
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.bg-services-div
+{
+  background: #6302DD38 0% 0% no-repeat padding-box;
+border: 1px solid #6302DD;
+text-align: center;
+padding: 2rem;
+width: 231px;
+margin-right: 10px;
+height: 154px;
+margin-top: 1.5rem;
+margin-bottom: 2rem;
+}
+
+.bg-services-div h2
+{
+  font-family: Gilroy-Bold;
+  font-size: 1.7rem;
 }
