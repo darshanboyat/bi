@@ -13,7 +13,7 @@ import TechnologyStack from '../components/mobilePages/technologyStack';
 import Mobileservices from '../components/mobilePages/mobileservices';
 import Industries from '../components/mobilePages/industries';
 import AboutusSection from '../components/mobilePages/aboutusSection'
-import Engagementmodal from '../components/mobilePages/engagementmodal';
+// import Engagementmodal from '../components/mobilePages/engagementmodal';
 
 function MobileAppDevelopment(props) {
     const [loading, setLoading] = useState(true);
@@ -37,7 +37,7 @@ function MobileAppDevelopment(props) {
           <ChooseApp/>
           <Newsletter/>
           <Mobileservices/>
-          <Engagementmodal/>
+          {/* <Engagementmodal/> */}
           <Newsletter/>
 
           <Industries/>
