@@ -13,7 +13,7 @@ import TechnologyStack from '../components/mobilePages/technologyStack';
 import Mobileservices from '../components/mobilePages/mobileservices';
 import Industries from '../components/mobilePages/industries';
 import AboutusSection from '../components/mobilePages/aboutusSection';
-import Engagementmodal from '../components/mobilePages/engagementmodal';
+import Engagementmodal from '../components/mobilePages/engagementModal';
 import Pratice from '../components/mobilePages/pratice';
 import Faqs from '../components/mobilePages/faqs';
 import Standard from '../components/mobilePages/standard';
