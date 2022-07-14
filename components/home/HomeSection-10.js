@@ -33,12 +33,12 @@ const HomeSectionTen = () => {
                 <div className="lg:space-y-8 space-y-6 flex-1">
                     <div className="lg:h-40 h-10"></div>
                     
-                        <a href="https://dribbble.com/brain_inventory" target="_blank">
+                        <a href="https://dribbble.com/brain_inventory" target="_blank" rel="noopener noreferrer">
                     <div className="stroke-text Gilroy-Bold 2xl:text-9xl lg:text-8xl text-7xl">
                             dribble
                     </div>
                         </a>
-                        <a href="https://www.behance.net/braininventory" target="_blank">
+                        <a href="https://www.behance.net/braininventory" target="_blank" rel="noopener noreferrer">
                     <div className="stroke-text Gilroy-Bold 2xl:text-9xl lg:text-8xl text-7xl">
                             behance
                       
