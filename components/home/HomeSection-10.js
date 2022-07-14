@@ -2,7 +2,7 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const HomeSectionTen = () => {
     return (
-        <div className="flex justify-center">
+        <div className="flex justify-center ">
             <div className="container padding-left-all-section">
             <div className="flex w-full lg:flex-row flex-col 2xl:gap-10 gap-8 2xl:py-10 2xl:px-0  px-8">
                 <div className="lg:space-y-12 space-y-8 flex-1">
@@ -32,8 +32,18 @@ const HomeSectionTen = () => {
                 </div>
                 <div className="lg:space-y-8 space-y-6 flex-1">
                     <div className="lg:h-40 h-10"></div>
-                    <div className="stroke-text Gilroy-Bold 2xl:text-9xl lg:text-8xl text-7xl">dribble</div>
-                    <div className="stroke-text Gilroy-Bold 2xl:text-9xl lg:text-8xl text-7xl">behance</div>
+                    
+                        <a href="https://dribbble.com/brain_inventory" target="_blank">
+                    <div className="stroke-text Gilroy-Bold 2xl:text-9xl lg:text-8xl text-7xl">
+                            dribble
+                    </div>
+                        </a>
+                        <a href="https://www.behance.net/braininventory" target="_blank">
+                    <div className="stroke-text Gilroy-Bold 2xl:text-9xl lg:text-8xl text-7xl">
+                            behance
+                      
+                    </div>
+                        </a>
                
                     <ProjectBox info={{name: 'One Premium Down', images:'/images/nft-port.png', alt: 'NFT Marketplace software development by Brain Inventory', summary: 'Mint, Sell & Buy NFTs inspired by open Sea'}}></ProjectBox>
                

@@ -4,6 +4,7 @@ class Mobileservices extends Component {
     render() {
         return (
             <div className='bg-white 2xl:p-10 p-8 2xl:space-y-8 space-y-6'>
+            <div className='bg-white '>
                 <div className='container padding-left-all-section'>
                     <div>
                         <h2 className='Gilroy-Bold lg:text-4xl pb-2 text-3xl text-black pt-4'>
@@ -49,26 +50,32 @@ class Mobileservices extends Component {
                             </p>
                          </div>
                     </div>
-                    <div className='mt-6'>
-                    <div>
-                        <h2 className='Gilroy-Bold lg:text-4xl pb-2 text-3xl text-black pt-4'>
-                        our development process
-                        </h2>
-                        <p className='text-black Gilroy-Bold text-sm pt-1'>
-                        When our peers overlook the pre-planning, we never fail to do the basics right. We ask the right questions to our stakeholders that centers around their target audience. This discussion helps our developers in laying down the appropriate blueprint from the system’s perspective. Hence we make the development right. Together, as a reliable mobile app development company, we’ll identify which functionalities hold the most water before development to safeguard the chances for your app’s success.
-                        </p>
-                    </div>
+                </div>     
+            </div>
+            <div className='mt-6'>
+            <div className='container padding-left-all-section'>
+                <h2 className='Gilroy-Bold lg:text-4xl pb-2 text-3xl text-black pt-4'>
+                our development process
+                </h2>
+                <p className='text-black Gilroy-Bold text-sm pt-1'>
+                When our peers overlook the pre-planning, we never fail to do the basics right. We ask the right questions to our stakeholders that centers around their target audience. This discussion helps our developers in laying down the appropriate blueprint from the system’s perspective. Hence we make the development right. Together, as a reliable mobile app development company, we’ll identify which functionalities hold the most water before development to safeguard the chances for your app’s success.
+                </p>
+            </div>
 
-                    <div>
-                        <h2 className='Gilroy-Bold lg:text-4xl pb-2 text-3xl text-black pt-8'>
-                        The way we design to engage users
-                        </h2>
-                        <p className='text-black Gilroy-Bold text-sm pt-1'>
-                        As it gets tougher for design thinkers and developers to get users to find and download apps, you ‘have’ to think about engagement; in order to make your mobile app design relevant, valued and useful so it delights and hence retains user. Time and again, we put ourselves in the end-users shoes to empathize and feel the experience, be it iOS apps or Android application. From content curation, pixel-perfection to intuitive micro-interactions, we leave no stone unturned to build an app that engages.
-                        </p>
-                    </div>
-                    </div>
-                </div>
+            <div className='h-60 mt-8 bg-case-blue-request border-2'> 
+                
+            </div>
+
+            <div className='container padding-left-all-section'>
+                <h2 className='Gilroy-Bold lg:text-4xl pb-2 text-3xl text-black pt-8'>
+                The way we design to engage users
+                </h2>
+                <p className='text-black Gilroy-Bold text-sm pt-1'>
+                As it gets tougher for design thinkers and developers to get users to find and download apps, you ‘have’ to think about engagement; in order to make your mobile app design relevant, valued and useful so it delights and hence retains user. Time and again, we put ourselves in the end-users shoes to empathize and feel the experience, be it iOS apps or Android application. From content curation, pixel-perfection to intuitive micro-interactions, we leave no stone unturned to build an app that engages.
+                </p>
+                <button className='bg-case-blue-request h-11 px-8 mt-6 text-sm mb-6'>how we work</button>
+            </div>
+            </div>
             </div>
         );
     }

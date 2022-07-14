@@ -12,14 +12,19 @@ import ChooseApp from '../components/mobilePages/chooseApp';
 import TechnologyStack from '../components/mobilePages/technologyStack';
 import Mobileservices from '../components/mobilePages/mobileservices';
 import Industries from '../components/mobilePages/industries';
-import AboutusSection from '../components/mobilePages/aboutusSection'
-// import Engagementmodal from '../components/mobilePages/engagementmodal';
+import AboutusSection from '../components/mobilePages/aboutusSection';
+import Engagementmodal from '../components/mobilePages/engagementmodal';
+import Pratice from '../components/mobilePages/pratice';
+import Faqs from '../components/mobilePages/faqs';
+import Standard from '../components/mobilePages/standard';
 
 function MobileAppDevelopment(props) {
+
     const [loading, setLoading] = useState(true);
     React.useEffect(() => {
       setTimeout(() => setLoading(false), 2000);
     }, []);
+
     return (
       <>
        {loading ? 
@@ -37,10 +42,12 @@ function MobileAppDevelopment(props) {
           <ChooseApp/>
           <Newsletter/>
           <Mobileservices/>
-          {/* <Engagementmodal/> */}
+          <Standard/>
+          <Engagementmodal/>
+          <Pratice/>
           <Newsletter/>
-
           <Industries/>
+          <Faqs/>
           <KeepInTouch/>
           <LocateUs />
           <LetsKick />

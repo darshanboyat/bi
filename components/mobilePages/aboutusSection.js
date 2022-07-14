@@ -29,6 +29,48 @@ class AboutusSection extends Component {
                  </div>
             </div>
         </div>
+        <div className="container pt-10 pb-10">
+           <div className="grid grid-cols-2 gap-8">
+               <div>
+                  <h2 className="Gilroy-Bold text-2xl">Native App Development</h2>
+                  <p className="text-lg color-light">Native mobile apps are developed for specific mobile OS such as iOS or Android and users can access them from dedicated app stores.</p>
+               <div className="grid grid-cols-3 mt-4">
+                    <div>
+                    <img src="/images/Apple_logo.svg" className="h-20" />
+
+                       <h2 className="color-light w-28 mt-2">iPhone App Developemt</h2>
+                    </div>
+                    <div>
+                    <img src="/images/android-logo.svg" className="h-20" />
+                       <h2 className="color-light w-28 mt-2">Android App Developemt</h2>
+                    </div>
+                    <div>
+                    <img src="/images/swift-logo.svg" className="h-20" />
+                       <h2 className="color-light w-28 mt-2">Swift App Developemt</h2>
+                    </div>
+               </div>
+               </div>
+               <div>
+                  <h2 className="Gilroy-Bold text-2xl">Cross-platform App Development</h2>
+                  <p className="text-lg color-light">Cross-platform mobile apps are developed to function for multiple mobile platforms like iOS, Android, etc. without changing the codebase.</p>
+                  <div className="grid grid-cols-3 mt-4">
+                    <div>
+                    <img src="/images/flutter-logo.svg" className="h-20" />
+
+                       <h2 className="color-light w-28 mt-2">Flutter App Development</h2>
+                    </div>
+                    <div>
+                    <img src="/images/react-logo.svg" className="h-20" />
+                       <h2 className="color-light w-28 mt-2">React Native Development</h2>
+                    </div>
+                    <div>
+                    <img src="/images/ionic-logo.svg" className="h-20" />
+                       <h2 className="color-light w-28 mt-2">Ionic App Development</h2>
+                    </div>
+               </div>
+               </div>
+           </div>
+        </div>
         <div className="container">
           <div>
             <h2 className="Gilroy-Bold text-xl mb-2">

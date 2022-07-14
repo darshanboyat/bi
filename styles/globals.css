@@ -895,7 +895,6 @@ img.img_industry_1 {
   height: 700px;
   width: auto;
   margin-top: 30px;
-  position: absolute;
 }
 
 li.hover-link.current, ul.industries_list li:hover {
@@ -933,3 +932,61 @@ margin-bottom: 2rem;
   font-size: 1.7rem;
 }
 
+
+.bg-banner-mobile
+{
+  background: #6302DD38 0% 0% no-repeat padding-box;
+border: 1px solid #6302DD;
+height: 350px;
+}
+
+.box-modal-engagement
+{
+background: #6302DD38 0% 0% no-repeat padding-box;
+border: 1px solid #6302DD;
+padding: 10px;
+
+}
+
+.bg-box-m-e
+{
+  background: rgba(99,2,221, 0.2);
+  padding: 16px;
+  
+}
+.bg-box-m-e p {
+  line-height: 26px;
+}
+
+.bg-yellow-color
+{
+  background: #FF9100 0% 0% no-repeat padding-box;
+}
+
+.list-modal li
+{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 24px;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.list-modal li svg
+{
+  /* height: 20px;
+  width: 20px; */
+  margin-right: 5px;
+}
+
+ul.list-modal {
+  padding: 2rem 2rem;
+  min-height: 450px;
+}
+
+.border-color-purple
+{
+  border-color: rgba(113,0,255, 0.6);
+}

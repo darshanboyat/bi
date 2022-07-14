@@ -14,19 +14,17 @@ class Industries extends Component {
     render() {
         return (
             <div className='2xl:p-10 p-8 2xl:space-y-8 space-y-6'>
-                <div className='container padding-left-all-section'>
+                <div className='container padding-left-all-section relative'>
                 <div>
                     <h2 className='Gilroy-Bold text-4xl'>industries we serve</h2>
                 </div>
-                     <div className='flex'>
-                         <div className='flex-custom'>
-                         <div id="tab-1" className="tab-content_i current">
-                            
+                     <div className=''>
+                         <div className=''>
+                        <div id="tab-1" className="tab-content_i current">  
                             <img src="/images/I-1.png" className="img_industry_1" />
                         </div>
-                        <div id="tab-2" className="tab-content_i">
-                        <img src="/images/I-2.png" className="img_industry_1" />
-                            
+                      <div id="tab-2" className="tab-content_i">
+                        <img src="/images/I-2.png" className="img_industry_1" />     
                       </div>
                       <div id="tab-3" className="tab-content_i">
                        <img src="/images/I-3.png" className="img_industry_1" />                    
@@ -38,11 +36,11 @@ class Industries extends Component {
                        <img src="/images/I-5.png" className="img_industry_1" />                    
                       </div>
                       <div id="tab-6" className="tab-content_i">
-                       {/* <img src="/assets/I-5.png" className="img_industry_1" />                     */}
+                       <img src="/images/I-5.png" className="img_industry_1" />                    
                       </div>
                          </div>
-                         <div className='flex-custom'>
-                            <ul className="industries_list">
+                         <div className=''>
+                            <ul className="industries_list absolute top-0 left-[30rem]">
                                 <li data-tab="tab-1" className="hover-link current">
                                     Custom Fantasy Sports
                                 </li>

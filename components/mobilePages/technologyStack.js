@@ -26,6 +26,7 @@ class TechnologyStack extends Component {
                          <li>Kotlin</li>
                          <li>Android Studio</li>
                       </ul>
+                      
                     </div>
                     <div className='bg-stack'>
                         <h2>Cross platform</h2>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_97" data-name="Rectangle 97" width="18" height="18" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_18" data-name="Mask Group 18" clip-path="url(#clip-path)">
+    <path id="foursquare-check-in" d="M0,10.28l5.917,5.928L17.277,4.858,15.646,3.25l-9.73,9.718L1.608,8.66Z" transform="translate(0.361 -0.729)" fill="#fff"/>
+  </g>
+</svg>

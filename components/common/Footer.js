@@ -286,13 +286,13 @@ export default function Footer() {
                                 <img src="/images/footer-firm3.png" alt="brain inventory best rating and reviews on Clutch" />
                               </a>
                             </li>
-                            <li className="inline-flex items-center align-middle cursor-pointer" target="_blank" rel="noopener noreferrer">
-                                <a href="https://www.trustpilot.com/review/braininventory.com">
+                            <li className="inline-flex items-center align-middle cursor-pointer" >
+                                <a href="https://www.trustpilot.com/review/braininventory.com" target="_blank" rel="noopener noreferrer">
                                     <img src="/images/footer-firm4.png" alt="brain inventory best rating and reviews on Trust Pilot" />
                                 </a>
                             </li>
-                            <li className="inline-flex items-center align-middle cursor-pointer" target="_blank" rel="noopener noreferrer">                       
-                                <a href="https://www.upwork.com/ag/braininventory/">
+                            <li className="inline-flex items-center align-middle cursor-pointer" >                       
+                                <a href="https://www.upwork.com/ag/braininventory/" target="_blank" rel="noopener noreferrer">
                                     <img src="/images/footer-firm5.png" alt="brain inventory best rating and reviews on Upwork" />
                                 </a>       
                             </li>

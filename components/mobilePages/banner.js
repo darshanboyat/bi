@@ -10,7 +10,7 @@ class banner extends Component {
             <div className='lg:w-[40%] w-full  md:h-full'>
               <div className='3xl:py-10 2xl:py-6 xl:py-6 2xl:px-14 xl:px-12 px-10 flex flex-col justify-center 2xl:space-y-5 xl:space-y-4 space-y-3 h-full'>
               
-                <div className='2xl:text-2xl lg:text-4xl text-4xl Gilroy-Bold text-white'>mobile app <br/> development</div>
+                <div className='2xl:text-4xl lg:text-4xl text-4xl Gilroy-Bold text-white'>mobile app <br/> development</div>
             
                 <div className='flex flex-col'>
                   <div className='color-gray text-sm Gilroy-Bold'>
@@ -25,7 +25,7 @@ class banner extends Component {
             </div>
             <div className='md:w-[60%] w-full  md:h-full mt-14 md:mt-0'>
               <div className="3xl:py-10 2xl:py-6 xl:py-6 2xl:px-14 xl:px-12 px-10 ">
-              {/* <video src="/videos/FinalVideo.mp4" className="relative md:top-[3rem] top-0"  muted loop controls={false} autoPlay={true} /> */}
+                  <div className='bg-banner-mobile'></div>
               </div>
             </div>
     
