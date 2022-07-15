@@ -26,7 +26,7 @@ class Banner extends Component {
            <div className='md:w-[60%] w-full  md:h-full mt-14 md:mt-0'>
              <div className="3xl:py-10 2xl:py-6 xl:py-6 2xl:px-14 xl:px-12 px-10 ">
                  <div className=''>
-                 <video src="/images/UIUX.mp4" loop="" autoplay=""></video>
+                 <video src="/images/UIUX.mp4" muted loop controls={false} autoPlay={true}></video>
                  </div>
              </div>
            </div>
