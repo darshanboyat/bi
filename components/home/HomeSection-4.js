@@ -1,4 +1,6 @@
 import HomeButton from "../buttons/HomeButton";
+import Link from 'next/link';
+
 
 const info = [
     {   
@@ -107,7 +109,13 @@ const Section = ({info,video}) => {
                             })
                         }
                     </ul>
-                    <HomeButton>learn more</HomeButton>
+
+                       
+                    <HomeButton>
+                        <Link href="/web-app-development">       
+                            learn more        
+                        </Link>
+                    </HomeButton>
                 </div>
                 <div className="w-full lg:w-1/2">
                     <div className="h-[350px] w-full md:px-8 md:py-8 px-0 py-8">

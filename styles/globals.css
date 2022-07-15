@@ -816,6 +816,19 @@ html {
   display: block;
 }
 
+@media(max-width: 767px)
+{
+  .position-loader img
+  {
+    width: 100%;
+    margin: 15rem auto;
+  }
+  .mobile-none
+  {
+    display: none;
+  }
+}
+
 .bg-stack
 {
   background: #6302DD38 0% 0% no-repeat padding-box;
@@ -989,4 +1002,37 @@ ul.list-modal {
 .border-color-purple
 {
   border-color: rgba(113,0,255, 0.6);
+}
+
+.active-color
+{
+  color: #fff;
+  position: relative;
+}
+.list-under li
+{
+  margin-left: 1rem;
+}
+.list-under-1::before {
+  content: '';
+  width: 1px;
+  height: 500px;
+  display: block;
+  background: #fff;
+display: block;
+position: absolute;
+top: 0px;
+left: 0px;
+}
+.list-under li.active-color::after
+{
+   content: '';
+   width: 10px;
+   height: 15px;
+   background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 7px;
+display: block;
+position: absolute;
+top: 6px;
+left: -25px;
 }

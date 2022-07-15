@@ -54,7 +54,7 @@ const Header = () => {
           <div className="dropdown dropdown-hover">
             <label className="btn bg-transparent outline-none border-0 hover:bg-transparent m-1">
               <div className="flex justify-between align-middle items-center bg-case-blue-request h-11 z-[100]">
-                <p className="px-4 text-xs Gilroy-Light lowercase">
+                <p className="px-4 text-xs Gilroy-Light lowercase mobile-none">
                   <Link href="/contact">
                    request A Quote
                   </Link>

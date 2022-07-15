@@ -17,7 +17,7 @@ class Standard extends Component {
                         <p>The reusability of code reduces redundancy and development time. The optimization of code is very important and we do it by having reusability of the code.</p>
                     </div>
                 </div>
-                <div className='w-[50%] flex mt-8'>
+                <div className='w-[70%] flex mt-8'>
                     <div className='w-[100%]'>
                         <h2 className='Gilroy-Bold text-3xl'>Beautiful</h2>
                         <p>Smart coding is to avoid all the technical risk right away while writing the code and make it fault resistant. We plan the actions and how users could react before writing the code.</p>

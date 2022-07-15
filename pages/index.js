@@ -22,7 +22,7 @@ export default function Home() {
     // setLoading(true);
   setTimeout(() => 
     setLoading(false), 2000);
-  }, 
+  },
   []);
   return (
     <>
@@ -40,7 +40,6 @@ export default function Home() {
               </Head>
               <Header></Header>
               <HomeSectionOne></HomeSectionOne>
-              {/* <HomeSectionTwo></HomeSectionTwo> */}
               <HomeSectionThree></HomeSectionThree>
               <HomeSectionFour></HomeSectionFour>
               <HomeSectionFive></HomeSectionFive>
