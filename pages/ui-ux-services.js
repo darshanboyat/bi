@@ -13,7 +13,9 @@ import LocateUs from '../components/common/locateUs';
 import WebServices from '../components/webPages/webServices';
 import DesignTool from '../components/uiuxPages/designTool';
 import Uiabout from '../components/uiuxPages/uiabout';
-import ChooseApp from '../components/mobilePages/chooseApp'
+import ChooseApp from '../components/mobilePages/chooseApp';
+import Magic from '../components/uiuxPages/magic';
+
 
 function UiUxServices(props) {
     const [loading, setLoading] = useState(true);
@@ -35,8 +37,9 @@ function UiUxServices(props) {
                <Uiabout/>
                <DesignTool/>
                <ChooseApp/>
-               <Newsletter/>
+               <Newsletter/> 
                <WebServices/>
+               <Magic/>
                <Engagementmodal/>
                <Newsletter/>
                <Industries1/>

@@ -9,7 +9,7 @@ function Engagementmodal(props) {
             engagement models
           </h2>
 
-          <div className="grid grid-cols-3 gap-12">
+          <div className="grid lg:grid-cols-3 grid-cols-1 gap-12">
             <div className="box-modal-engagement">
               <h3 className="text-center text-xl Gilroy-Bold my-6">
                 dedicated hiring

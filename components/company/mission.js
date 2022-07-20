@@ -19,6 +19,7 @@ const missionType = [
 function mission(props) {
     return (
         <div className='2xl:p-10 p-8 2xl:space-y-8 space-y-6'>
+            <div className='container padding-left-all-section'>
             <div className='flex justify-between'>
             {
                     missionType.map((el) => (
@@ -33,6 +34,7 @@ function mission(props) {
                         </div>
                     ))
                 }
+            </div>
             </div>
             
         </div>

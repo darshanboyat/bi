@@ -10,8 +10,8 @@ class DesignTool extends Component {
                tools we use in designing
                </h2>
            </div>
-           <div className='grid grid-cols-5'>
-               <div className='bg-stack'>
+           <div className='grid lg:grid-cols-5 grid-cols-1'>
+               <div className='bg-stack lg:mb-0 mb-6 '>
                    <h2>UI/UX</h2>
                  <ul className='text-center'>
                     <li>Sketch</li>
@@ -21,7 +21,7 @@ class DesignTool extends Component {
                     <li>Figma</li>
                  </ul>
                </div>
-               <div className='bg-stack'>
+               <div className='bg-stack lg:mb-0 mb-6'>
                    <h2>Prototyping</h2>
                    <ul className='text-center'>
                     <li>Adobe XD</li>
@@ -31,7 +31,7 @@ class DesignTool extends Component {
                  </ul>
                  
                </div>
-               <div className='bg-stack'>
+               <div className='bg-stack lg:mb-0 mb-6'>
                    <h2>Motion Graphics</h2>
                    <ul className='text-center'>
                     <li>After Effects</li>
@@ -41,7 +41,7 @@ class DesignTool extends Component {
                     <li>HTML5</li>
                  </ul>
                </div>
-               <div className='bg-stack'>
+               <div className='bg-stack lg:mb-0 mb-6'>
                    <h2>Graphics Design</h2>
                    <ul className='text-center'>
                     <li>Illustrator</li>
@@ -50,7 +50,7 @@ class DesignTool extends Component {
                 
                  </ul>
                </div>
-               <div className='bg-stack'>
+               <div className='bg-stack lg:mb-0 mb-6'>
                    <h2>Collaboration</h2>
                    <ul className='text-center'>
                     <li>Zeplin</li>

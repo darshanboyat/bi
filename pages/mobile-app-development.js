@@ -49,9 +49,9 @@ function MobileAppDevelopment(props) {
           <Industries/>
           <Faqs/>
           <KeepInTouch/>
-          <LocateUs />
-          <LetsKick />
-          <Footer />
+          <LocateUs/>
+          <LetsKick/>
+          <Footer/>
         </div>
        </div>
        }

@@ -14,7 +14,7 @@ class WebAboutUs extends Component {
                     <p className="text-sm pt-6 color-light">Since 2011, MindInventory has been developing futuristic website and web applications that take businesses to greater heights. Our highly skilled web developers adopted a customer focused approach by upgrading their self to latest web technology like ReactJS, Angular, Node.js, Laravel, Golang and many others.</p>
                 </div>
     
-                <div className="flex items-center">
+                <div className="lg:flex block items-center">
                      <div className="bg-services-div">
                          <h2>160+</h2>
                          <h3>Professionals</h3>
@@ -30,7 +30,7 @@ class WebAboutUs extends Component {
                 </div>
             </div>
             <div className="container pt-10 pb-10">
-               <div className="grid grid-cols-2 gap-8">
+               <div className="grid lg:grid-cols-2 grid-cols-1 gap-8">
                    <div>
                       <h2 className="Gilroy-Bold text-2xl">Front End Web Development</h2>
                       <p className="text-lg color-light">Front end or client-side development is the practice of managing everything that users visually see first in their application or browser.</p>
@@ -85,7 +85,7 @@ class WebAboutUs extends Component {
 
                 </p>
               </div>
-              <div className="grid grid-cols-3 mt-6">
+              <div className="grid lg:grid-cols-3 grid-cols-1 mt-6">
                 <div>
                   <ul>
                     <li className="inline-flex items-center align-middle text-xl leading-[55px]">

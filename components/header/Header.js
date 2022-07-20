@@ -4,6 +4,8 @@ import Link from 'next/link';
 
 
 const Header = () => {
+  const [show, setShow] = useState(false);
+
   const config = {
     companyChildren: CompanyChildren,
     servicesChildren: ServicesChildren,
@@ -11,9 +13,11 @@ const Header = () => {
   const [navOpen, setNavOpen] = useState(false);
   const [blockName, setBlockName] = useState("companyChildren");
   let Block = config.companyChildren;
+
   useEffect(() => {
     Block = React.createElement(config[blockName]);
   }, [blockName]);
+
   useEffect(() => {
     navOpen
       ? document.getElementById("sidenav").classList.remove("-translate-y-full")
@@ -32,6 +36,7 @@ const Header = () => {
         }
         prevScrollpos = currentScrollPos;
       }
+      
     };
   }, []);
 
@@ -51,9 +56,10 @@ const Header = () => {
               )}
             </span>
           </Link>
-          <div className="dropdown dropdown-hover">
-            <label className="btn bg-transparent outline-none border-0 hover:bg-transparent m-1">
-              <div className="flex justify-between align-middle items-center bg-case-blue-request h-11 z-[100]">
+
+          <div className="dropdown lg:hidden dropdown-hover">
+            <label onClick={() => setShow(prev => !prev)} className="btn  bg-transparent outline-none border-0 hover:bg-transparent m-1">
+              <div   className="flex  justify-between align-middle items-center bg-case-blue-request h-11 z-[100]">
                 <p className="px-4 text-xs Gilroy-Light lowercase mobile-none">
                   <Link href="/contact">
                    request A Quote
@@ -110,24 +116,107 @@ const Header = () => {
                 </span>
               </div>
             </label>
-            <ul className="dropdown-content mt-0 ml-5 bg-base-blue-1 p-2 shadow bg-base-100 w-[168px]">
-              <li className="py-1 hover:bg-case-blue-request">
-                <Link
-                  href="/contact"
-                  className="text-white cursor-pointer hover:bg-case-blue-request"
+            
+            {show && 
+                 <ul className="dropdown-content mt-0 lg:ml-5 -ml-[6rem] bg-base-blue-1 p-2 shadow bg-base-100 w-[168px]">
+                 <li className="py-1 hover:bg-case-blue-request">
+                   <Link
+                     href="/contact"
+                     className="text-white cursor-pointer hover:bg-case-blue-request"
+                   >
+                     Contact
+                   </Link>
+                 </li>   
+                 <li className="pt-2 py-1 block hover:bg-case-blue-request">
+                   <Link
+                      href="/career"
+                      className="text-white block cursor-pointer hover:bg-case-blue-request">
+                      Career
+                   </Link>
+                 </li>
+               </ul>
+            }
+
+       
+          </div>
+
+          <div className="dropdown lg:block hidden dropdown-hover">
+            <label className="btn  bg-transparent outline-none border-0 hover:bg-transparent m-1">
+              <div   className="flex  justify-between align-middle items-center bg-case-blue-request h-11 z-[100]">
+                <p className="px-4 text-xs Gilroy-Light lowercase mobile-none">
+                  <Link href="/contact">
+                   request A Quote
+                  </Link>
+                </p>
+                <span
+                 
+                  className="bg-base-blue-1 items-center h-11 px-4 text-white"
                 >
-                  Contact
-                </Link>
-              </li>
-              <li className="pt-2 py-1 block hover:bg-case-blue-request">
-                <Link
-                  href="/career"
-                  className="text-white block cursor-pointer hover:bg-case-blue-request"
-                >
-                  Career
-                </Link>
-              </li>
-            </ul>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-4 w-4 relative top-3"
+                    width="15.5"
+                    height="11.5"
+                    viewBox="0 0 15.5 11.5"
+                  >
+                    <g
+                      id="Group_3668"
+                      data-name="Group 3668"
+                      transform="translate(-1821.75 -41.75)"
+                    >
+                      <line
+                        id="Line_181"
+                        data-name="Line 181"
+                        x2="14"
+                        transform="translate(1822.5 42.5)"
+                        fill="none"
+                        stroke="#fff"
+                        strokeLinecap="round"
+                        strokeWidth="1.5"
+                      />
+                      <line
+                        id="Line_182"
+                        data-name="Line 182"
+                        x2="8.326"
+                        transform="translate(1822.5 47.5)"
+                        fill="none"
+                        stroke="#fff"
+                        strokeLinecap="round"
+                        strokeWidth="1.5"
+                      />
+                      <line
+                        id="Line_226"
+                        data-name="Line 226"
+                        x2="14"
+                        transform="translate(1822.5 52.5)"
+                        fill="none"
+                        stroke="#fff"
+                        strokeLinecap="round"
+                        strokeWidth="1.5"
+                      />
+                    </g>
+                  </svg>
+                </span>
+              </div>
+            </label>
+               <ul className="dropdown-content mt-0 lg:ml-5 -ml-[6rem] bg-base-blue-1 p-2 shadow bg-base-100 w-[168px]">
+                 <li className="py-1 hover:bg-case-blue-request">
+                   <Link
+                     href="/contact"
+                     className="text-white cursor-pointer hover:bg-case-blue-request"
+                   >
+                     Contact
+                   </Link>
+                 </li>
+                 <li className="pt-2 py-1 block hover:bg-case-blue-request">
+                   <Link
+                     href="/career"
+                     className="text-white block cursor-pointer hover:bg-case-blue-request"
+                   >
+                     Career
+                   </Link>
+                 </li>
+               </ul>
           </div>
 
           {/* {
@@ -216,10 +305,10 @@ const ServicesChildren = () => {
       <div className="space-y-4">
         <h2 className="text-2xl Gilroy-Bold">Web Development</h2>
         <ul className="space-y-2 text-xl list-inside list-disc">
-          <li>Company Overview</li>
-          <li>Career</li>
-          <li>Contact Us</li>
-          <li>How we work</li>
+            <li>Company Overview</li>
+            <li>Career</li>
+            <li>Contact Us</li>
+            <li>How we work</li>
         </ul>
       </div>
     </div>
@@ -227,3 +316,4 @@ const ServicesChildren = () => {
 };
 
 export default Header;
+

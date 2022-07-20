@@ -10,44 +10,37 @@ const OpeningJob = [
     JobTitle: "Full Stack Developer",
     Position: "2",
     Experience: "1 to 2 Years",
-    // phone: '+918109561401',
   },
 
   {
     JobTitle: "React Developer",
     Position: "3",
     Experience: "1 to 4 Years",
-    // phone: '+918109561401',
   },
   {
     JobTitle: "UI Developer",
     Position: "2",
     Experience: "1 to 5 Years",
-    // phone: '+918109561401',
   },
   {
     JobTitle: "Mean Stack Developer",
     Position: "2",
     Experience: "1 to 5 Years",
-    // phone: '+918109561401',
   },
   {
     JobTitle: "Mern Stack Developer",
     Position: "2",
     Experience: "1 to 5 Years",
-    // phone: '+918109561401',
   },
   {
     JobTitle: "Digital Marketing",
     Position: "2",
     Experience: "1 to 5 Years",
-    // phone: '+918109561401',
   },
 ];
 function Opening() {
   const { register, handleSubmit, reset } = useForm();
   // const [role, setrole] = useState(null);
-
   const sumbitContact = (data) => {
     console.log(data);
     const formData = new FormData();
@@ -71,10 +64,11 @@ function Opening() {
   const roleShowing = (role) => {
     reset({ role: role });
   };
-   const collapsed =(id) =>{
-    const element = document.getElementById(id);
-    element.classList.toggle('collapse-open');
-   }
+
+  const collapsed =(id) =>{
+  const element = document.getElementById(id);
+  element.classList.toggle('collapse-open');
+  }
 
   return (
     <div className="2xl:p-10 p-8 2xl:space-y-8 space-y-6">

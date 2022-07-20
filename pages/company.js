@@ -29,7 +29,7 @@ function company(props) {
           <MeetCrew></MeetCrew>
           <UnderHood></UnderHood>
           <Choose></Choose>
-          <BlogsArticles></BlogsArticles>
+          {/* <BlogsArticles></BlogsArticles> */}
           <BigHeadingScroll text={'Perfectly balanced as all things should be.'}/>
           <KeepInTouch />
           <LocateUs />

@@ -14,7 +14,7 @@ class Mobileservices extends Component {
                         We are a full-service iPhone application development company and we provide you end-to-end support from conceptualisation, feasibility assessment to design, development, testing and release.
                         </p>
                     </div>
-                    <div className='grid grid-cols-3 gap-4 mt-4'>
+                    <div className='grid lg:grid-cols-3 grid-cols-1 gap-4 mt-4'>
                          <div className='border-active'>
                             <img src='/images/s-1.svg' className='h-10' />
                             <h3>100% Transparency</h3>

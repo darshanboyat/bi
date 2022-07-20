@@ -14,7 +14,7 @@ class WebServices extends Component {
                         We take pride in developing enterprise web services and small business web solutions to meet your specific needs. Smart choices of latest technologies and deployment of standardized coding frameworks, help us ensure that our processes and solutions are scalable and future-proof, enhancing the user experience. Invariably, the result is a powerful software to the world. Our 10+ years of combined expertise in web design and big/small business web development sets us apart.
                         </p>
                     </div>
-                    <div className='grid grid-cols-4 gap-4 mt-4'>
+                    <div className='grid lg:grid-cols-4 grid-cols-1 gap-4 mt-4'>
                          <div className='border-active'>
                             <h3>Expansive</h3>
                             <p>We follow the standard set of principles and techniques to deliver scalable web applications and solutions to meet your business demands.</p>
@@ -45,7 +45,7 @@ class WebServices extends Component {
                 <div className='container padding-left-all-section'>
               <p className='text-2xl Gilroy-Bold text-black'>coding standards</p>  
 
-              <div className='w-[70%] flex mt-8'>
+              <div className='lg:w-[70%] w-[100%] flex mt-8'>
                     <div className='w-[100%]'>
                         <h2 className='Gilroy-Bold text-black text-3xl'>Smart</h2>
                         <p className='text-black'>Smart coding is to avoid all the technical risk right away while writing the code and make it fault resistant. We plan the actions and how users could react before writing the code.</p>
@@ -55,7 +55,7 @@ class WebServices extends Component {
                         <p className='text-black'>The reusability of code reduces redundancy and development time. The optimization of code is very important and we do it by having reusability of the code.</p>
                     </div>
                 </div>
-                <div className='w-[70%] flex mt-8'>
+                <div className='lg:w-[70%] w-[100%] flex mt-8'>
                     <div className='w-[100%]'>
                         <h2 className='Gilroy-Bold text-black text-3xl'>Beautiful</h2>
                         <p className='text-black'>Smart coding is to avoid all the technical risk right away while writing the code and make it fault resistant. We plan the actions and how users could react before writing the code.</p>

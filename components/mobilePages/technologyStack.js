@@ -10,8 +10,8 @@ class TechnologyStack extends Component {
                     our technology stack
                     </h2>
                 </div>
-                <div className='grid grid-cols-5'>
-                    <div className='bg-stack'>
+                <div className='grid lg:grid-cols-5 grid-cols-1'>
+                    <div className='bg-stack lg:mb-0 mb-4'>
                         <h2>iOS</h2>
                       <ul className='text-center'>
                          <li>Swift</li>
@@ -19,7 +19,7 @@ class TechnologyStack extends Component {
                          <li>X-Code</li>
                       </ul>
                     </div>
-                    <div className='bg-stack'>
+                    <div className='bg-stack lg:mb-0 mb-4'>
                         <h2>Android</h2>
                         <ul className='text-center'>
                          <li>Java</li>
@@ -28,7 +28,7 @@ class TechnologyStack extends Component {
                       </ul>
                       
                     </div>
-                    <div className='bg-stack'>
+                    <div className='bg-stack lg:mb-0 mb-4'>
                         <h2>Cross platform</h2>
                         <ul className='text-center'>
                          <li>Flutter</li>
@@ -38,7 +38,7 @@ class TechnologyStack extends Component {
                          <li>HTML5</li>
                       </ul>
                     </div>
-                    <div className='bg-stack'>
+                    <div className='bg-stack lg:mb-0 mb-4'>
                         <h2>Database</h2>
                         <ul className='text-center'>
                          <li>Firebase</li>
@@ -50,7 +50,7 @@ class TechnologyStack extends Component {
                          <li>SQLite</li>
                       </ul>
                     </div>
-                    <div className='bg-stack'>
+                    <div className='bg-stack lg:mb-0 mb-4'>
                         <h2>Design Tools</h2>
                         <ul className='text-center'>
                          <li>Illustrator</li>

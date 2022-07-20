@@ -37,7 +37,7 @@ const blogstype = [
 function process(props) {
     return (
         <div className='2xl:p-10 p-8 2xl:space-y-8 space-y-6 '>
-            <div className='pt-24 pb-24'>
+            <div className='pt-24 pb-24 container padding-left-all-section'>
 
            <h2 className='text-4xl Gilroy-Bold pb-12'>Our work process is our identity</h2>
 

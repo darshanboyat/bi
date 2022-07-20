@@ -30,7 +30,8 @@ const ethosValue = [
 function ethos(props) {
     return (
         <div className='2xl:p-10 p-8 2xl:space-y-8 space-y-6 pt-24 pb-24'>
-            <h2 className='text-7xl text-stroke-2 Gilroy-Bold stroke-text-3'>Our ethos</h2>
+            <div className='container padding-left-all-section'>
+            <h2 className='text-8xl text-stroke-2 Gilroy-Bold stroke-text-3 mb-8'>Our ethos</h2>
             <div className='grid grid-cols-4 gap-4 mb-4'>
             {
                 ethosValue.map((el) =>(
@@ -42,6 +43,7 @@ function ethos(props) {
                     </div>
                 ))
             }
+            </div>
             </div>
             
         </div>

@@ -28,7 +28,8 @@ function WebAppDevelopment(props) {
        :
        <div>
           <Head>
-            <title>Contact Brain Inventory to Kickstart Your Digital Journey Today</title>
+            <title>Web Application Development Services with Brain Inventory</title>
+            {/* <meta name="description" content="Brain Inventory is a leading web application development company in India offering professional website and web application development services worldwide." /> */}
           </Head>
         <div>
           <Header></Header>
@@ -40,7 +41,7 @@ function WebAppDevelopment(props) {
           <WebServices/>
           <Engagementmodal/>
           <Newsletter/>
-          <Industries1/>
+          {/* <Industries1/> */}
           <Faqs/>
           <KeepInTouch/>
           <LocateUs/>

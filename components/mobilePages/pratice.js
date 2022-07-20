@@ -72,7 +72,7 @@ return (
             <p className='text-2xl Gilroy-Bold'>The way we design to engage users</p>
             <div className='flex items-center'>
                 <div className='list-under-1'>
-                    <ul className='pt-8 pb-8 mr-20 list-under'>
+                  <ul className='pt-8 pb-8 mr-20 list-under'>
                     {praticeDetail.map((el, index)=>{
                         return (
                             <li className={`Gilroy-Medium mb-4 whitespace-nowrap text-lg cursor-pointer color-light ${data.id == el.id ? 'active-color' : 'active-2'}`} key={el.id} onClick={()=>setdata(el)}>{el.title}</li>

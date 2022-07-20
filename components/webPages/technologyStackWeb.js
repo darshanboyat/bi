@@ -10,8 +10,8 @@ class TechnologyStackWeb extends Component {
                our technology stack
                </h2>
            </div>
-           <div className='grid grid-cols-4'>
-               <div className='bg-stack'>
+           <div className='grid lg:grid-cols-5 grid-cols-1'>
+               <div className='bg-stack lg:mb-0 mb-6'>
                    <h2>Back-end:</h2>
                  <ul className='text-center'>
                     <li>Laravel</li>
@@ -22,7 +22,7 @@ class TechnologyStackWeb extends Component {
                     <li>Java</li>
                  </ul>
                </div>
-               <div className='bg-stack'>
+               <div className='bg-stack lg:mb-0 mb-6'>
                    <h2>Front-end:</h2>
                    <ul className='text-center'>
                     <li>AngularJS</li>
@@ -33,7 +33,7 @@ class TechnologyStackWeb extends Component {
                  </ul>
                  
                </div>
-               <div className='bg-stack'>
+               <div className='bg-stack lg:mb-0 mb-6'>
                    <h2>Database:</h2>
                    <ul className='text-center'>
                   
@@ -43,7 +43,7 @@ class TechnologyStackWeb extends Component {
                     <li>Firebase</li>
                  </ul>
                </div>
-               <div className='bg-stack'>
+               <div className='bg-stack lg:mb-0 mb-6'>
                    <h2>OpenSource:</h2>
                    <ul className='text-center'>
                     <li>Drupal</li>

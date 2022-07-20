@@ -15,7 +15,7 @@ async function handleApplyForJobRequest(data) {
             await sendMail(payload);
     
             const payload2 = {
-                to: 'h.ali@braininventory.com', //HR team email - Static
+                to: 'career@braininventory.com', //HR team email - Static
                 subject: 'New Applicant',
                 html: applyForJobToHr(data),
                 attachments: [data.file]

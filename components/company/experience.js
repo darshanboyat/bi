@@ -52,7 +52,8 @@ const experienceValue = [
 
 function experience(props) {
     return (
-        <div className='2xl:p-10 p-8 2xl:space-y-8'>
+        <div className='2xl:p-10 p-8 2xl:space-y-8 '>
+            <div className='container padding-left-all-section'>
             <h1 className='text-4xl mb-2 Gilroy-Bold'>the brain inventory experience</h1>
             <p className='pb-8 Gilroy-light text-gray-400'>We are driven by strong fundamentals or values that drive everthing we do at Moshi; from our hiring. to <br/> the way we deal with our customers, and how we do our business and plan our growth</p>
              <div className='grid grid-cols-3 gap-4'>
@@ -71,6 +72,7 @@ function experience(props) {
                 ))
             }
              </div>
+            </div>
              
         </div>
 

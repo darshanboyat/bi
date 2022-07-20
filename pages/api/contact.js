@@ -14,9 +14,9 @@ async function handleContactUsRequest(data) {
             await sendMail(payload);
     
             const payload2 = {
-                to: 'h.ali@braininventory.com', //Sales team email - Static
+                to: 'askus@braininventory.com', //Sales team email - Static
                 subject: 'New Inquiry',
-                html: queryToSales(data)
+                html: queryToSales(data),
             }
             
             await sendMail(payload2);

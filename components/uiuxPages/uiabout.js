@@ -65,6 +65,11 @@ class Uiabout extends Component {
                   </ul>
                 </div>
               </div>
+
+              <div>
+                 <img src='/images/design-page.png' className='w-full mt-8' />
+              </div>
+
             </div>
           </div>
         );

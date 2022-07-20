@@ -40,7 +40,7 @@ class Industries extends Component {
                       </div>
                          </div>
                          <div className=''>
-                            <ul className="industries_list absolute top-0 left-[30rem]">
+                            <ul className="industries_list lg:absolute top-0 left-[30rem]">
                                 <li data-tab="tab-1" className="hover-link current">
                                     Custom Fantasy Sports
                                 </li>
