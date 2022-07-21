@@ -40,7 +40,7 @@ class PortfolioSection extends Component {
           </h2>
           {portfolioDetail.map((el) => {
             return (
-              <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 mb-12">
+              <div key={el.title} className="grid lg:grid-cols-2 grid-cols-1 gap-8 mb-12">
                 <div className="flex items-center">
                   <div className="flex">
                     <div>
