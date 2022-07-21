@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import { useState } from "react/cjs/react.production.min";
+import Swal from 'sweetalert2'
 
 
 
@@ -58,6 +59,14 @@ function Opening() {
       })
       .catch((error) => {
         console.log(error);
+      });
+      reset();
+      Swal.fire({
+        icon: 'success',
+        title: 'Thank you for your interest in working with Brain Inventory.',
+        text: 'We have received your application and our Talent Acquisition Team would get back to you if your resume gets shortlisted.',
+        showConfirmButton: true,
+        // timer: 2000,
       });
   };
 

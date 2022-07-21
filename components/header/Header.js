@@ -18,11 +18,11 @@ const Header = () => {
     Block = React.createElement(config[blockName]);
   }, [blockName]);
 
-  useEffect(() => {
-    navOpen
-      ? document.getElementById("sidenav").classList.remove("-translate-y-full")
-      : document.getElementById("sidenav").classList.add("-translate-y-full");
-  }, [navOpen]);
+  // useEffect(() => {
+  //   navOpen
+  //     ? document.getElementById("sidenav").classList.remove("-translate-y-full")
+  //     : document.getElementById("sidenav").classList.add("-translate-y-full");
+  // }, [navOpen]);
 
   useEffect(() => {
     let prevScrollpos = window.pageYOffset;
@@ -237,7 +237,7 @@ const Header = () => {
                     )
                 } */}
         </div>
-        <div
+        {/* <div
           id="sidenav"
           className="fixed inset-0 overflow-hidden bg-gradient-4 z-40 transition-transform duration-300 flex gap-10"
         >
@@ -259,7 +259,7 @@ const Header = () => {
             </div>
             <Block></Block>
           </div>
-        </div>
+        </div> */}
       </nav>
     </>
   );

@@ -32,20 +32,19 @@ function ethos(props) {
         <div className='2xl:p-10 p-8 2xl:space-y-8 space-y-6 pt-24 pb-24'>
             <div className='container padding-left-all-section'>
             <h2 className='text-8xl text-stroke-2 Gilroy-Bold stroke-text-3 mb-8'>Our ethos</h2>
-            <div className='grid grid-cols-4 gap-4 mb-4'>
-            {
-                ethosValue.map((el) =>(
-                    <div key={el}>
-                    <div className='line'></div>
-                    <div className='w-40 pl-4'>
-                        <p className='Gilroy-Bold'>{el.description}</p>
-                    </div>
-                    </div>
-                ))
-            }
+                <div className='grid grid-cols-4 gap-4 mb-4'>
+                    {
+                        ethosValue.map((el) =>(
+                            <div key={el}>
+                            <div className='line'></div>
+                            <div className='w-44 pl-4'>
+                                <p className='Gilroy-Bold'>{el.description}</p>
+                            </div>
+                            </div>
+                        ))
+                    }
+                </div>
             </div>
-            </div>
-            
         </div>
     );
 }

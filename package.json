@@ -29,9 +29,11 @@
     "react-easy-marquee": "^1.2.2",
     "react-hook-form": "^7.30.0",
     "react-router": "^6.3.0",
+    "react-scrollspy-navigation": "^1.0.2",
     "scrollmagic": "^2.0.8",
     "smooth-scrollbar": "^8.7.4",
-    "smooth-scrollbar-react": "^2.3.0"
+    "smooth-scrollbar-react": "^2.3.0",
+    "sweetalert2": "^11.4.23"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",

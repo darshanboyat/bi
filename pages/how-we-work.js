@@ -12,6 +12,7 @@ import Engagementmodal from '../components/mobilePages/engagementModal';
 import ChooseApp from '../components/mobilePages/chooseApp';
 import WorkBanner from '../components/work/workBanner';
 import Work from '../components/work/work';
+import Cycle from '../components/work/cycle';
 
 class HowWeWork extends Component {
     render() {
@@ -21,11 +22,13 @@ class HowWeWork extends Component {
                  <WorkBanner/>
                  <Work/>
                  <HomeSectionSix/>
+                 <Cycle/>
                  <ChooseApp/>
                  <LanguageTool/>
                  <Newsletter/>
                  <Engagementmodal/>
                  <Faqs/>
+                 
                  <KeepInTouch/>
                  <LocateUs/>
                  <LetsKick/>

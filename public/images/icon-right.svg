@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="360" viewBox="0 0 30 360">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1168" data-name="Rectangle 1168" width="12" height="12" transform="translate(482 3266)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_4770" data-name="Group 4770" transform="translate(-473 -3258)">
+    <line id="Line_224" data-name="Line 224" y2="328" transform="translate(488.5 3268.5)" fill="none" stroke="#fff" stroke-width="1"/>
+    <g id="Group_3395" data-name="Group 3395" transform="translate(0 1)">
+      <g id="Ellipse_119" data-name="Ellipse 119" transform="translate(473 3257)" stroke="#fff" stroke-width="2">
+        <circle cx="15" cy="15" r="15" stroke="none"/>
+        <circle cx="15" cy="15" r="14" fill="none"/>
+      </g>
+      <g id="Mask_Group_69" data-name="Mask Group 69" clip-path="url(#clip-path)">
+        <path id="checked" d="M0,6.383,4.109,10.5,12,2.617,10.867,1.5,4.109,8.25,1.117,5.258Z" transform="translate(482 3266)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_3395-2" data-name="Group 3395" transform="translate(0 166)">
+      <g id="Ellipse_119-2" data-name="Ellipse 119" transform="translate(473 3257)" stroke="#fff" stroke-width="2">
+        <circle cx="15" cy="15" r="15" stroke="none"/>
+        <circle cx="15" cy="15" r="14" fill="none"/>
+      </g>
+      <g id="Mask_Group_69-2" data-name="Mask Group 69" clip-path="url(#clip-path)">
+        <path id="checked-2" data-name="checked" d="M0,6.383,4.109,10.5,12,2.617,10.867,1.5,4.109,8.25,1.117,5.258Z" transform="translate(482 3266)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_3395-3" data-name="Group 3395" transform="translate(0 331)">
+      <g id="Ellipse_119-3" data-name="Ellipse 119" transform="translate(473 3257)" stroke="#fff" stroke-width="2">
+        <circle cx="15" cy="15" r="15" stroke="none"/>
+        <circle cx="15" cy="15" r="14" fill="none"/>
+      </g>
+      <g id="Mask_Group_69-3" data-name="Mask Group 69" clip-path="url(#clip-path)">
+        <path id="checked-3" data-name="checked" d="M0,6.383,4.109,10.5,12,2.617,10.867,1.5,4.109,8.25,1.117,5.258Z" transform="translate(482 3266)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

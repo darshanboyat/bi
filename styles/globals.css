@@ -517,6 +517,7 @@ font-family: Gilroy-Bold;
   position: relative;
   overflow: hidden;
 }
+
 .intro .line1 .content .mask {
   display: inline-block;
   position: absolute;
@@ -533,7 +534,6 @@ font-family: Gilroy-Bold;
 
 .main-tool-bar {
   height: auto;
-  /* background: red; */
   text-align: center;
   display: flex;
   align-items: center;
@@ -557,6 +557,22 @@ font-family: Gilroy-Bold;
 .blend.show {
   background: transparent;
   color: black;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
 
 .bg-image-name::after
@@ -656,7 +672,6 @@ html {
   bottom: 0;
   height: 80px;
   background-image: linear-gradient(rgba(0,0,0,0.0), rgba(0,0,0));
-
 }
 
 
@@ -1043,4 +1058,32 @@ display: block;
 position: absolute;
 top: 6px;
 left: -25px;
+}
+
+.cycle-active .active
+{
+  color: #fff;
+  font-size: 1.3rem;
+}
+ 
+.discoluser-name
+{
+  margin-left: 1rem;
+  margin-top: 0.6rem;
+  margin-bottom: 1rem;
+}
+.discoluser-name li
+{
+  list-style: circle;
+  margin-bottom: 6px;
+}
+
+.custom-class::-webkit-scrollbar {
+  display: none;
+}
+.bg-vision
+{
+background: #6302DD38 0% 0% no-repeat padding-box;
+border: 1px solid #6302DD;
+padding: 3rem 0;
 }

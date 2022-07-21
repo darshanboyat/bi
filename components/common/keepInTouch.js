@@ -1,18 +1,30 @@
 import Image from "next/image";
 import HomeButton from "../buttons/HomeButton";
 import { useForm } from "react-hook-form";
+import Swal from 'sweetalert2'
+import { useRouter } from 'next/router'
+
 
 
 export default function KeepInTouch() {
-    const { register, handleSubmit } = useForm();
-
+  const router = useRouter()
+    const { register, handleSubmit, reset } = useForm();
     const sumbitContact = (data) => {
       console.log(data);
       fetch("/api/contact", {
         method: "POST",
         body: JSON.stringify(data),
       });
+      // Swal.fire({
+      //   icon: 'success',
+      //   title: 'Your data has been send',
+      //   showConfirmButton: false,
+      //   timer: 1500
+      // })
+      reset();
+      router.push('/thank-you');
     };
+
     return (
                 <div className="2xl:p-10 p-8 2xl:space-y-8 space-y-6">
             <div className="container padding-left-all-section">
@@ -39,6 +51,7 @@ export default function KeepInTouch() {
                 <input
                   {...register("name")}
                   type="text"
+                  required
                   className="bg-transparent p-4 focus:outline-none border border-[#ffffff67] w-full placeholder-[#ffffffd7]"
                   placeholder="You should have a name"
                 ></input>
@@ -46,12 +59,14 @@ export default function KeepInTouch() {
                   <input
                     {...register("email")}
                     type="email"
+                    required
                    className="bg-transparent p-4 focus:outline-none border border-[#ffffff67] flex-1 placeholder-[#ffffffd7]"
                     placeholder="Obviously, an email"
                   ></input>
                   <input
                     {...register("number")}
                     type="number"
+                    required
                     className="bg-transparent p-4 focus:outline-none border border-[#ffffff67] flex-1 placeholder-[#ffffffd7]"
                     placeholder="Your contact number"
                   ></input>
@@ -59,12 +74,14 @@ export default function KeepInTouch() {
                 <input
                   {...register("companyName")}
                   type="text"
+                  required
                   className="bg-transparent p-4 focus:outline-none border border-[#ffffff67] w-full placeholder-[#ffffffd7]"
                   placeholder="What's your company name?"
                 ></input>
                 <input
                   {...register("feedback")}
                   type="text"
+                  required
                   className="bg-transparent p-4 focus:outline-none border border-[#ffffff67] w-full placeholder-[#ffffffd7]"
                   placeholder="Tell us, Everything!"
                 ></input>

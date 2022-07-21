@@ -4,17 +4,20 @@ import HomeButton from "../buttons/HomeButton";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import { useForm } from "react-hook-form";
 import Link from 'next/link';
+import { useRouter } from 'next/router'
 
 
 function Contact(props) {
-  const { register, handleSubmit } = useForm();
-
+  const { register, handleSubmit, reset } = useForm();
+  const router = useRouter()
   const sumbitContact = (data) => {
     console.log(data);
     fetch("/api/contact", {
       method: "POST",
       body: JSON.stringify(data),
     });
+    reset();
+    router.push('/thank-you');
   };
 
   return (
