@@ -7,9 +7,8 @@ import KeepInTouch from '../components/common/keepInTouch';
 import LocateUs from '../components/common/locateUs';
 import LetsKick from '../components/common/LetsKick';
 import Footer from '../components/common/Footer';
-import Contact1 from '../components/contacts/contact';
-import ContactBanner from '../components/contacts/contactBanner';
 import Loader from '../components/common/loader';
+import Timeline from '../components/portfolio/timeline';
 
 function ThankYou(props) {
     const [loading, setLoading] = useState(true);
@@ -34,6 +33,7 @@ function ThankYou(props) {
                   <p className='text-center text-lg'>As we Make Sure The Right Person <span className='color-light'>Get Back to you ASAP</span></p>
               </div>
           </div>
+          <Timeline/>
           <LocateUs />
           <LetsKick />
           <Footer />

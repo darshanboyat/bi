@@ -116,7 +116,7 @@ export function thankYouForContactingWithSales(data) {
 													<table class="image_block" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
 														<tr>
 															<td style="width:100%;padding-right:0px;padding-left:0px;padding-top:40px;padding-bottom:5px;">
-																<div align="center" style="line-height:10px"><img src="https://brain-inventory-6zxncukkz-binaryprotagonist.vercel.app/_next/image?url=%2Fimages%2Flogo.svg&w=384&q=75" style="display: block; height: auto; border: 0; width: 244px; max-width: 100%;" width="244" alt="BILogo" title="BILogo"></div>
+																<div align="center" style="line-height:10px"><img src="https://braininventory.com/_next/image?url=%2Fimages%2FLogobg.png&w=1920&q=75" style="display: block; height: auto; border: 0; width: 244px; max-width: 100%;" width="244" alt="BILogo" title="BILogo"></div>
 															</td>
 														</tr>
 													</table>
@@ -127,8 +127,8 @@ export function thankYouForContactingWithSales(data) {
 															<td style="padding-top:50px;padding-right:10px;padding-bottom:15px;padding-left:10px;">
 																<div style="font-family: sans-serif">
 																	<div class="txtTinyMce-wrapper" style="font-size: 12px; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; mso-line-height-alt: 18px; color: #fefeff; line-height: 1.5;">
-																		<p style="margin: 0; font-size: 14px; text-align: center;">+92123124141242</p>
-																		<p style="margin: 0; font-size: 14px; text-align: center;">hr@braininventory.com</p>
+																		<p style="margin: 0; font-size: 14px; text-align: center;">+91 772-288-5755</p>
+																		<p style="margin: 0; font-size: 14px; text-align: center;">askus@braininventory.com</p>
 																	</div>
 																</div>
 															</td>
@@ -251,7 +251,7 @@ export function thankYouForContactingWithSales(data) {
 													<table class="image_block" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
 														<tr>
 															<td style="width:100%;padding-right:0px;padding-left:0px;padding-top:55px;padding-bottom:5px;">
-																<div align="center" style="line-height:10px"><img src="https://brain-inventory-6zxncukkz-binaryprotagonist.vercel.app/_next/image?url=%2Fimages%2Flogo.svg&w=384&q=75" style="display: block; height: auto; border: 0; width: 217px; max-width: 100%;" width="217" alt="logo" title="logo"></div>
+																<div align="center" style="line-height:10px"><img src="https://braininventory.com/_next/image?url=%2Fimages%2FLogobg.png&w=1920&q=75" style="display: block; height: auto; border: 0; width: 217px; max-width: 100%;" width="217" alt="logo" title="logo"></div>
 															</td>
 														</tr>
 													</table>
@@ -431,7 +431,7 @@ export function thankYouForApplyingForJob(data) {
 													<table class="image_block" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
 														<tr>
 															<td style="width:100%;padding-right:0px;padding-left:0px;padding-top:40px;padding-bottom:5px;">
-																<div align="center" style="line-height:10px"><img src="https://brain-inventory-6zxncukkz-binaryprotagonist.vercel.app/_next/image?url=%2Fimages%2Flogo.svg&w=384&q=75" style="display: block; height: auto; border: 0; width: 244px; max-width: 100%;" width="244" alt="BILogo" title="BILogo"></div>
+																<div align="center" style="line-height:10px"><img src="https://braininventory.com/_next/image?url=%2Fimages%2FLogobg.png&w=1920&q=75" style="display: block; height: auto; border: 0; width: 244px; max-width: 100%;" width="244" alt="BILogo" title="BILogo"></div>
 															</td>
 														</tr>
 													</table>
@@ -442,8 +442,8 @@ export function thankYouForApplyingForJob(data) {
 															<td style="padding-top:50px;padding-right:10px;padding-bottom:15px;padding-left:10px;">
 																<div style="font-family: sans-serif">
 																	<div class="txtTinyMce-wrapper" style="font-size: 12px; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; mso-line-height-alt: 18px; color: #fefeff; line-height: 1.5;">
-																		<p style="margin: 0; font-size: 14px; text-align: center;">+92123124141242</p>
-																		<p style="margin: 0; font-size: 14px; text-align: center;">hr@braininventory.com</p>
+																		<p style="margin: 0; font-size: 14px; text-align: right;">+92123124141242</p>
+																		<p style="margin: 0; font-size: 14px; text-align: right;">hr@braininventory.com</p>
 																	</div>
 																</div>
 															</td>
@@ -518,12 +518,12 @@ export function thankYouForApplyingForJob(data) {
 															<td>
 																<div style="color:#000000;direction:ltr;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:14px;font-weight:400;letter-spacing:0px;line-height:120%;text-align:left;">
 																	<p style="margin: 0; margin-bottom: 16px;">Dear ${data.firstName} ${data.lastName},</p>
-																	<p style="margin: 0; margin-bottom: 16px;">Thank you for your interest in working with Hidden Brains. We have received your application and our Talent Acquisition Team would get back to you if your resume gets shortlisted.</p>
+																	<p style="margin: 0; margin-bottom: 16px;">Thank you for your interest in working with Brain Inventory We have received your application and our Talent Acquisition Team would get back to you if your resume gets shortlisted.</p>
 																	<p style="margin: 0; margin-bottom: 16px;">We would analyze your skills and expertise to check whether it matches our current requirements. If your profile is found relevant, our recruiter may contact you for additional information.</p>
                                                                     <p style="margin: 0; margin-bottom: 16px;">If you have any questions related to careers or status of your application, feel free to contact us at</p>
                                                                     <table style='margin: 0; margin-bottom: 16px; width: 100%;'>
                                                                         <tr>
-                                                                            <td style='padding: 8px;'>+9142141525134</td>
+                                                                            <td style='padding: 8px;'>+91 772-288-5755</td>
                                                                             <td style='padding: 8px;'>hr@braininventory.com</td>
                                                                         </tr>
                                                                     </table>
@@ -573,7 +573,7 @@ export function thankYouForApplyingForJob(data) {
 													<table class="image_block" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
 														<tr>
 															<td style="width:100%;padding-right:0px;padding-left:0px;padding-top:55px;padding-bottom:5px;">
-																<div align="center" style="line-height:10px"><img src="https://brain-inventory-6zxncukkz-binaryprotagonist.vercel.app/_next/image?url=%2Fimages%2Flogo.svg&w=384&q=75" style="display: block; height: auto; border: 0; width: 217px; max-width: 100%;" width="217" alt="logo" title="logo"></div>
+																<div align="center" style="line-height:10px"><img src="https://braininventory.com/_next/image?url=%2Fimages%2FLogobg.png&w=1920&q=75" style="display: block; height: auto; border: 0; width: 217px; max-width: 100%;" width="217" alt="logo" title="logo"></div>
 															</td>
 														</tr>
 													</table>

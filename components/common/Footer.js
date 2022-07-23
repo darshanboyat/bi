@@ -244,14 +244,14 @@ const FooterSections = [
 // const [addClick, setaddClick] = useState('');
 const viewMore = () =>{
     alert('test');
+    setaddClick
 }
 
 export default function Footer() {
     return (
         <div className="py-10 mx-10 border-t">
             <div className="container">
-            <div className="grid lg:grid-cols-5 grid-cols-1 gap-8">
-                
+               <div className="grid lg:grid-cols-5 grid-cols-1 gap-8">
                 {
                     FooterSections.map((section, index) => {
                         return (

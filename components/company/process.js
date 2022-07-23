@@ -42,7 +42,7 @@ function process(props) {
            <h2 className='text-4xl Gilroy-Bold pb-12'>Our work process is our identity</h2>
 
            <div className="snap-x snap-mandatory overflow-x-auto flex no-scrollbar space-x-8 scroll-p-10">
-                {
+            {
                     blogstype.map((el) => (
                         <div key={el.id} className="snap-start flex flex-col space-y-4">
                             <div className='flex justify-between'>
@@ -52,17 +52,16 @@ function process(props) {
                             <div className='w-96 ml-4'>
                                 <p className='pt-8 pb-3 Gilroy-Light'>Strategy</p>
                                 <h3 className='Gilroy-Bold text-white text-2xl'>Design sprints & Workshops.</h3>
+                                <p className='Gilroy-light text-gray-400 text-sm pb-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>            
+                                <h3 className='Gilroy-Bold text-white text-2xl'>Business & user research</h3>
                                 <p className='Gilroy-light text-gray-400 text-sm pb-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-            
-                                 <h3 className='Gilroy-Bold text-white text-2xl'>Business & user research</h3>
-                                <p className='Gilroy-light text-gray-400 text-sm pb-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                                <HomeButton><span className="text-sm text-white">how we work</span></HomeButton>
+                                <HomeButton> <span className="text-sm text-white">how we work</span> </HomeButton>
                             </div>
                             </div>
-                            {/* <p className="2xl:text-xl xl:text-lg text-base Gilroy-Light">{el.summary}</p> */}
+                            <p className="2xl:text-xl xl:text-lg text-base Gilroy-Light">{el.summary}</p>
                         </div>
                     ))
-                }
+            }
             </div>
         </div>
         
