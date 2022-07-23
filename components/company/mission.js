@@ -1,7 +1,7 @@
 
 import React from 'react';
 import Image from "next/image";
-import { useEffect } from 'react/cjs/react.production.min';
+
 
 
 const missionType = [
@@ -33,7 +33,10 @@ function mission(props) {
                                     </div>
                                 </div>
                             ))
-                     }
+                    }
+                    <div>
+                        <span></span>
+                    </div>
                 </div>
             </div>
         </div>

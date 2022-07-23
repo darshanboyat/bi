@@ -5,6 +5,7 @@ import Link from 'next/link';
 const FooterSections = [
     {
         title: 'About',
+        link: '/how-we-work',
         links: [
           
             {
@@ -31,6 +32,7 @@ const FooterSections = [
     },  
     {
         title: 'Solutions',
+        link: '/solution',
         links: [
             {
                 name: 'Custom Software Development',
@@ -72,6 +74,7 @@ const FooterSections = [
     }, 
     {
         title: 'Web App Development',
+        link: '/web-app-development',
         links: [
             {
                 name: 'Angular JS Development',
@@ -106,6 +109,7 @@ const FooterSections = [
   
     {
         title: 'Mobile App Development',
+        link: '/mobile-app-development',
         links: [
             {
                 name: 'iOS App Development',
@@ -158,10 +162,9 @@ const FooterSections = [
             }
         ]
     },
-   
-
     {
         title: 'Portfolio',
+        link: '/portfolio',
         className: 'md:col-span-2',
         links: [
             {
@@ -256,7 +259,11 @@ export default function Footer() {
                     FooterSections.map((section, index) => {
                         return (
                             <div key={index} className={section.className? section.className:'md:col-span-1'   }>
-                                <h3 className="text-xl Gilroy-Bold mb-4">{section.title}</h3>
+                                <a
+                                    href={section.link} 
+                                    className="cursor-pointer">  
+                                    <h3 className="text-xl Gilroy-Bold mb-4 cursor-pointer">{section.title}</h3>
+                                </a>
                                 <ul className="space-y-2">
                                     {
                                         section.links.map((link, index) => {

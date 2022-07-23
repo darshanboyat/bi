@@ -1659,3 +1659,67 @@ padding: 3rem 0;
 {
   background-color: #6302DD;
 }
+
+.bg-hr-1
+{
+  background-image: url('/images/hr-1.jpg');
+  background-size: cover;
+  height: 60vh;
+}
+
+.bg-hr-2
+{
+  background-image: url('/images/hr-2.jpg');
+  background-size: cover;
+  height: 60vh;
+}
+
+.bg-hr-3
+{
+  background-image: url('/images/hr-3.jpg');
+  background-size: cover;
+  height: 60vh;
+}
+
+.bg-hr-color
+{
+  background-color: #6302dd;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+
+.overlay-content
+{
+  background-color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  padding: 1rem;
+  padding-top: 1.6rem;
+  height: 145px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: all 500ms ease-in;
+}
+
+.overlay-content:hover
+{
+  height: auto;
+  background-color: #6302dd;
+}
+
+.overlay-content h1
+{
+  font-size: 3rem;
+  font-family: Gilroy-Bold;
+}
+
+.overlay-content h3{
+  font-size: 1.8rem;
+  font-family: Gilroy-Bold;
+  padding-bottom: 1.5rem;
+}

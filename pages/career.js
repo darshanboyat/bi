@@ -14,6 +14,7 @@ import WhyWork from '../components/contacts/whyWork';
 // import "animate.css/animate.min.css";
 import Loader from '../components/common/loader'
 import Stepper from '../components/career/stepper';
+import InterviewProcess from '../components/career/interviewProcess';
 
 function Carrer(props) {
   
@@ -39,6 +40,7 @@ React.useEffect(() => {
           <MeetCrew></MeetCrew>
           <Culture></Culture>
           <Newsletter></Newsletter>
+          <InterviewProcess></InterviewProcess>
           <Opening></Opening>
           <KeepInTouch/>
           <LocateUs/>
