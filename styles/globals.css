@@ -74,6 +74,7 @@ html, body {
 {
   background-color: #6302dd;
 }
+
 .bg-base-blue-2 {
   background-color: var(--base-blue-2);
 }
@@ -1698,6 +1699,8 @@ padding: 3rem 0;
   padding: 1rem;
   padding-top: 1.6rem;
   height: 145px;
+  /* transform: translateY(130px); */
+
   overflow: hidden;
   position: absolute;
   bottom: 0;
@@ -1708,8 +1711,18 @@ padding: 3rem 0;
 
 .overlay-content:hover
 {
-  height: auto;
-  background-color: #6302dd;
+  transform: translateY(-100px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay-content .line
+{
+  height: 1.1px;
+  width: 100px;
+  background-color: #fff;
+  margin-left: 8px;
+  position: absolute;
+  top: 2.7rem;
 }
 
 .overlay-content h1
@@ -1722,4 +1735,133 @@ padding: 3rem 0;
   font-size: 1.8rem;
   font-family: Gilroy-Bold;
   padding-bottom: 1.5rem;
+}
+
+.bg-staff
+{
+  background: #180035 0% 0% no-repeat padding-box;
+  padding: 4rem 2rem;
+}
+
+.class-inventory
+{
+  background: #631EDD 0% 0% no-repeat padding-box;
+  padding: 1rem;
+  margin-top: 7rem;
+  position: relative;
+}
+
+.after-one::before {
+  content: '01';
+  font-size: 8rem;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-family: 'Gilroy-Bold';
+  opacity: 0.12;
+  top: -125px;
+}
+
+.after-two::before {
+  content: '02';
+  font-size: 8rem;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-family: 'Gilroy-Bold';
+  opacity: 0.12;
+  top: -125px;
+}
+
+.after-3::before {
+  content: '02';
+  font-size: 8rem;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-family: 'Gilroy-Bold';
+  opacity: 0.12;
+  top: -125px;
+}
+
+.after-four::before {
+  content: '04';
+  font-size: 8rem;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-family: 'Gilroy-Bold';
+  opacity: 0.12;
+  top: -125px;
+}
+
+.border-custom
+{
+  border: 1px solid #3E3E3E;
+
+}
+
+.after-4::before {
+  content: '03';
+  font-size: 8rem;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-family: 'Gilroy-Bold';
+  opacity: 0.12;
+  top: -125px;
+}
+
+.after-5::before {
+  content: '05';
+  font-size: 8rem;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-family: 'Gilroy-Bold';
+  opacity: 0.12;
+  top: -125px;
+}
+
+.after-6::before {
+  content: '06';
+  font-size: 8rem;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-family: 'Gilroy-Bold';
+  opacity: 0.12;
+  top: -125px;
+}
+
+.transform-property
+{
+  transform: scale(1.2);
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.border-b-2-cg
+{
+  border-bottom: 1px solid #595959;
+}
+
+.p-section
+{
+  background: #631EDD 0% 0% no-repeat padding-box;
+  padding: 10px;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.logo-border
+{
+  border: 1px solid #595959;
 }

@@ -10,7 +10,7 @@ class TechnologyStackWeb extends Component {
                our technology stack
                </h2>
            </div>
-           <div className='grid lg:grid-cols-5 grid-cols-1'>
+           <div className='grid lg:grid-cols-4 grid-cols-1'>
                <div className='bg-stack lg:mb-0 mb-6'>
                    <h2>Back-end:</h2>
                  <ul className='text-center'>
@@ -51,7 +51,6 @@ class TechnologyStackWeb extends Component {
                     <li>Wordpress</li>                   
                  </ul>
                </div>
-            
            </div>
             </div>
        </div>

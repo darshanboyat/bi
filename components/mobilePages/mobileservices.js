@@ -31,21 +31,21 @@ class Mobileservices extends Component {
                          <img src='/images/s-3.svg' className='h-10' />
                             <h3>Flexible-Engagement -Models</h3>
                             <p>
-                            We offer custom engagement models, allowing you to hire iOS developers hourly or at a fixed price to meet your unique business requirements.
+                                We offer custom engagement models, allowing you to hire iOS developers hourly or at a fixed price to meet your unique business requirements.
                             </p>
                          </div>
                          <div className='border-active'>
                          <img src='/images/s-4.svg' className='h-10' />
                             <h3>Excellent Track Record</h3>
                             <p>
-                            We have an excellent track record with hundreds of successful and quality iOS apps to our credit. We have cross-industry expertise and a diverse clientele from across the world.
+                                We have an excellent track record with hundreds of successful and quality iOS apps to our credit. We have cross-industry expertise and a diverse clientele from across the world.
                             </p>
                          </div>
                          <div className='border-active' >
                          <img src='/images/s-5.svg' className='h-10' />
                             <h3>Technical Support</h3>
                             <p>
-                            We have a technical support team that will answer all your queries, provide you consultation every step of the way and craft the best possible solution to render a delightful experience.
+                               We have a technical support team that will answer all your queries, provide you consultation every step of the way and craft the best possible solution to render a delightful experience.
                             </p>
                          </div>
                          <div className='border-active'>

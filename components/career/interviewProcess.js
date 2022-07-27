@@ -15,7 +15,6 @@ function InterviewProcess(props) {
                     <div className='overlay-content'>
                     <h1>01 <span className='line'></span></h1>
                     <h3>HR Interview</h3>
-
                     <p>At a first stage a candidate would appear for HR screening where they would be asked question related to adaptability, leadership, growth potential etc.</p>
                     </div>
                 </div>
@@ -23,12 +22,14 @@ function InterviewProcess(props) {
                 <div className='overlay-content'>
                     <h1>02 <span className='line'></span></h1>
                     <h3>Personal Interview</h3>
+                    <p>At a first stage a candidate would appear for HR screening where they would be asked question related to adaptability, leadership, growth potential etc.</p>
                     </div>
                 </div>
                 <div className='bg-hr-3 relative'>
-                <div className='overlay-content'>
-                    <h1>03 <span className='line'></span></h1>
-                    <h3>Pratical Round</h3>
+                    <div className='overlay-content'>
+                        <h1>03 <span className='line'></span></h1>
+                        <h3>Pratical Round</h3>
+                        <p>At a first stage a candidate would appear for HR screening where they would be asked question related to adaptability, leadership, growth potential etc.</p>
                     </div>
                 </div>
             </div>
