@@ -1711,7 +1711,8 @@ padding: 3rem 0;
 
 .overlay-content:hover
 {
-  transform: translateY(-100px);
+  /* transform: translateY(-100px); */
+  height: auto;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -1802,7 +1803,6 @@ padding: 3rem 0;
 .border-custom
 {
   border: 1px solid #3E3E3E;
-
 }
 
 .after-4::before {
@@ -1847,6 +1847,7 @@ padding: 3rem 0;
   margin-left: 3rem;
   margin-right: 3rem;
 }
+
 .border-b-2-cg
 {
   border-bottom: 1px solid #595959;
@@ -1864,4 +1865,28 @@ padding: 3rem 0;
 .logo-border
 {
   border: 1px solid #595959;
+}
+
+@media(max-width: 767px)
+{
+  .bg-solution {
+      height: 50vh;
+      background-size: contain;
+      margin-bottom: 50px;
+  }
+  .bg-staff
+  {
+    padding: 2rem 1rem;
+  }
+}
+
+
+.numbers-yellow
+{
+  transition: color .5s ease;
+  -webkit-text-stroke-color: #fcaa00;
+  -webkit-text-stroke-width: .5px;
+  color: transparent;
+  font-size: 2.5rem;
+  font-family: Gilroy-Bold;
 }

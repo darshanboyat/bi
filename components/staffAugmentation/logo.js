@@ -8,7 +8,7 @@ function Logo(props) {
             <h3 className='text-lg Gilroy-Bold mt-4'>Technologies we use</h3>
             <h2 className='text-5xl Gilroy-Bold mb-8'>Technology Geeks</h2>
 
-            <div className='grid grid-cols-5 mt-4'>
+            <div className='grid lg:grid-cols-5 grid-cols-2 lg:gap-0 gap-4 mt-4'>
                <div className='logo-border'>
                   <img src='images/Asset3.png' />
                </div>

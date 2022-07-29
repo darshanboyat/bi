@@ -7,15 +7,14 @@ function StaffPratice(props) {
             <h3 className='text-lg Gilroy-Bold'>Best Practices</h3>
             <h2 className='text-4xl Gilroy-Bold'>Efficient, Smart and Dedicated Professionals</h2>
         
-          <div className='mt-8 flex'>
+          <div className='mt-8 lg:flex'>
               <div className='w-[80%] pr-10'>
                  <h4 className='Gilroy-Medium text-2xl leading-8'>
-                 Even when you hire a single developer, from Brain Inventory you hire the complete team’s experience.
+                    Even when you hire a single developer, from Brain Inventory you hire the complete team’s experience.
                  </h4>
-                 <p className='color-light text-sm pt-3 pb-4'>Our closely connected team provides a strong backbone to every project that we work on. Daily scrum calls helps developers share their challenges and take guidance from other experienced developers from the team.</p>
-                 
+                 <p className='color-light text-sm pt-3 pb-4'>Our closely connected team provides a strong backbone to every project that we work on. Daily scrum calls helps developers share their challenges and take guidance from other experienced developers from the team.</p>                 
                  <h5 className='Gilroy-Bold text-xl'>ADVANTAGES</h5>
-                 <ul className='mt-4 ml-4'>
+                 <ul className='mt-4 ml-4 mb-6'>
                     <li className='Gilroy-Medium text-sm mb-2 list-disc'>Certified Developers</li>
                     <li className='Gilroy-Medium text-sm mb-2 list-disc'>Weekly Tech Workshop</li>
                     <li className='Gilroy-Medium text-sm mb-2 list-disc'>9500+ dev community</li>
@@ -23,7 +22,7 @@ function StaffPratice(props) {
                  </ul>
               </div>
               <div >
-              <div className='grid grid-cols-2 gap-4 '>
+              <div className='grid lg:grid-cols-2 grid-cols-1 gap-4 '>
                  <div className='p-section'>
                     <h2 className='Gilroy-Bold text-xl'>Scalability</h2>
                     <p className='color-light Gilroy-Light text-sm pt-2'>We make it easy for you to scale your team at any instant.</p>

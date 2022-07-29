@@ -5,9 +5,9 @@ function HireRemote(props) {
     return (
         <div className='bg-white mt-20 mb-20'>
             <div className='container padding-left-all-section'>
-                <div className='flex items-center'>
+                <div className='lg:flex items-center'>
                     <div>
-                        <img src='/images/hire.png' className='h-[400px] transform-property' />
+                        <img src='/images/hire.png' className='lg:h-[400px] p-10 lg:p-0 transform-property' />
                     </div>
                     <div className='pl-6'>
                         <h3 className='text-3xl text-black Gilroy-Bold mb-4'>Hire Remote Developers to Enhance your <br/> team capability now.</h3>
@@ -19,7 +19,7 @@ function HireRemote(props) {
 
                         <div>
                             <h2 className='Gilroy-Bold text-black text-lg pt-6'>Inquiries</h2>
-                            <a className='text-black Gilroy-Light'>askus@braininventory.com</a>
+                            <a className='text-black Gilroy-Light lg:pb-0 pb-6'>askus@braininventory.com</a>
                         </div>
                     </div>
                 </div>

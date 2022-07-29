@@ -44,7 +44,7 @@ class PortfolioSection extends Component {
                 <div className="flex items-center">
                   <div className="flex">
                     <div>
-                      <p className="text-2xl mr-3">0{el.id}.</p>
+                      <p className="text-2xl mr-3 numbers-yellow">0{el.id}.</p>
                     </div>
                     <div>
                       <h3 className="text-2xl Gilroy-Bold mb-1">{el.title}</h3>

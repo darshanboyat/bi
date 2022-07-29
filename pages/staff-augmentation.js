@@ -20,11 +20,11 @@ function StaffAugmentation(props) {
             <Header/>
             <StaffBanner/>
             <Staform/>
-            <div className='2xl:p-10 p-8 2xl:space-y-8 space-y-6'>
-                <div className='container'>
-                  <img src='/images/something.png' className='w-full' />
+                <div className='2xl:p-10 p-8 2xl:space-y-8 space-y-6'>
+                    <div className='container'>
+                    <img src='/images/something.png' className='w-full' />
+                    </div>
                 </div>
-            </div>
             <OurProcess/>
             <HireRemote/>
             <OnboardingProcess/>

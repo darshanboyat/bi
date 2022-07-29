@@ -6,7 +6,7 @@ function ourProcess(props) {
             <div className='container'>
                 <h3 className='text-lg Gilroy-Bold'>Our Process</h3>
                 <h2 className='text-4xl Gilroy-Bold'>Quick and Transparent Process to the Hire <br/> Remote Developers</h2>
-                <div className='grid grid-cols-3 gap-4'>
+                <div className='grid lg:grid-cols-3 grid-cols-1 gap-4'>
                     <div className='class-inventory after-one'>
                         <h4 className='text-xl leading-8 Gilroy-Bold'>Brain Inventory Shortlists the Best Candidates (8 hours)</h4>
                          <ul className='pt-6 ml-4'>
@@ -32,7 +32,7 @@ function ourProcess(props) {
                          </ul>
                     </div>
                 </div>
-                <div className='grid grid-cols-3 gap-4'>
+                <div className='grid lg:grid-cols-3 grid-cols-1 gap-4'>
                     <div className='class-inventory after-four'>
                         <h4 className='text-xl leading-8 Gilroy-Bold'>Brain Inventory Shortlists the Best Candidates (8 hours)</h4>
                          <ul className='pt-6 ml-4'>
