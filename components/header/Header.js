@@ -149,7 +149,7 @@ const Header = () => {
                             </Link>
                           </p>
                           <span
-                           onClick={() => {setNavOpen(false)}}
+                          //  onClick={() => {setNavOpen(false)}}
                             className="bg-base-blue-1 items-center h-11 px-4 text-white"
                           >
                              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 relative top-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -158,7 +158,7 @@ const Header = () => {
                                                      </span>
                         </div>
                       </label>
-                         {/* <ul className="dropdown-content mt-0 lg:ml-5 -ml-[6rem] bg-base-blue-1 p-2 shadow bg-base-100 w-[168px]">
+                          <ul className="dropdown-content mt-0 lg:ml-5 -ml-[6rem] bg-base-blue-1 p-2 shadow bg-base-100 w-[168px]">
                            <li className="py-1 hover:bg-case-blue-request">
                              <Link
                                href="/contact"
@@ -175,7 +175,7 @@ const Header = () => {
                                Career
                              </Link>
                            </li>
-                         </ul> */}
+                         </ul> 
                     </div>
                         // <span onClick={() => {setNavOpen(false)}} className="2xl:p-4 p-3 bg-white text-black z-[100]">
                         //     <svg xmlns="http://www.w3.org/2000/svg" className="2xl:h-8 xl:h-6 h-4 2xl:w-8 xl:w-6 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -193,7 +193,7 @@ const Header = () => {
                             </Link>
                           </p>
                           <span
-                           onClick={() => {setNavOpen(true)}}
+                          //  onClick={() => {setNavOpen(true)}}
                             className="bg-base-blue-1 items-center h-11 px-4 text-white"
                           >
                             <svg
@@ -243,7 +243,7 @@ const Header = () => {
                           </span>
                         </div>
                       </label>
-                         {/* <ul className="dropdown-content mt-0 lg:ml-5 -ml-[6rem] bg-base-blue-1 p-2 shadow bg-base-100 w-[168px]">
+                         <ul className="dropdown-content mt-0 lg:ml-5 -ml-[6rem] bg-base-blue-1 p-2 shadow bg-base-100 w-[168px]">
                            <li className="py-1 hover:bg-case-blue-request">
                              <Link
                                href="/contact"
@@ -260,7 +260,7 @@ const Header = () => {
                                Career
                              </Link>
                            </li>
-                         </ul> */}
+                         </ul> 
                     </div>
                     )
                 } 

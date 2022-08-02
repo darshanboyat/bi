@@ -315,7 +315,7 @@ function Opening() {
                         {
                           el.roles && el.roles.map((item)=>{
                             return(
-                              <li className="w-full list-disc">{item}</li>
+                              <li key={item} className="w-full list-disc">{item}</li>
                             )
                           })
                         }

@@ -14,7 +14,7 @@ class AboutusSection extends Component {
                 <p className="text-sm pt-6 color-light"> Our team of mobile app developers is capable of creating apps for multiple-platforms like iOS, Android and cross-platform solutions in Flutter, React Native & Ionic. Being one of the top-rated mobile application development companies, we have expertise in developing mobile app development solutions to meet your business requirements.</p>
             </div>
 
-            <div className=";g:flex block items-center">
+            <div className="lg:flex block items-center">
                  <div className="bg-services-div">
                      <h2>160+</h2>
                      <h3>Professionals</h3>

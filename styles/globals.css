@@ -135,6 +135,20 @@ html, body {
   -webkit-text-stroke-width: 1px;
   color: transparent;
 }
+.text-work{
+
+  -webkit-transition: color .5s ease-out;
+  transition: color .5s ease;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 1px;
+  color: transparent;
+ font-size: 5rem;
+ line-height: 80px;
+ padding-bottom: 4rem;
+ padding-top: 5rem;
+ font-family: Gilroy-Bold;
+
+}
 .stroke-text-mobile
 {
   -webkit-transition: color .5s ease-out;
@@ -884,6 +898,21 @@ html {
   padding: 2.3rem 1.5rem;
 }
 
+.border-active-1
+{
+
+  border: 1px solid #7100FF;
+  padding: 2.3rem 1.5rem;
+}
+
+.border-active-1 h3
+{
+
+  font-family: Gilroy-Bold;
+  font-size: 1.3rem;
+  padding-top: 0.5rem;
+
+}
 .border-active h3
 {
   color: #000000;
@@ -895,6 +924,13 @@ html {
 .border-active p
 {
   color: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+  padding-top: 0.4rem;
+  font-family: Gilroy-Bold;
+}
+
+.border-active-1 p
+{
   font-size: 14px;
   padding-top: 0.4rem;
   font-family: Gilroy-Bold;
@@ -1889,4 +1925,16 @@ padding: 3rem 0;
   color: transparent;
   font-size: 2.5rem;
   font-family: Gilroy-Bold;
+}
+
+.bg-light-blue
+{
+  background: #6302DD 0% 0% no-repeat padding-box;
+}
+
+.logo-bg-uses
+{
+  background: #6302DD38 0% 0% no-repeat padding-box;
+border: 1px solid #6302DD;
+  height: 11rem;
 }
