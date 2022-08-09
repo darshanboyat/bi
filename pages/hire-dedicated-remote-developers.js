@@ -13,7 +13,7 @@ import StaffPratice from '../components/staffAugmentation/staffPratice';
 import Logo from '../components/staffAugmentation/logo';
 import StafFaq from '../components/staffAugmentation/stafffaq';
 
-function StaffAugmentation(props) {
+function Hirededicatedremotedevelopers(props) {
 
     return (
         <div>
@@ -51,4 +51,4 @@ function StaffAugmentation(props) {
     
 }
 
-export default StaffAugmentation;
+export default Hirededicatedremotedevelopers;

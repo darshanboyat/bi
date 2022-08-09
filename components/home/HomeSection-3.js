@@ -1,4 +1,6 @@
 import HomeButton from "../buttons/HomeButton";
+import Link from 'next/link';
+
 
 const HomeSectionThree = () => {
     return (
@@ -10,7 +12,9 @@ const HomeSectionThree = () => {
                     <div className="lg:flex 2xl:space-y-20 xl:space-y-16 space-y-12">
                         <div>
                         <p className="text-heading-4 leading-loose mb-4">Namaste! here you can discover who we are, how we work and what we love. We approach all our projects with our 4 core values:</p>
+                        <a href="/portfolio">
                         <HomeButton>see our concepts</HomeButton>
+                        </a>
                         </div>
                         <div className="md:space-y-0 mt-0" style={{marginTop: '0px'}}>
                         <video src="/videos/squen.mp4" className="md:w-full w-[94%]" muted loop controls={false} autoPlay={true} />

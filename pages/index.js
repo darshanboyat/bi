@@ -13,6 +13,7 @@ import HomeSectionEleven from '../components/home/HomeSection-11';
 import KeepInTouch from '../components/common/keepInTouch';
 import LocateUs from '../components/common/locateUs';
 import LetsKick from '../components/common/LetsKick';
+import HireDedicatedDeveloper from '../components/common/HireDedicatedDeveloper';
 import Footer from '../components/common/Footer';
 import Loader from '../components/common/loader';
 
@@ -42,6 +43,7 @@ export default function Home() {
               <HomeSectionOne></HomeSectionOne>
               <HomeSectionThree></HomeSectionThree>
               <HomeSectionFour></HomeSectionFour>
+              <HireDedicatedDeveloper></HireDedicatedDeveloper>
               <HomeSectionFive></HomeSectionFive>
               <HomeSectionSix></HomeSectionSix>
               {/* <HomeSectionSeven></HomeSectionSeven> */}

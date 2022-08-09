@@ -274,6 +274,7 @@ function Opening() {
             return (
               <>
                 <div key={el.JobTitle} id={el.JobTitle} className="collapse bg-opening mb-6">
+
                   <div className="collapse-title text-xl font-medium">
                     <div className="md:flex block justify-between items-center">
                       <div>

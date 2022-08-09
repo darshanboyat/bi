@@ -18,9 +18,9 @@ const Header = () => {
   }, [blockName]);
 
   useEffect(() => {
-    navOpen
-      ? document.getElementById("sidenav").classList.remove("-translate-y-full")
-      : document.getElementById("sidenav").classList.add("-translate-y-full");
+    // navOpen
+    //   ? document.getElementById("sidenav").classList.remove("-translate-y-full")
+    //   : document.getElementById("sidenav").classList.add("-translate-y-full");
   }, [navOpen]);
 
   useEffect(() => {
@@ -265,11 +265,11 @@ const Header = () => {
                     )
                 } 
         </div>
-       <div
+       {/* <div
           id="sidenav"
           className="fixed inset-0 overflow-hidden bg-gradient-4 z-40 transition-transform duration-300 flex gap-10"
-        >
-          <div className="grid grid-cols-1 gap-10 px-8 py-16 lg:px-28 lg:py-24 w-full">
+        > */}
+          {/* <div className="grid grid-cols-1 gap-10 px-8 py-16 lg:px-28 lg:py-24 w-full">
             <div className="space-y-12 col-span-1">
               <h1 className="stroke-text text-4xl text-center Gilroy-Bold cursor-pointer">
                 About us
@@ -287,9 +287,8 @@ const Header = () => {
               <h3 className="stroke-text text-4xl Gilroy-Bold text-center cursor-pointer">Solution</h3>
               <h3 className="stroke-text text-4xl Gilroy-Bold text-center cursor-pointer">Contacts</h3>
             </div>
-            {/* <Block></Block> */}
-          </div>
-        </div> 
+          </div> */}
+        {/* </div>  */}
       </nav>
     </>
   );

@@ -5,7 +5,10 @@ const HomeSectionFive = () => {
         <div className=" relative flex flex-col p-10">
             <div className="container padding-left-all-section">
           
-            <p className="text-heading-1 Gilroy-Bold mb-8">our forte</p>
+            <p className="text-heading-1 Gilroy-Bold mb-8">
+              <span className="text-base-orange-1">our </span>   
+               forte
+            </p>
          
             <div className="grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 2xl:gap-20 gap-8 flex-1">
           

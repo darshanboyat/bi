@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Header from '../components/header/Header';
 import LocateUs from '../components/common/locateUs';
 import LetsKick from '../components/common/LetsKick';
+import Newsletter from '../components/career/Newsletter';
 import Footer from '../components/common/Footer';
 import Banner from '../components/technologySection/banner';
 import Loader from '../components/common/loader';
@@ -50,6 +51,5 @@ function Reactjsdevelopment(props) {
        </>
     );
 }
-import Newsletter from '../components/career/Newsletter';
 
 export default Reactjsdevelopment;

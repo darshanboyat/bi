@@ -10,15 +10,15 @@ const FooterSections = [
           
             {
                 name: 'Our Company',
-                path: '',
+                path: '/company',
             },
             {
                 name: 'How we work',
-                path: '',
+                path: '/how-we-work',
             },
             {
                 name: 'Careers',
-                path: '',
+                path: '/career',
             },
             {
                 name: 'Blog',
@@ -26,7 +26,7 @@ const FooterSections = [
             },
             {
                 name: 'Contact Us',
-                path: ''
+                path: '/contact'
             }
         ]
     },  
@@ -78,15 +78,15 @@ const FooterSections = [
         links: [
             {
                 name: 'Angular JS Development',
-                path: ''
+                path: '/angularjs-development'
             },
             {
                 name: 'React JS Development',
-                path: ''
+                path: '/reactjsdevelopment'
             },
             {
                 name: 'Node JS Development',
-                path: ''
+                path: '/nodejs-development'
             },
             {
                 name: 'Vue JS Development',
@@ -206,8 +206,8 @@ const FooterSections = [
         ]
     },
     {
-        title: 'Staff Augmentation',
-        link: '/staff-augmentation',
+        title: 'Hire Dedicated Remote Developers',
+        link: '/hire-dedicated-remote-developers',
         links: [
             {
                 name: 'Hire Angular JS Developer',
@@ -245,9 +245,8 @@ const FooterSections = [
     },
  
 ]
-// const [addClick, setaddClick] = useState('');
+
 const viewMore = () =>{
-    alert('test');
     setaddClick
 }
 
@@ -269,7 +268,14 @@ export default function Footer() {
                                     {
                                         section.links.map((link, index) => {
                                             return (
-                                                <li className="color-gray" key={index}>{link.name}</li>
+                                                <li className="color-gray" key={index}>
+                                                    <a
+                                                    href={link.path} 
+                                                    className="cursor-pointer">  
+                                                    {link.name}
+                                                    </a>
+                               
+                                                </li>
                                             )
                                         })
                                     }

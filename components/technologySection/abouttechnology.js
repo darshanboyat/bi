@@ -4,7 +4,7 @@ import React from 'react';
 function Abouttechnology(props) {
     return (
         <div className="2xl:p-10 p-8 2xl:space-y-8 space-y-6">
-        <div className="container">
+        <div className="container padding-left-all-section">
             <div>
                 <h2 className="Gilroy-Bold text-xl pb-4">what we do?</h2>
                 <h3 className="Gilroy-Bold text-4xl pb-12">we create high-performing web applications <br/> with reactjs front-end development library.</h3>
@@ -30,7 +30,7 @@ function Abouttechnology(props) {
             </div>
         </div>
 
-        <div className="container">
+        <div className="container padding-left-all-section">
           <div>
             <h2 className="Gilroy-Bold text-xl mb-2">
             Best-in-class ReactJS Development Services to Build Futuristic and Dynamic Web Apps

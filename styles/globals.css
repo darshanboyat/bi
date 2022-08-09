@@ -1078,11 +1078,11 @@ ul.list-modal {
   width: 1px;
   height: 500px;
   display: block;
-  background: #fff;
-display: block;
-position: absolute;
-top: 0px;
-left: 0px;
+  /* background: #fff; */
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 .list-under li.active-color::after
 {
@@ -1090,11 +1090,11 @@ left: 0px;
    width: 10px;
    height: 15px;
    background: #FFFFFF 0% 0% no-repeat padding-box;
-border-radius: 7px;
-display: block;
-position: absolute;
-top: 6px;
-left: -25px;
+   border-radius: 7px;
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: -25px;
 }
 
 .cycle-active .active
@@ -1796,7 +1796,7 @@ padding: 3rem 0;
   left: 0;
   right: 0;
   font-family: 'Gilroy-Bold';
-  opacity: 0.12;
+  opacity: 0.7;
   top: -125px;
 }
 
@@ -1808,7 +1808,7 @@ padding: 3rem 0;
   left: 0;
   right: 0;
   font-family: 'Gilroy-Bold';
-  opacity: 0.12;
+  opacity: 0.7;
   top: -125px;
 }
 
@@ -1820,7 +1820,7 @@ padding: 3rem 0;
   left: 0;
   right: 0;
   font-family: 'Gilroy-Bold';
-  opacity: 0.12;
+  opacity: 0.7;
   top: -125px;
 }
 
@@ -1832,7 +1832,7 @@ padding: 3rem 0;
   left: 0;
   right: 0;
   font-family: 'Gilroy-Bold';
-  opacity: 0.12;
+  opacity: 0.7;
   top: -125px;
 }
 
@@ -1849,7 +1849,7 @@ padding: 3rem 0;
   left: 0;
   right: 0;
   font-family: 'Gilroy-Bold';
-  opacity: 0.12;
+  opacity: 0.7;
   top: -125px;
 }
 
@@ -1861,7 +1861,7 @@ padding: 3rem 0;
   left: 0;
   right: 0;
   font-family: 'Gilroy-Bold';
-  opacity: 0.12;
+  opacity: 0.7;
   top: -125px;
 }
 
@@ -1873,7 +1873,7 @@ padding: 3rem 0;
   left: 0;
   right: 0;
   font-family: 'Gilroy-Bold';
-  opacity: 0.12;
+  opacity: 0.7;
   top: -125px;
 }
 

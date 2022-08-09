@@ -21,7 +21,9 @@ const HomeSectionNine = () => {
                         <div className=" w-full  p-10 2xl:space-y-8 xl:space-y-6 space-y-4  bg-gradient-5">
                             <p className="Gilroy-Bold text-heading-1">lets discuss your project</p>
                             <p className="text-heading-4 Gilroy-SemiBold">Get free consultation and let us know your project idea to turn it into an amazing digital product.</p>
-                            <HomeButton>talk to our experts</HomeButton>
+                             <a href="/contact" className="mt-8 block">
+                              <HomeButton>talk to our experts</HomeButton>
+                             </a>
                         </div>
                     </div>
                     <div className="overflow-x-hidden relative bottom-24">

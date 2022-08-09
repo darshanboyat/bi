@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { useState } from "react/cjs/react.production.min";
 
 const faqdetails = [
   {
@@ -53,9 +52,8 @@ function Faqs() {
                       </div>
                       <div className="flex md:block my-4 md:my-0">
                         <button
-                        //   onClick={() => collapsed(el.id)}
-                          onClick={() => collapsed(el.title)} 
-                          className=""
+                        onClick={() => collapsed(el.id)}
+                        className=""
                         >
                           <img
                             src="/images/faq-arrow.svg"

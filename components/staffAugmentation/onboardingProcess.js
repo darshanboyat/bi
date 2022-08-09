@@ -16,6 +16,8 @@ function OnboardingProcess(props) {
                             <li className='text-center Gilroy-Bold text-lg mb-3 pb-3 pt-3 border-custom'> Office Space and System Cost</li>
                             <li className='text-center Gilroy-Bold text-lg mb-3 pb-3 pt-3 border-custom'> Upskilling and Learning</li>
                             <li className='text-center Gilroy-Bold text-lg mb-3 pb-3 pt-3 border-custom'> Work Culture Maintenance</li>
+                            <li className='text-center bg-case-blue-request Gilroy-Bold text-lg mb-3 pb-3 pt-3 border-custom'> Total Estimated Cost</li>
+
                         </ul>
                     </div>
                     <div className='mt-8'>
@@ -23,10 +25,11 @@ function OnboardingProcess(props) {
                         <ul>
                             <li className='text-center Gilroy-Bold text-lg mb-3 pb-3 pt-3 border-custom'> $12,500.00 </li>
                             <li className='text-center Gilroy-Bold text-lg mb-3 pb-3 pt-3 border-custom'> $100.00</li>
+                            <li className='text-center Gilroy-Bold text-lg mb-3 pb-3 pt-3 border-custom'> $2500.00</li>
+                            <li className='text-center Gilroy-Bold text-lg mb-3 pb-3 pt-3 border-custom'> $350.00</li>
                             <li className='text-center Gilroy-Bold text-lg mb-3 pb-3 pt-3 border-custom'> $100.00</li>
-                            <li className='text-center Gilroy-Bold text-lg mb-3 pb-3 pt-3 border-custom'> $100.00</li>
-                            <li className='text-center Gilroy-Bold text-lg mb-3 pb-3 pt-3 border-custom'> $100.00</li>
-                            <li className='text-center Gilroy-Bold text-lg mb-3 pb-3 pt-3 border-custom'>$100.00</li>
+                            <li className='text-center Gilroy-Bold text-lg mb-3 pb-3 pt-3 border-custom'>$50.00</li>
+                            <li className='text-center bg-case-blue-request Gilroy-Bold text-lg mb-3 pb-3 pt-3 border-custom'>$ 15,500</li>
                         </ul>
                     </div>
                     <div className='mt-8'>
@@ -38,6 +41,7 @@ function OnboardingProcess(props) {
                             <li className='text-center Gilroy-Bold text-lg mb-3 pb-3 pt-3 border-custom'> Included</li>
                             <li className='text-center Gilroy-Bold text-lg mb-3 pb-3 pt-3 border-custom'> Included</li>
                             <li className='text-center Gilroy-Bold text-lg mb-3 pb-3 pt-3 border-custom'> Included</li>
+                            <li className='text-center bg-case-blue-request Gilroy-Bold text-lg mb-3 pb-3 pt-3 border-custom'> $2,000</li>
                         </ul>
                     </div>
                 </div>

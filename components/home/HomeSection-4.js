@@ -9,6 +9,7 @@ const info = [
             orange: 'Web',
             white: 'Development'
         },
+        url: '/web-app-development',
         video: '/images/WebDevelopment.mp4',
         techList: [
             {
@@ -31,6 +32,7 @@ const info = [
             orange: 'Mobile',
             white: 'Development'
         },
+        url: '/mobile-app-development',
         video: '/images/AppDevelopment.mp4',
         techList: [
             {
@@ -53,6 +55,8 @@ const info = [
             orange: 'UI/UX',
             white: 'Design'
         },
+        url: '/ui-ux-services',
+
         video: '/images/UIUX.mp4',
         techList: [
             {
@@ -86,7 +90,7 @@ const HomeSectionFour = () => {
                 {
                     info.map((el) => {
                         return (
-                            <Section className='snap-start' key={el.id} info={el} video={el.video}></Section>
+                            <Section className='snap-start' key={el.id} url={el.url} info={el} video={el.video}></Section>
                         )
                     })
                 }
@@ -96,7 +100,7 @@ const HomeSectionFour = () => {
     )
 }
 
-const Section = ({info,video}) => {
+const Section = ({info,url,video}) => {
     return (
         <div className="h-[75vh] relative">
             <div className="md:absolute relative w-full 2xl:bottom-20 xl:bottom-16 lg:bottom-14 bottom-12 2xl:p-10 p-8  lg:flex items-center justify-between">
@@ -111,17 +115,16 @@ const Section = ({info,video}) => {
                     </ul>
 
                        
+                       
                     <HomeButton>
-                        <Link href="/web-app-development">       
+                        <Link href={url}>       
                             learn more        
                         </Link>
                     </HomeButton>
                 </div>
                 <div className="w-full lg:w-1/2">
                     <div className="h-[350px] w-full md:px-8 md:py-8 px-0 py-8">
-                                                <video src={video} muted loop controls={false} autoPlay={true} />
-
-                   
+                        <video src={video} muted loop controls={false} autoPlay={true} />
                     </div>
                 </div>
             </div>

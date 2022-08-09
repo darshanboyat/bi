@@ -22,7 +22,7 @@ class HowWeWork extends Component {
                  <WorkBanner/>
                  <Work/>
                  <HomeSectionSix/>
-                 <Cycle/>
+                 {/* <Cycle/> */}
                  <ChooseApp/>
                  <LanguageTool/>
                  <Newsletter/>

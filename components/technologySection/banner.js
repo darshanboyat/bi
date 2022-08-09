@@ -18,15 +18,11 @@ function Banner(props) {
                 <HomeButton>
                   <span>our concepts</span>
                 </HomeButton>
-                {/* <button className="bg-case-blue-request h-11 px-8 mt-6 text-sm">
-                    
-                  </button> */}
               </div>
             </div>
           </div>
         </div>
       </div>
-      {/* <span id='circle' className="border absolute p-8 rounded-full border-blue -left-24 pointer-events-none"></span> */}
     </div>
   );
 }
