@@ -4,27 +4,27 @@ const faqdetails = [
   {
     id: "1",
     title:"I want to keep my iOS app idea confidential. Will you sign an NDA with me?",
-    description: "",
+    description: "A web application runs on a web browser and requires mobile data or wi-fi to work. On the other hand, native app is installed directly on the mobile phone and depends upon the nature of native app; it can work without using an internet connection.",
   },
   {
     id: "2",
     title: "Do I own the ownership and the code of my application?",
-    description: "",
+    description: "A web application runs on a web browser and requires mobile data or wi-fi to work. On the other hand, native app is installed directly on the mobile phone and depends upon the nature of native app; it can work without using an internet connection.",
   },
   {
     id: "3",
     title: "Do you have flexible hiring models?",
-    description: "",
+    description: "A web application runs on a web browser and requires mobile data or wi-fi to work. On the other hand, native app is installed directly on the mobile phone and depends upon the nature of native app; it can work without using an internet connection.",
   },
   {
     id: "4",
     title: "How do you allocate the resources for my app development in iOS?",
-    description: "",
+    description: "A web application runs on a web browser and requires mobile data or wi-fi to work. On the other hand, native app is installed directly on the mobile phone and depends upon the nature of native app; it can work without using an internet connection.",
   },
   {
     id: "5",
     title: "What are some of the top iOS apps developed by you?",
-    description: "",
+    description: "A web application runs on a web browser and requires mobile data or wi-fi to work. On the other hand, native app is installed directly on the mobile phone and depends upon the nature of native app; it can work without using an internet connection.",
   },
 ];
 function Faqs() {
@@ -43,6 +43,7 @@ function Faqs() {
             {faqdetails.map((el) => {
               return (
                 <div key={el.id} className="collapse bg-opening mb-6">
+                  <input type="checkbox" />
                   <div className="collapse-title text-xl font-medium">
                     <div className="md:flex block justify-between items-center">
                       <div>
@@ -66,12 +67,7 @@ function Faqs() {
                   <div className="collapse-content flex">
                     <div>
                       <p>
-                        Skills: React.js, Redux, Angular.js, Node.js,
-                        javascript, jquery, mongoDB, Express.js, Loopback.js,
-                        GitLab, GitHub, Bitbucket, ESLint, JSLint, Karma,
-                        Istanbul, Jenkins, Strider, unit tests (Jasmine/Mocha),
-                        integration tests, Flux, JSON, HTML, CSS, JSX, ES6,
-                        Babel, Webpack, NPM
+                        {el.description}
                       </p>
                     </div>
                     <div></div>

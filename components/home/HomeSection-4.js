@@ -56,7 +56,6 @@ const info = [
             white: 'Design'
         },
         url: '/ui-ux-services',
-
         video: '/images/UIUX.mp4',
         techList: [
             {
@@ -112,10 +111,7 @@ const Section = ({info,url,video}) => {
                                 return (<li key={el.name} className="bg-image-name cursor-pointer"><Link href={el.path}><span>{el.name}</span></Link></li>)
                             })
                         }
-                    </ul>
-
-                       
-                       
+                    </ul>  
                     <HomeButton>
                         <Link href={url}>       
                             learn more        
