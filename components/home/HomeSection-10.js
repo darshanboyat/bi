@@ -1,4 +1,5 @@
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import Link from "next/link"
 
 const HomeSectionTen = () => {
     return (
@@ -23,14 +24,14 @@ const HomeSectionTen = () => {
                             </span>
                         </span>
                     </div>
+                        <Link href="/portfolio" className="flex cursor-pointer lg:justify-center items-center space-x-8"> 
                     <div className="flex lg:justify-center items-center space-x-8">
-                        <a href="/portfolio" className="flex lg:justify-center items-center space-x-8"> 
                         <div className="2xl:text-7xl lg:text-6xl text-5xl Gilroy-Bold stroke-text">wanna see <br/> more</div>
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-40 w-40" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                         </svg>
-                        </a>
                     </div>
+                        </Link>
                 </div>
                 <div className="lg:space-y-8 space-y-6 flex-1">
                     <div className="lg:h-40 h-10"></div>

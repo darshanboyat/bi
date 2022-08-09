@@ -13,16 +13,16 @@ const info = [
         video: '/images/WebDevelopment.mp4',
         techList: [
             {
-                name: 'php',
-                path: ''
+                name: 'Reactjs Development',
+                path: '/reactjsdevelopment'
             },
             {
-                name: 'react.js',
-                path: ''
+                name: 'Angularjs Development',
+                path: '/angularjs-development'
             },
             {
-                name: 'wordpress',
-                path: ''
+                name: 'Nodejs Development',
+                path: '/nodejs-development'
             }
         ]
     },
@@ -109,7 +109,7 @@ const Section = ({info,url,video}) => {
                     <ul className="2xl:text-2xl xl:text-xl text-lg 2xl:space-y-4 space-y-2">
                         {
                             info.techList.map((el) => {
-                                return (<li key={el.name} className="bg-image-name"><span>{el.name}</span></li>)
+                                return (<li key={el.name} className="bg-image-name cursor-pointer"><Link href={el.path}><span>{el.name}</span></Link></li>)
                             })
                         }
                     </ul>
