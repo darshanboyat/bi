@@ -1682,7 +1682,7 @@ padding: 3rem 0;
 {
   background-image: url('/images/forte-banner.png');
   height: 100vh;
-  background-size: contain;
+  background-size: cover;
 }
 
 .bg-vision-forte

@@ -19,9 +19,20 @@ const Header = () => {
 
   useEffect(() => {
     // navOpen
-    //   ? document.getElementById("sidenav").classList.remove("-translate-y-full")
-    //   : document.getElementById("sidenav").classList.add("-translate-y-full");
-  }, [navOpen]);
+    // ? document.getElementById("sidenav").classList.remove("-translate-y-full")
+    // : document.getElementById("sidenav").classList.add("-translate-y-full");
+  },);
+
+  const handlesidebar =()=>{
+    // document.getElementById("sidenav").classList.remove("-translate-y-full");
+    if (navOpen) {
+      document.getElementById("sidenav").classList.add("-translate-y-full");
+    } else {
+      document.getElementById("sidenav").classList.remove("-translate-y-full")
+      
+    }
+    setNavOpen(!navOpen)
+  }
 
   useEffect(() => {
     let prevScrollpos = window.pageYOffset;
@@ -55,9 +66,9 @@ const Header = () => {
             </span>
           </Link>
 
-          <div className="dropdown lg:hidden dropdown-hover">
+          {/* <div className="dropdown lg:hidden dropdown-hover">
             <label onClick={() => setShow(prev => !prev)} className="btn  bg-transparent outline-none border-0 hover:bg-transparent m-1">
-              <div   className="flex  justify-between align-middle items-center bg-case-blue-request h-11 z-[100]">
+              <div className="flex  justify-between align-middle items-center bg-case-blue-request h-11 z-[100]">
                 <p className="px-4 text-xs Gilroy-Light lowercase mobile-none">
                   <Link href="/contact">
                    request A Quote
@@ -116,7 +127,7 @@ const Header = () => {
             </label>
             
             {show && 
-                 <ul className="dropdown-content mt-0 lg:ml-5 -ml-[6rem] bg-base-blue-1 p-2 shadow bg-base-100 w-[168px]">
+               <ul className="dropdown-content mt-0 lg:ml-5 -ml-[6rem] bg-base-blue-1 p-2 shadow bg-base-100 w-[168px]">
                  <li className="py-1 hover:bg-case-blue-request">
                    <Link
                      href="/contact"
@@ -134,9 +145,7 @@ const Header = () => {
                  </li>
                </ul>
             }
-
-       
-          </div>
+            </div> */}
          {
                     navOpen
                     ? (
@@ -149,8 +158,8 @@ const Header = () => {
                             </Link>
                           </p>
                           <span
-                          //  onClick={() => {setNavOpen(false)}}
-                            className="bg-base-blue-1 items-center h-11 px-4 text-white"
+                           onClick={() => {handlesidebar()}}
+                           className="bg-base-blue-1 items-center h-11 px-4 text-white"
                           >
                              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 relative top-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -158,7 +167,7 @@ const Header = () => {
                                                      </span>
                         </div>
                       </label>
-                          <ul className="dropdown-content mt-0 lg:ml-5 -ml-[6rem] bg-base-blue-1 p-2 shadow bg-base-100 w-[168px]">
+                          {/* <ul className="dropdown-content mt-0 lg:ml-5 -ml-[6rem] bg-base-blue-1 p-2 shadow bg-base-100 w-[168px]">
                            <li className="py-1 hover:bg-case-blue-request">
                              <Link
                                href="/contact"
@@ -175,7 +184,7 @@ const Header = () => {
                                Career
                              </Link>
                            </li>
-                         </ul> 
+                         </ul>  */}
                     </div>
                         // <span onClick={() => {setNavOpen(false)}} className="2xl:p-4 p-3 bg-white text-black z-[100]">
                         //     <svg xmlns="http://www.w3.org/2000/svg" className="2xl:h-8 xl:h-6 h-4 2xl:w-8 xl:w-6 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -184,7 +193,7 @@ const Header = () => {
                         // </span>
                     ) 
                     : (
-                      <div className="dropdown lg:block hidden dropdown-hover">
+                      <div className="dropdown lg:block  dropdown-hover">
                       <label className="btn  bg-transparent outline-none border-0 hover:bg-transparent m-1">
                         <div   className="flex  justify-between align-middle items-center bg-case-blue-request h-11 z-[100]">
                           <p className="px-4 text-xs Gilroy-Light lowercase mobile-none">
@@ -193,7 +202,7 @@ const Header = () => {
                             </Link>
                           </p>
                           <span
-                          //  onClick={() => {setNavOpen(true)}}
+                           onClick={() => {handlesidebar()}}
                             className="bg-base-blue-1 items-center h-11 px-4 text-white"
                           >
                             <svg
@@ -243,7 +252,7 @@ const Header = () => {
                           </span>
                         </div>
                       </label>
-                         <ul className="dropdown-content mt-0 lg:ml-5 -ml-[6rem] bg-base-blue-1 p-2 shadow bg-base-100 w-[168px]">
+                         {/* <ul className="dropdown-content mt-0 lg:ml-5 -ml-[6rem] bg-base-blue-1 p-2 shadow bg-base-100 w-[168px]">
                            <li className="py-1 hover:bg-case-blue-request">
                              <Link
                                href="/contact"
@@ -260,16 +269,17 @@ const Header = () => {
                                Career
                              </Link>
                            </li>
-                         </ul> 
+                         </ul>  */}
                     </div>
                     )
                 } 
         </div>
-       {/* <div
+        
+        <div
           id="sidenav"
-          className="fixed inset-0 overflow-hidden bg-gradient-4 z-40 transition-transform duration-300 flex gap-10"
-        > */}
-          {/* <div className="grid grid-cols-1 gap-10 px-8 py-16 lg:px-28 lg:py-24 w-full">
+          className="fixed inset-0 overflow-hidden transition-transform -translate-y-full duration-300 bg-gradient-4 z-40 flex gap-10"
+        > 
+           <div className="grid grid-cols-1 gap-10 px-8 py-16 lg:px-28 lg:py-24 w-full">
             <div className="space-y-12 col-span-1">
               <h1 className="stroke-text text-4xl text-center Gilroy-Bold cursor-pointer">
                 About us
@@ -279,7 +289,7 @@ const Header = () => {
                   setBlockName("servicesChildren");
                 }}
                 className="stroke-text text-4xl text-center Gilroy-Bold cursor-pointer"
-              >
+                >
                 How we work
               </h3>
               <h3 className="stroke-text text-4xl Gilroy-Bold text-center cursor-pointer">Forte</h3>
@@ -287,8 +297,8 @@ const Header = () => {
               <h3 className="stroke-text text-4xl Gilroy-Bold text-center cursor-pointer">Solution</h3>
               <h3 className="stroke-text text-4xl Gilroy-Bold text-center cursor-pointer">Contacts</h3>
             </div>
-          </div> */}
-        {/* </div>  */}
+          </div> 
+        </div> 
       </nav>
     </>
   );

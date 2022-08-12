@@ -38,7 +38,6 @@ function Faqs() {
       <div className="2xl:p-10 p-8 2xl:space-y-8 space-y-6">
         <div className="container padding-left-all-section">
           <h2 className="text-4xl pb-8 Gilroy-Bold">faq&rsquo;s</h2>
-
           <div>
             {faqdetails.map((el) => {
               return (
