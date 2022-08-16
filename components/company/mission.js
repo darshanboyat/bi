@@ -29,7 +29,7 @@ function mission(props) {
                                     </div>
                                     <div className='w-96'>
                                     <h2 className="2xl:text-xl xl:text-lg text-xl Gilroy-Bold">{el.title}</h2>
-                                    <p className="2xl:text-base xl:text-base text-base Gilroy-Light">{el.description}</p>
+                                    <p className="2xl:text-base xl:text-base text-lg Gilroy-Light">{el.description}</p>
                                     </div>
                                 </div>
                             ))

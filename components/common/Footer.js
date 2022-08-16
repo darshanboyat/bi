@@ -94,15 +94,15 @@ const FooterSections = [
             },
             {
                 name: 'MEAN Development',
-                path: ''
+                path: '/mean-development'
             },
             {
                 name: 'MERN Development',
-                path: ''
+                path: '/mern-development'
             },
             {
                 name: 'LAMP Development',
-                path: ''
+                path: '/lamp-development'
             }
         ]
     },
@@ -113,23 +113,23 @@ const FooterSections = [
         links: [
             {
                 name: 'iOS App Development',
-                path: ''
+                path: '/ios-app-development'
             },
             {
                 name: 'Android App Development',
-                path: ''
+                path: '/android-app-development'
             },
             {
                 name: 'React Native App Development',
-                path: ''
+                path: '/react-native-development'
             },
             {
                 name: 'Flutter App Development',
-                path: ''
+                path: '/flutter-app-development'
             },
             {
                 name: 'Swift App Development',
-                path: ''
+                path: '/swift-app-development'
             }
         ]
     },

@@ -38,7 +38,7 @@ function ethos(props) {
                             <div key={el}>
                             <div className='line'></div>
                             <div className='w-44 pl-4'>
-                                <p className='Gilroy-Bold'>{el.description}</p>
+                                <p className='Gilroy-Bold text-lg'>{el.description}</p>
                             </div>
                             </div>
                         ))

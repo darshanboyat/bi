@@ -281,9 +281,12 @@ const Header = () => {
         > 
            <div className="grid grid-cols-1 gap-10 px-8 py-16 lg:px-28 lg:py-24 w-full">
             <div className="space-y-12 col-span-1">
+              <Link href="/company">        
               <h1 className="stroke-text text-4xl text-center Gilroy-Bold cursor-pointer">
                 About us
               </h1>
+              </Link>
+              <Link href="/how-we-work">        
               <h3
                 onClick={() => {
                   setBlockName("servicesChildren");
@@ -292,10 +295,19 @@ const Header = () => {
                 >
                 How we work
               </h3>
-              <h3 className="stroke-text text-4xl Gilroy-Bold text-center cursor-pointer">Forte</h3>
+              </Link>
+              <Link href="/portfolio">
               <h3 className="stroke-text text-4xl Gilroy-Bold text-center cursor-pointer">Portfolio</h3>
+              </Link>
+              <Link href="/solution">
               <h3 className="stroke-text text-4xl Gilroy-Bold text-center cursor-pointer">Solution</h3>
+              </Link>
+                <Link href="/hire-dedicated-remote-developers">
+              <h3 className="stroke-text text-4xl Gilroy-Bold text-center cursor-pointer">Hire Dedicated Developer</h3>
+              </Link>
+              <Link href="/contact">
               <h3 className="stroke-text text-4xl Gilroy-Bold text-center cursor-pointer">Contacts</h3>
+              </Link>
             </div>
           </div> 
         </div> 

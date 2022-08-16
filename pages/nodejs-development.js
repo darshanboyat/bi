@@ -64,7 +64,7 @@ function NodejsDevelopment(props) {
            <Newsletter/>
            <Uses/>
            <Industries/>
-           <Faqs/>
+           {/* <Faqs/> */}
            <LocateUs />
            <LetsKick />
            <Footer />

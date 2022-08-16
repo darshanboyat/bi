@@ -69,7 +69,7 @@ return (
     <div className='2xl:p-10 p-8 2xl:space-y-8 space-y-6'>
         <div className='container padding-left-all-section'>
             <h2 className='text-4xl pb-6 Gilroy-Bold'>best practices that we follow</h2>
-            <p className='text-2xl Gilroy-Bold'>The way we design to engage users</p>
+            <p className='text-2xl Gilroy-Bold pb-8'>The way we design to engage users</p>
             <div className='flex items-center'>
                 <div className='list-under-1'>
                   <ul className='pt-8 pb-8 mr-20 list-under'>
@@ -81,7 +81,8 @@ return (
                     </ul>
                 </div>
                 <div className='mr-10 w-[37%]'>
-                    <img src='https://www.unifiedinfotech.net/assets/images/mobile-app-ready@1.5x.jpg'/>
+                  <div className='bg-stack w-96 h-[450px]'></div>
+                    {/* <img src='https://www.unifiedinfotech.net/assets/images/mobile-app-ready@1.5x.jpg'/> */}
                 </div>
                 <div className='pt-8 animation-effect'>
                 <h3 className='text-xl Gilroy-Bold pb-2'>{data.title}</h3>
