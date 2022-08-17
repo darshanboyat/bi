@@ -33,7 +33,7 @@ function MeanDeveloper(props) {
              <title></title>
            </Head>
          <div>
-           <Header></Header>     
+            <Header></Header>
             <div className="h-screen min-h-[100vh] items-center relative">
             <h2 className="2xl:px-14 xl:px-12 px-10 pt-32 text-9xl stroke-text-mobile Gilroy-Bold">
                 MEAN
@@ -47,7 +47,7 @@ function MeanDeveloper(props) {
                     <div className="flex flex-col">
                     <div className="mt-8">
                         <HomeButton>
-                        <span>our concepts</span>
+                           <span>our concepts</span>
                         </HomeButton>
                     </div>
                     </div>
@@ -55,7 +55,7 @@ function MeanDeveloper(props) {
                 </div>
             </div>
             </div>
-           <Abouttechnology/>
+           {/* <Abouttechnology/> */}
            <OurWork/>
            <ReasonSection/>
            <Choose/>

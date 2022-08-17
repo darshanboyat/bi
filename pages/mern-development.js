@@ -56,7 +56,7 @@ function MernDeveloper(props) {
                 </div>
             </div>
             </div>
-           <Abouttechnology/>
+           {/* <Abouttechnology/> */}
            <OurWork/>
            <ReasonSection/>
            <Choose/>

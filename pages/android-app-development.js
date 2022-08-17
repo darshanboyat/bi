@@ -55,7 +55,7 @@ function AndroidAppDevelopment(props) {
                 </div>
             </div>
             </div>
-           <Abouttechnology/>
+           {/* <Abouttechnology/> */}
            <OurWork/>
            <ReasonSection/>
            <Choose/>

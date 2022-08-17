@@ -7,7 +7,7 @@ function Choose(props) {
                 <div className='container padding-left-all-section'>
                 <div>
                     <h2 className='Gilroy-Bold lg:text-4xl pb-8 text-3xl text-white pt-8'>
-                    why choose brain inventory for <br/> mobile app development
+                    why choose brain inventory for <br/>  development
                     </h2>
                     <p className='mb-8'>Being a well-known mobile application development company, MindInventory is recognized for serving modern business needs and delivering the best-in-class solutions at a competitive cost across the globe. Here’s why we can be the best choice when it comes to building mobile apps:</p>
                 </div>

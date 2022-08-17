@@ -7,7 +7,7 @@ function Uses(props) {
         <div className="container padding-left-all-section">
           <div>
             <h2 className="Gilroy-Bold lg:text-4xl pb-2 text-3xl text-white pt-4">
-              Who uses React Native ?
+              Who uses Application ?
             </h2>
           </div>
           <div className="grid lg:grid-cols-4 grid-cols-1 gap-4 mt-4">

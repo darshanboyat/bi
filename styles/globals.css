@@ -1685,6 +1685,11 @@ padding: 3rem 0;
   background-size: cover;
 }
 
+.bg-hire-image
+{
+  background-image: url('/images/staffbanner.png');
+  background-size: cover;
+}
 .bg-vision-forte
 {
   background-image: url('/images/forte-banner.png');

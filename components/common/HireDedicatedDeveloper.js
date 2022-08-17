@@ -9,7 +9,7 @@ function HireDedicatedDeveloper(props) {
             <div className=' 2xl:p-10 p-8 '>
                 <h1 className='text-heading-1 Gilroy-Bold mb-8'>Hire Dedicated Developers</h1>
 
-                <div className='h-[450px] bg-stack relative'>
+                <div className='h-[450px] bg-hire-image relative'>
                    <div className='absolute bottom-4 left-4'>
                     <Link href='/hire-dedicated-remote-developers'>
                     <button className="inline-flex items-center bg-transparent transition-all hover-bg-yellow-h">

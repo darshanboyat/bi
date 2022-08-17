@@ -9,7 +9,7 @@ function ReasonSection(props) {
             <div className='container padding-left-all-section'>
                 <div>
                     <h2 className='Gilroy-Bold lg:text-4xl pb-2 text-3xl text-white pt-4'>
-                    Reasons to choose React Native
+                        Reasons to choose Application
                     </h2>
                     <p className='text-white'>
                     Many big brands are on top of their game after switching to React Native. Besides low developmental costs and faster time-to-market, there are many advantages of choosing React Native app development.
@@ -50,10 +50,10 @@ function ReasonSection(props) {
                         </p>
                      </div>
                      <div className='border-active-1'>
-                     <img src='/images/s-5.svg' className='h-10' />
+                        <img src='/images/s-5.svg' className='h-10' />
                         <h3 className='text-white'>Timely Delivery</h3>
                         <p className='text-white'>
-                        Our adoption of agile methodology has resulted in an exceptional delivery track record. We deliver projects right on time while adhering to the highest quality standards. We provide 3-month support after the delivery to ensure our clients do not face any problem once the project is delivered.
+                           Our adoption of agile methodology has resulted in an exceptional delivery track record. We deliver projects right on time while adhering to the highest quality standards. We provide 3-month support after the delivery to ensure our clients do not face any problem once the project is delivered.
                         </p>
                      </div>
                 </div>
