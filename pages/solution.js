@@ -1,23 +1,38 @@
-import React, { Component } from 'react';
-import Header from '../components/header/Header';
-import Footer from '../components/common/Footer';
-import KeepInTouch from '../components/common/keepInTouch';
-import LetsKick from '../components/common/LetsKick';
-import LocateUs from '../components/common/locateUs';
-import Newsletter from '../components/career/Newsletter';
+import React, {useState} from 'react';
+import Head from 'next/head'
 import ChooseApp from '../components/mobilePages/chooseApp';
 import SolutionLanguage from '../components/solution/solutionLanguage';
-import WorkBanner from '../components/work/workBanner';
 import BigHeadingScroll from '../components/common/BigHeadingScroll';
 import Partner from '../components/solution/partner';
 import SolutionBanner from '../components/solution/solutionBanner';
 import SolutionServices from '../components/solution/solutionServices';
 import Project from '../components/solution/project';
+// 
+import KeepInTouch from '../components/common/keepInTouch';
+import Header from '../components/header/Header';
+import LocateUs from '../components/common/locateUs';
+import LetsKick from '../components/common/LetsKick';
+import Newsletter from '../components/career/Newsletter';
+import Footer from '../components/common/Footer';
+import Loader from '../components/common/loader';
 
-class Solution extends Component {
-    render() {
-        return (
-            <div>
+
+function Solution(props) {
+    const [loading, setLoading] = useState(true);
+    React.useEffect(() => {
+      setTimeout(() => setLoading(false), 2000);
+    }, []); 
+    return (
+        <>
+        {loading ? 
+         <Loader/> 
+        :
+        <div>
+           <Head>
+           <title>Brain Inventory | Custom Software Development Company in India & UK</title>
+
+           </Head>
+           <div>
                  <Header/>
                  <SolutionBanner/>
                  <SolutionServices/>
@@ -32,8 +47,10 @@ class Solution extends Component {
                  <LetsKick/>
                  <Footer/>
             </div>
-        );
-    }
+        </div>
+        }
+       </>
+    );
 }
 
 export default Solution;

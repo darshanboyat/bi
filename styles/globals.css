@@ -1069,10 +1069,12 @@ ul.list-modal {
   color: #fff;
   position: relative;
 }
+
 .list-under li
 {
   margin-left: 1rem;
 }
+
 .list-under-1::before {
   content: '';
   width: 1px;
@@ -1084,6 +1086,7 @@ ul.list-modal {
   top: 0px;
   left: 0px;
 }
+
 .list-under li.active-color::after
 {
    content: '';
@@ -1143,6 +1146,7 @@ padding: 3rem 0;
   -webkit-transform:translate(0,-50%);
   transform:translate(0,-50%)
 }
+
 .about-timeline .timeline-box p{
   font-size:18px;
   line-height:27px;
@@ -1150,9 +1154,11 @@ padding: 3rem 0;
   font-weight:400;
   margin-bottom:26px
 }
+
 .about-timeline .timeline-box p:last-of-type{
   margin-bottom:15px
 }
+
 .about-timeline .start-point h4{
   font-size:17px;
   line-height:23px;
@@ -1677,14 +1683,12 @@ padding: 3rem 0;
       max-height:unset
   }
 }
-
 .bg-solution
 {
   background-image: url('/images/forte-banner.png');
   height: 100vh;
   background-size: cover;
 }
-
 .bg-hire-image
 {
   background-image: url('/images/staffbanner.png');
@@ -1845,6 +1849,10 @@ padding: 3rem 0;
 {
   border: 1px solid #3E3E3E;
 }
+.bg-hight-orange
+{
+  background: #c8721f;
+}
 
 .after-4::before {
   content: '03';
@@ -1921,7 +1929,6 @@ padding: 3rem 0;
   }
 }
 
-
 .numbers-yellow
 {
   transition: color .5s ease;
@@ -1940,6 +1947,6 @@ padding: 3rem 0;
 .logo-bg-uses
 {
   background: #6302DD38 0% 0% no-repeat padding-box;
-border: 1px solid #6302DD;
+  border: 1px solid #6302DD;
   height: 11rem;
 }

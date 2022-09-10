@@ -32,7 +32,7 @@ function MobileAppDevelopment(props) {
        :
        <div>
           <Head>
-            <title>Contact Brain Inventory to Kickstart Your Digital Journey Today</title>
+          <title>Brain Inventory | Custom Software Development Company in India & UK</title>
           </Head>
         <div>
           <Header></Header>

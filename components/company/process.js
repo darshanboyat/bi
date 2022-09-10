@@ -6,32 +6,32 @@ const blogstype = [
     {
         id: 1,
         image: '1-article.png',
-        summary: 'Dear Sophie: How does the International Entrepreneur Parole program work?'
+        // summary: 'Dear Sophie: How does the International Entrepreneur Parole program work?'
     },
     {
         id: 2,
         image: '1-article.png',
-        summary: 'Dear Sophie: How does the International Entrepreneur Parole program work?'
+        // summary: 'Dear Sophie: How does the International Entrepreneur Parole program work?'
     },
     {
         id: 3,
         image: '1-article.png',
-        summary: 'Dear Sophie: How does the International Entrepreneur Parole program work?'
+        // summary: 'Dear Sophie: How does the International Entrepreneur Parole program work?'
     },
     {
         id: 4,
         image: '1-article.png',
-        summary: 'Dear Sophie: How does the International Entrepreneur Parole program work?'
+        // summary: 'Dear Sophie: How does the International Entrepreneur Parole program work?'
     },
     {
         id: 5,
         image: '1-article.png',
-        summary: 'Dear Sophie: How does the International Entrepreneur Parole program work?'
+        // summary: 'Dear Sophie: How does the International Entrepreneur Parole program work?'
     },
     {
         id: 6,
         image: '1-article.png',
-        summary: 'Dear Sophie: How does the International Entrepreneur Parole program work?'
+        // summary: 'Dear Sophie: How does the International Entrepreneur Parole program work?'
     }
 ]
 function process(props) {

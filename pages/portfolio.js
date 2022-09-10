@@ -22,7 +22,8 @@ function Portfolio(props) {
             :
             <div>
                <Head>
-                 <title>Portfolio</title>
+               <title>Brain Inventory | Custom Software Development Company in India & UK</title>
+
                </Head>
              <div>
                <Header></Header>

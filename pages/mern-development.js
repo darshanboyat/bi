@@ -31,7 +31,8 @@ function MernDeveloper(props) {
         :
         <div>
            <Head>
-             <title></title>
+           <title>Brain Inventory | Custom Software Development Company in India & UK</title>
+
            </Head>
          <div>
            <Header></Header>     

@@ -8,7 +8,7 @@ class WorkBanner extends Component {
                 <div className="md:flex block relative">
                   <div className='lg:w-[40%] w-full  md:h-full'>
                     <div className='3xl:py-10 2xl:py-6 xl:py-6 2xl:px-14 xl:px-12 px-10 flex flex-col justify-center 2xl:space-y-5 xl:space-y-4 space-y-3 h-full'>
-                      <div className='2xl:text-4xl lg:text-4xl text-4xl Gilroy-Bold text-white'>We trun ideas into a</div>     
+                      <div className='2xl:text-4xl lg:text-4xl text-4xl Gilroy-Bold text-white'>We turn ideas into a</div>     
                         <div className='flex flex-col'>
                           <div className='color-gray text-sm Gilroy-Bold'>
                               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.
