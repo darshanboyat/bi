@@ -490,12 +490,12 @@ const ServicesChildren = () => {
             </Link>
           </li>
           <li className="color-gray">
-            <Link href="" class="cursor-pointer">
+            <Link href="" className="cursor-pointer">
               LAMP Developer
             </Link>
           </li>
-          <li class="color-gray">
-            <Link href="" class="cursor-pointer">
+          <li className="color-gray">
+            <Link href="" className="cursor-pointer">
               Flutter app development
             </Link>
           </li>
@@ -510,33 +510,33 @@ const Solution = () => {
     <div className="col-span-4 grid grid-cols-1">
       <div className="space-y-4">
         <h2 className="text-2xl Gilroy-Bold">Solution</h2>
-        <ul class="space-y-2">
-  <li class="color-gray">
-    <Link href="" class="cursor-pointer">Custom Software Development</Link>
+        <ul className="space-y-2">
+  <li className="color-gray">
+    <Link href="" className="cursor-pointer">Custom Software Development</Link>
   </li>
-  <li class="color-gray">
-    <Link href="" class="cursor-pointer">NFT Marketplace</Link>
+  <li className="color-gray">
+    <Link href="" className="cursor-pointer">NFT Marketplace</Link>
   </li>
-  <li class="color-gray">
-    <Link href="" class="cursor-pointer">Blockchain Solution</Link>
+  <li className="color-gray">
+    <Link href="" className="cursor-pointer">Blockchain Solution</Link>
   </li>
-  <li class="color-gray">
-    <Link href="" class="cursor-pointer">Metaverse Application</Link>
+  <li className="color-gray">
+    <Link href="" className="cursor-pointer">Metaverse Application</Link>
   </li>
-  <li class="color-gray">
-    <Link href="" class="cursor-pointer">Accounting Application</Link>
+  <li className="color-gray">
+    <Link href="" className="cursor-pointer">Accounting Application</Link>
   </li>
-  <li class="color-gray">
-    <Link href="" class="cursor-pointer">Sports Betting Platform</Link>
+  <li className="color-gray">
+    <Link href="" className="cursor-pointer">Sports Betting Platform</Link>
   </li>
-  <li class="color-gray">
-    <Link href="" class="cursor-pointer">Custom Fantasy Sports Solution</Link>
+  <li className="color-gray">
+    <Link href="" className="cursor-pointer">Custom Fantasy Sports Solution</Link>
   </li>
-  <li class="color-gray">
-    <Link href="" class="cursor-pointer">Social Media Applications</Link>
+  <li className="color-gray">
+    <Link href="" className="cursor-pointer">Social Media Applications</Link>
   </li>
-  <li class="color-gray">
-    <Link href="" class="cursor-pointer">Online Learning Solutions</Link>
+  <li className="color-gray">
+    <Link href="" className="cursor-pointer">Online Learning Solutions</Link>
   </li>
 </ul>
       </div>
