@@ -26,8 +26,8 @@ export default function KeepInTouch() {
     };
 
     return (
-                <div className="2xl:p-10 p-8 2xl:space-y-8 space-y-6">
-            <div className="container padding-left-all-section">
+      <div className="2xl:p-10 p-8 2xl:space-y-8 space-y-6">
+        <div className="container padding-left-all-section">
                     
         <div className="mobile-padding grid lg:grid-cols-2 grid-cols-1">
             <div className="flex flex-col space-y-8">
@@ -39,9 +39,9 @@ export default function KeepInTouch() {
                   
                     
                 <p className="2xl:text-2xl xl:text-xl text-lg Gilroy-Light leading-normal w-4/5">We are always looking out for new collaborations, whether you are a client who is passionate about a project or a talent who is interested in joining our team, our doors are always open.</p>
-                   
+                    
             </div>
-           
+            
             <div className="flex lg:justify-end justify-start ">
                 
                 <div className="flex flex-col xl:space-y-8 space-y-6 w-full">
@@ -60,7 +60,7 @@ export default function KeepInTouch() {
                     {...register("email")}
                     type="email"
                     required
-                   className="bg-transparent p-4 focus:outline-none border border-[#ffffff67] flex-1 placeholder-[#ffffffd7]"
+                    className="bg-transparent p-4 focus:outline-none border border-[#ffffff67] flex-1 placeholder-[#ffffffd7]"
                     placeholder="Obviously, an email"
                   ></input>
                   <input
@@ -100,9 +100,9 @@ export default function KeepInTouch() {
                     <HomeButton><span className="text-xl">Submit</span></HomeButton> */}
                 </div>
             </div>
-               
+                
             </div>
         </div>
-                </div>
+      </div>
     )
 }

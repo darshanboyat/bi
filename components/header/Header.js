@@ -361,21 +361,21 @@ const CompanyChildren = () => {
     <div className="col-span-4 grid grid-cols-1">
       <div className="space-y-4">
         <h2 className="text-2xl Gilroy-Bold">About</h2>
-        <ul class="space-y-2">
-  <li class="color-gray">
-    <a href="/company" class="cursor-pointer">Our Company</a>
+        <ul className="space-y-2">
+  <li className="color-gray">
+    <Link href="/company" className="cursor-pointer">Our Company</Link>
   </li>
-  <li class="color-gray">
-    <a href="/how-we-work" class="cursor-pointer">How we work</a>
+  <li className="color-gray">
+    <Link href="/how-we-work" className="cursor-pointer">How we work</Link>
   </li>
-  <li class="color-gray">
-    <a href="/career" class="cursor-pointer">Careers</a>
+  <li className="color-gray">
+    <Link href="/career" className="cursor-pointer">Careers</Link>
   </li>
-  <li class="color-gray">
-    <a href="" class="cursor-pointer">Blog</a>
+  <li className="color-gray">
+    <Link href="" className="cursor-pointer">Blog</Link>
   </li>
-  <li class="color-gray">
-    <a href="/contact" class="cursor-pointer">Contact Us</a>
+  <li className="color-gray">
+    <Link href="/contact" className="cursor-pointer">Contact Us</Link>
   </li>
 </ul>
       </div>
@@ -388,116 +388,116 @@ const ServicesChildren = () => {
     <div className="col-span-4 grid grid-cols-3">
       <div className="space-y-4">
         <h2 className="text-2xl Gilroy-Bold">Mobile Development</h2>
-        <ul class="space-y-2">
-          <li class="color-gray">
-            <a href="/angularjs-development" class="cursor-pointer">
+        <ul className="space-y-2">
+          <li className="color-gray">
+            <Link href="/angularjs-development" className="cursor-pointer">
               Angular JS Development
-            </a>
+            </Link>
           </li>
-          <li class="color-gray">
-            <a href="/reactjsdevelopment" class="cursor-pointer">
+          <li className="color-gray">
+            <Link href="/reactjsdevelopment" className="cursor-pointer">
               React JS Development
-            </a>
+            </Link>
           </li>
-          <li class="color-gray">
-            <a href="/nodejs-development" class="cursor-pointer">
+          <li className="color-gray">
+            <Link href="/nodejs-development" className="cursor-pointer">
               Node JS Development
-            </a>
+            </Link>
           </li>
-          <li class="color-gray">
-            <a href="" class="cursor-pointer">
+          <li className="color-gray">
+            <Link href="" className="cursor-pointer">
               Vue JS Development
-            </a>
+            </Link>
           </li>
-          <li class="color-gray">
-            <a href="/mean-development" class="cursor-pointer">
+          <li className="color-gray">
+            <Link href="/mean-development" className="cursor-pointer">
               MEAN Development
-            </a>
+            </Link>
           </li>
-          <li class="color-gray">
-            <a href="/mern-development" class="cursor-pointer">
+          <li className="color-gray">
+            <Link href="/mern-development" className="cursor-pointer">
               MERN Development
-            </a>
+            </Link>
           </li>
-          <li class="color-gray">
-            <a href="/lamp-development" class="cursor-pointer">
+          <li className="color-gray">
+            <Link href="/lamp-development" className="cursor-pointer">
               LAMP Development
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
       <div className="space-y-4">
         <h2 className="text-2xl Gilroy-Bold">Web Development</h2>
-        <ul class="space-y-2">
-          <li class="color-gray">
-            <a href="/ios-app-development" class="cursor-pointer">
+        <ul className="space-y-2">
+          <li className="color-gray">
+            <Link href="/ios-app-development" className="cursor-pointer">
               iOS App Development
-            </a>
+            </Link>
           </li>
-          <li class="color-gray">
-            <a href="/android-app-development" class="cursor-pointer">
+          <li className="color-gray">
+            <Link href="/android-app-development" className="cursor-pointer">
               Android App Development
-            </a>
+            </Link>
           </li>
-          <li class="color-gray">
-            <a href="/react-native-development" class="cursor-pointer">
+          <li className="color-gray">
+            <Link href="/react-native-development" className="cursor-pointer">
               React Native App Development
-            </a>
+            </Link>
           </li>
-          <li class="color-gray">
-            <a href="/flutter-app-development" class="cursor-pointer">
+          <li className="color-gray">
+            <Link href="/flutter-app-development" className="cursor-pointer">
               Flutter App Development
-            </a>
+            </Link>
           </li>
-          <li class="color-gray">
-            <a href="/swift-app-development" class="cursor-pointer">
+          <li className="color-gray">
+            <Link href="/swift-app-development" className="cursor-pointer">
               Swift App Development
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
       <div className="space-y-4">
         <h2 className="text-2xl Gilroy-Bold">Hire Dedicated Developer</h2>
-        <ul class="space-y-2">
-          <li class="color-gray">
-            <a href="" class="cursor-pointer">
+        <ul className="space-y-2">
+          <li className="color-gray">
+            <Link href="" className="cursor-pointer">
               Hire Angular JS Developer
-            </a>
+            </Link>
           </li>
-          <li class="color-gray">
-            <a href="" class="cursor-pointer">
+          <li className="color-gray">
+            <Link href="" className="cursor-pointer">
               React JS Developer
-            </a>
+            </Link>
           </li>
-          <li class="color-gray">
-            <a href="" class="cursor-pointer">
+          <li className="color-gray">
+            <Link href="" className="cursor-pointer">
               Node JS Developer
-            </a>
+            </Link>
           </li>
-          <li class="color-gray">
-            <a href="" class="cursor-pointer">
+          <li className="color-gray">
+            <Link href="" className="cursor-pointer">
               Vue Js Developer
-            </a>
+            </Link>
           </li>
-          <li class="color-gray">
-            <a href="" class="cursor-pointer">
+          <li className="color-gray">
+            <Link href="" className="cursor-pointer">
               MEAN Developer
-            </a>
+            </Link>
           </li>
-          <li class="color-gray">
-            <a href="" class="cursor-pointer">
+          <li className="color-gray">
+            <Link href="" className="cursor-pointer">
               MERN Developer
-            </a>
+            </Link>
           </li>
-          <li class="color-gray">
-            <a href="" class="cursor-pointer">
+          <li className="color-gray">
+            <Link href="" class="cursor-pointer">
               LAMP Developer
-            </a>
+            </Link>
           </li>
           <li class="color-gray">
-            <a href="" class="cursor-pointer">
+            <Link href="" class="cursor-pointer">
               Flutter app development
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
@@ -512,31 +512,31 @@ const Solution = () => {
         <h2 className="text-2xl Gilroy-Bold">Solution</h2>
         <ul class="space-y-2">
   <li class="color-gray">
-    <a href="" class="cursor-pointer">Custom Software Development</a>
+    <Link href="" class="cursor-pointer">Custom Software Development</Link>
   </li>
   <li class="color-gray">
-    <a href="" class="cursor-pointer">NFT Marketplace</a>
+    <Link href="" class="cursor-pointer">NFT Marketplace</Link>
   </li>
   <li class="color-gray">
-    <a href="" class="cursor-pointer">Blockchain Solution</a>
+    <Link href="" class="cursor-pointer">Blockchain Solution</Link>
   </li>
   <li class="color-gray">
-    <a href="" class="cursor-pointer">Metaverse Application</a>
+    <Link href="" class="cursor-pointer">Metaverse Application</Link>
   </li>
   <li class="color-gray">
-    <a href="" class="cursor-pointer">Accounting Application</a>
+    <Link href="" class="cursor-pointer">Accounting Application</Link>
   </li>
   <li class="color-gray">
-    <a href="" class="cursor-pointer">Sports Betting Platform</a>
+    <Link href="" class="cursor-pointer">Sports Betting Platform</Link>
   </li>
   <li class="color-gray">
-    <a href="" class="cursor-pointer">Custom Fantasy Sports Solution</a>
+    <Link href="" class="cursor-pointer">Custom Fantasy Sports Solution</Link>
   </li>
   <li class="color-gray">
-    <a href="" class="cursor-pointer">Social Media Applications</a>
+    <Link href="" class="cursor-pointer">Social Media Applications</Link>
   </li>
   <li class="color-gray">
-    <a href="" class="cursor-pointer">Online Learning Solutions</a>
+    <Link href="" class="cursor-pointer">Online Learning Solutions</Link>
   </li>
 </ul>
       </div>
