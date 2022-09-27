@@ -21,6 +21,7 @@ import Uses from '../components/technologySection/uses';
 
 function MernDeveloper(props) {
     const [loading, setLoading] = useState(true);
+    const [show, setShow] = useState(false);
     React.useEffect(() => {
       setTimeout(() => setLoading(false), 2000);
     }, []); 
@@ -72,6 +73,8 @@ function MernDeveloper(props) {
          </div>
         </div>
         }
+
+      
        </>
     );
 }

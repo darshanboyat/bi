@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Head from 'next/head'
 
 import Header from "../components/header/Header";
 import Footer from "../components/common/Footer";
@@ -27,6 +28,10 @@ export default function Hirededicatedremotedevelopers(props) {
         <Loader />
       ) : (
         <div>
+                <Head>
+                      <title>Hire Dedicated Remote Developer | Brain Inventory</title>
+                      <meta name="description" content="Brain Inventory is a leading IT Staff Augmentation company. Use our IT augmentation services to get professional specialists on your project." />
+                </Head>
           <Header />
           <StaffBanner />
           <Staform />
