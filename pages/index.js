@@ -33,6 +33,8 @@ export default function Home() {
             <div className='relative'>
               <Head>
                 <title>Brain Inventory | Custom Software Development Company in India & UK</title>
+                <meta name="google-site-verification" content="google0f5d76b9c6c1d8b3.html" />
+
                 <meta name="description" content="Brain Inventory is a new-age Custom Software Development company with offices in India, Canada, Jordan & UK. We offer innovative digital solutions to Startups, Unicorns & Enterprise clients across Industries with our Top 4% of Industry Experts." />
                 <link rel="icon" href="/favicon.png" />
                 <script async src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js" crossOrigin="anonymous"></script>
