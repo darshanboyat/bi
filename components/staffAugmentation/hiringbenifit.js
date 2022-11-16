@@ -10,9 +10,9 @@ function Hiringbenifit(props) {
         
            <div className='lg:flex mt-12 justify-between'>
                <div className='lg:w-[30%]'>
-                  <p className='mb-6 Gilroy-Medium color-light text-lg'>Affordable hiring, Quality Assurance and Time Overlap with major countries</p>
-                  <p  className='mb-6 Gilroy-Medium color-light text-lg'>are some of the factors making India the top country to hire remote development team. Leverage all such benefits and cut hiring costs to boost</p>
-                 <p  className='mb-6 Gilroy-Medium color-light text-lg'>the growth of your startup with Brain Inventory, a top web and app development company.</p>
+                  <p className='mb-6 Gilroy-Medium color-light text-lg'>With the advent of technology, India has become a hub for startups</p>
+                  <p  className='mb-6 Gilroy-Medium color-light text-lg'>With the right mix of affordability, quality assurance, and time overlap with major countries, it is no wonder that we are the top country to hire remote development teams.</p>
+                 <p  className='mb-6 Gilroy-Medium color-light text-lg'>Leverage all such benefits and cut hiring costs to boost the growth of your startup with Brain Inventory, a top web, and app development company.</p>
                <h3 className='Gilroy-Bold text-2xl mt-12'>90+ Clients From</h3>
                <p>Cities across globe</p>
                </div>
@@ -37,7 +37,7 @@ function Hiringbenifit(props) {
                </div>
            </div>
 
-           <p className='lg:w-[50%] mt-8 color-light'>IT Industry has the highest employment rate in India, producing skilled and competent talent every year. With business-friendly policies, India remains the most preferred country to hire remote dedicated developers.</p>
+           <p className='lg:w-[50%] mt-8 color-light'>India's IT industry has the highest employment rate in the world, and it produces skilled and competent talent every year. With business-friendly policies, India remains the most preferred country to hire remote dedicated developers.</p>
         </div>
     </div>
     );

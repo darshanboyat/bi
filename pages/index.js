@@ -37,6 +37,7 @@ export default function Home() {
 
                 <meta name="description" content="Brain Inventory is a new-age Custom Software Development company with offices in India, Canada, Jordan & UK. We offer innovative digital solutions to Startups, Unicorns & Enterprise clients across Industries with our Top 4% of Industry Experts." />
                 <link rel="icon" href="/favicon.png" />
+                <link rel="canonical" href="https://braininventory.com/" />
                 <script async src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js" crossOrigin="anonymous"></script>
                 <script async src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js" crossOrigin="anonymous"></script>
                 <script async src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js" crossOrigin="anonymous"></script>
