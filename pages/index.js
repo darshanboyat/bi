@@ -41,6 +41,13 @@ export default function Home() {
                 <script async src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js" crossOrigin="anonymous"></script>
                 <script async src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js" crossOrigin="anonymous"></script>
                 <script async src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js" crossOrigin="anonymous"></script>
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-7M1747GSHC"></script>
+                <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-7M1747GSHC');
+                </script>
               </Head>
               <Header></Header>
               <HomeSectionOne></HomeSectionOne>
