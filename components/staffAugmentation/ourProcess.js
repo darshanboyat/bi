@@ -9,11 +9,11 @@ function ourProcess(props) {
                 <div className='grid lg:grid-cols-3 grid-cols-1 gap-4'>
                     <div className='class-inventory after-one'>
                         <h4 className='text-xl leading-8 Gilroy-Bold'>Brain Inventory Shortlists the Best Candidates (8 hours)</h4>
-                         <ul className='pt-6 ml-4'>
+                        <ul className='pt-6 ml-4'>
                             <li className='color-light text-lg mb-1 list-disc'>Shortlists the developers with relevant skills</li>
                             <li className='color-light text-lg mb-1 list-disc'>Based on their work and experience, we filter the best.</li>
                             <li className='color-light text-lg mb-1 list-disc'>Check their availability for the start date.</li>
-                         </ul>
+                        </ul>
                     </div>
                     <div className='class-inventory after-3'>
                         <h4 className='text-xl leading-8 Gilroy-Bold'>1st Round of Interview is <br/> Conducted (8 hours)</h4>
