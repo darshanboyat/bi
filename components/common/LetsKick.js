@@ -1,5 +1,4 @@
 import HomeButton from "../buttons/HomeButton";
-import { AnimationOnScroll } from "react-animation-on-scroll";
 import Link from 'next/link';
 
 

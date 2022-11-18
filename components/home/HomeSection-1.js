@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import HomeButton from "../buttons/HomeButton";
-import { AnimationOnScroll } from "react-animation-on-scroll";
 
 
 const HomeSectionOne = () => {

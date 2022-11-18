@@ -1,7 +1,6 @@
 import Image from "next/image"
 import HomeButton from "../buttons/HomeButton"
 import Link from "next/link"
-import { AnimationOnScroll } from "react-animation-on-scroll";
 
 
 const info = [

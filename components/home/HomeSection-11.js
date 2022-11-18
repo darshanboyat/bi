@@ -2,7 +2,6 @@ import HomeButton from "../buttons/HomeButton";
 import Image from "next/image";
 import Link from 'next/link'
 
-import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const logos = [
     'logo8', 'logo7', 'logo3', 'logo5', 'logo4', 'logo1', 'logo6', 'logo2'

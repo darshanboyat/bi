@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { AnimationOnScroll } from "react-animation-on-scroll";
 
 
 class Newsletter extends Component {

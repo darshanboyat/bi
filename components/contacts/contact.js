@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import HomeButton from "../buttons/HomeButton";
-import { AnimationOnScroll } from "react-animation-on-scroll";
 import { useForm } from "react-hook-form";
 import Link from 'next/link';
 import { useRouter } from 'next/router'

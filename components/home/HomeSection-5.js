@@ -1,4 +1,3 @@
-import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const HomeSectionFive = () => {
     return (

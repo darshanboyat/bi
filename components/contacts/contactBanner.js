@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from "next/image";
 import HomeButton from '../buttons/HomeButton'
-import { AnimationOnScroll } from "react-animation-on-scroll";
 
 
 
@@ -33,10 +32,8 @@ function contactBanner(props) {
           </div>
          
         </div>
-        {/* <AnimationOnScroll animateIn="animate__fadeInRight"> */}
         <div className='hero-bg-2 w-1/2 h-full lg:block hidden'></div>
         <span id='circle' className="border absolute p-8 rounded-full border-blue -left-24 pointer-events-none"></span>
-         {/* </AnimationOnScroll> */}
       </div>     
        </div>
     );
