@@ -23,8 +23,6 @@
     "next-connect": "^0.12.2",
     "nodemailer": "^6.7.4",
     "react": "17.0.2",
-    "react-animate-on-scroll": "^2.1.5",
-    "react-animation-on-scroll": "^5.1.0",
     "react-dom": "17.0.2",
     "react-easy-marquee": "^1.2.2",
     "react-hook-form": "^7.30.0",
