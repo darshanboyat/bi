@@ -37,7 +37,7 @@ function Hiringbenifit(props) {
                </div>
            </div>
 
-           <p className='lg:w-[50%] mt-8 color-light'>India's IT industry has the highest employment rate in the world, and it produces skilled and competent talent every year. With business-friendly policies, India remains the most preferred country to hire remote dedicated developers.</p>
+           <p className='lg:w-[50%] mt-8 color-light'>India&lsquo;s IT industry has the highest employment rate in the world, and it produces skilled and competent talent every year. With business-friendly policies, India remains the most preferred country to hire remote dedicated developers.</p>
         </div>
     </div>
     );
