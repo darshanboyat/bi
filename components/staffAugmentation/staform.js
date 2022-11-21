@@ -25,8 +25,9 @@ function Staform(props) {
         <div className="flex flex-col space-y-8">
             <h3 className="text-2xl Gilroy-Bold mt-4 mb-8">Get in touch with us</h3>  
             
-            <h2 className="text-4xl leading-10 Gilroy-Bold w-4/5">Are you looking to add Expert it resources to Help deliver your project Smoothly?</h2>      
-            <p className="2xl:text-xl xl:text-lg text-base Gilroy-Light leading-normal w-4/5">Scale high-performing teams with top-notch industry experts And trained professionals from Brain Inventory, a leading IT staff augmentation company.</p>
+            <h2 className="text-4xl leading-10 Gilroy-Bold w-4/5">Whether it&apos;s an internal team or an external consultant, we can help you find the right fit.</h2>      
+            <p className="2xl:text-xl xl:text-lg text-base Gilroy-Light leading-normal w-4/5">We understand the importance of having a smooth-running team, and we make sure that all of our employees have the knowledge and skills to deliver on your goals. We work with you to identify the right people for your project, then train them in your company&apos;s unique culture before they hit the ground running.
+</p>
         </div>
        
         <div className="flex lg:justify-end justify-start ">
