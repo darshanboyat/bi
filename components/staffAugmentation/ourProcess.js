@@ -15,6 +15,8 @@ function ourProcess(props) {
                             <li className='color-light text-lg mb-1 list-disc'>Check their availability for the start date.</li>
                         </ul>
                     </div>
+                    
+    
                     <div className='class-inventory after-3'>
                         <h4 className='text-xl leading-8 Gilroy-Bold'>1st Round of Interview is <br/> Conducted (8 hours)</h4>
                         <ul className='pt-6 ml-4'>

@@ -1,7 +1,6 @@
 import Image from "next/image";
 import HomeButton from "../buttons/HomeButton";
 import { useForm } from "react-hook-form";
-import Swal from 'sweetalert2'
 import { useRouter } from 'next/router'
 
 
