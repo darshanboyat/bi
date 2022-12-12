@@ -376,7 +376,7 @@ export default function BlogDetail({ post }) {
                                                 are still integrated into specific teams, but they also report to a head
                                                 of product development who aims to unify the approach and align
                                                 everyone. Flexibility can be very valuable, but it can also cause wires
-                                                to be crossed when team members aren't sure who should report to and who
+                                                to be crossed when team members aren&lsquo;t sure who should report to and who
                                                 should make the final decision.
                                             </span>
                                         </p>
@@ -406,7 +406,7 @@ export default function BlogDetail({ post }) {
                                             <span style={{ fontWeight: 400 }}>
                                                 Without the right context and guardrails in place, product development
                                                 can quickly expand beyond its original scope. A comprehensive product
-                                                brief is one of the best ways to do this. They align everyone's
+                                                brief is one of the best ways to do this. They align everyone&lsquo;s
                                                 expectations and record the direction in which the product is heading.
                                             </span>
                                         </p>
@@ -420,7 +420,7 @@ export default function BlogDetail({ post }) {
                                             <span style={{ fontWeight: 400 }}>
                                                 Throughout your product development journey, you should organize regular
                                                 meetings for your development team to keep everyone informed about
-                                                what's going on. As part of the project management process, these
+                                                what&lsquo;s going on. As part of the project management process, these
                                                 meetings serve as a valuable check and balance to ensure all is on
                                                 track.
                                             </span>
@@ -441,7 +441,7 @@ export default function BlogDetail({ post }) {
                                                 development to a whole new level. Operationally, few things will deliver
                                                 a better return on investment than getting your product development team
                                                 on the same page.&nbsp; We recommend rethinking your processes and
-                                                implementing these best practices as soon as possible. If you're looking
+                                                implementing these best practices as soon as possible. If you&lsquo;re looking
                                                 for a tool that will help you optimize your product and design
                                                 development, then check out{" "}
                                             </span>
