@@ -47,10 +47,10 @@ export default function BlogDetail({ post }) {
                             <div className='grid grid-cols-3 gap-4'>
                                 <div className='col-span-2 mt-8'>
                                     <h3 className='text-2xl Gilroy-Bold mb-4'>{data.title}</h3>
-                                    <img src={data.image} classname="w-full" />
+                                    <img src={data.image} className="w-full" />
                                     <span className='flex mt-2 mb-2'>
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
                                         </svg>
 
 
@@ -133,7 +133,7 @@ export default function BlogDetail({ post }) {
                                         </ul>
                                         <p>
                                             <span style={{ fontWeight: 400 }}>
-                                                In the ever-changing world of technology, it's not enough to just hire
+                                                In the ever-changing world of technology, it&lsquo;Ps not enough to just hire
                                                 technical wunderkind. Besides first-class hard skills, they should also
                                                 possess excellent communication, teamwork, and problem-solving skills.
                                                 This will help them positively contribute to product and design
@@ -168,8 +168,8 @@ export default function BlogDetail({ post }) {
                                                 <span style={{ fontWeight: 400 }}>dedicated software developers</span>
                                             </a>
                                             <span style={{ fontWeight: 400 }}>
-                                                . This ensures that you aren't wasting time and resources on irrelevant
-                                                assessments or candidates who aren't fit for the role.&nbsp;
+                                                . This ensures that you aren&lsquo;t wasting time and resources on irrelevant
+                                                assessments or candidates who aren&lsquo;t fit for the role.&nbsp;
                                             </span>
                                         </p>
                                         <p>&nbsp;</p>
@@ -200,9 +200,9 @@ export default function BlogDetail({ post }) {
                                         </ul>
                                         <p>
                                             <span style={{ fontWeight: 400 }}>
-                                                Learn about your remote experts' skills during interviews and actual
+                                                Learn about your remote experts&lsquo; skills during interviews and actual
                                                 work on the project. As with your in-house team, they can be useful in
-                                                other projects as well. Getting to know your team member's skills and
+                                                other projects as well. Getting to know your team member&lsquo;s skills and
                                                 experience can save you time in the future.
                                             </span>
                                         </p>
@@ -215,8 +215,8 @@ export default function BlogDetail({ post }) {
                                                 Intellectual property protection and the protection of confidential
                                                 information will be crucial in 2021. Security and trust are two major
                                                 concerns when it comes to outsourcing partnerships. Review your IT
-                                                provider's intellectual property policies and NDAs before the start of
-                                                the development process to make sure this won't be a problem. It is
+                                                provider&lsquo;s intellectual property policies and NDAs before the start of
+                                                the development process to make sure this won&lsquo;t be a problem. It is
                                                 important to remember that when you{" "}
                                             </span>
                                             <a  className='hightlight_1' href="https://braininventory.com/hire-dedicated-remote-developers">
@@ -293,7 +293,7 @@ export default function BlogDetail({ post }) {
                                             <span style={{ fontWeight: 400 }}>
                                                 Another important rule is creating the right product culture and
                                                 empowering your team rather than micromanaging them.&nbsp; The best
-                                                designers and developers don't want to be watched over all the time.
+                                                designers and developers don&lsquo;t want to be watched over all the time.
                                                 Ideally, they would like to be able to work independently and feel that
                                                 their leaders trust them. A good leader provides resources, direction,
                                                 and incentives, but then steps back so that everyone can do what they do
