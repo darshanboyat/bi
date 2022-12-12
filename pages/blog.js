@@ -62,7 +62,6 @@ export default function Blog({ posts }) {
                         </div>
                     </div>
 
-                    {/* <BlogListing/> */}
                     <div className="2xl:p-10 p-8 2xl:space-y-8 space-y-6">
                         <div className="container padding-left-all-section">
                             <div className='grid grid-cols-3 gap-4'>
@@ -94,7 +93,6 @@ export default function Blog({ posts }) {
                                             ))}
                                         </ul>
                                     )}
-                                        {/* <p className='text-sm'>Onboard <span className='color-hightlight'>dedicated remote developers</span> to your project as quickly as in 2 days. If at any point in time, you feel the developer is not performing as per expectation, you can ask for replacement or end the contract with 0 penalty.</p> */}
                                     </div>
                                 </div>
                             </div>
@@ -119,7 +117,7 @@ export async function getServerSideProps(ctx) {
     let { DEV_URL, PROD_URL } = process.env;
 
     // request posts from api
-    let response = await fetch(`${dev ? DEV_URL : PROD_URL}/api/posts`);
+    let response = await fetch(`https://braininventory.com/api/posts`);
     // extract the data
     let data = await response.json();
 
