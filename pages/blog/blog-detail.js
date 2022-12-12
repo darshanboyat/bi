@@ -460,7 +460,7 @@ export default function BlogDetail({ post }) {
 
                                     <div className='p-6 bg-gray-dc mt-8'>
                                         <h3 className='text-xl Gilroy-Bold mb-4'>Popular Blogs</h3>
-                                        {post.length === 0 ? (
+                                        {/* {post.length === 0 ? (
                                             <h2>No added posts</h2>
                                         ) : (
                                             <ul>
@@ -468,7 +468,7 @@ export default function BlogDetail({ post }) {
                                                     <Featured post={post} key={i} />
                                                 ))}
                                             </ul>
-                                        )}
+                                        )} */}
                                     </div>
                                 </div>
                             </div>
