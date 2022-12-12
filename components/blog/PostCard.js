@@ -10,50 +10,15 @@ export default function PostCard({ post }) {
 
     console.log('sasd', post)
 
-    // Publish post
-    const publishPost = async (postId) => {
-        setPublishing(true);
-        try {
-            await fetch('/api/posts', {
-                method: 'PUT',
-                body: postId,
-            });
-            setPublishing(false);
-            return router.push(router.asPath);
-        } catch (error) {
-            return setPublishing(false);
-        }
-    };
-    // Delete post
-    const deletePost = async (postId) => {
-        //change deleting state
-        setDeleting(true);
 
-        try {
-            // Delete post
-            await fetch('/api/posts', {
-                method: 'DELETE',
-                body: postId,
-            });
 
-            // reset the deleting state
-            setDeleting(false);
-
-            // reload the page
-            return router.push(router.asPath);
-        } catch (error) {
-            // stop deleting state
-            return setDeleting(false);
-        }
-    };
-
-    const truncate = (str, n) => {
-        return str.length > 250 ? str.substring(0, 170) + "..." : str;
-	};
+    // const truncate = (str, n) => {
+    //     return str.length > 250 ? str.substring(0, 170) + "..." : str;
+	// };
 
     const detail =(_id)=>{
         console.log(_id)
-        router.push(`/blog/${_id}`)
+        router.push(`/blog/blog-detail`)
    }
 
     return (
@@ -62,22 +27,24 @@ export default function PostCard({ post }) {
                 <div className='flex custom-class'>
                 <div className='w-1/2 mr-4'>
                     {/* <p>{post.image}</p> */}
-                    <img src={post.image}
+                    <img src="/images/Thumbnail.png"
                      className='w-full h-68 object-cover rounded-lg' alt="brain inventory best rating and reviews on Good Firm" 
                      />
 
                 </div>
                 <div className='w-1/2'>
-                <li>
+        
                     <div className=''>
                         <div className=''>
-                            <h3 className='text-2xl Gilroy-Bold'>{post.title}</h3>
+                            <h3 className='text-2xl Gilroy-Bold'>How to Build and Manage An Effective Product Development Team
+</h3>
                             <p className='text-sm mt-2'>
-                            {truncate(post.content)}
+                            {/* {truncate(post.content)} */}
+                            At the center of every company, product development is a crucial component that helps it achieve long-term success. No matter what industry you are in, your ability to develop, validate, and launch new products is crucial.
                                 </p>
-                            <small className='text-sm color-gray'>{moment(post.createdAt).fromNow()}</small>
+                            <small className='text-sm color-gray'>5 hours ago</small>
                             <br />
-                            <div className='mt-4' onClick={()=>detail(post._id)}>
+                            <div className='mt-4' onClick={detail}>
                             <HomeButton >
                                 <span className='text-sm'>Read More</span>
                             </HomeButton>
@@ -94,7 +61,7 @@ export default function PostCard({ post }) {
                         <div></div>
                     </div>
 
-                </li>
+                {/* </li> */}
                 </div>
                 </div>
 

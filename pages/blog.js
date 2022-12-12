@@ -10,18 +10,18 @@ import PostCard from '../components/blog/PostCard';
 import PopularBlog from '../components/blog/popularblog';
 import Featured from '../components/blog/Featured';
 
-export default function Blog({ posts }) {
+export default function Blog({  }) {
     
     const [loading, setLoading] = useState(true);
     React.useEffect(() => {
         // setLoading(true);
-       posts.sort((a, b)=>{
-              if(a.createdAt < b.createdAt ){
-                return 1
-              }else{
-                return -1
-              }
-       })
+    //    posts.sort((a, b)=>{
+    //           if(a.createdAt < b.createdAt ){
+    //             return 1
+    //           }else{
+    //             return -1
+    //           }
+    //    })
 
         setTimeout(() => setLoading(false), 2000);
     }, []);
@@ -47,15 +47,15 @@ export default function Blog({ posts }) {
                                  <div className='grid grid-cols-3 gap-4'>
                                 
 
-                                 {posts.length === 0 ? (
+                                 {/* {posts.length === 0 ? (
                                         <h2>No added posts</h2>
                                     ) : (
                                         <>
-                                            {posts.slice(0,3).map((post, i) => (
-                                                <PopularBlog post={post} key={i} />
-                                            ))}
+                                            {posts.slice(0,3).map((post, i) => ( */}
+                                                <PopularBlog />
+                                            {/* ))}
                                         </>
-                                    )}
+                                    )} */}
                                   
                                  </div>
                             </div>
@@ -66,15 +66,15 @@ export default function Blog({ posts }) {
                         <div className="container padding-left-all-section">
                             <div className='grid grid-cols-3 gap-4'>
                                 <div className='col-span-2 '>
-                                    {posts.length === 0 ? (
+                                    {/* {posts.length === 0 ? (
                                         <h2>No added posts</h2>
                                     ): (
                                         <ul>
-                                            {posts.map((post, i) => (
-                                                <PostCard post={post} key={i} />
-                                            ))}
+                                            {posts.map((post, i) => ( */}
+                                                <PostCard/>
+                                            {/* ))}
                                          </ul>
-                                    )}
+                                    )} */}
                                 </div>
                                 <div>
                                     <div className='p-6 bg-gray-dc mt-8'>
@@ -84,15 +84,15 @@ export default function Blog({ posts }) {
 
                                     <div className='p-6 bg-gray-dc mt-8'>
                                         <h3 className='text-xl Gilroy-Bold mb-4'>Popular Blogs</h3>
-                                        {posts.length === 0 ? (
+                                        {/* {posts.length === 0 ? (
                                         <h2>No added posts</h2>
                                     ) : (
                                         <ul>
-                                              {posts.slice(0,6).map((post, i) => (
-                                                <Featured post={post} key={i} />
-                                            ))}
+                                              {posts.slice(0,6).map((post, i) => ( */}
+                                                {/* <Featured/> */}
+                                            {/* ))}
                                         </ul>
-                                    )}
+                                    )} */}
                                     </div>
                                 </div>
                             </div>
@@ -111,19 +111,19 @@ export default function Blog({ posts }) {
     );
 }
 
-export async function getServerSideProps(ctx) {
-    // get the current environment
-    let dev = process.env.NODE_ENV !== 'production';
-    let { DEV_URL, PROD_URL } = process.env;
+// export async function getServerSideProps(ctx) {
+//     // get the current environment
+//     let dev = process.env.NODE_ENV !== 'production';
+//     let { DEV_URL, PROD_URL } = process.env;
 
-    // request posts from api
-    let response = await fetch(`https://braininventory.com/api/posts`);
-    // extract the data
-    let data = await response.json();
+//     // request posts from api
+//     let response = await fetch(`https://braininventory.com/api/posts`);
+//     // extract the data
+//     let data = await response.json();
 
-    return {
-        props: {
-            posts: data['message'],
-        },
-    };
-}
+//     return {
+//         props: {
+//             posts: data['message'],
+//         },
+//     };
+// }
