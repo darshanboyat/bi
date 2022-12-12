@@ -372,7 +372,7 @@ const CompanyChildren = () => {
     <Link href="/career" className="cursor-pointer">Careers</Link>
   </li>
   <li className="color-gray">
-    <Link href="" className="cursor-pointer">Blog</Link>
+    <Link href="/blog" className="cursor-pointer">Blog</Link>
   </li>
   <li className="color-gray">
     <Link href="/contact" className="cursor-pointer">Contact Us</Link>
