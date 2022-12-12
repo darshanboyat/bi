@@ -5,11 +5,8 @@ import Footer from '../components/common/Footer';
 import KeepInTouch from '../components/common/keepInTouch'
 import LocateUs from '../components/common/locateUs'
 import Header from '../components/header/Header';
-import Newsletter from '../components/career/Newsletter';
 import Loader from '../components/common/loader'
-import BlogListing from '../components/blog/bloglisting';
 import PostCard from '../components/blog/PostCard';
-import styles from '../styles/Home.module.css';
 import PopularBlog from '../components/blog/popularblog';
 import Featured from '../components/blog/Featured';
 
@@ -104,11 +101,11 @@ export default function Blog({ posts }) {
 
                         </div>
                     </div>
-{/* 
+
                     <KeepInTouch />
                     <LocateUs />
                     <LetsKick />
-                    <Footer /> */}
+                    <Footer />
                 </div>
 
             }
