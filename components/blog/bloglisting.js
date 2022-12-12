@@ -17,8 +17,8 @@ export default function BlogListing({posts}) {
 
         <div className='2xl:p-10 p-8 2xl:space-y-8 space-y-6'>
             <div className='container padding-left-all-section'>
-                <div class="grid grid-cols-3 gap-4">
-                    <div class="col-span-2">
+                <div className="grid grid-cols-3 gap-4">
+                    <div className="col-span-2">
                         <div className='flex'>
                             <div></div>
                             <div>
@@ -35,7 +35,7 @@ export default function BlogListing({posts}) {
                             </div>
                         </div>
                     </div>
-                    <div class="">03</div>
+                    <div className="">03</div>
                 </div>
             </div>
 
