@@ -2009,3 +2009,14 @@ ol li
   color: #9B76FF;
   text-decoration: underline;
 }
+
+.under-list-para
+{
+  margin-left: 2rem;
+}
+
+.under-list-para li
+{
+  list-style: disc;
+  margin-bottom: 0.7rem;
+}

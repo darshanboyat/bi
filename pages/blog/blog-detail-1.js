@@ -97,7 +97,7 @@ export default function BlogDetail({ post }) {
                                             </span>
                                         </p>
                                         <p>&nbsp;</p>
-                                        <ol>
+                                        <ol className=''>
                                             <li className='custom-line'>
                                                 <strong> Hiring</strong>
                                             </li>
