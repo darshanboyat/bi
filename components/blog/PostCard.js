@@ -91,7 +91,7 @@ export default function PostCard({ post }) {
                                 <h3 className='text-2xl Gilroy-Bold'>A Brief Overview of IT Staff Augmentation</h3>
                                 <p className='text-sm mt-2'>
                                     {/* {truncate(post.content)} */}
-                                    This blog discusses IT staff augmentation as an effective means of improving an organization's IT capabilities and ensuring your organization receives the best IT personnel when needed and continues achieving ambitious growth...                                </p>
+                                    This blog discusses IT staff augmentation as an effective means of improving an organization&lsquo;s IT capabilities and ensuring your organization receives the best IT personnel when needed and continues achieving ambitious growth...                                </p>
                                 <small className='text-sm color-gray'>1 hours ago</small>
                                 <br />
                                 <div className='mt-4' onClick={detail1}>

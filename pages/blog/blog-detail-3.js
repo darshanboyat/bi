@@ -135,7 +135,7 @@ export default function BlogDetail3({ post }) {
                                             <p>     IT&nbsp;<a className='hightlight_1' href="https://braininventory.com/">staff augmentation</a> can
                                             also lead you to hire people who are not as qualified as they first
                                             appear. You may end up with someone who has no idea how to do their job
-                                            well—or perhaps even worse, someone who's not willing or able to learn
+                                            well—or perhaps even worse, someone who&lsquo;s not willing or able to learn
                                             what they need to know.</p>
                                         </li>
                                      
@@ -162,7 +162,7 @@ export default function BlogDetail3({ post }) {
                                     <ol className='under-list-para'>
                                         <li>
                                             <p className='Gilroy-Bold'>Low Investment Costs:&nbsp;</p>
-                                            <p>  You don't have to buy the equipment, software, and services that you
+                                            <p>  You don&lsquo;t have to buy the equipment, software, and services that you
                                             need. Instead, you can rent these things from a vendor that specializes
                                             in IT outsourcing. This can help you save your business a lot.&nbsp;</p>
                                         </li>
@@ -172,7 +172,7 @@ export default function BlogDetail3({ post }) {
                                     <ol  className='under-list-para' start={2}>
                                         <li>
                                             <p className='Gilroy-Bold'>Saves Time:&nbsp;</p>
-                                            <p>  With outsourcing, you don't need to worry about finding people who are
+                                            <p>  With outsourcing, you don&lsquo;t need to worry about finding people who are
                                             good at what they do—the vendor does it for you! You just have to focus
                                             on making sure that your company is running smoothly and that your
                                             employees have everything they need to do their jobs well.</p>

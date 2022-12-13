@@ -91,9 +91,7 @@ export default function PopularBlog({ post }) {
 
 </h3>
                             <p className='text-sm mt-2 long-text'style={{overflow: 'hidden', textOverflow: 'ellipsis'}}>
-                                {/* {post.content} */}
-                                This blog discusses IT staff augmentation as an effective means of improving an organization's
-                                {/* {truncate(post.content)} */}
+                                This blog discusses IT staff augmentation as an effective means of improving an organization&lsquo;s
                             </p>
                             <small className='text-sm color-gray'>1 hours ago</small>
 
