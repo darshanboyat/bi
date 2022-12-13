@@ -61,6 +61,13 @@ export default function BlogDetail({ post }) {
                                         </label>
 
                                     </span>
+                                    
+                                    <p className='mb-4'>
+                                    <strong className='Gilroy-Bold'>Quick Summary: </strong> 
+                                     Building an effective product development team is essential to creating successful products. It requires a great deal of organization and assessment to ensure the team is able to work harmoniously together and that every individual's strengths are maximized. This blog discusses the steps needed to assemble the product development team; which includes careful planning and assessment, providing the necessary tools and resources, as well as ample communication opportunities between all participants, in order to maximize collaboration during all stages of development, including taking into account the unique skillsets of each member. You will learn how to assemble and manage a product development team, which allows businesses to better position themselves to deliver high-quality products.
+
+
+                                    </p>
                                     <p>
     <span style={{ fontWeight: 400 }}>
       At the center of every company, product development is a crucial component
@@ -126,12 +133,10 @@ export default function BlogDetail({ post }) {
                                             </span>
                                         </p>
                                         <p>&nbsp;</p>
-                                        <ul>
+                                        <ul className='under-list-para' >
                                             <li aria-level={1}>
                                                 <strong>Hire for Both Hard and Soft Skills</strong>
-                                            </li>
-                                        </ul>
-                                        <p>
+                                                <p>
                                             <span style={{ fontWeight: 400 }}>
                                                 In the ever-changing world of technology, it&lsquo;Ps not enough to just hire
                                                 technical wunderkind. Besides first-class hard skills, they should also
@@ -140,26 +145,28 @@ export default function BlogDetail({ post }) {
                                                 development.
                                             </span>
                                         </p>
-                                        <p>&nbsp;</p>
-                                        <ul>
-                                            <li aria-level={1}>
-                                                <strong>Inventory Your Skills</strong>
                                             </li>
                                         </ul>
-                                        <p>
+                                       
+                                        <p>&nbsp;</p>
+                                        <ul className='under-list-para'>
+                                            <li aria-level={1}>
+                                                <strong>Inventory Your Skills</strong>
+                                                <p>
                                             <span style={{ fontWeight: 400 }}>
                                                 Work on identifying the skills you currently possess and those you lack.
                                                 By doing this exercise, you will gain a better understanding of the type
                                                 of skills that you should be seeking from prospective hires.
                                             </span>
                                         </p>
-                                        <p>&nbsp;</p>
-                                        <ul>
-                                            <li aria-level={1}>
-                                                <strong>Assess Skills in the Right Way</strong>
                                             </li>
                                         </ul>
-                                        <p>
+                                     
+                                        <p>&nbsp;</p>
+                                        <ul className='under-list-para'>
+                                            <li aria-level={1}>
+                                                <strong>Assess Skills in the Right Way</strong>
+                                                <p>
                                             <span style={{ fontWeight: 400 }}>
                                                 You must use the right skills assessment test for the specific use case
                                                 when evaluating
@@ -173,18 +180,19 @@ export default function BlogDetail({ post }) {
                                             </span>
                                         </p>
                                         <p>&nbsp;</p>
+                                            </li>
+                                        </ul>
+                                       
                                         <p>
                                             <strong>
                                                 The 4 Most Important Things to Consider Before Hiring a Dedicated Team
                                             </strong>
                                         </p>
                                         <p>&nbsp;</p>
-                                        <ul>
+                                        <ul className='under-list-para'>
                                             <li>
                                                 <strong>i) Understand the Product Development Processes</strong>
-                                            </li>
-                                        </ul>
-                                        <p>
+                                                <p>
                                             <span style={{ fontWeight: 400 }}>
                                                 The importance of understanding all the small details involved in
                                                 software development cannot be overstated. Be clear about the
@@ -192,13 +200,14 @@ export default function BlogDetail({ post }) {
                                                 misunderstandings.
                                             </span>
                                         </p>
-                                        <p>&nbsp;</p>
-                                        <ul>
-                                            <li>
-                                                <strong>ii) Learn What Your Experts Can Do</strong>
                                             </li>
                                         </ul>
-                                        <p>
+                                       
+                                        <p>&nbsp;</p>
+                                        <ul className='under-list-para'>
+                                            <li>
+                                                <strong>ii) Learn What Your Experts Can Do</strong>
+                                                <p>
                                             <span style={{ fontWeight: 400 }}>
                                                 Learn about your remote experts&lsquo; skills during interviews and actual
                                                 work on the project. As with your in-house team, they can be useful in
@@ -228,18 +237,22 @@ export default function BlogDetail({ post }) {
                                             </span>
                                         </p>
                                         <p>&nbsp;</p>
-                                        <ul>
-                                            <li>
-                                                <strong>iv) Get a Detailed and Transparent Contract</strong>
                                             </li>
                                         </ul>
-                                        <p>
+                                     
+                                        <ul className='under-list-para'>
+                                            <li>
+                                                <strong>iv) Get a Detailed and Transparent Contract</strong>
+                                                <p>
                                             <span style={{ fontWeight: 400 }}>
                                                 There must be a clear description of the following in the contract you
                                                 sign:
                                             </span>
                                         </p>
-                                        <ul>
+                                            </li>
+                                        </ul>
+                                     
+                                        <ul className='under-list-para pl-8'>
                                             <li style={{ fontWeight: 400 }} aria-level={1}>
                                                 <span style={{ fontWeight: 400 }}>
                                                     Development rates with detailed breakdowns based on the expertise
@@ -314,12 +327,10 @@ export default function BlogDetail({ post }) {
                                             </span>
                                         </p>
                                         <p>&nbsp;</p>
-                                        <ul>
+                                        <ul className='under-list-para'>
                                             <li aria-level={1}>
                                                 <strong>Decide on the Right Team Structure</strong>
-                                            </li>
-                                        </ul>
-                                        <img src="/images/blog_3.png" />
+                                                <img src="/images/blog_3.png" />
                                         <p className='mb-4'>
                                             <span style={{ fontWeight: 400 }}>
                                                 Your product development team needs a solid structure that creates the
@@ -328,12 +339,13 @@ export default function BlogDetail({ post }) {
                                                 structures that might work for your team:
                                             </span>
                                         </p>
-                                        <ul>
-                                            <li>
-                                                <strong>i) Centralized Team Structure</strong>
                                             </li>
                                         </ul>
-                                        <p>
+                                       
+                                        <ul className='under-list-para'>
+                                            <li>
+                                                <strong>i) Centralized Team Structure</strong>
+                                                <p>
                                             <span style={{ fontWeight: 400 }}>Your </span>
                                             <a className='hightlight_1' href="https://braininventory.com/hire-dedicated-remote-developers">
                                                 <span style={{ fontWeight: 400 }}>
@@ -351,13 +363,14 @@ export default function BlogDetail({ post }) {
                                                 company, resulting in misalignment.
                                             </span>
                                         </p>
-                                        <p>&nbsp;</p>
-                                        <ul>
-                                            <li>
-                                                <strong>ii) Embedded Team Structure</strong>
+                                       
                                             </li>
                                         </ul>
-                                        <p>
+                                        <p>&nbsp;</p>
+                                        <ul className='under-list-para'>
+                                            <li>
+                                                <strong>ii) Embedded Team Structure</strong>
+                                                <p>
                                             <span style={{ fontWeight: 400 }}>
                                                 In this structure, individual product developers are integrated into
                                                 cross-functional teams across the organization. This means that each
@@ -380,15 +393,16 @@ export default function BlogDetail({ post }) {
                                                 should make the final decision.
                                             </span>
                                         </p>
+                                            </li>
+                                        </ul>
+                                       
                                         <p>&nbsp;</p>
-                                        <ul>
+                                        <ul className='under-list-para'>
                                             <li aria-level={1}>
                                                 <strong>
                                                     Use Tools That Improve Design-Development Team Collaboration
                                                 </strong>
-                                            </li>
-                                        </ul>
-                                        <p>
+                                                <p>
                                             <span style={{ fontWeight: 400 }}>
                                                 Great software can be an asset for improving collaboration between your
                                                 design and development teams.&nbsp; Look out for gaps in your processes,
@@ -396,13 +410,14 @@ export default function BlogDetail({ post }) {
                                                 technological tools.
                                             </span>
                                         </p>
-                                        <p>&nbsp;</p>
-                                        <ul>
-                                            <li aria-level={1}>
-                                                <strong>Create Product Briefs</strong>
                                             </li>
                                         </ul>
-                                        <p>
+                                       
+                                        <p>&nbsp;</p>
+                                        <ul className='under-list-para'>
+                                            <li aria-level={1}>
+                                                <strong>Create Product Briefs</strong>
+                                                <p>
                                             <span style={{ fontWeight: 400 }}>
                                                 Without the right context and guardrails in place, product development
                                                 can quickly expand beyond its original scope. A comprehensive product
@@ -410,13 +425,14 @@ export default function BlogDetail({ post }) {
                                                 expectations and record the direction in which the product is heading.
                                             </span>
                                         </p>
-                                        <p>&nbsp;</p>
-                                        <ul>
-                                            <li aria-level={1}>
-                                                <strong>Organize Regular Meetings</strong>
                                             </li>
                                         </ul>
-                                        <p>
+                                     
+                                        <p>&nbsp;</p>
+                                        <ul className='under-list-para'>
+                                            <li aria-level={1}>
+                                                <strong>Organize Regular Meetings</strong>
+                                                <p>
                                             <span style={{ fontWeight: 400 }}>
                                                 Throughout your product development journey, you should organize regular
                                                 meetings for your development team to keep everyone informed about
@@ -425,6 +441,9 @@ export default function BlogDetail({ post }) {
                                                 track.
                                             </span>
                                         </p>
+                                            </li>
+                                        </ul>
+                                  
                                         <p>
                                             <br />
                                             <br />
