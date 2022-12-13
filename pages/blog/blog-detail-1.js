@@ -38,7 +38,7 @@ export default function BlogDetail({ post }) {
                 :
                 <div>
                     <Head>
-                        <title></title>
+                    <title>Brain Inventory Blogs</title>
                     </Head>
                     <Header></Header>
 
