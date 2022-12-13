@@ -64,12 +64,12 @@ export default function BlogDetail({ post }) {
                                     
                                     <p className='mb-4'>
                                     <strong className='Gilroy-Bold'>Quick Summary: </strong> 
-                                     Building an effective product development team is essential to creating successful products. It requires a great deal of organization and assessment to ensure the team is able to work harmoniously together and that every individual's strengths are maximized. This blog discusses the steps needed to assemble the product development team; which includes careful planning and assessment, providing the necessary tools and resources, as well as ample communication opportunities between all participants, in order to maximize collaboration during all stages of development, including taking into account the unique skillsets of each member. You will learn how to assemble and manage a product development team, which allows businesses to better position themselves to deliver high-quality products.
+                                     Building an effective product development team is essential to creating successful products. It requires a great deal of organization and assessment to ensure the team is able to work harmoniously together and that every individual&lsquo;s strengths are maximized. This blog discusses the steps needed to assemble the product development team; which includes careful planning and assessment, providing the necessary tools and resources, as well as ample communication opportunities between all participants, in order to maximize collaboration during all stages of development, including taking into account the unique skillsets of each member. You will learn how to assemble and manage a product development team, which allows businesses to better position themselves to deliver high-quality products.
 
 
                                     </p>
                                     <p>
-    <span style={{ fontWeight: 400 }}>
+    <span style={{ fontWeight: 400 }}>  
       At the center of every company, product development is a crucial component
       that helps it achieve long-term success. No matter what industry you are
       in, your ability to develop, validate, and launch new products is crucial.
