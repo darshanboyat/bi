@@ -50,14 +50,14 @@ export default function PopularBlog({ post }) {
         <>
         
              
-              <div className='relative'>
+              <div onClick={detail} className='relative cursor-pointer'>
                 
                 <div className='overlay'>
                 <img src="/images/Thumbnail.png" className='' alt="brain inventory best rating and reviews on Good Firm" />
                     
                 </div>
         
-                    <div className='absolute bottom-0'>
+                    <div className='absolute bottom-2'>
                         <div className='pl-2 pr-2'>
                             <h3 className='text-lg Gilroy-Bold'>How to Build and Manage An Effective Product Development Team
 </h3>
@@ -78,14 +78,14 @@ export default function PopularBlog({ post }) {
                         </div>
                     </div>
               </div>
-              <div className='relative'>
+              <div  onClick={detail1} className='relative cursor-pointer'>
                 
                 <div className='overlay'>
                 <img src="/images/blog-2.png" className='' alt="brain inventory best rating and reviews on Good Firm" />
                     
                 </div>
         
-                    <div className='absolute bottom-0'>
+                    <div className='absolute  bottom-2'>
                         <div className='pl-2 pr-2'>
                             <h3 className='text-lg Gilroy-Bold'>A Brief Overview of IT Staff Augmentation
 
@@ -105,14 +105,14 @@ export default function PopularBlog({ post }) {
                         </div>
                     </div>
               </div>
-              <div className='relative'>
+              <div  onClick={detail2} className='relative cursor-pointer'>
                 
                 <div className='overlay'>
                 <img src="/images/Thumbnail-3.png" className='' alt="brain inventory best rating and reviews on Good Firm" />
                     
                 </div>
         
-                    <div className='absolute bottom-0'>
+                    <div className='absolute  bottom-2'>
                         <div className='pl-2 pr-2'>
                             <h3 className='text-lg Gilroy-Bold'>IT Staff Augmentation vs Outsourcing: Which Is the Best Option for Your Business
 
