@@ -32,7 +32,7 @@ export default function Blog({  }) {
                 :
                 <div>
                     <Head>
-                        <title></title>
+                        <title>Brain Inventory Blogs</title>
                     </Head>
                     <Header></Header>
 
