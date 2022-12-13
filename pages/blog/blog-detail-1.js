@@ -38,7 +38,7 @@ export default function BlogDetail({ post }) {
                 :
                 <div>
                     <Head>
-                    <title>Brain Inventory Blogs</title>
+                        <title>Brain Inventory Blogs</title>
                     </Head>
                     <Header></Header>
 
@@ -61,34 +61,34 @@ export default function BlogDetail({ post }) {
                                         </label>
 
                                     </span>
-                                    
+
                                     <p className='mb-4'>
-                                    <strong className='Gilroy-Bold'>Quick Summary: </strong> 
-                                     Building an effective product development team is essential to creating successful products. It requires a great deal of organization and assessment to ensure the team is able to work harmoniously together and that every individual&lsquo;s strengths are maximized. This blog discusses the steps needed to assemble the product development team; which includes careful planning and assessment, providing the necessary tools and resources, as well as ample communication opportunities between all participants, in order to maximize collaboration during all stages of development, including taking into account the unique skillsets of each member. You will learn how to assemble and manage a product development team, which allows businesses to better position themselves to deliver high-quality products.
+                                        <strong className='Gilroy-Bold'>Quick Summary: </strong>
+                                        Building an effective product development team is essential to creating successful products. It requires a great deal of organization and assessment to ensure the team is able to work harmoniously together and that every individual&lsquo;s strengths are maximized. This blog discusses the steps needed to assemble the product development team; which includes careful planning and assessment, providing the necessary tools and resources, as well as ample communication opportunities between all participants, in order to maximize collaboration during all stages of development, including taking into account the unique skillsets of each member. You will learn how to assemble and manage a product development team, which allows businesses to better position themselves to deliver high-quality products.
 
 
                                     </p>
                                     <p>
-    <span style={{ fontWeight: 400 }}>  
-      At the center of every company, product development is a crucial component
-      that helps it achieve long-term success. No matter what industry you are
-      in, your ability to develop, validate, and launch new products is crucial.
-      A study by the 280 Group showed that optimizing the product development
-      process itself could increase company profits by 34.2%.{" "}
-    </span>
-    <span style={{ fontWeight: 400 }}>&nbsp;</span>
-    <a className='hightlight_1' href="https://braininventory.com/hire-dedicated-remote-developers">
-      <span style={{ fontWeight: 400 }}>
-        Dedicated software development teams
-      </span>
-    </a>
-    <span style={{ fontWeight: 400 }}>
-      {" "}
-      are often the key to this. This article discusses how to build and manage
-      a product development team that can effectively support you in the product
-      development journey. Let’s dive right in!&nbsp;
-    </span>
-  </p>
+                                        <span style={{ fontWeight: 400 }}>
+                                            At the center of every company, product development is a crucial component
+                                            that helps it achieve long-term success. No matter what industry you are
+                                            in, your ability to develop, validate, and launch new products is crucial.
+                                            A study by the 280 Group showed that optimizing the product development
+                                            process itself could increase company profits by 34.2%.{" "}
+                                        </span>
+                                        <span style={{ fontWeight: 400 }}>&nbsp;</span>
+                                        <a className='hightlight_1' href="https://braininventory.com/hire-dedicated-remote-developers">
+                                            <span style={{ fontWeight: 400 }}>
+                                                Dedicated software development teams
+                                            </span>
+                                        </a>
+                                        <span style={{ fontWeight: 400 }}>
+                                            {" "}
+                                            are often the key to this. This article discusses how to build and manage
+                                            a product development team that can effectively support you in the product
+                                            development journey. Let’s dive right in!&nbsp;
+                                        </span>
+                                    </p>
                                     <>
                                         <p className='Gilroy-Bold text-xl pt-4'>
                                             <strong>
@@ -137,52 +137,52 @@ export default function BlogDetail({ post }) {
                                             <li aria-level={1}>
                                                 <strong>Hire for Both Hard and Soft Skills</strong>
                                                 <p>
-                                            <span style={{ fontWeight: 400 }}>
-                                                In the ever-changing world of technology, it&lsquo;Ps not enough to just hire
-                                                technical wunderkind. Besides first-class hard skills, they should also
-                                                possess excellent communication, teamwork, and problem-solving skills.
-                                                This will help them positively contribute to product and design
-                                                development.
-                                            </span>
-                                        </p>
+                                                    <span style={{ fontWeight: 400 }}>
+                                                        In the ever-changing world of technology, it&lsquo;Ps not enough to just hire
+                                                        technical wunderkind. Besides first-class hard skills, they should also
+                                                        possess excellent communication, teamwork, and problem-solving skills.
+                                                        This will help them positively contribute to product and design
+                                                        development.
+                                                    </span>
+                                                </p>
                                             </li>
                                         </ul>
-                                       
+
                                         <p>&nbsp;</p>
                                         <ul className='under-list-para'>
                                             <li aria-level={1}>
                                                 <strong>Inventory Your Skills</strong>
                                                 <p>
-                                            <span style={{ fontWeight: 400 }}>
-                                                Work on identifying the skills you currently possess and those you lack.
-                                                By doing this exercise, you will gain a better understanding of the type
-                                                of skills that you should be seeking from prospective hires.
-                                            </span>
-                                        </p>
+                                                    <span style={{ fontWeight: 400 }}>
+                                                        Work on identifying the skills you currently possess and those you lack.
+                                                        By doing this exercise, you will gain a better understanding of the type
+                                                        of skills that you should be seeking from prospective hires.
+                                                    </span>
+                                                </p>
                                             </li>
                                         </ul>
-                                     
+
                                         <p>&nbsp;</p>
                                         <ul className='under-list-para'>
                                             <li aria-level={1}>
                                                 <strong>Assess Skills in the Right Way</strong>
                                                 <p>
-                                            <span style={{ fontWeight: 400 }}>
-                                                You must use the right skills assessment test for the specific use case
-                                                when evaluating
-                                            </span>{" "}
-                                            <a className='hightlight_1' href="https://braininventory.com/">
-                                                <span style={{ fontWeight: 400 }}>dedicated software developers</span>
-                                            </a>
-                                            <span style={{ fontWeight: 400 }}>
-                                                . This ensures that you aren&lsquo;t wasting time and resources on irrelevant
-                                                assessments or candidates who aren&lsquo;t fit for the role.&nbsp;
-                                            </span>
-                                        </p>
-                                        <p>&nbsp;</p>
+                                                    <span style={{ fontWeight: 400 }}>
+                                                        You must use the right skills assessment test for the specific use case
+                                                        when evaluating
+                                                    </span>{" "}
+                                                    <a className='hightlight_1' href="https://braininventory.com/">
+                                                        <span style={{ fontWeight: 400 }}>dedicated software developers</span>
+                                                    </a>
+                                                    <span style={{ fontWeight: 400 }}>
+                                                        . This ensures that you aren&lsquo;t wasting time and resources on irrelevant
+                                                        assessments or candidates who aren&lsquo;t fit for the role.&nbsp;
+                                                    </span>
+                                                </p>
+                                                <p>&nbsp;</p>
                                             </li>
                                         </ul>
-                                       
+
                                         <p>
                                             <strong>
                                                 The 4 Most Important Things to Consider Before Hiring a Dedicated Team
@@ -190,68 +190,68 @@ export default function BlogDetail({ post }) {
                                         </p>
                                         <p>&nbsp;</p>
                                         <ul className='under-list-para'>
-                                            <li>
+                                            <li style={{listStyle: 'none'}}>
                                                 <strong>i) Understand the Product Development Processes</strong>
                                                 <p>
-                                            <span style={{ fontWeight: 400 }}>
-                                                The importance of understanding all the small details involved in
-                                                software development cannot be overstated. Be clear about the
-                                                responsibilities of your IT provider and your own to avoid conflicts or
-                                                misunderstandings.
-                                            </span>
-                                        </p>
+                                                    <span style={{ fontWeight: 400 }}>
+                                                        The importance of understanding all the small details involved in
+                                                        software development cannot be overstated. Be clear about the
+                                                        responsibilities of your IT provider and your own to avoid conflicts or
+                                                        misunderstandings.
+                                                    </span>
+                                                </p>
                                             </li>
                                         </ul>
-                                       
+
                                         <p>&nbsp;</p>
                                         <ul className='under-list-para'>
-                                            <li>
+                                            <li style={{listStyle: 'none'}}>
                                                 <strong>ii) Learn What Your Experts Can Do</strong>
                                                 <p>
-                                            <span style={{ fontWeight: 400 }}>
-                                                Learn about your remote experts&lsquo; skills during interviews and actual
-                                                work on the project. As with your in-house team, they can be useful in
-                                                other projects as well. Getting to know your team member&lsquo;s skills and
-                                                experience can save you time in the future.
-                                            </span>
-                                        </p>
-                                        <p>&nbsp;</p>
-                                        <p>
-                                            <strong>iii)Always Sign An NDA</strong>
-                                        </p>
-                                        <p>
-                                            <span style={{ fontWeight: 400 }}>
-                                                Intellectual property protection and the protection of confidential
-                                                information will be crucial in 2021. Security and trust are two major
-                                                concerns when it comes to outsourcing partnerships. Review your IT
-                                                provider&lsquo;s intellectual property policies and NDAs before the start of
-                                                the development process to make sure this won&lsquo;t be a problem. It is
-                                                important to remember that when you{" "}
-                                            </span>
-                                            <a  className='hightlight_1' href="https://braininventory.com/hire-dedicated-remote-developers">
-                                                <span style={{ fontWeight: 400 }}>hire dedicated developers</span>
-                                            </a>
-                                            <span style={{ fontWeight: 400 }}>, </span>
-                                            <span style={{ fontWeight: 400 }}>
-                                                you have the option of signing an NDA with each of them.
-                                            </span>
-                                        </p>
-                                        <p>&nbsp;</p>
+                                                    <span style={{ fontWeight: 400 }}>
+                                                        Learn about your remote experts&lsquo; skills during interviews and actual
+                                                        work on the project. As with your in-house team, they can be useful in
+                                                        other projects as well. Getting to know your team member&lsquo;s skills and
+                                                        experience can save you time in the future.
+                                                    </span>
+                                                </p>
+                                                <p>&nbsp;</p>
+                                                <p>
+                                                    <strong>iii)Always Sign An NDA</strong>
+                                                </p>
+                                                <p>
+                                                    <span style={{ fontWeight: 400 }}>
+                                                        Intellectual property protection and the protection of confidential
+                                                        information will be crucial in 2021. Security and trust are two major
+                                                        concerns when it comes to outsourcing partnerships. Review your IT
+                                                        provider&lsquo;s intellectual property policies and NDAs before the start of
+                                                        the development process to make sure this won&lsquo;t be a problem. It is
+                                                        important to remember that when you{" "}
+                                                    </span>
+                                                    <a className='hightlight_1' href="https://braininventory.com/hire-dedicated-remote-developers">
+                                                        <span style={{ fontWeight: 400 }}>hire dedicated developers</span>
+                                                    </a>
+                                                    <span style={{ fontWeight: 400 }}>, </span>
+                                                    <span style={{ fontWeight: 400 }}>
+                                                        you have the option of signing an NDA with each of them.
+                                                    </span>
+                                                </p>
+                                                <p>&nbsp;</p>
                                             </li>
                                         </ul>
-                                     
+
                                         <ul className='under-list-para'>
-                                            <li>
+                                            <li style={{listStyle: 'none'}}>
                                                 <strong>iv) Get a Detailed and Transparent Contract</strong>
                                                 <p>
-                                            <span style={{ fontWeight: 400 }}>
-                                                There must be a clear description of the following in the contract you
-                                                sign:
-                                            </span>
-                                        </p>
+                                                    <span style={{ fontWeight: 400 }}>
+                                                        There must be a clear description of the following in the contract you
+                                                        sign:
+                                                    </span>
+                                                </p>
                                             </li>
                                         </ul>
-                                     
+
                                         <ul className='under-list-para pl-8'>
                                             <li style={{ fontWeight: 400 }} aria-level={1}>
                                                 <span style={{ fontWeight: 400 }}>
@@ -331,71 +331,71 @@ export default function BlogDetail({ post }) {
                                             <li aria-level={1}>
                                                 <strong>Decide on the Right Team Structure</strong>
                                                 <img src="/images/blog_3.png" />
-                                        <p className='mb-4'>
-                                            <span style={{ fontWeight: 400 }}>
-                                                Your product development team needs a solid structure that creates the
-                                                space where everyone can do what they do best. Get it wrong and your
-                                                progress will be significantly impeded. Listed below are three
-                                                structures that might work for your team:
-                                            </span>
-                                        </p>
+                                                <p className='mb-4'>
+                                                    <span style={{ fontWeight: 400 }}>
+                                                        Your product development team needs a solid structure that creates the
+                                                        space where everyone can do what they do best. Get it wrong and your
+                                                        progress will be significantly impeded. Listed below are three
+                                                        structures that might work for your team:
+                                                    </span>
+                                                </p>
                                             </li>
                                         </ul>
-                                       
+
                                         <ul className='under-list-para'>
-                                            <li>
+                                            <li style={{listStyle: 'none'}}>
                                                 <strong>i) Centralized Team Structure</strong>
                                                 <p>
-                                            <span style={{ fontWeight: 400 }}>Your </span>
-                                            <a className='hightlight_1' href="https://braininventory.com/hire-dedicated-remote-developers">
-                                                <span style={{ fontWeight: 400 }}>
-                                                    dedicated product development team
-                                                </span>
-                                            </a>
-                                            <span style={{ fontWeight: 400 }}>
-                                                {" "}
-                                                works under one key decision-maker in this setup. You assign your
-                                                developers to various projects based on their needs as and when needed.
-                                                Your developers work as mini-agencies. As a result, you benefit from
-                                                shared knowledge and experiences. Additionally, you achieve a unified
-                                                approach to product development throughout the organization.&nbsp; A
-                                                downside is that your team is somewhat isolated from the rest of the
-                                                company, resulting in misalignment.
-                                            </span>
-                                        </p>
-                                       
+                                                    <span style={{ fontWeight: 400 }}>Your </span>
+                                                    <a className='hightlight_1' href="https://braininventory.com/hire-dedicated-remote-developers">
+                                                        <span style={{ fontWeight: 400 }}>
+                                                            dedicated product development team
+                                                        </span>
+                                                    </a>
+                                                    <span style={{ fontWeight: 400 }}>
+                                                        {" "}
+                                                        works under one key decision-maker in this setup. You assign your
+                                                        developers to various projects based on their needs as and when needed.
+                                                        Your developers work as mini-agencies. As a result, you benefit from
+                                                        shared knowledge and experiences. Additionally, you achieve a unified
+                                                        approach to product development throughout the organization.&nbsp; A
+                                                        downside is that your team is somewhat isolated from the rest of the
+                                                        company, resulting in misalignment.
+                                                    </span>
+                                                </p>
+
                                             </li>
                                         </ul>
                                         <p>&nbsp;</p>
                                         <ul className='under-list-para'>
-                                            <li>
+                                            <li style={{listStyle: 'none'}}>
                                                 <strong>ii) Embedded Team Structure</strong>
                                                 <p>
-                                            <span style={{ fontWeight: 400 }}>
-                                                In this structure, individual product developers are integrated into
-                                                cross-functional teams across the organization. This means that each
-                                                individual is deeply embedded in specific products which are great for
-                                                focus, but it does result in some duplicated work because other
-                                                developers might not know exactly what you’re working on.
-                                            </span>
-                                        </p>
-                                        <p>&nbsp;</p>
-                                        <p>
-                                            <strong>iii) Flexible Team Structure</strong>
-                                        </p>
-                                        <p>
-                                            <span style={{ fontWeight: 400 }}>
-                                                Embedded and centralized approaches are combined here. The developers
-                                                are still integrated into specific teams, but they also report to a head
-                                                of product development who aims to unify the approach and align
-                                                everyone. Flexibility can be very valuable, but it can also cause wires
-                                                to be crossed when team members aren&lsquo;t sure who should report to and who
-                                                should make the final decision.
-                                            </span>
-                                        </p>
+                                                    <span style={{ fontWeight: 400 }}>
+                                                        In this structure, individual product developers are integrated into
+                                                        cross-functional teams across the organization. This means that each
+                                                        individual is deeply embedded in specific products which are great for
+                                                        focus, but it does result in some duplicated work because other
+                                                        developers might not know exactly what you’re working on.
+                                                    </span>
+                                                </p>
+                                                <p>&nbsp;</p>
+                                                <p>
+                                                    <strong>iii) Flexible Team Structure</strong>
+                                                </p>
+                                                <p>
+                                                    <span style={{ fontWeight: 400 }}>
+                                                        Embedded and centralized approaches are combined here. The developers
+                                                        are still integrated into specific teams, but they also report to a head
+                                                        of product development who aims to unify the approach and align
+                                                        everyone. Flexibility can be very valuable, but it can also cause wires
+                                                        to be crossed when team members aren&lsquo;t sure who should report to and who
+                                                        should make the final decision.
+                                                    </span>
+                                                </p>
                                             </li>
                                         </ul>
-                                       
+
                                         <p>&nbsp;</p>
                                         <ul className='under-list-para'>
                                             <li aria-level={1}>
@@ -403,47 +403,47 @@ export default function BlogDetail({ post }) {
                                                     Use Tools That Improve Design-Development Team Collaboration
                                                 </strong>
                                                 <p>
-                                            <span style={{ fontWeight: 400 }}>
-                                                Great software can be an asset for improving collaboration between your
-                                                design and development teams.&nbsp; Look out for gaps in your processes,
-                                                and see if there are solutions to help you tighten them up with other
-                                                technological tools.
-                                            </span>
-                                        </p>
+                                                    <span style={{ fontWeight: 400 }}>
+                                                        Great software can be an asset for improving collaboration between your
+                                                        design and development teams.&nbsp; Look out for gaps in your processes,
+                                                        and see if there are solutions to help you tighten them up with other
+                                                        technological tools.
+                                                    </span>
+                                                </p>
                                             </li>
                                         </ul>
-                                       
+
                                         <p>&nbsp;</p>
                                         <ul className='under-list-para'>
                                             <li aria-level={1}>
                                                 <strong>Create Product Briefs</strong>
                                                 <p>
-                                            <span style={{ fontWeight: 400 }}>
-                                                Without the right context and guardrails in place, product development
-                                                can quickly expand beyond its original scope. A comprehensive product
-                                                brief is one of the best ways to do this. They align everyone&lsquo;s
-                                                expectations and record the direction in which the product is heading.
-                                            </span>
-                                        </p>
+                                                    <span style={{ fontWeight: 400 }}>
+                                                        Without the right context and guardrails in place, product development
+                                                        can quickly expand beyond its original scope. A comprehensive product
+                                                        brief is one of the best ways to do this. They align everyone&lsquo;s
+                                                        expectations and record the direction in which the product is heading.
+                                                    </span>
+                                                </p>
                                             </li>
                                         </ul>
-                                     
+
                                         <p>&nbsp;</p>
                                         <ul className='under-list-para'>
                                             <li aria-level={1}>
                                                 <strong>Organize Regular Meetings</strong>
                                                 <p>
-                                            <span style={{ fontWeight: 400 }}>
-                                                Throughout your product development journey, you should organize regular
-                                                meetings for your development team to keep everyone informed about
-                                                what&lsquo;s going on. As part of the project management process, these
-                                                meetings serve as a valuable check and balance to ensure all is on
-                                                track.
-                                            </span>
-                                        </p>
+                                                    <span style={{ fontWeight: 400 }}>
+                                                        Throughout your product development journey, you should organize regular
+                                                        meetings for your development team to keep everyone informed about
+                                                        what&lsquo;s going on. As part of the project management process, these
+                                                        meetings serve as a valuable check and balance to ensure all is on
+                                                        track.
+                                                    </span>
+                                                </p>
                                             </li>
                                         </ul>
-                                  
+
                                         <p>
                                             <br />
                                             <br />
