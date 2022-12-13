@@ -63,7 +63,7 @@ export default function PopularBlog({ post }) {
 </h3>
                             <p className='text-sm mt-2 long-text'style={{overflow: 'hidden', textOverflow: 'ellipsis'}}>
                                 {/* {post.content} */}
-                                At the center of every company, product development is a crucial component that helps it achieve long-term success.
+                                Building an effective product development team is essential to creating successful products...
                                 {/* {truncate(post.content)} */}
                             </p>
                             <small className='text-sm color-gray'>5 hours ago</small>
@@ -91,7 +91,7 @@ export default function PopularBlog({ post }) {
 
 </h3>
                             <p className='text-sm mt-2 long-text'style={{overflow: 'hidden', textOverflow: 'ellipsis'}}>
-                                This blog discusses IT staff augmentation as an effective means of improving an organization&lsquo;s
+                                This blog discusses IT staff augmentation as an effective means of improving an organization&lsquo;s...
                             </p>
                             <small className='text-sm color-gray'>1 hours ago</small>
 
@@ -119,7 +119,7 @@ export default function PopularBlog({ post }) {
 </h3>
                             <p className='text-sm mt-2 long-text'style={{overflow: 'hidden', textOverflow: 'ellipsis'}}>
                                 {/* {post.content} */}
-                                Many businesses face the same dilemma when it comes to IT solutions: should you opt for staff augmentation or outsourcing
+                                Many businesses face the same dilemma when it comes to IT solutions: should you opt for staff...
                                 {/* {truncate(post.content)} */}
                             </p>
                             <small className='text-sm color-gray'>1 hours ago</small>
