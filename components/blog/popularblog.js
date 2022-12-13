@@ -35,29 +35,27 @@ export default function PopularBlog({ post }) {
 
     const detail =(_id)=>{
          console.log(_id)
-         router.push(`/blog/blog-detail-1`)
+         router.push(`/blog/how-to-build-and-manage-an-effective-product-development-team`)
     }
 
     const detail1 =()=>{
-        router.push(`/blog/blog-detail-2`)
+        router.push(`/blog/a-brief-overview-of-it-staff-augmentation`)
     }
     
     const detail2 =()=>{
-        router.push(`/blog/blog-detail-3`)
+        router.push(`/blog/it-staff-augmentation-vs-outsourcing-which-is-the-best-option-for-your-business`)
     }
 
     return (
-        <>
-        
-             
-              <div onClick={detail} className='relative cursor-pointer'>
+        <>     
+              <div onClick={detail} className='relative hover-overlay cursor-pointer'>
                 
                 <div className='overlay'>
                 <img src="/images/Thumbnail.png" className='' alt="brain inventory best rating and reviews on Good Firm" />
                     
                 </div>
         
-                    <div className='absolute bottom-2'>
+                    <div className='absolute top-12'>
                         <div className='pl-2 pr-2'>
                             <h3 className='text-lg Gilroy-Bold'>How to Build and Manage An Effective Product Development Team
 </h3>
@@ -78,14 +76,14 @@ export default function PopularBlog({ post }) {
                         </div>
                     </div>
               </div>
-              <div  onClick={detail1} className='relative cursor-pointer'>
+              <div  onClick={detail1} className='hover-overlay relative cursor-pointer'>
                 
                 <div className='overlay'>
                 <img src="/images/blog-2.png" className='' alt="brain inventory best rating and reviews on Good Firm" />
                     
                 </div>
         
-                    <div className='absolute  bottom-2'>
+                    <div className='absolute  top-12'>
                         <div className='pl-2 pr-2'>
                             <h3 className='text-lg Gilroy-Bold'>A Brief Overview of IT Staff Augmentation
 
@@ -105,14 +103,14 @@ export default function PopularBlog({ post }) {
                         </div>
                     </div>
               </div>
-              <div  onClick={detail2} className='relative cursor-pointer'>
+              <div  onClick={detail2} className='hover-overlay relative cursor-pointer'>
                 
                 <div className='overlay'>
                 <img src="/images/Thumbnail-3.png" className='' alt="brain inventory best rating and reviews on Good Firm" />
                     
                 </div>
         
-                    <div className='absolute  bottom-2'>
+                    <div className='absolute  top-12'>
                         <div className='pl-2 pr-2'>
                             <h3 className='text-lg Gilroy-Bold'>IT Staff Augmentation vs Outsourcing: Which Is the Best Option for Your Business
 
@@ -134,9 +132,6 @@ export default function PopularBlog({ post }) {
                         </div>
                     </div>
               </div>
-
-         
-
         </>
     );
 }

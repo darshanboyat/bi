@@ -16,17 +16,18 @@ export default function PostCard({ post }) {
     //     return str.length > 250 ? str.substring(0, 170) + "..." : str;
     // };
 
-    const detail = (_id) => {
-        router.push(`/blog/blog-detail-1`)
-    }
+    const detail =(_id)=>{
+        console.log(_id)
+        router.push(`/blog/how-to-build-and-manage-an-effective-product-development-team`)
+   }
 
-    const detail1 = (_id) => {
-        router.push(`/blog/blog-detail-2`)
-    }
-
-    const detail2 = (_id) => {
-        router.push(`/blog/blog-detail-3`)
-    }
+   const detail1 =()=>{
+       router.push(`/blog/a-brief-overview-of-it-staff-augmentation`)
+   }
+   
+   const detail2 =()=>{
+       router.push(`/blog/it-staff-augmentation-vs-outsourcing-which-is-the-best-option-for-your-business`)
+   }
 
     return (
         <>

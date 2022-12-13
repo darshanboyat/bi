@@ -2020,3 +2020,27 @@ ol li
   list-style: disc;
   margin-bottom: 0.7rem;
 }
+
+.hover-home-button
+{
+  transition: all 400ms ease;
+}
+
+.hover-home-button:hover svg
+{
+    margin-left: 2rem;
+    transition: all 400ms ease;
+}
+
+.hover-overlay
+{
+  transition: all 300ms ease;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.hover-overlay:hover img
+{
+  transition: all 300ms ease;
+  transform: scale(1.2);
+}
