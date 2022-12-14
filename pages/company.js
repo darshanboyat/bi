@@ -29,7 +29,7 @@ function Company() {
         ) : (
           <div>
           <Head>
-            <title>Current Openings at Brain Inventory</title>
+            <title>About Brain Inventory</title>
           </Head>
           <div>
             <Header></Header>

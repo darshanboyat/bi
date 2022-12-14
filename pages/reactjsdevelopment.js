@@ -28,7 +28,7 @@ function Reactjsdevelopment(props) {
         :
         <div>
            <Head>
-           <title>Brain Inventory | Custom Software Development Company in India & UK</title>
+           <title>React.js Development Company - Brain Inventory</title>
 
            </Head>
          <div>

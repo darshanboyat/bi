@@ -30,7 +30,7 @@ function NodejsDevelopment(props) {
         :
         <div>
            <Head>
-           <title>Brain Inventory | Custom Software Development Company in India & UK</title>
+           <title>NodeJs Development Company - Brain Inventory</title>
 
            </Head>
          <div>

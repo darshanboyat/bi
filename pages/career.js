@@ -31,7 +31,7 @@ React.useEffect(() => {
            :
         <div>
           <Head>
-              <title>Current Openings at Brain Inventory</title>
+              <title>The right place for you | Career at Brain Inventory</title>
           </Head>
           <Header></Header>
           <Banner></Banner>
