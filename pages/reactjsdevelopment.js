@@ -29,7 +29,7 @@ function Reactjsdevelopment(props) {
         <div>
            <Head>
            <title>React.js Development Company - Brain Inventory</title>
-           <meta name='description' content='Hire the best & vetted NodeJS developers from Brain Inventory. Our NodeJS developers are skilled in API Development to AWS Deployment. Hire Now' />
+           <meta name='description' content='Hire the best & vetted ReactJS developers from Brain Inventory. Our ReactJS developers are skilled in pixel UI Design to API Integration. Hire Now' />
            </Head>
          <div>
            <Header></Header>

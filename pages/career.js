@@ -31,7 +31,7 @@ React.useEffect(() => {
            :
         <div>
           <Head>
-              <title>The right place for you | Career at Brain Inventory</title>
+              <title>The Right Place For You | Career at Brain Inventory</title>
                <meta name='description' content='Onboard with us for a thrilling journey which will have Growth, Challenges, Free Speech, Upskilling, and Support for you.'/>
           </Head>
           <Header></Header>
