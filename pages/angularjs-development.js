@@ -31,6 +31,7 @@ function AngularjsDevelopment(props) {
         <div>
            <Head>
              <title>Brain Inventory | Custom Software Development Company in India & UK</title>
+             <meta name='description' content='Hire the best & vetted Angular developers from Brain Inventory. Our Angular developers are skilled in pixel UI Design to API Integration. Hire Now'/>
            </Head>
          <div>
            <Header></Header>

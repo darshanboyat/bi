@@ -6,7 +6,8 @@ const portfolioDetail = [
     title: "Revolution Travel Planner",
     subtitle: "Itinerary Management & Communication Software",
     description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.",
-    image: '/images/rtc-1.png'
+    image: '/images/rtc-1.png',
+    alt: 'Web and App development Portfolio',
   },
   {
     id: "2",
@@ -95,7 +96,7 @@ class PortfolioSection extends Component {
                 <div>
                  {el.image.length !== 0 
                  ?  
-                   <img src={el.image} className="h-[400px] w-full object-cover" />
+                   <img src={el.image} alt={el.alt} className="h-[400px] w-full object-cover" />
                    :
                     <div className="h-[400px] bg-stack"></div>
                  }

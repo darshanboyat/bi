@@ -8,20 +8,20 @@ const info = [
         title: 'discovery workshop',
         details: 'We give the utmost importance to understand and document client’s inputs, design, and branding preferences. And clarify all the open-ended points to establish a precise and clear idea about both clients’ and project’s goals. We work in a collaborative approach involving key stakeholders to bring alignment in the business process.',
         image: 'discovery.png',
-        alt: 'brain inventory understand the of client prefrence in web and app development',
+        alt: 'India Top App Developers',
     },
     {
         title: 'planning',
         details: 'Our services emphasize on well-defined project planning and leave nothing for assumption to avoid miscommunication. We jot down how we are going to proceed further, define detailed technical specifications, devise the design & branding guidelines of the project, and get confirmation and approval from the clients’ end on the documents and materials.',
         image: 'planning.png',
-        alt: 'proper planning and strategy web and app development',
+        alt: 'Mobile and Web Development Planning',
 
     },
     {
         title: 'design',
         details: 'We provide clients with Web, Tablet, and Mobile-specific UI designs of the projects based on the approved wireframes and design guidelines. As a trusted entity, we deliver clickable prototypes on Invision platform and the source files in either Photoshop or Sketch format. Getting system UI designs approved and confirmed by the client is one of our objectives at this stage.',
         image: 'design.png',
-        alt: 'Specific UI Design for web, mobile and tablets.',
+        alt: 'UI Designs',
     },
     {
         title: 'development',

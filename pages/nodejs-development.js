@@ -31,6 +31,7 @@ function NodejsDevelopment(props) {
         <div>
            <Head>
            <title>NodeJs Development Company - Brain Inventory</title>
+           <meta name='description' content='Hire the best & vetted NodeJS developers from Brain Inventory. Our NodeJS developers are skilled in API Development to AWS Deployment. Hire Now' />
 
            </Head>
          <div>

@@ -34,7 +34,7 @@ export default function HowWeWork() {
                   <div className='relative'>
                     <Head>
                       <title>How We Work | Brain Inventory</title>
-                      <meta name="description" content="Brain Inventory is a new-age Custom Software Development company with offices in India, Canada, Jordan & UK. We offer innovative digital solutions to Startups, Unicorns & Enterprise clients across Industries with our Top 4% of Industry Experts." />
+                      <meta name="description" content="Brain Inventory turns ideas into reality by getting involved with customers to create the best product. All steps from Ideation to Deployment/Maintenance are our forte in software development." />
                       <link rel="icon" href="/favicon.png" />
                       <script async src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js" crossOrigin="anonymous"></script>
                       <script async src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js" crossOrigin="anonymous"></script>

@@ -30,6 +30,7 @@ function Company() {
           <div>
           <Head>
             <title>About Brain Inventory</title>
+            <meta name="description" content="We are Brain Inventory started in 2019 with a clear vision to build amazing products for our clients worldwide. We want to move the Digital Industry forward." />
           </Head>
           <div>
             <Header></Header>

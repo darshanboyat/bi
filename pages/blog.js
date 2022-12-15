@@ -47,15 +47,7 @@ export default function Blog({  }) {
                                  <div className='grid grid-cols-3 gap-4'>
                                 
 
-                                 {/* {posts.length === 0 ? (
-                                        <h2>No added posts</h2>
-                                    ) : (
-                                        <>
-                                            {posts.slice(0,3).map((post, i) => ( */}
-                                                <PopularBlog />
-                                            {/* ))}
-                                        </>
-                                    )} */}
+                            
                                   
                                  </div>
                             </div>

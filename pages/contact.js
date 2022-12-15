@@ -23,6 +23,7 @@ function Contact(props) {
        <div>
           <Head>
             <title>Contact Brain Inventory to Kickstart Your Digital Journey Today</title>
+            <meta name='description' content='Brain Inventory will help you with Custom Software development & IT Staff Augmentation with our top-notch, skilled and vetted team of developers.'/>
           </Head>
         <div>
           <Header></Header>

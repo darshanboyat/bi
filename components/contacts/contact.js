@@ -85,6 +85,7 @@ function Contact(props) {
                 src={"/images/sufiyan.png"}
                 className="w-60 h-60"
                 layout="fill"
+                alt="Brain Inventory Co founder"
               />
             </div>
 

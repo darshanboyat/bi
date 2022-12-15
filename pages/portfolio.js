@@ -23,7 +23,7 @@ function Portfolio(props) {
             <div>
                <Head>
                <title>Our Website Portfolio | Brain Inventory</title>
-
+                <meta name='description' content='Brain Inventory feels proud as like our clients to showcase our portfolio to the world. Each of our platforms is Fast, Scalable, Reliable, built with the latest technology.'/>
                </Head>
              <div>
                <Header></Header>
