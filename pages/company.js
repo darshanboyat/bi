@@ -1,5 +1,5 @@
-import React , {useState} from 'react';
-import Head from 'next/head'
+import React, { useState } from "react";
+import Head from "next/head";
 import Header from "../components/header/Header";
 import BigHeadingScroll from "../components/common/BigHeadingScroll";
 import KeepInTouch from "../components/common/keepInTouch";
@@ -24,14 +24,17 @@ function Company() {
   }, []);
   return (
     <>
+      <Head>
+        <title>About Brain Inventory</title>
+        <meta
+          name="description"
+          content="We are Brain Inventory started in 2019 with a clear vision to build amazing products for our clients worldwide. We want to move the Digital Industry forward."
+        />
+      </Head>
       {loading ? (
         <Loader />
-        ) : (
-          <div>
-          <Head>
-            <title>About Brain Inventory</title>
-            <meta name="description" content="We are Brain Inventory started in 2019 with a clear vision to build amazing products for our clients worldwide. We want to move the Digital Industry forward." />
-          </Head>
+      ) : (
+        <div>
           <div>
             <Header></Header>
             <Video></Video>
@@ -42,8 +45,6 @@ function Company() {
 
             <Experience></Experience>
             <MeetCrew></MeetCrew>
-            
-          
           </div>
           <UnderHood></UnderHood>
           <Choose></Choose>
